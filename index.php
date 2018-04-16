@@ -18,6 +18,7 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 			<h2>Hadasdas</h2>
+			<h1> hihdfiahfd </h1>
 
 		<?php
 		if ( have_posts() ) :
