@@ -1313,3 +1313,16 @@ small, .font_small {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 10px; }
+
+.posts {
+  width: 80%;
+  margin: 0 auto; }
+  .posts .post ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+    .posts .post ul li {
+      display: inline; }
+  .posts .post .post-image img {
+    width: 25%;
+    height: auto; }

@@ -1,0 +1,19 @@
+.posts {
+  width: 80%;
+  margin: 0 auto;
+  .post {
+    //text-align: center; //Center the post
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      li {
+        display: inline;
+      }
+    }
+    .post-image img {
+      width: 25%;
+      height: auto;
+    }
+  }
+}
