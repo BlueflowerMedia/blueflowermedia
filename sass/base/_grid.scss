@@ -1,40 +1,42 @@
-.flex {
+* {
+	z-index: 1000;
+}
+
+section {
+	margin: 50px 0;
+}
+
+.container {
+	padding: 20px 10%;
+	.row {
+		margin: 20px 0;
+	}
+}
+
+%flex {
 	display: flex;
 }
 
-.flex1 {
-	flex: 1
+.flex-row {
+	@extend %flex;
+	flex-flow: row wrap;
 }
-.flex2 {
-	flex: 1
+.flex-column {
+	@extend %flex;
+	flex-flow: column;
 }
-.flex3 {
-	flex: 1
-}
-.flex4 {
-	flex: 1
-}
-.flex5 {
-	flex: 1
-}
-.flex6 {
-	flex: 1
-}
-.flex7 {
-	flex: 1
-}
-.flex8 {
-	flex: 1
-}
-.flex9 {
-	flex: 1
-}
-.flex10 {
-	flex: 1
-}
-.flex11 {
-	flex: 1
-}
-.flex12 {
-	flex: 1
+
+.flex-row, .flex-column {
+	.flex1 {
+		flex: 1;
+	}
+	.flex2 {
+		flex: 2;
+	}
+	.flex3 {
+		flex: 3;
+	}
+	.flex4 {
+		flex: 4;
+	}
 }

@@ -8,8 +8,8 @@ function play() {
     if (!next.length) {
       next = $(".slide .image:first");
     }
-    var rangeTop = (Math.floor(Math.random() * 15) - 20).toString() + "%";
-    var rangeLeft = (Math.floor(Math.random() * 10) + 40).toString() + "%";
+    var rangeTop = (Math.floor(Math.random() * 15) + 0).toString() + "%";
+    var rangeLeft = (Math.floor(Math.random() * 10) + 10).toString() + "%";
     next.css("top", rangeTop);
     next.css("left", rangeLeft);
 
@@ -18,12 +18,8 @@ function play() {
 }
 play();
 
-//team teammember
-// $(function()) {
-//  $('#pic1').hover(function(){
-//   $('#pic1').css('background-image','url(https://media3.giphy.com/avatars/100soft/WahNEDdlGjRZ.gif)');
-// })
-//   }
+// team members hover effect
+
 var pic2 = document.getElementById('pic2');
 var pic3 = document.getElementById('pic3');
 

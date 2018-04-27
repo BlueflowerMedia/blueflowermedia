@@ -1,39 +1,76 @@
-@include google-font(Josefin Slab, 300 400 700);
+@include google-font(Source Sans Pro, 300 400 600 700);
+@include google-font(Roboto Slab, 300 400 700);
 
-$font-main: 'Josefin Slab', serif;
+$font-primary: 'Source Sans Pro', sans-serif;
+$font-secondary: 'Roboto Slab', serif;
 
 html {
-	font-size: 1em;
+	font-size: 16px;
 }
 
 p {
-	margin-bottom: 1.3em;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	font-family: $font-secondary;
+	color: rgba(#000000, 0.9);
+	line-height: 1.6rem;
 }
 
 h1, h2, h3, h4 {
-  margin: 1.414em 0 0.5em;
-  font-family: $font-main;
-  font-weight: inherit;
+  font-family: $font-primary;
+	margin-bottom: 0rem;
+  font-weight: 700;
   line-height: 1.2;
+	color: black;
 }
 
 h1 {
-  margin-top: 0;
-  font-size: 3.998em;
+  font-size: 4.998rem;
+	margin-bottom: 2rem;
 }
 
 h2 {
-	font-size: 2.827em;
+	font-size: 2.827rem;
 }
 
 h3 {
-	font-size: 1.999em;
+	font-size: 1.6rem;
+	font-family: $font-secondary;
 }
 
 h4 {
-	font-size: 1.414em;
+	font-size: 1.414rem;
 }
 
 small, .font_small {
-	font-size: 0.707em;
+	font-size: 0.707rem;
+}
+
+span.big-dot {
+	font-size: 1.2em;
+	color: #456bf1;
+}
+
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+
+/* colors */
+.blue {
+	color: #6e7db1;
+}
+.green {
+	color: #74e0af;
+}
+.red {
+	color: #f26363;
+}
+.yellow {
+	color: #e4ec4d;
+}
+.white {
+	color: white;
 }
