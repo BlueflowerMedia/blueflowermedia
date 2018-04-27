@@ -23,6 +23,7 @@
   }
 }
 //team teammember
+
 .container {
   display: flex;
   flex-flow: row wrap;
@@ -49,3 +50,4 @@
 .teammember img:hover {
   border-radius: 20%;
 }
+.falling background-color:blue color:white transition:all 0.25s ease-in-out &:hover background-color:red transform:translateY(10px)

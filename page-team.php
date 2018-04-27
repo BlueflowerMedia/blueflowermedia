@@ -16,9 +16,7 @@
 </section>
 
 
-
-<head class="text-center">TEAM'S PAGE</head>
-
+<section id="teammember">
 <div>
   <div class="container">
 <!--     First method -->
@@ -37,8 +35,9 @@
     <div class="teammember"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/romy-seth.jpg" alt="Romy Seth">
     </div>
 </div>
-
-  
+</section>
+<h1 class="falling"> About Us.
+</h1>
 
 
 
