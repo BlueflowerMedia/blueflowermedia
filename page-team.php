@@ -3,7 +3,7 @@
 <section id="team-about">
   <div class="container">
     <div class="head">
-      <h1>header</h1>
+      <h1>About Us<span class="big-dot">.</span></h1>
       <p class="txt">We are a Toronto Development & Marketing Business helping small businessess from all industries.
       </p>
     </div>
@@ -15,30 +15,29 @@
   </div>
 </section>
 
-
-
-<head class="text-center">TEAM'S PAGE</head>
-
-<div>
+<section id="our-team">
   <div class="container">
-<!--     First method -->
-    <div class="teammember" id="pic1">
-    <img src="https://media3.giphy.com/avatars/100soft/WahNEDdlGjRZ.gif" onmouseover="this.src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/mrch8596.jpg'" onmouseout="this.src='https://media3.giphy.com/avatars/100soft/WahNEDdlGjRZ.gif'">
-</div>
-<!--     Second method -->
-    <div class="teammember"><img id="pic2" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/mrch8596.jpg" alt="BJ Pichman"></div>
+    <div class="top">
+      <h1>Meet Our Team<span class="big-dot">.</span></h1>
+    </div>
 
-    <div class="teammember"><img id="pic3" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/robert-finkel_2.jpg" alt="Robert Finkel"></div>
-    <div class="teammember"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/romy-seth.jpg" alt="Romy Seth"></div>
-    <div class="teammember"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/romy-seth.jpg" alt="Romy Seth">
-    </div>
-    <div class="teammember"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/romy-seth.jpg" alt="Romy Seth">
-    </div>
-    <div class="teammember"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/romy-seth.jpg" alt="Romy Seth">
-    </div>
-</div>
+    <div class="bottom flex row">
 
-  
+      <div class="member"><img id="pic2" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/mrch8596.jpg" alt="BJ Pichman"></div>
+      <div class="member"><img id="pic3" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/robert-finkel_2.jpg" alt="Robert Finkel"></div>
+      <div class="member"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/romy-seth.jpg" alt="Romy Seth"></div>
+      <div class="member"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/romy-seth.jpg" alt="Romy Seth">
+      </div>
+      <div class="member"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/romy-seth.jpg" alt="Romy Seth">
+      </div>
+      <div class="member"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/romy-seth.jpg" alt="Romy Seth">
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
 
 
 

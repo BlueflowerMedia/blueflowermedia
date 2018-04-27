@@ -18,12 +18,8 @@ function play() {
 }
 play();
 
-//team teammember
-// $(function()) {
-//  $('#pic1').hover(function(){
-//   $('#pic1').css('background-image','url(https://media3.giphy.com/avatars/100soft/WahNEDdlGjRZ.gif)');
-// })
-//   }
+// team members hover effect
+
 var pic2 = document.getElementById('pic2');
 var pic3 = document.getElementById('pic3');
 
