@@ -1,15 +1,32 @@
-.container {
-	padding: 20px 10%;
+* {
+	z-index: 1000;
 }
 
-.flex {
+section {
+	margin: 50px 0;
+}
+
+.container {
+	padding: 20px 10%;
+	.row {
+		margin: 20px 0;
+	}
+}
+
+%flex {
 	display: flex;
-	&.row {
-		flex-flow: row wrap;
-	}
-	&.column {
-		flex-flow: column;
-	}
+}
+
+.flex-row {
+	@extend %flex;
+	flex-flow: row wrap;
+}
+.flex-column {
+	@extend %flex;
+	flex-flow: column;
+}
+
+.flex-row, .flex-column {
 	.flex1 {
 		flex: 1;
 	}

@@ -1,36 +1,71 @@
 <?php get_header(); ?>
 
 <section id="team-about">
-  <div class="container">
+  <div class="container flex-row">
     <div class="head">
       <h1>About Us<span class="big-dot">.</span></h1>
-      <p class="txt">We are a Toronto Development & Marketing Business helping small businessess from all industries.
-      </p>
+      <p>Doing What we love to do!</p>
+      <p>We are a Toronto Development & Marketing Business helping small businessess from all industries.</p>
     </div>
     <div class="slide">
-      <img src="https://placeimg.com/200/200/arch" alt="" class="image active">
-      <img src="https://placeimg.com/200/220/arch" alt="" class="image">
-      <img src="https://placeimg.com/200/230/arch" alt="" class="image">
+      <img src="https://placeimg.com/300/300/arch" alt="" class="image active">
+      <img src="https://placeimg.com/360/310/arch" alt="" class="image">
+      <img src="https://placeimg.com/350/270/arch" alt="" class="image">
     </div>
   </div>
 </section>
 
 <section id="our-team">
+
   <div class="container">
-    <div class="top">
-      <h1>Meet Our Team<span class="big-dot">.</span></h1>
+
+    <div class="row center">
+      <h2>Meet The Team<span class="big-dot">.</span></h2>
     </div>
 
-    <div class="bottom flex row">
+    <div class="row">
 
-      <div class="member"><img id="pic2" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/mrch8596.jpg" alt="BJ Pichman"></div>
-      <div class="member"><img id="pic3" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/robert-finkel_2.jpg" alt="Robert Finkel"></div>
-      <div class="member"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/romy-seth.jpg" alt="Romy Seth"></div>
-      <div class="member"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/romy-seth.jpg" alt="Romy Seth">
+      <div id="member-row-1" class="flex-row member-row">
+        <div class="member">
+          <img id="pic2" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/mrch8596.jpg" alt="BJ Pichman">
+          <h3>Noman Hossain</h3>
+          <p>[Lead Designer & Project Manager]</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="member">
+          <img id="pic3" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/robert-finkel_2.jpg" alt="Robert Finkel">
+          <h3>Fahim Shahreer</h3>
+          <p><span class="red">var</span> <span class="blue">role</span> = Lead Developer + Project Manager;</p>
+          <p>Office never has enough coffee for me.</p>
+        </div>
+        <div class="member">
+          <img id="pic3" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/robert-finkel_2.jpg" alt="Robert Finkel">
+          <h3>Tahsin Abedin</h3>
+          <p>[Photographer & Videographer]</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
       </div>
-      <div class="member"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/romy-seth.jpg" alt="Romy Seth">
-      </div>
-      <div class="member"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/romy-seth.jpg" alt="Romy Seth">
+
+
+      <div id="member-row-2" class="flex-row member-row">
+        <div class="member">
+          <img id="pic2" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/mrch8596.jpg" alt="BJ Pichman">
+          <h3>Altab Hossain</h3>
+          <p><span class="red">?php</span> <span class="blue">$role</span> = Senior Developer; <span class="red">?></span></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="member">
+          <img id="pic3" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/robert-finkel_2.jpg" alt="Robert Finkel">
+          <h3>Ali Akbar Sarkarati</h3>
+          <p>[Junior Developer]</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="member">
+          <img id="pic3" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/robert-finkel_2.jpg" alt="Robert Finkel">
+          <h3>Zulfiqur Rahman</h3>
+          <p>[Junior Developer]</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
       </div>
 
     </div>
@@ -39,11 +74,15 @@
 </section>
 
 
+<section id="getintouch">
+  <div class="container">
+    <h2 class="white">What? You Still haven't called us?!?!</h2>
+  </div>
+</section>
 
+<div id="contact-popup">
 
-
-
-
+</div>
 
 
 

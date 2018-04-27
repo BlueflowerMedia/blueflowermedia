@@ -25,6 +25,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
  */
 @import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700");
+@import url("//fonts.googleapis.com/css?family=Roboto+Slab:300,400,700");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -1205,27 +1206,32 @@ object {
   display: block; }
 
 html {
-  font-size: 1rem; }
+  font-size: 16px; }
 
 p {
-  margin-bottom: 1.3rem; }
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-family: "Roboto Slab", serif;
+  color: rgba(0, 0, 0, 0.9);
+  line-height: 1.6rem; }
 
 h1, h2, h3, h4 {
-  margin: 1.414rem 0 0.5rem;
-  font-family: "Source Sans Pro", serif;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: 0rem;
   font-weight: 700;
   line-height: 1.2;
   color: black; }
 
 h1 {
-  margin-top: 0;
-  font-size: 4.998rem; }
+  font-size: 4.998rem;
+  margin-bottom: 2rem; }
 
 h2 {
   font-size: 2.827rem; }
 
 h3 {
-  font-size: 1.999rem; }
+  font-size: 1.6rem;
+  font-family: "Roboto Slab", serif; }
 
 h4 {
   font-size: 1.414rem; }
@@ -1234,44 +1240,86 @@ small, .font_small {
   font-size: 0.707rem; }
 
 span.big-dot {
-  font-size: 5.5rem;
+  font-size: 1.2em;
   color: #456bf1; }
+
+.center {
+  text-align: center; }
+
+.right {
+  text-align: right; }
+
+/* colors */
+.blue {
+  color: #6e7db1; }
+
+.green {
+  color: #74e0af; }
+
+.red {
+  color: #f26363; }
+
+.yellow {
+  color: #e4ec4d; }
+
+.white {
+  color: white; }
+
+* {
+  z-index: 1000; }
+
+section {
+  margin: 50px 0; }
 
 .container {
   padding: 20px 10%; }
+  .container .row {
+    margin: 20px 0; }
 
-.flex {
+.flex-row, .flex-column {
   display: flex; }
-  .flex.row {
-    flex-flow: row wrap; }
-  .flex.column {
-    flex-flow: column; }
-  .flex .flex1 {
-    flex: 1; }
-  .flex .flex2 {
-    flex: 2; }
-  .flex .flex3 {
-    flex: 3; }
-  .flex .flex4 {
-    flex: 4; }
+
+.flex-row {
+  flex-flow: row wrap; }
+
+.flex-column {
+  flex-flow: column; }
+
+.flex-row .flex1, .flex-column .flex1 {
+  flex: 1; }
+.flex-row .flex2, .flex-column .flex2 {
+  flex: 2; }
+.flex-row .flex3, .flex-column .flex3 {
+  flex: 3; }
+.flex-row .flex4, .flex-column .flex4 {
+  flex: 4; }
 
 /* MEDIA QUERIES */
-.container {
+#contact-popup {
+  width: 70px;
+  height: 70px;
+  background: #456bf1;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 70px; }
+
+#section.container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap; }
-  .container .item {
+  #section.container .item {
     flex: 1;
     min-width: 400px;
     height: auto;
     margin: 20px;
     text-align: center; }
-  .container .vertical-line {
+  #section.container .vertical-line {
     max-width: 2px;
     flex: 1;
     margin: 20px;
     padding-top: 5%; }
-    .container .vertical-line .line {
+    #section.container .vertical-line .line {
       height: 60%;
       background: gray; }
 
@@ -1322,13 +1370,34 @@ span.big-dot {
     left: 40%; }
   #team-about .container .slide .active {
     opacity: 1; }
+#team-about .container:after {
+  content: "Team.";
+  position: absolute;
+  top: 10%;
+  right: -20%;
+  font-size: 35rem;
+  color: #f9f9f9;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 800;
+  z-index: 10; }
 
-.member img {
-  margin: 10px;
-  border-radius: 50%;
-  object-fit: cover;
-  width: 300px;
-  height: 300px;
-  transition: all 0.5s cubic-bezier(0.8, 0.02, 0.26, 1.69); }
-  .member img:hover {
-    border-radius: 20%; }
+#our-team .container {
+  position: relative; }
+  #our-team .container .member-row {
+    justify-content: space-around; }
+    #our-team .container .member-row .member {
+      text-align: center;
+      margin: 20px 0;
+      max-width: 250px; }
+      #our-team .container .member-row .member img {
+        margin: 5px;
+        border-radius: 50%;
+        object-fit: cover;
+        width: 250px;
+        height: 250px;
+        transition: all 0.5s cubic-bezier(0.8, 0.02, 0.26, 1.69); }
+        #our-team .container .member-row .member img:hover {
+          border-radius: 20%; }
+
+#getintouch {
+  background: #456bf1; }

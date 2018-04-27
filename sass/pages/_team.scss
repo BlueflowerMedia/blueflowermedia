@@ -1,36 +1,57 @@
 #team-about .container {
-
-
   .head {
     flex: 1;
   }
-
   .slide {
     flex: 1;
     position: relative;
-
     .image {
       opacity: 0;
       position: absolute;
       left: 40%;
     }
-
     .active {
       opacity: 1;
     }
   }
+  &:after {
+    content: "Team.";
+    position: absolute;
+    top: 10%;
+    right: -20%;
+    font-size: 35rem;
+    color: #f9f9f9;
+    font-family: $font-primary;
+    font-weight: 800;
+    z-index: 10;
+  }
 }
 
 //team teammember
-.member img {
-  margin: 10px;
-  border-radius: 50%;
-  object-fit: cover;
-  width: 300px;
-  height: 300px;
-  transition: all 0.5s cubic-bezier(0.8, 0.02, 0.26, 1.69);
-
-  &:hover {
-    border-radius: 20%;
+#our-team .container {
+  position: relative;
+  .member-row {
+    justify-content: space-around;
+    .member {
+      text-align: center;
+      margin: 20px 0;
+      max-width: 250px;
+      img {
+        margin: 5px;
+        border-radius: 50%;
+        object-fit: cover;
+        width: 250px;
+        height: 250px;
+        transition: all 0.5s cubic-bezier(0.8, 0.02, 0.26, 1.69);
+        &:hover {
+          border-radius: 20%;
+        }
+      }
+    }
   }
+}
+
+// Get in touch
+#getintouch {
+  background: $dark-blue;
 }

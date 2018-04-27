@@ -8,8 +8,8 @@ function play() {
     if (!next.length) {
       next = $(".slide .image:first");
     }
-    var rangeTop = (Math.floor(Math.random() * 15) - 20).toString() + "%";
-    var rangeLeft = (Math.floor(Math.random() * 10) + 40).toString() + "%";
+    var rangeTop = (Math.floor(Math.random() * 15) + 0).toString() + "%";
+    var rangeLeft = (Math.floor(Math.random() * 10) + 10).toString() + "%";
     next.css("top", rangeTop);
     next.css("left", rangeLeft);
 
