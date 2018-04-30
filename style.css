@@ -1296,16 +1296,20 @@ span.big-dot {
   flex: 4; }
 
 /* MEDIA QUERIES */
-nav.main-navigation {
+nav#site-navigation {
   display: flex;
   flex-flow: row;
-  background: grey;
-  z-index: 99999; }
-  nav.main-navigation.fixed {
+  background: rgba(255, 255, 255, 0);
+  z-index: 99999;
+  transition: all 200ms linear; }
+  nav#site-navigation.scroll-color {
+    background: white;
+    transition: all 200ms linear; }
+  nav#site-navigation.fixed {
     position: fixed; }
-  nav.main-navigation .nav-left {
+  nav#site-navigation .nav-left {
     flex: 1; }
-  nav.main-navigation .nav-right {
+  nav#site-navigation .nav-right {
     flex: 4;
     text-align: right; }
 
