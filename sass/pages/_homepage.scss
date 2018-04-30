@@ -93,6 +93,36 @@
 }
 // section-getintouch
 
+#testimonials .container {
+  .testimonials {
+    justify-content: center;
+
+    .test {
+      max-width: 400px;
+      background: blue;
+
+      .t-top .logo {
+        flex: 1;
+
+        img {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+        }
+      }
+
+      .t-top p {
+        flex: 3;
+      }
+    }
+
+    .t-bot {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
+
 #section-getintouch {
   background-color: grey;
 }
