@@ -1406,3 +1406,6 @@ nav.main-navigation {
 
 #getintouch {
   background: #456bf1; }
+
+.teammember img:hover {
+  border-radius: 20%; }

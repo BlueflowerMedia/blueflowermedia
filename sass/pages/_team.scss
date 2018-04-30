@@ -2,18 +2,22 @@
   .head {
     flex: 1;
   }
+
   .slide {
     flex: 1;
     position: relative;
+
     .image {
       opacity: 0;
       position: absolute;
       left: 40%;
     }
+
     .active {
       opacity: 1;
     }
   }
+
   &:after {
     content: "Team.";
     position: absolute;
@@ -26,16 +30,19 @@
     z-index: 10;
   }
 }
-
 //team teammember
+
 #our-team .container {
   position: relative;
+
   .member-row {
     justify-content: space-around;
+
     .member {
       text-align: center;
       margin: 20px 0;
       max-width: 250px;
+
       img {
         margin: 5px;
         border-radius: 50%;
@@ -43,6 +50,7 @@
         width: 250px;
         height: 250px;
         transition: all 0.5s cubic-bezier(0.8, 0.02, 0.26, 1.69);
+
         &:hover {
           border-radius: 20%;
         }
@@ -50,8 +58,12 @@
     }
   }
 }
-
 // Get in touch
+
 #getintouch {
   background: $dark-blue;
+}
+
+.teammember img:hover {
+  border-radius: 20%;
 }
