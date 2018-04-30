@@ -1295,6 +1295,11 @@ section {
   flex: 4; }
 
 /* MEDIA QUERIES */
+nav.main-navigation {
+  display: flex;
+  flex-flow: row;
+  background: grey; }
+
 #contact-popup {
   width: 70px;
   height: 70px;
