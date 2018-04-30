@@ -54,8 +54,25 @@
 
 <!-- section-testomonials -->
 <section id="section-testomonials">
-  <div class="container flex-row">
-    <h2>Testimonial<span class="big-dot">.</span></h2>
+  <div class="container">
+    <div class="row">
+      <h2>Testimonial<span class="big-dot">.</span></h2>
+    </div>
+    <div class="row flex-row testimonials">
+      <!--   Testimonial 1 begin -->
+      <div class="test">
+        <div class="t-top flex-row">
+          <div class="logo">
+            <img src="https://placeimg.com/100/100/arch" alt="">
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur error neque adipisci architecto fuga voluptas optio </p>
+        </div>
+        <div class="t-bot">
+          <h3>Name</h3>
+        </div>
+      </div>
+    </div>
+    <!--   Testimonia 1 end -->
   </div>
 </section>
 
