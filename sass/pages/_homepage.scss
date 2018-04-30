@@ -59,9 +59,41 @@
   @include slanted-edge(bottom-right, 100%, 85%);
 }
 // section-aboutus
+
+#section-aboutus .container {
+  .left {
+    max-width: 500px;
+  }
+}
 // section-services
+
+#section-services {
+  background-color: orange;
+  @include slanted-edge(top-right, 100%, 15%);
+}
 // section-split-contacts
+
+#section-split-contacts {
+  background-color: DodgerBlue;
+}
 // section-client-slider
+
+#section-client-slider .container {
+  justify-content: center;
+
+  .owl-carousel {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
 // section-testomonials
+
+#section-testomonials {
+  background-color: #aaf09e;
+}
 // section-getintouch
+
+#section-getintouch {
+  background-color: grey;
+}
 // footer
