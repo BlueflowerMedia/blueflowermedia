@@ -24,16 +24,20 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'blueflowermedia' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<nav id="site-navigation" class="main-navigation">
-			<?php the_custom_logo(); ?>
-			<h4 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h4>
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'blueflowermedia' ); ?></button>
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-			) );
-			?>
+		<nav id="site-navigation" class="main-navigation fixed">
+			<div class="nav-left">
+        <?php the_custom_logo(); ?>
+        <h4 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h4>
+      </div>
+      <div class="nav-right">
+        <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'blueflowermedia' ); ?></button>
+        <?php
+    			wp_nav_menu( array(
+    				'theme_location' => 'menu-1',
+    				'menu_id'        => 'primary-menu',
+    			) );
+        ?>
+      </div>
 		</nav>
 	</header>
 

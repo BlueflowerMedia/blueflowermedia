@@ -1266,7 +1266,7 @@ span.big-dot {
   color: white; }
 
 * {
-  z-index: 1000; }
+  z-index: 999; }
 
 section {
   margin: 50px 0; }
@@ -1302,7 +1302,15 @@ section {
 nav.main-navigation {
   display: flex;
   flex-flow: row;
-  background: grey; }
+  background: grey;
+  z-index: 99999; }
+  nav.main-navigation.fixed {
+    position: fixed; }
+  nav.main-navigation .nav-left {
+    flex: 1; }
+  nav.main-navigation .nav-right {
+    flex: 4;
+    text-align: right; }
 
 #contact-popup {
   width: 70px;

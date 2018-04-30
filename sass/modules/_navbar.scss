@@ -2,4 +2,15 @@ nav.main-navigation {
 	display: flex;
 	flex-flow: row;
 	background: grey;
+	z-index: 99999;
+	&.fixed {
+		position: fixed;
+	}
+	.nav-left {
+		flex: 1;
+	}
+	.nav-right {
+		flex: 4;
+		text-align: right;
+	}
 }
