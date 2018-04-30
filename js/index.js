@@ -31,4 +31,17 @@ pic2.onmouseover = function() {
   this.src = "https://media3.giphy.com/avatars/100soft/WahNEDdlGjRZ.gif";
   pic3.src = "https://media3.giphy.com/avatars/100soft/WahNEDdlGjRZ.gif";
 }
-Button.click(show.massagebox())
+
+// scrollReveal
+window.sr = ScrollReveal({
+  reset: false,
+  origin: 'top',
+  distance: '10%',
+  opacity: 0,
+  scale: 1,
+  delay: 100,
+  easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+  duration: 1000,
+})
+
+sr.reveal('.sr');

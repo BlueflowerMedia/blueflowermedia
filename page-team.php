@@ -60,7 +60,7 @@
           <p>{Frontend Developer}</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
-        <div class="member">
+        <div class="member sr">
           <img id="pic3" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/robert-finkel_2.jpg" alt="Robert Finkel">
           <h3>Zulfiqur Rahman</h3>
           <p>[Junior Developer]</p>
