@@ -65,3 +65,16 @@ $(".owl-carousel").owlCarousel({
   autoplayTimeout: 2000,
   autoplayHoverPause: true,
 });
+
+// navbar
+$(function() {
+  var navbar = $("#site-navigation");
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll > 0) {
+      navbar.addClass("scroll-color");
+    } else {
+      navbar.removeClass("scroll-color");
+    }
+  });
+});

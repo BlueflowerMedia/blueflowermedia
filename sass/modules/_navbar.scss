@@ -1,8 +1,13 @@
-nav.main-navigation {
+nav#site-navigation {
 	display: flex;
 	flex-flow: row;
-	background: grey;
+	background: rgba(#ffffff, 0);
 	z-index: 99999;
+	transition: all 200ms linear;
+	&.scroll-color {
+		background: white;
+		transition: all 200ms linear;
+	}
 	&.fixed {
 		position: fixed;
 	}

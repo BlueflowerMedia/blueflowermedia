@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-<h1>Home Page</h1>
-
 <!-- section header -->
 <section id="section-header" class="sr">
   <div class="container">
@@ -66,4 +64,4 @@
 </section>
 
 
-<?php get_footer(); ?>
+<?php get_footer(); ?>1
