@@ -51,13 +51,13 @@
         <div class="member">
           <img id="pic2" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/mrch8596.jpg" alt="BJ Pichman">
           <h3>Altab Hossain</h3>
-          <p><span class="red">?php</span> <span class="blue">$role</span> = Senior Developer; <span class="red">?></span></p>
+          <p><span class="red">?php</span> <span class="blue">$role</span> = Backend Developer; <span class="red">?></span></p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
         <div class="member">
           <img id="pic3" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/robert-finkel_2.jpg" alt="Robert Finkel">
           <h3>Ali Akbar Sarkarati</h3>
-          <p>[Junior Developer]</p>
+          <p>{Frontend Developer}</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
         <div class="member">
@@ -80,9 +80,7 @@
   </div>
 </section>
 
-<div id="contact-popup">
-
-</div>
+<div id="contact-popup"></div>
 
 
 
