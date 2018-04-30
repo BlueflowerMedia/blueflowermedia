@@ -20,15 +20,48 @@ play();
 
 // team members hover effect
 
-var pic2 = document.getElementById('pic2');
-var pic3 = document.getElementById('pic3');
+function teamHover() {
+  var pic2 = document.getElementById('pic2');
+  var pic3 = document.getElementById('pic3');
 
-pic2.onmouseout = function() {
-  this.src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/mrch8596.jpg";
-  pic3.src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/robert-finkel_2.jpg";
+  pic2.onmouseout = function() {
+    this.src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/mrch8596.jpg";
+    pic3.src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/robert-finkel_2.jpg";
+  }
+  pic2.onmouseover = function() {
+    this.src = "https://media3.giphy.com/avatars/100soft/WahNEDdlGjRZ.gif";
+    pic3.src = "https://media3.giphy.com/avatars/100soft/WahNEDdlGjRZ.gif";
+  }
 }
-pic2.onmouseover = function() {
-  this.src = "https://media3.giphy.com/avatars/100soft/WahNEDdlGjRZ.gif";
-  pic3.src = "https://media3.giphy.com/avatars/100soft/WahNEDdlGjRZ.gif";
+
+var path = window.location.pathname;
+var page = path.split("/");
+if (page[page.length - 2] == "team") {
+  teamHover();
 }
-Button.click(show.massagebox())
+
+// scrollReveal
+window.sr = ScrollReveal({
+  reset: false,
+  origin: 'top',
+  distance: '10%',
+  opacity: 0,
+  scale: 1,
+  delay: 200,
+  easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+  duration: 1000,
+})
+
+sr.reveal($('.sr'));
+sr.reveal($('h1'));
+sr.reveal($('p'));
+
+// section-testomonials
+$(".owl-carousel").owlCarousel({
+  items: 3,
+  loop: true,
+  margin: 10,
+  autoplay: true,
+  autoplayTimeout: 2000,
+  autoplayHoverPause: true,
+});

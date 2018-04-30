@@ -2,17 +2,14 @@
 	z-index: 999;
 }
 
-section {
-	margin: 50px 0;
-}
-
 .container {
-	padding: 20px 10%;
+	padding: 50px 10%;
 
 	.row {
 		margin: 20px 0;
 	}
 }
+// FLEX GRID
 
 %flex {
 	display: flex;

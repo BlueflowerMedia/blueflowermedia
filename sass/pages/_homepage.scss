@@ -16,6 +16,7 @@
     flex: 1;
     margin: 20px;
     padding-top: 5%;
+
     .line {
       height: 60%;
       background: gray;
@@ -26,6 +27,7 @@
   .container .vertical-line {
     min-width: 500px;
     padding-top: 0;
+
     .line {
       max-height: 2px;
       min-width: 60%;
@@ -33,18 +35,65 @@
       margin: 10px;
     }
   }
+}
 
-}
 .button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 10px;
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
 }
+// section-header
+
+#section-header {
+  height: 600px;
+  background-color: lightblue;
+  @include slanted-edge(bottom-right, 100%, 85%);
+}
+// section-aboutus
+
+#section-aboutus .container {
+  .left {
+    max-width: 500px;
+  }
+}
+// section-services
+
+#section-services {
+  background-color: orange;
+  @include slanted-edge(top-right, 100%, 15%);
+}
+// section-split-contacts
+
+#section-split-contacts {
+  background-color: DodgerBlue;
+}
+// section-client-slider
+
+#section-client-slider .container {
+  justify-content: center;
+
+  .owl-carousel {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
+// section-testomonials
+
+#section-testomonials {
+  background-color: #aaf09e;
+}
+// section-getintouch
+
+#section-getintouch {
+  background-color: grey;
+}
+// footer
