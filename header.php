@@ -24,10 +24,10 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'blueflowermedia' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<nav id="site-navigation" class="main-navigation fixed">
+		<nav id="site-navigation" class="main-navigation fixed container-navbar">
 			<div class="nav-left">
         <?php the_custom_logo(); ?>
-        <h4 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h4>
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h2 class="site-title"><?php bloginfo( 'name' ); ?></h2></a>
       </div>
       <div class="nav-right">
         <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'blueflowermedia' ); ?></button>

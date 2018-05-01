@@ -4,16 +4,25 @@
 $font-primary: 'Source Sans Pro', sans-serif;
 $font-secondary: 'Roboto Slab', serif;
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 html {
 	font-size: 16px;
 }
 
-p {
+p, a {
 	font-size: 1rem;
 	margin-bottom: 1rem;
 	font-family: $font-secondary;
 	color: rgba(#000000, 0.9);
 	line-height: 1.6rem;
+}
+
+nav a {
+	font-family: $font-primary;
 }
 
 h1, h2, h3, h4 {

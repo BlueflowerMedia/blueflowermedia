@@ -69,6 +69,12 @@ $(".owl-carousel").owlCarousel({
 // navbar
 $(function() {
   var navbar = $("#site-navigation");
+  var scroll = $(window).scrollTop();
+  if (scroll > 0) {
+    navbar.addClass("scroll-color");
+  } else {
+    navbar.removeClass("scroll-color");
+  }
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll > 0) {

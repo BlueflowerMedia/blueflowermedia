@@ -3,19 +3,60 @@ nav#site-navigation {
 	flex-flow: row;
 	background: rgba(#ffffff, 0);
 	z-index: 99999;
-	transition: all 200ms linear;
+	transition: all 200ms cubic-bezier(0.71, 0.05, 0.31, 0.95);
 	&.scroll-color {
+		box-shadow: 0 2px rgba(#000000, 0.1);
 		background: white;
-		transition: all 200ms linear;
+		transition: all 200ms cubic-bezier(0.71, 0.05, 0.31, 0.95);
 	}
 	&.fixed {
 		position: fixed;
 	}
 	.nav-left {
 		flex: 1;
+		display: flex;
+		align-items: center;
+		a, h2.site-title {
+			margin: 0;
+		}
 	}
 	.nav-right {
 		flex: 4;
 		text-align: right;
+		#primary-menu {
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+			height: 100%;
+			ul li {
+				margin: 0 10px;
+			}
+		}
+	}
+}
+
+.page_item a {
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 0;
+	padding: 0 5px;
+	&:after {
+		content: "";
+		height: 50%;
+		width: 100%;
+		position: absolute;
+		bottom: 0%;
+		left: 0;
+		background: $blue;
+		z-index: -1;
+		transition: all 0.3s cubic-bezier(0.11, 0.7, 0, 1);;
+	}
+	&:hover{
+		/* color: white; */
+		&:after {
+			bottom: 50%;
+		}
 	}
 }
