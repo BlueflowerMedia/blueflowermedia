@@ -69,8 +69,34 @@
           <h3>Name</h3>
         </div>
       </div>
+      <!--   Testimonia 1 end -->
+      <!--   Testimonial 1 begin -->
+      <div class="test">
+        <div class="t-top flex-row">
+          <div class="logo">
+            <img src="https://placeimg.com/100/100/arch" alt="">
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur error neque adipisci architecto fuga voluptas optio </p>
+        </div>
+        <div class="t-bot">
+          <h3>Name</h3>
+        </div>
+      </div>
+      <!--   Testimonia 1 end -->
+      <!--   Testimonial 1 begin -->
+      <div class="test">
+        <div class="t-top flex-row">
+          <div class="logo">
+            <img src="https://placeimg.com/100/100/arch" alt="">
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur error neque adipisci architecto fuga voluptas optio </p>
+        </div>
+        <div class="t-bot">
+          <h3>Name</h3>
+        </div>
+      </div>
+      <!--   Testimonia 1 end -->
     </div>
-    <!--   Testimonia 1 end -->
   </div>
 </section>
 
