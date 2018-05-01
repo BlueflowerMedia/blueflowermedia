@@ -1313,31 +1313,30 @@ nav#site-navigation {
     transition: all 200ms cubic-bezier(0.71, 0.05, 0.31, 0.95); }
   nav#site-navigation.fixed {
     position: fixed; }
-  nav#site-navigation .nav-left {
+
+nav#site-navigation .nav-left {
+  flex: 3;
+  display: flex;
+  align-items: center; }
+  nav#site-navigation .nav-left a, nav#site-navigation .nav-left h2.site-title {
+    margin: 0; }
+  nav#site-navigation .nav-left ul#primary-menu {
     flex: 1;
     display: flex;
-    align-items: center; }
-    nav#site-navigation .nav-left a, nav#site-navigation .nav-left h2.site-title {
-      margin: 0; }
-  nav#site-navigation .nav-right {
-    flex: 4;
-    text-align: right; }
-    nav#site-navigation .nav-right #primary-menu {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      height: 100%; }
-      nav#site-navigation .nav-right #primary-menu ul li {
-        margin: 0 10px; }
+    align-items: center;
+    height: 100%;
+    margin-left: 80px; }
+    nav#site-navigation .nav-left ul#primary-menu li {
+      margin: 0 10px; }
 
-.page_item a {
+.menu-item a {
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
   margin: 0;
   padding: 0 5px; }
-  .page_item a:after {
+  .menu-item a:after {
     content: "";
     height: 50%;
     width: 100%;
@@ -1348,9 +1347,9 @@ nav#site-navigation {
     box-shadow: 2px 2px 0 #000000;
     z-index: -1;
     transition: transform 0.3s cubic-bezier(0.11, 0.7, 1, 1.2); }
-  .page_item a:hover {
+  .menu-item a:hover {
     /* color: white; */ }
-    .page_item a:hover:after {
+    .menu-item a:hover:after {
       transform: scaleY(0.25) translateY(25px);
       box-shadow: none; }
 
