@@ -12,30 +12,31 @@ nav#site-navigation {
 	&.fixed {
 		position: fixed;
 	}
-	.nav-left {
+}
+
+nav#site-navigation .nav-left{
+	flex: 3;
+	display: flex;
+	align-items: center;
+	a, h2.site-title {
+		margin: 0;
+	}
+	ul#primary-menu {
 		flex: 1;
 		display: flex;
 		align-items: center;
-		a, h2.site-title {
-			margin: 0;
+		height: 100%;
+		margin-left: 80px;
+		li {
+			margin: 0 10px;
 		}
 	}
-	.nav-right {
-		flex: 4;
-		text-align: right;
-		#primary-menu {
-			display: flex;
-			align-items: center;
-			justify-content: flex-end;
-			height: 100%;
-			ul li {
-				margin: 0 10px;
-			}
-		}
-	}
+
+}
+nav#site-navigation .nav-right {
 }
 
-.page_item a {
+.menu-item a {
 	position: relative;
 	text-decoration: none;
 	text-transform: uppercase;
