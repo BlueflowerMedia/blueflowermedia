@@ -49,14 +49,16 @@ nav#site-navigation {
 		position: absolute;
 		bottom: 0%;
 		left: 0;
-		background: $blue;
+		background: $yellow;
+		box-shadow: 2px 2px 0 #000000;
 		z-index: -1;
-		transition: all 0.3s cubic-bezier(0.11, 0.7, 0, 1);;
+		transition: transform 0.3s cubic-bezier(0.11, 0.7, 1, 1.2);;
 	}
 	&:hover{
 		/* color: white; */
 		&:after {
-			bottom: 50%;
+			transform: scaleY(0.25) translateY(25px);
+			box-shadow: none;
 		}
 	}
 }

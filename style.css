@@ -1196,6 +1196,11 @@ object {
 .gallery-caption {
   display: block; }
 
+/* $dark-blue: #456bf1;
+$blue: #1089E8;
+$light-blue: #14C7FF;
+$cyan: #10E0E8;
+$green: #0EE6C0; */
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -1238,8 +1243,7 @@ small, .font_small {
   font-size: 0.707rem; }
 
 span.big-dot {
-  font-size: 1.2em;
-  color: #456bf1; }
+  font-size: 1.2em; }
 
 .center {
   text-align: center; }
@@ -1249,7 +1253,7 @@ span.big-dot {
 
 /* colors */
 .blue {
-  color: #6e7db1; }
+  color: #1d72f7; }
 
 .green {
   color: #74e0af; }
@@ -1258,7 +1262,7 @@ span.big-dot {
   color: #f26363; }
 
 .yellow {
-  color: #e4ec4d; }
+  color: #EFDC05; }
 
 .white {
   color: white; }
@@ -1340,18 +1344,20 @@ nav#site-navigation {
     position: absolute;
     bottom: 0%;
     left: 0;
-    background: #4717F6;
+    background: #EFDC05;
+    box-shadow: 2px 2px 0 #000000;
     z-index: -1;
-    transition: all 0.3s cubic-bezier(0.11, 0.7, 0, 1); }
+    transition: transform 0.3s cubic-bezier(0.11, 0.7, 1, 1.2); }
   .page_item a:hover {
     /* color: white; */ }
     .page_item a:hover:after {
-      bottom: 50%; }
+      transform: scaleY(0.25) translateY(25px);
+      box-shadow: none; }
 
 #contact-popup {
   width: 70px;
   height: 70px;
-  background: #456bf1;
+  background: #1d72f7;
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -1400,16 +1406,16 @@ nav#site-navigation {
   border-radius: 10px; }
 
 #section-header {
-  height: 600px;
-  background-color: lightblue;
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
+  height: 600px; }
 
-#section-aboutus .container .left {
-  max-width: 500px; }
+#section-aboutus {
+  background: #1d72f7;
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%); }
+  #section-aboutus .container .left {
+    max-width: 500px; }
 
 #section-services {
-  background-color: orange;
-  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%); }
+  background-color: orange; }
 
 #section-split-contacts {
   background-color: DodgerBlue; }
@@ -1497,7 +1503,7 @@ nav#site-navigation {
           border-radius: 20%; }
 
 #getintouch {
-  background: #456bf1; }
+  background: #1d72f7; }
 
 .teammember img:hover {
   border-radius: 20%; }

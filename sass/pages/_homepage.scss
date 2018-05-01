@@ -55,21 +55,23 @@
 
 #section-header {
   height: 600px;
-  background-color: lightblue;
-  @include slanted-edge(bottom-right, 100%, 85%);
 }
 // section-aboutus
 
-#section-aboutus .container {
-  .left {
-    max-width: 500px;
+#section-aboutus {
+  background: $blue;
+  @include slanted-edge(top-left, 0, 15%);
+  .container {
+    .left {
+      max-width: 500px;
+    }
   }
 }
 // section-services
 
 #section-services {
   background-color: orange;
-  @include slanted-edge(top-right, 100%, 15%);
+  // @include slanted-edge(top-right, 100%, 15%);
 }
 // section-split-contacts
 

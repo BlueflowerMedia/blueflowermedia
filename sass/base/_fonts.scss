@@ -57,7 +57,6 @@ small, .font_small {
 
 span.big-dot {
 	font-size: 1.2em;
-	color: #456bf1;
 }
 
 .center {
@@ -69,7 +68,7 @@ span.big-dot {
 
 /* colors */
 .blue {
-	color: #6e7db1;
+	color: $blue;
 }
 .green {
 	color: #74e0af;
@@ -78,7 +77,7 @@ span.big-dot {
 	color: #f26363;
 }
 .yellow {
-	color: #e4ec4d;
+	color: $yellow;
 }
 .white {
 	color: white;

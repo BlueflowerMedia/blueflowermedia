@@ -3,7 +3,7 @@
 <!-- section header -->
 <section id="section-header" class="sr">
   <div class="container">
-    <h1 class="sr">Make Your Business Bloom</h1>
+    <h1 class="sr blue">Make Your Business Bloom</h1>
   </div>
 </section>
 
@@ -11,8 +11,8 @@
 <section id="section-aboutus">
   <div class="container flex-row">
     <div class="left">
-      <h1>About Us<span class="big-dot">.</span></h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil unde, sunt nesciunt sapiente error ipsam quis, facilis explicabo laudantium asperiores officiis in debitis! Natus nostrum pariatur sint quis, blanditiis, temporibus. We are a Toronto
+      <h1 class="white">About Us<span class="big-dot yellow">.</span></h1>
+      <p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil unde, sunt nesciunt sapiente error ipsam quis, facilis explicabo laudantium asperiores officiis in debitis! Natus nostrum pariatur sint quis, blanditiis, temporibus. We are a Toronto
         Development & Marketing Business helping small businessess from all industries.</p>
     </div>
   </div>
