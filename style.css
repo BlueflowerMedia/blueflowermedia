@@ -1275,9 +1275,6 @@ span.big-dot {
   .container .row {
     margin: 20px 0; }
 
-.container-navbar {
-  padding: 10px 10%; }
-
 .flex-row, .flex-column {
   display: flex; }
 
@@ -1301,6 +1298,9 @@ span.big-dot {
   flex: 4; }
 
 /* MEDIA QUERIES */
+.container-navbar {
+  padding: 10px 10%; }
+
 nav#site-navigation {
   display: flex;
   flex-flow: row;
@@ -1318,7 +1318,8 @@ nav#site-navigation .nav-left {
   flex: 3;
   display: flex;
   align-items: center; }
-  nav#site-navigation .nav-left a, nav#site-navigation .nav-left h2.site-title {
+  nav#site-navigation .nav-left a,
+  nav#site-navigation .nav-left h2.site-title {
     margin: 0; }
   nav#site-navigation .nav-left ul#primary-menu {
     flex: 1;
@@ -1341,7 +1342,7 @@ nav#site-navigation .nav-left {
     height: 50%;
     width: 100%;
     position: absolute;
-    bottom: 0%;
+    bottom: 0;
     left: 0;
     background: #EFDC05;
     box-shadow: 2px 2px 0 #000000;
@@ -1517,3 +1518,46 @@ nav#site-navigation .nav-left {
 
 .teammember img:hover {
   border-radius: 20%; }
+
+#portfolio .project {
+  position: relative;
+  min-height: 500px;
+  width: 90%;
+  margin: 40px auto; }
+  #portfolio .project .project-image {
+    background: url("https://placeimg.com/600/400/any");
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    top: 0; }
+  #portfolio .project.left .project-image {
+    left: 30%; }
+  #portfolio .project.right .project-image {
+    right: 30%; }
+  #portfolio .project .short-description {
+    background: white;
+    border: 10px solid #212121;
+    padding: 40px;
+    position: absolute;
+    height: 80%;
+    width: 40%;
+    top: 10%;
+    text-align: left; }
+  #portfolio .project.left .short-description {
+    left: 0; }
+  #portfolio .project.right .short-description {
+    right: 0; }
+  #portfolio .project button {
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    color: white;
+    padding: 8px 12px;
+    font-weight: 300;
+    font-size: 14px; }
+  #portfolio .project button.web {
+    background: #1d72f7; }
+  #portfolio .project button.graphics {
+    background: #e43838; }

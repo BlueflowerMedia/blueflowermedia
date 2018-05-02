@@ -133,9 +133,7 @@ function blueflowermedia_scripts() {
 
 	wp_enqueue_script( 'blueflowermedia-owlcarousel', 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js', array(), '20151215', true );
 
-
 	wp_enqueue_script( 'blueflowermedia-particlesjs', 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js', array(), '20151215', true );
-
 
 	wp_enqueue_script( 'blueflowermedia-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
