@@ -1354,13 +1354,19 @@ nav#site-navigation .nav-left {
       box-shadow: none; }
 
 #contact-popup {
-  width: 70px;
-  height: 70px;
-  background: #1d72f7;
   position: fixed;
   bottom: 20px;
-  right: 20px;
-  border-radius: 70px; }
+  right: 20px; }
+  #contact-popup .popup-button {
+    width: 70px;
+    height: 70px;
+    background: #1d72f7;
+    border-radius: 70px;
+    animation-duration: 1s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite; }
+  #contact-popup .popup-box {
+    background: white; }
 
 #section.container {
   display: flex;
@@ -1405,7 +1411,14 @@ nav#site-navigation .nav-left {
   border-radius: 10px; }
 
 #section-header {
-  height: 600px; }
+  height: 600px;
+  position: relative; }
+  #section-header #particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
 
 #section-aboutus {
   background: #1d72f7;
@@ -1427,23 +1440,21 @@ nav#site-navigation .nav-left {
 
 #section-testomonials {
   background-color: #aaf09e; }
-
-#testimonials .container .testimonials {
-  justify-content: center; }
-  #testimonials .container .testimonials .test {
-    max-width: 400px;
-    background: blue; }
-    #testimonials .container .testimonials .test .t-top .logo {
-      flex: 1; }
-      #testimonials .container .testimonials .test .t-top .logo img {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%; }
-    #testimonials .container .testimonials .test .t-top p {
-      flex: 3; }
-  #testimonials .container .testimonials .t-bot {
-    display: flex;
-    justify-content: flex-end; }
+  #section-testomonials .container .testimonials {
+    justify-content: center; }
+    #section-testomonials .container .testimonials .test {
+      max-width: 400px; }
+      #section-testomonials .container .testimonials .test .t-top .logo {
+        flex: 1; }
+        #section-testomonials .container .testimonials .test .t-top .logo img {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%; }
+      #section-testomonials .container .testimonials .test .t-top p {
+        flex: 3; }
+    #section-testomonials .container .testimonials .t-bot {
+      display: flex;
+      justify-content: flex-end; }
 
 #section-getintouch {
   background-color: grey; }

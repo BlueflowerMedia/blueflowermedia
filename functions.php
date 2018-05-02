@@ -123,6 +123,8 @@ function blueflowermedia_scripts() {
 
 	wp_enqueue_style( 'blueflowermedia-owlcarouselcss', 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' );
 
+	wp_enqueue_style( 'blueflowermedia-animatecss', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css' );
+
 	wp_enqueue_style( 'blueflowermedia-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'blueflowermedia-jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js', array(), '20151215', true );
@@ -131,7 +133,13 @@ function blueflowermedia_scripts() {
 
 	wp_enqueue_script( 'blueflowermedia-owlcarousel', 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js', array(), '20151215', true );
 
+
+	wp_enqueue_script( 'blueflowermedia-particlesjs', 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js', array(), '20151215', true );
+
+
 	wp_enqueue_script( 'blueflowermedia-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+
+	wp_enqueue_script( 'blueflowermedia-animatedmodal', get_template_directory_uri() . '/js/animatedModal.min.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'blueflowermedia-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 

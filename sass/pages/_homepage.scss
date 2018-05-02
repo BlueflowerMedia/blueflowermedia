@@ -55,12 +55,22 @@
 
 #section-header {
   height: 600px;
+  position: relative;
+
+  #particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 // section-aboutus
 
 #section-aboutus {
   background: $blue;
   @include slanted-edge(top-left, 0, 15%);
+
   .container {
     .left {
       max-width: 500px;
@@ -92,35 +102,33 @@
 
 #section-testomonials {
   background-color: #aaf09e;
-}
-// section-getintouch
 
-#testimonials .container {
-  .testimonials {
-    justify-content: center;
+  .container {
+    .testimonials {
+      justify-content: center;
 
-    .test {
-      max-width: 400px;
-      background: blue;
+      .test {
+        max-width: 400px;
 
-      .t-top .logo {
-        flex: 1;
+        .t-top .logo {
+          flex: 1;
 
-        img {
-          width: 100px;
-          height: 100px;
-          border-radius: 50%;
+          img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+          }
+        }
+
+        .t-top p {
+          flex: 3;
         }
       }
 
-      .t-top p {
-        flex: 3;
+      .t-bot {
+        display: flex;
+        justify-content: flex-end;
       }
-    }
-
-    .t-bot {
-      display: flex;
-      justify-content: flex-end;
     }
   }
 }
