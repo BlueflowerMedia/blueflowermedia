@@ -1,9 +1,19 @@
 #contact-popup {
-	width: 70px;
-	height: 70px;
-	background: $blue;
 	position: fixed;
 	bottom: 20px;
 	right: 20px;
-	border-radius: 70px;
+
+	.popup-button {
+		width: 70px;
+		height: 70px;
+		background: $blue;
+		border-radius: 70px;
+		animation-duration: 1s;
+		animation-delay: 5s;
+		animation-iteration-count: infinite;
+	}
+
+	.popup-box {
+		background: white;
+	}
 }

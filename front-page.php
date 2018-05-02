@@ -2,8 +2,10 @@
 
 <!-- section header -->
 <section id="section-header" class="sr">
+  <div id="particles"></div>
   <div class="container">
     <h1 class="sr blue">Make Your Business Bloom</h1>
+
   </div>
 </section>
 
@@ -56,7 +58,7 @@
     <div class="row">
       <h2>Testimonial<span class="big-dot">.</span></h2>
     </div>
-    <div class="row flex-row testimonials">
+    <div class="testimonials flex-row">
       <!--   Testimonial 1 begin -->
       <div class="test">
         <div class="t-top flex-row">
@@ -103,8 +105,32 @@
 <!-- section-getintouch-->
 <section id="section-getintouch">
   <div class="container">
+    <h1>getintouch\</h1>
   </div>
 </section>
+<!--DEMO01-->
+<div id="animatedModal">
+  <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+  <div class="close-animatedModal">
+    CLOSE MODAL
+  </div>
 
+  <div class="modal-content">
+    <!--Your modal content goes here-->
+  </div>
+</div>
+
+<section id="contact-popup">
+  <div class="popup-box">
+    <h3>Get in touch!</h3>
+  </div>
+  <div class="popup-button"></div>
+</section>
+
+<div class="popcontact">
+  <a id="demo01" href="#animatedModal">DEMO01</a>
+
+
+</div>
 
 <?php get_footer(); ?>1
