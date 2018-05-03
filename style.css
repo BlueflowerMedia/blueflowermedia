@@ -1572,3 +1572,51 @@ nav#site-navigation .nav-middle {
     background: #1d72f7; }
   #portfolio .project button.graphics {
     background: #e43838; }
+
+#section-contact-buttons {
+  justify-content: center; }
+  #section-contact-buttons button.form-button {
+    background: white;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border: none;
+    position: relative; }
+    #section-contact-buttons button.form-button h4 {
+      margin: 0; }
+  #section-contact-buttons button#form-btn1:after {
+    content: "";
+    background-color: blue;
+    width: 40%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 30%; }
+
+#section-contact-forms .container {
+  position: relative;
+  height: 600px; }
+  #section-contact-forms .container .form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.7s cubic-bezier(0.29, 1.13, 0.42, 1.07); }
+  #section-contact-forms .container #form1 {
+    background-color: blue;
+    transform: translateX(-30%); }
+    #section-contact-forms .container #form1.active {
+      transform: translateX(0);
+      opacity: 1; }
+  #section-contact-forms .container #form2 {
+    background-color: red;
+    transform: translateX(30%); }
+    #section-contact-forms .container #form2.active {
+      transform: translateX(0);
+      opacity: 1; }
+
+#contact-map .container .contact-info,
+#contact-map .container .contact-map {
+  min-width: 300px; }
