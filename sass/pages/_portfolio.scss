@@ -1,0 +1,63 @@
+#portfolio {
+  .project {
+    position: relative;
+    min-height: 500px;
+    width: 90%;
+    margin: 40px auto;
+
+    .project-image {
+      background: url("https://placeimg.com/600/400/any");
+      background-size: cover;
+      position: absolute;
+      height: 100%;
+      width: 70%;
+      top: 0;
+    }
+
+    &.left .project-image {
+      left: 30%;
+    }
+
+    &.right .project-image {
+      right: 30%;
+    }
+
+    .short-description {
+      background: white;
+      border: 10px solid rgb(33, 33, 33);
+      padding: 40px;
+      position: absolute;
+      height: 80%;
+      width: 40%;
+      top: 10%;
+      text-align: left;
+    }
+
+    &.left .short-description {
+      left: 0;
+    }
+
+    &.right .short-description {
+      right: 0;
+    }
+
+    button {
+      margin: 2px;
+      border: none;
+      border-radius: 5px;
+      box-shadow: none;
+      color: white;
+      padding: 8px 12px;
+      font-weight: 300;
+      font-size: 14px;
+    }
+
+    button.web {
+      background: $blue;
+    }
+
+    button.graphics {
+      background: #e43838;
+    }
+  }
+}
