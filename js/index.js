@@ -3,29 +3,24 @@ var page = path.split("/")
 var pageName = page[page.length - 2];
 
 // contact js
-// var formSwitch = function(addForm, removeForm) {
-//   alert("ajsdf");
-//
-//   var formBtn1 = $("#form-btn1");
-//   var formBtn2 = $("#form-btn2");
-//
-//   formBtn1.onClick(function() {
-//     alert("ajsdf");
-//     $("#form1").addClass("active");
-//     $("#form2").removeClass("active");
-//   });
-//
-//   formBtn2.onClick(function() {
-//     $("#form2").addClass("active");
-//     $("#form1").removeClass("active");
-//   });
-// }
-//
-function formSwitch(addForm, removeForm) {
-  $(this).toggle("active");
-  $(addForm).addClass("active");
-  $(removeForm).removeClass("active");
+function formSwitch() {
+  var formBtn1 = $("#form-btn1");
+  var formBtn2 = $("#form-btn2");
+
+  formBtn1.click(function() {
+    $("#form1").addClass("active");
+    $("#form2").removeClass("active");
+    $(this).removeClass("form2");
+  });
+
+  formBtn2.click(function() {
+    $("#form2").addClass("active");
+    $("#form1").removeClass("active");
+    formBtn1.addClass("form2");
+  });
 }
+
+
 
 // team page image slider
 
@@ -229,111 +224,4 @@ if (pageName == "blueflowedmedia") {
   teamHover();
 } else if (pageName == "contact") {
   formSwitch();
-}
-
-// google maps
-var geo_latitude = 43.69245;
-var geo_longitude = -79.28289;
-google.maps.event.addDomListener(window, 'load', init);
-
-function init() {
-  var mapOptions = {
-    zoom: 16,
-    center: new google.maps.LatLng(geo_latitude, geo_longitude),
-    styles: [{
-      "featureType": "water",
-      "stylers": [{
-        "saturation": 43
-      }, {
-        "lightness": -11
-      }, {
-        "hue": "#0088ff"
-      }]
-    }, {
-      "featureType": "road",
-      "elementType": "geometry.fill",
-      "stylers": [{
-        "hue": "#ff0000"
-      }, {
-        "saturation": -100
-      }, {
-        "lightness": 99
-      }]
-    }, {
-      "featureType": "road",
-      "elementType": "geometry.stroke",
-      "stylers": [{
-        "color": "#808080"
-      }, {
-        "lightness": 54
-      }]
-    }, {
-      "featureType": "landscape.man_made",
-      "elementType": "geometry.fill",
-      "stylers": [{
-        "color": "#ece2d9"
-      }]
-    }, {
-      "featureType": "poi.park",
-      "elementType": "geometry.fill",
-      "stylers": [{
-        "color": "#ccdca1"
-      }]
-    }, {
-      "featureType": "road",
-      "elementType": "labels.text.fill",
-      "stylers": [{
-        "color": "#767676"
-      }]
-    }, {
-      "featureType": "road",
-      "elementType": "labels.text.stroke",
-      "stylers": [{
-        "color": "#ffffff"
-      }]
-    }, {
-      "featureType": "poi",
-      "stylers": [{
-        "visibility": "off"
-      }]
-    }, {
-      "featureType": "landscape.natural",
-      "elementType": "geometry.fill",
-      "stylers": [{
-        "visibility": "on"
-      }, {
-        "color": "#b8cb93"
-      }]
-    }, {
-      "featureType": "poi.park",
-      "stylers": [{
-        "visibility": "on"
-      }]
-    }, {
-      "featureType": "poi.sports_complex",
-      "stylers": [{
-        "visibility": "on"
-      }]
-    }, {
-      "featureType": "poi.medical",
-      "stylers": [{
-        "visibility": "on"
-      }]
-    }, {
-      "featureType": "poi.business",
-      "stylers": [{
-        "visibility": "off"
-      }]
-    }]
-  };
-  var mapElement = document.getElementById('map');
-  var map = new google.maps.Map(mapElement, mapOptions);
-  var markerIcon = 'https://upload.wikimedia.org/wikipedia/commons/e/ed/Map_pin_icon.svg';
-  var marker = new google.maps.Marker({
-    position: new google.maps.LatLng(43.69245, -79.28289),
-    map: map,
-    icon: markerIcon,
-    title: 'BlueFlower Media!'
-  });
-
 }

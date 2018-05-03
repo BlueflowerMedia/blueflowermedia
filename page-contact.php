@@ -4,8 +4,8 @@
   <div class="container">
     <h1>Contacts<span class="big-dot blue">.</span></h1>
     <section id="section-contact-buttons" class="flex-row">
-      <button id="form-btn1" class="form-button" type="button" onclick="formSwitch('#form1','#form2');"><h4>Small Businesses</h4></button>
-      <button id="form-btn2" class="form-button" type="button" onclick="formSwitch('#form2','#form1');"><h4>Agencies</h4></button>
+      <button id="form-btn1" class="form-button" type="button"><h4>Small Businesses</h4></button>
+      <button id="form-btn2" class="form-button" type="button"><h4>Agencies</h4></button>
     </section>
 
     <section id="section-contact-forms">

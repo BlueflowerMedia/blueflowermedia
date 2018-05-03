@@ -2,26 +2,43 @@
   justify-content: center;
 
   button.form-button {
-    background: white;
+    background: rgba(255, 255, 255, 0);
     padding: 10px;
     margin: 10px;
     width: 300px;
     border: none;
     position: relative;
+    outline: none;
+
+    h4 {
+      color: #626262;
+    }
 
     h4 {
       margin: 0;
     }
   }
 
-  button#form-btn1:after {
-    content: "";
-    background-color: blue;
-    width: 40%;
-    height: 2px;
-    position: absolute;
-    bottom: 0;
-    left: 30%;
+  button#form-btn1 {
+    &:after {
+      content: "";
+      background-color: blue;
+      width: 40%;
+      height: 2px;
+      position: absolute;
+      bottom: 0;
+      left: 30%;
+      transition: all 0.4s cubic-bezier(0.13, 0.59, 0.63, 1.07);
+    }
+
+    &.form2:after {
+      left: 147%;
+      width: 20%;
+
+      h4 {
+        color: black;
+      }
+    }
   }
 }
 

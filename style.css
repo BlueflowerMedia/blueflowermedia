@@ -1576,12 +1576,15 @@ nav#site-navigation .nav-middle {
 #section-contact-buttons {
   justify-content: center; }
   #section-contact-buttons button.form-button {
-    background: white;
+    background: rgba(255, 255, 255, 0);
     padding: 10px;
     margin: 10px;
     width: 300px;
     border: none;
-    position: relative; }
+    position: relative;
+    outline: none; }
+    #section-contact-buttons button.form-button h4 {
+      color: #626262; }
     #section-contact-buttons button.form-button h4 {
       margin: 0; }
   #section-contact-buttons button#form-btn1:after {
@@ -1591,7 +1594,13 @@ nav#site-navigation .nav-middle {
     height: 2px;
     position: absolute;
     bottom: 0;
-    left: 30%; }
+    left: 30%;
+    transition: all 0.4s cubic-bezier(0.13, 0.59, 0.63, 1.07); }
+  #section-contact-buttons button#form-btn1.form2:after {
+    left: 147%;
+    width: 20%; }
+    #section-contact-buttons button#form-btn1.form2:after h4 {
+      color: black; }
 
 #section-contact-forms .container {
   position: relative;
