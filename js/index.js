@@ -86,7 +86,9 @@ $(function() {
 });
 
 // js for pop up contact
-$("#demo01").animatedModal();
+$("#demo01").animatedModal({
+  modalTarget: 'section-contact'
+});
 
 // add particles to header
 particlesJS("particles", {

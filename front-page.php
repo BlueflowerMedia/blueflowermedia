@@ -106,10 +106,12 @@
 <section id="section-getintouch">
   <div class="container">
     <h1>getintouch\</h1>
+    <a id="demo01" href="#section-contact">DEMO01</a>
   </div>
 </section>
+
 <!--DEMO01-->
-<div id="animatedModal">
+<div id="section-contact">
   <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
   <div class="close-animatedModal">
     CLOSE MODAL
@@ -120,17 +122,5 @@
   </div>
 </div>
 
-<section id="contact-popup">
-  <div class="popup-box">
-    <h3>Get in touch!</h3>
-  </div>
-  <div class="popup-button"></div>
-</section>
-
-<div class="popcontact">
-  <a id="demo01" href="#animatedModal">DEMO01</a>
-
-
-</div>
 
 <?php get_footer(); ?>1
