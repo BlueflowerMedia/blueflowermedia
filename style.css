@@ -1306,20 +1306,21 @@ nav#site-navigation {
   flex-flow: row;
   background: rgba(255, 255, 255, 0);
   z-index: 99999;
-  transition: all 200ms cubic-bezier(0.71, 0.05, 0.31, 0.95); }
+  transition: all 200ms cubic-bezier(0.71, 0.05, 0.31, 0.95);
+  overflow: hidden; }
   nav#site-navigation.scroll-color {
     box-shadow: 0 2px rgba(0, 0, 0, 0.1);
     transition: all 200ms cubic-bezier(0.71, 0.05, 0.31, 0.95); }
   nav#site-navigation:after {
     content: "";
-    width: 100%;
-    height: 100%;
+    width: 300%;
+    height: 300%;
     position: absolute;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
     background: rgba(255, 255, 255, 0.9);
-    top: 0;
-    left: 0; }
+    top: -100%;
+    left: -100%; }
   nav#site-navigation.fixed {
     position: fixed; }
 
