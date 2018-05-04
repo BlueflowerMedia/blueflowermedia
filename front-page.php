@@ -43,7 +43,7 @@
       <h2>Our Clients<span class="big-dot">.</span></h2>
       <p>They all got a happy ending</p>
     </div>
-    <div class="row owl-carousel">
+    <div class="row owl-carousel client-logo-slider">
       <div><img src="https://placeimg.com/300/200/any" alt=""></div>
       <div><img src="https://placeimg.com/300/200/any" alt=""></div>
       <div><img src="https://placeimg.com/300/200/any" alt=""></div>

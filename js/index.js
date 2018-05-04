@@ -2,6 +2,53 @@ var path = window.location.pathname;
 var page = path.split("/")
 var pageName = page[page.length - 2];
 
+// navbar
+function navbar() {
+  var navbar = $("#site-navigation");
+  var scroll = $(window).scrollTop();
+  if (scroll > 0) {
+    navbar.addClass("scroll-color");
+  } else {
+    navbar.removeClass("scroll-color");
+  }
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll > 0) {
+      navbar.addClass("scroll-color");
+    } else {
+      navbar.removeClass("scroll-color");
+    }
+  });
+};
+
+
+// scrollReveal
+window.sr = ScrollReveal({
+  reset: false,
+  origin: 'top',
+  distance: '10%',
+  opacity: 0,
+  scale: 1,
+  delay: 200,
+  easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+  duration: 1000,
+})
+
+
+// client logo slider
+function runCarousel() {
+  $(".client-logo-slider").owlCarousel({
+    items: 3,
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+  });
+}
+
+
+
 // contact js
 function formSwitch() {
   var formBtn1 = $("#form-btn1");
@@ -23,7 +70,6 @@ function formSwitch() {
 
 
 // team page image slider
-
 function teamImagePlayer() {
   setInterval(function() {
     var next = $(".slide .active").removeClass("active").next(".image");
@@ -56,52 +102,6 @@ function teamHover() {
 }
 
 
-// // scrollReveal
-// window.sr = ScrollReveal({
-//   reset: false,
-//   origin: 'top',
-//   distance: '10%',
-//   opacity: 0,
-//   scale: 1,
-//   delay: 200,
-//   easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
-//   duration: 1000,
-// })
-//
-// sr.reveal($('.sr'));
-// sr.reveal($('h1'));
-// sr.reveal($('p'));
-//
-// // section-testomonials
-// $(".owl-carousel").owlCarousel({
-//   items: 3,
-//   loop: true,
-//   margin: 10,
-//   autoplay: true,
-//   autoplayTimeout: 2000,
-//   autoplayHoverPause: true,
-// });
-//
-// // navbar
-// var navbar = function() {
-//   var navbar = $("#site-navigation");
-//   var scroll = $(window).scrollTop();
-//   if (scroll > 0) {
-//     navbar.addClass("scroll-color");
-//   } else {
-//     navbar.removeClass("scroll-color");
-//   }
-//   $(window).scroll(function() {
-//     var scroll = $(window).scrollTop();
-//     if (scroll > 0) {
-//       navbar.addClass("scroll-color");
-//     } else {
-//       navbar.removeClass("scroll-color");
-//     }
-//   });
-// };
-//
-//
 
 // Particle JS in header in homepage
 function runParticles() {
@@ -217,8 +217,15 @@ function runParticles() {
   });
 }
 
-if (pageName == "blueflowedmedia") {
+// global functions
+navbar();
+sr.reveal($('.sr'));
+sr.reveal($('h1'));
+sr.reveal($('p'));
+
+if (pageName == "blueflowermedia") {
   runParticles();
+  runCarousel();
 } else if (pageName == "team") {
   teamImagePlayer();
   teamHover();
