@@ -41,23 +41,5 @@
       right: 0;
     }
 
-    button {
-      margin: 2px;
-      border: none;
-      border-radius: 5px;
-      box-shadow: none;
-      color: white;
-      padding: 8px 12px;
-      font-weight: 300;
-      font-size: 14px;
-    }
-
-    button.web {
-      background: $blue;
-    }
-
-    button.graphics {
-      background: #e43838;
-    }
   }
 }

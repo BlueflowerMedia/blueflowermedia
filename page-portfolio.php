@@ -12,8 +12,8 @@
         <h2>IndiaJournal</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo fuga, possimus asperiores iusto recusandae. Aperiam laborum excepturi illo sapiente nihil! Aliquam accusantium, sequi at harum repudiandae corporis! Necessitatibus, molestiae corporis.</p>
         <div class="project-tags">
-          <button class="web" disabled>Web Development</button>
-          <button class="graphics" disabled>Graphic Design</button>
+          <button class="tag web" disabled>Web Development</button>
+          <button class="tag graphics" disabled>Graphic Design</button>
         </div>
       </div>
     </div>
@@ -27,8 +27,8 @@
         <h2>IndiaJournal</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo fuga, possimus asperiores iusto recusandae. Aperiam laborum excepturi illo sapiente nihil! Aliquam accusantium, sequi at harum repudiandae corporis! Necessitatibus, molestiae corporis.</p>
         <div class="project-tags">
-          <button class="web" disabled>Web Development</button>
-          <button class="graphics" disabled>Graphic Design</button>
+          <button class="tag web" disabled>Web Development</button>
+          <button class="tag graphics" disabled>Graphic Design</button>
         </div>
 
       </div>
@@ -42,8 +42,8 @@
         <h2>IndiaJournal</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo fuga, possimus asperiores iusto recusandae. Aperiam laborum excepturi illo sapiente nihil! Aliquam accusantium, sequi at harum repudiandae corporis! Necessitatibus, molestiae corporis.</p>
         <div class="project-tags">
-          <button class="web" disabled>Web Development</button>
-          <button class="graphics" disabled>Graphic Design</button>
+          <button class="tag web" disabled>Web Development</button>
+          <button class="tag graphics" disabled>Graphic Design</button>
         </div>
       </div>
     </div>
@@ -56,8 +56,8 @@
         <h2>IndiaJournal</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo fuga, possimus asperiores iusto recusandae. Aperiam laborum excepturi illo sapiente nihil! Aliquam accusantium, sequi at harum repudiandae corporis! Necessitatibus, molestiae corporis.</p>
         <div class="project-tags">
-          <button class="web" disabled>Web Development</button>
-          <button class="graphics" disabled>Graphic Design</button>
+          <button class="tag web" disabled>Web Development</button>
+          <button class="tag graphics" disabled>Graphic Design</button>
         </div>
 
       </div>

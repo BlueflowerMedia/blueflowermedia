@@ -69,6 +69,7 @@
 
 #section-aboutus {
   background: $blue;
+  margin-top: -7%;
   @include slanted-edge(top-left, 0, 15%);
 
   .container {

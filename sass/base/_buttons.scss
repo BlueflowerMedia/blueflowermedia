@@ -1,0 +1,16 @@
+button.tag {
+	margin: 2px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: none;
+	color: white;
+	padding: 8px 12px;
+	font-weight: 300;
+	font-size: 14px;
+	&.web {
+		background: $blue;
+	}
+	&.graphics {
+		background: #e43838;
+	}
+}

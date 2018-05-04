@@ -23,19 +23,29 @@
 @mixin slanted-edge($corner, $x, $y) {
   @if $corner == top-left {
     clip-path: polygon($x $y, 100% 0, 100% 100%, 0 100%);
-  } @else 
+    -webkit-clip-path: polygon($x $y, 100% 0, 100% 100%, 0 100%);
+
+  } @else
   if $corner == top-right {
     clip-path: polygon(0 0, $x $y, 100% 100%, 0 100%);
-  } @else 
+    -webkit-clip-path: polygon(0 0, $x $y, 100% 100%, 0 100%);
+
+  } @else
   if $corner == bottom-right {
     clip-path: polygon(0 0, 100% 0, $x $y, 0 100%);
-  } @else 
+    -webkit-clip-path: polygon(0 0, 100% 0, $x $y, 0 100%);
+
+  } @else
   if $corner == bottom-left {
     clip-path: polygon(0 0, 100% 0, 100% 100%, $x $y);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, $x $y);
+
   }
 }
 @mixin slanted-div($tlx, $tly, $trx, $try, $brx, $bry, $blx, $bly) {
   clip-path: polygon($tlx $tly, $trx $try, $brx $bry, $blx $bly);
+  -webkit-clip-path: polygon($tlx $tly, $trx $try, $brx $bry, $blx $bly);
+
 }
 // Animation
 @mixin keyframes($animation-name) {
