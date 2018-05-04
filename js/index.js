@@ -217,6 +217,9 @@ function runParticles() {
   });
 }
 
+// rellax
+
+
 // global functions
 navbar();
 sr.reveal($('.sr'));
@@ -226,6 +229,13 @@ sr.reveal($('p'));
 if (pageName == "blueflowermedia") {
   runParticles();
   runCarousel();
+  var rellax = new Rellax('#fbox1', {
+    speed: -10,
+    center: false,
+    round: true,
+    vertical: true,
+    horizontal: false
+  });
 } else if (pageName == "team") {
   teamImagePlayer();
   teamHover();

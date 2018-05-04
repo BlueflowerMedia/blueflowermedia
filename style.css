@@ -1446,8 +1446,17 @@ nav#site-navigation .nav-middle {
   #section-aboutus .container .left {
     max-width: 500px; }
 
+.fbox {
+  display: block;
+  position: absolute;
+  top: 500px;
+  left: 1000px;
+  height: 50px;
+  width: 50px;
+  background-color: black; }
+
 #section-services {
-  background-color: orange; }
+  background-color: white; }
 
 #section-split-contacts {
   background-color: DodgerBlue;
