@@ -1450,7 +1450,9 @@ nav#site-navigation .nav-middle {
   background-color: orange; }
 
 #section-split-contacts {
-  background-color: DodgerBlue; }
+  background-color: DodgerBlue;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
 
 #section-client-slider .container {
   justify-content: center; }
@@ -1459,7 +1461,9 @@ nav#site-navigation .nav-middle {
     margin: 0 auto; }
 
 #section-testomonials {
-  background-color: #aaf09e; }
+  background-color: #aaf09e;
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%); }
   #section-testomonials .container .testimonials {
     justify-content: center; }
     #section-testomonials .container .testimonials .test {
