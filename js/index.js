@@ -217,6 +217,10 @@ function runParticles() {
   });
 }
 
+function postHeight() {
+  $(".post").height($(".post-info").outerHeight()+450);
+}
+
 // global functions
 navbar();
 sr.reveal($('.sr'));
@@ -231,4 +235,6 @@ if (pageName == "blueflowermedia") {
   teamHover();
 } else if (pageName == "contact") {
   formSwitch();
+} else if (pageName == "blog") {
+  postHeight();
 }
