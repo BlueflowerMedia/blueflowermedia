@@ -72,3 +72,16 @@
   -o-animation: #{$str};
   animation: #{$str};
 }
+
+@mixin box($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin position($position, $top: null, $right: null, $bottom: null, $left: null) {
+  position: $position;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}

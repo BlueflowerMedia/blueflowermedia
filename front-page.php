@@ -17,8 +17,9 @@
       <p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil unde, sunt nesciunt sapiente error ipsam quis, facilis explicabo laudantium asperiores officiis in debitis! Natus nostrum pariatur sint quis, blanditiis, temporibus. We are a Toronto
         Development & Marketing Business helping small businessess from all industries.</p>
     </div>
-    <div class="fbox" id="fbox1" style="transform: rotate(45deg);"></div>
-
+    <div class="fbox" id="fbox1" style="transform: rotate(45deg);" data-rellax-speed="2"></div>
+    <div class="fbox" id="fbox2" style="transform: rotate(45deg);" data-rellax-speed="5"></div>
+    <div class="fbox" id="fbox3" style="transform: rotate(45deg);" data-rellax-speed="10"></div>
   </div>
 </section>
 

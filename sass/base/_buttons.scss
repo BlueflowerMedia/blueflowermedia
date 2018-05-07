@@ -1,3 +1,7 @@
+button {
+	background: none;
+}
+
 button.tag {
 	margin: 2px;
 	border: none;
@@ -13,4 +17,8 @@ button.tag {
 	&.graphics {
 		background: #e43838;
 	}
+}
+
+button.nav-contact {
+	background: white;
 }
