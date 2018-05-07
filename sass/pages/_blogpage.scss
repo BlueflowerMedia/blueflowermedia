@@ -81,12 +81,34 @@
 */
 
 //CSS for single.php
-// Single post
+.post-thumbnail {
+  img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+}
+
 .container-blog {
-	padding: 10px;
+  padding: 10px;
   max-width: 800px;
   margin: 0 auto;
+}
 
-  display: flex;
-  flex-wrap: wrap;
+#related-posts .container-blog {
+  .related-posts {
+    justify-content: flex-start;
+
+    .related-post {
+      flex: 1 210px;
+      margin: 10px;
+      .related-post-thumb > a {
+        img {
+          height: 400px;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
 }
