@@ -32,6 +32,9 @@ nav#site-navigation .nav-left{
 
 nav#site-navigation .nav-middle {
 	flex: 3;
+	.menu-menu-1-container {
+		height: 100%;
+	}
 	ul#primary-menu {
 		display: flex;
 		align-items: center;
