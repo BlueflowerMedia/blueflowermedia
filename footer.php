@@ -14,22 +14,15 @@
 	</div><!-- #content -->
 
 	<div class="margin-for-footer"></div>
-<!-- 	<footer id="colophon" class="site-footer">
+	<footer id="colophon" class="site-footer">
     <div class="container flex-row">
       <div class="footer-left flex1">
-        <p>All content belongs to BlueFlower Media</p>
+        <p>&copy; <?php the_time('Y') ?>. All rights reserved. BlueFlower Media</p>
       </div>
       <div class="footer-right flex1">
-        <?php
-          wp_nav_menu( array(
-            'theme_location' => 'menu-2',
-            'menu_id'        => 'footer',
-          ) );
-        ?>
       </div>
     </div>
-</footer>#colophon
- --></div><!-- #page -->
+</footer>
 
 <?php wp_footer(); ?>
 

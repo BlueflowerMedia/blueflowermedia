@@ -1400,19 +1400,13 @@ footer {
   bottom: 0;
   left: 0;
   z-index: -99;
-  margin-top: -100%;
+  margin-top: -200px;
   min-height: 100px;
-  width: 100%;
-  background: #222222; }
+  width: 100%; }
   footer .container {
     padding: 5px 10%; }
   footer p {
-    opacity: 1 !important;
-    color: white; }
-  footer .footer-right ul#footer.menu {
-    list-style-type: none; }
-    footer .footer-right ul#footer.menu li {
-      display: inline-block; }
+    opacity: 1 !important; }
 
 #contact-popup {
   position: fixed;
