@@ -1277,6 +1277,9 @@ span.big-dot {
 * {
   z-index: 999; }
 
+.content {
+  background: white; }
+
 .container {
   padding: 50px 10%; }
   @media (min-width: 760px) and (max-width: 1023px) {
@@ -1526,7 +1529,9 @@ footer {
       justify-content: flex-end; }
 
 #section-getintouch {
-  background-color: grey; }
+  background-color: grey;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
 
 .posts {
   text-align: center; }
