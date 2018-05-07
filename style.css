@@ -1477,17 +1477,38 @@ footer {
   margin-top: -7%;
   clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
   -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%); }
-  #section-aboutus .container .left {
-    max-width: 500px; }
-
-.fbox {
-  display: block;
-  position: absolute;
-  top: 500px;
-  left: 1000px;
-  height: 50px;
-  width: 50px;
-  background-color: black; }
+  #section-aboutus .container {
+    position: relative; }
+    #section-aboutus .container .left {
+      max-width: 500px; }
+    #section-aboutus .container .fbox {
+      display: block; }
+      #section-aboutus .container .fbox#fbox1 {
+        position: absolute;
+        right: 20%;
+        bottom: 10%;
+        width: 200px;
+        height: 200px;
+        border-radius: 50px;
+        background: #EFDC05;
+        z-index: 9999; }
+      #section-aboutus .container .fbox#fbox2 {
+        position: absolute;
+        bottom: 20%;
+        left: -2%;
+        width: 100px;
+        height: 100px;
+        border-radius: 20px;
+        background: #0964f2; }
+      #section-aboutus .container .fbox#fbox3 {
+        position: absolute;
+        right: 13%;
+        bottom: -10%;
+        width: 100px;
+        height: 100px;
+        border-radius: 20px;
+        background: #0645a8;
+        z-index: 9998; }
 
 #section-services {
   background-color: white; }
@@ -1609,7 +1630,7 @@ footer {
 #our-team .container {
   position: relative; }
   #our-team .container .member-row {
-    justify-content: space-around; }
+    justify-content: space-evenly; }
     #our-team .container .member-row .member {
       text-align: center;
       margin: 20px 0;

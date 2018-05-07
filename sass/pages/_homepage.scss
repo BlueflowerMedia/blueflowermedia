@@ -73,21 +73,37 @@
   @include slanted-edge(top-left, 0, 15%);
 
   .container {
+    position: relative;
     .left {
       max-width: 500px;
     }
-  }
-}
-// rellax box inside aboutus
+    // rellax box inside aboutus
+    .fbox {
+      display: block;
+      &#fbox1 {
+        @include position(absolute, $bottom: 10%, $right: 20%);
+        @include box(200px, 200px);
+        border-radius: 50px;
+        background: $yellow;
+        z-index: 9999;
+      }
+      &#fbox2 {
+        @include position(absolute, $bottom: 20%, $left: -2%);
+        @include box(100px, 100px);
+        border-radius: 20px;
+        background: darken($blue, 5);
+      }
+      &#fbox3 {
+        @include position(absolute, $bottom: -10%, $right: 13%);
+        @include box(100px, 100px);
+        border-radius: 20px;
+        background: darken($blue, 20);
+        z-index: 9998;
+      }
 
-.fbox {
-  display: block;
-  position: absolute;
-  top: 500px;
-  left: 1000px;
-  height: 50px;
-  width: 50px;
-  background-color: black;
+    }
+
+  }
 }
 // section-services
 

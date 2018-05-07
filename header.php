@@ -42,6 +42,7 @@
       <!-- navbar right -->
       <div class="nav-right">
         <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'blueflowermedia' ); ?></button>
+				<button type="button" name="button">Contact Us</button>
       </div>
 		</nav>
 	</header>

@@ -2,6 +2,10 @@ var path = window.location.pathname;
 var page = path.split("/")
 var pageName = page[page.length - 2];
 
+function runRellax() {
+  var rellax = new Rellax('.fbox');
+}
+
 // navbar
 function navbar() {
   var navbar = $("#site-navigation");
@@ -87,19 +91,19 @@ function teamImagePlayer() {
 
 // team members hover effect
 
-function teamHover() {
-  var pic2 = document.getElementById('pic2');
-  var pic3 = document.getElementById('pic3');
-
-  pic2.onmouseout = function() {
-    this.src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/mrch8596.jpg";
-    pic3.src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/robert-finkel_2.jpg";
-  }
-  pic2.onmouseover = function() {
-    this.src = "https://media3.giphy.com/avatars/100soft/WahNEDdlGjRZ.gif";
-    pic3.src = "https://media3.giphy.com/avatars/100soft/WahNEDdlGjRZ.gif";
-  }
-}
+// function teamHover() {
+//   var pic2 = document.getElementById('pic2');
+//   var pic3 = document.getElementById('pic3');
+//
+//   pic2.onmouseout = function() {
+//     this.src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/mrch8596.jpg";
+//     pic3.src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/robert-finkel_2.jpg";
+//   }
+//   pic2.onmouseover = function() {
+//     this.src = "https://media3.giphy.com/avatars/100soft/WahNEDdlGjRZ.gif";
+//     pic3.src = "https://media3.giphy.com/avatars/100soft/WahNEDdlGjRZ.gif";
+//   }
+// }
 
 
 
@@ -227,19 +231,13 @@ sr.reveal($('.sr'));
 sr.reveal($('h1'));
 sr.reveal($('p'));
 
+
 if (pageName == "blueflowermedia") {
   runParticles();
   runCarousel();
-  var rellax = new Rellax('#fbox1', {
-    speed: -10,
-    center: false,
-    round: true,
-    vertical: true,
-    horizontal: false
-  });
+  runRellax();
 } else if (pageName == "team") {
   teamImagePlayer();
-  teamHover();
 } else if (pageName == "contact") {
   formSwitch();
 } else if (pageName == "blog") {

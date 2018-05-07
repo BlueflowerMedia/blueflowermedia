@@ -14,7 +14,7 @@
 	</div><!-- #content -->
 
 	<div class="margin-for-footer"></div>
-	<footer id="colophon" class="site-footer">
+<!-- 	<footer id="colophon" class="site-footer">
     <div class="container flex-row">
       <div class="footer-left flex1">
         <p>All content belongs to BlueFlower Media</p>
@@ -28,8 +28,8 @@
         ?>
       </div>
     </div>
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+</footer>#colophon
+ --></div><!-- #page -->
 
 <?php wp_footer(); ?>
 
