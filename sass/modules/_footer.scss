@@ -7,23 +7,17 @@ footer {
 	bottom: 0;
 	left: 0;
 	z-index: -99;
-	margin-top: -100%;
+	margin-top: -200px;
 	min-height: 100px;
 	width: 100%;
-	background: #222222;
+
 	.container {
 		padding: 5px 10%;
 	}
+
 	p {
 		opacity: 1 !important;
-		color: white;
 	}
-	.footer-right {
-		ul#footer.menu {
-			list-style-type: none;
-			li {
-				display: inline-block;
-			}
-		}
-	}
+
+	.footer-right {}
 }

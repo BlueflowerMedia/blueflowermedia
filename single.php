@@ -30,7 +30,8 @@ get_header();
 <!-- Related posts -->
 <section id="related-posts">
 	<div class="container-blog">
-		<h1>Related Posts</h1>
+		<h3>Related Posts</h3>
+		<div class="related-posts flex-row">
 		<?php
 		$args = array(
 			'cat' => $post_cat_id,
@@ -38,7 +39,6 @@ get_header();
 		);
 
 		$query = new WP_Query($args);
-
 		if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
 			<div class="related-post">
 				<div class="related-post-thumb">
@@ -50,6 +50,7 @@ get_header();
 			</div>
 			<?php endwhile; ?>
 		<?php endif; ?>
+		</div>
 	</div>
 </section>
 <!-- Related posts -->
