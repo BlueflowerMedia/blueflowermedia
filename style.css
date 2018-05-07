@@ -1548,20 +1548,32 @@ footer {
         background-color: white;
         padding: 10px;
         box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.2); }
+        @media (max-width: 760px) {
+          .posts .post .post-image .post-info {
+            top: 100%;
+            width: 100%;
+            left: 0; } }
 
 .post-info a {
   text-decoration: none; }
   .post-info a .arrow {
     opacity: 0;
     display: inline-block;
-    transform: translateX(-10px);
-    transition: all 0.3s cubic-bezier(0.2, 0.99, 0.71, 1.18); }
+    transform: translate(-10px, 2px);
+    transition: all 0.3s cubic-bezier(0.2, 0.99, 0.71, 1.18);
+    margin-bottom: -10px; }
+    .post-info a .arrow svg {
+      fill: white; }
+  .post-info a.read-more {
+    border: 1px solid black;
+    background-color: black;
+    padding: 5px; }
   .post-info a:hover > .arrow {
-    transform: translateX(2px);
+    transform: translate(2px, 2px);
     opacity: 1; }
 
 .post-info a.read-more {
-  color: #1d72f7; }
+  color: white; }
 
 /*
 //First version
@@ -1584,6 +1596,13 @@ footer {
   }
 }
 */
+.container-blog {
+  padding: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; }
+
 #team-about .container .head {
   flex: 1; }
 #team-about .container .slide {
