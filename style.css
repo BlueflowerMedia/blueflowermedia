@@ -1196,6 +1196,7 @@ object {
 .gallery-caption {
   display: block; }
 
+/* MEDIA QUERIES */
 /* $dark-blue: #456bf1;
 $blue: #1089E8;
 $light-blue: #14C7FF;
@@ -1207,6 +1208,12 @@ $green: #0EE6C0; */
 
 html {
   font-size: 16px; }
+  @media (min-width: 760px) and (max-width: 1023px) {
+    html {
+      font-size: 13px; } }
+  @media (max-width: 760px) {
+    html {
+      font-size: 10px; } }
 
 p, a {
   font-size: 1rem;
@@ -1272,6 +1279,12 @@ span.big-dot {
 
 .container {
   padding: 50px 10%; }
+  @media (min-width: 760px) and (max-width: 1023px) {
+    .container {
+      padding: 50px 5%; } }
+  @media (max-width: 760px) {
+    .container {
+      padding: 50px 5%; } }
   .container .row {
     margin: 20px 0; }
 
@@ -1311,7 +1324,6 @@ button.tag {
   button.tag.graphics {
     background: #e43838; }
 
-/* MEDIA QUERIES */
 .container-navbar {
   padding: 10px 10%; }
 
@@ -1370,6 +1382,28 @@ nav#site-navigation .nav-middle {
     .menu-item a:hover:after {
       transform: scaleY(0.25) translateY(25px);
       box-shadow: none; }
+
+.margin-for-footer {
+  margin-bottom: 100px; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: -99;
+  margin-top: -100%;
+  min-height: 100px;
+  width: 100%;
+  background: #222222; }
+  footer .container {
+    padding: 5px 10%; }
+  footer p {
+    opacity: 1 !important;
+    color: white; }
+  footer .footer-right ul#footer.menu {
+    list-style-type: none; }
+    footer .footer-right ul#footer.menu li {
+      display: inline-block; }
 
 #contact-popup {
   position: fixed;
@@ -1452,11 +1486,13 @@ nav#site-navigation .nav-middle {
 #section-split-contacts {
   background-color: DodgerBlue; }
 
-#section-client-slider .container {
-  justify-content: center; }
-  #section-client-slider .container .owl-carousel {
-    max-width: 700px;
-    margin: 0 auto; }
+#section-client-slider {
+  background: white; }
+  #section-client-slider .container {
+    justify-content: center; }
+    #section-client-slider .container .owl-carousel {
+      max-width: 700px;
+      margin: 0 auto; }
 
 #section-testomonials {
   background-color: #aaf09e; }
@@ -1543,6 +1579,13 @@ nav#site-navigation .nav-middle {
   min-height: 500px;
   width: 90%;
   margin: 40px auto; }
+  #portfolio .project .mobile-project-title {
+    display: none; }
+    @media (max-width: 760px) {
+      #portfolio .project .mobile-project-title {
+        display: block;
+        margin: 10px auto;
+        text-align: center; } }
   #portfolio .project .project-image {
     background: url("https://placeimg.com/600/400/any");
     background-size: cover;
@@ -1550,19 +1593,47 @@ nav#site-navigation .nav-middle {
     height: 100%;
     width: 70%;
     top: 0; }
+    @media (min-width: 760px) and (max-width: 1023px) {
+      #portfolio .project .project-image {
+        position: static;
+        width: 100%;
+        height: 500px;
+        margin-bottom: -10%; } }
+    @media (max-width: 760px) {
+      #portfolio .project .project-image {
+        position: static;
+        width: 100%;
+        height: 300px;
+        margin-bottom: 10px;
+        box-shadow: none !important; } }
   #portfolio .project.left .project-image {
-    left: 30%; }
+    left: 30%;
+    box-shadow: 15px 15px 30px -10px rgba(0, 0, 0, 0.4); }
   #portfolio .project.right .project-image {
-    right: 30%; }
+    right: 30%;
+    box-shadow: -15px 15px 30px -10px rgba(0, 0, 0, 0.4); }
   #portfolio .project .short-description {
     background: white;
     border: 10px solid #212121;
-    padding: 40px;
+    padding: 20px;
     position: absolute;
     height: 80%;
     width: 40%;
     top: 10%;
     text-align: left; }
+    @media (min-width: 760px) and (max-width: 1023px) {
+      #portfolio .project .short-description {
+        position: static;
+        width: 90%;
+        margin: 0 auto; } }
+    @media (max-width: 760px) {
+      #portfolio .project .short-description {
+        position: static;
+        width: 100%;
+        margin: 0 auto;
+        border-width: 4px; }
+        #portfolio .project .short-description h2 {
+          display: none; } }
   #portfolio .project.left .short-description {
     left: 0; }
   #portfolio .project.right .short-description {

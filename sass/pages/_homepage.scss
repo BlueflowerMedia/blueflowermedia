@@ -91,12 +91,14 @@
 }
 // section-client-slider
 
-#section-client-slider .container {
-  justify-content: center;
-
-  .owl-carousel {
-    max-width: 700px;
-    margin: 0 auto;
+#section-client-slider {
+  background: white;
+  .container {
+    justify-content: center;
+    .owl-carousel {
+      max-width: 700px;
+      margin: 0 auto;
+    }
   }
 }
 // section-testomonials

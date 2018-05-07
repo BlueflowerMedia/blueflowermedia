@@ -29,13 +29,13 @@
         <div class="member">
           <img id="pic2" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/mrch8596.jpg" alt="BJ Pichman">
           <h3>Noman Hossain</h3>
-          <p>[Lead Designer & Project Manager]</p>
+          <p>&#60; Lead Designer . Project Manager &#62;</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
         <div class="member">
           <img id="pic3" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/robert-finkel_2.jpg" alt="Robert Finkel">
           <h3>Fahim Shahreer</h3>
-          <p><span class="red">var</span> <span class="blue">role</span> = Lead Developer + Project Manager;</p>
+          <p>{{ Lead Developer . Project Manager }}</p>
           <p>Office never has enough coffee for me.</p>
         </div>
         <div class="member">

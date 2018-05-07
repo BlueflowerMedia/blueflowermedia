@@ -25,13 +25,14 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import "vendors/sass-css3-mixins/sass-css3-mixins";
 @import "vendors/google-fonts/google-fonts";
 @import "vendors/underscores/underscores";
+@import "base/mixins";
 @import "base/variables";
 @import "base/colors";
 @import "base/fonts";
 @import "base/grid";
 @import "base/buttons";
-@import "base/mixins";
 @import "modules/navbar";
+@import "modules/footer";
 @import "modules/contact-popup";
 @import "pages/homepage";
 @import "pages/blogpage";
