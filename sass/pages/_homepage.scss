@@ -121,8 +121,10 @@
 
 #section-client-slider {
   background: white;
+
   .container {
     justify-content: center;
+
     .owl-carousel {
       max-width: 700px;
       margin: 0 auto;
@@ -168,6 +170,7 @@
 
 #section-getintouch {
   background-color: grey;
+  @include slanted-edge(bottom-right, 100%, 85%);
 }
 //pop up div
 
