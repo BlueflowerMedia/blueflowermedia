@@ -1480,11 +1480,22 @@ footer {
   #section-aboutus .container .left {
     max-width: 500px; }
 
+.fbox {
+  display: block;
+  position: absolute;
+  top: 500px;
+  left: 1000px;
+  height: 50px;
+  width: 50px;
+  background-color: black; }
+
 #section-services {
-  background-color: orange; }
+  background-color: white; }
 
 #section-split-contacts {
-  background-color: DodgerBlue; }
+  background-color: DodgerBlue;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
 
 #section-client-slider {
   background: white; }
@@ -1495,7 +1506,9 @@ footer {
       margin: 0 auto; }
 
 #section-testomonials {
-  background-color: #aaf09e; }
+  background-color: #aaf09e;
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%); }
   #section-testomonials .container .testimonials {
     justify-content: center; }
     #section-testomonials .container .testimonials .test {
@@ -1516,18 +1529,61 @@ footer {
   background-color: grey; }
 
 .posts {
-  width: 80%;
-  margin: 0 auto; }
-  .posts .post ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0; }
-    .posts .post ul li {
-      display: inline; }
-  .posts .post .post-image img {
-    width: 25%;
-    height: auto; }
+  text-align: center; }
+  .posts .post {
+    width: 80%;
+    margin: 0 auto; }
+    .posts .post .post-image {
+      position: relative; }
+      .posts .post .post-image img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover; }
+      .posts .post .post-image .post-info {
+        position: absolute;
+        top: 80%;
+        left: 10%;
+        width: 80%;
+        height: auto;
+        background-color: white;
+        padding: 10px;
+        box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.2); }
 
+.post-info a {
+  text-decoration: none; }
+  .post-info a .arrow {
+    opacity: 0;
+    display: inline-block;
+    transform: translateX(-10px);
+    transition: all 0.3s cubic-bezier(0.2, 0.99, 0.71, 1.18); }
+  .post-info a:hover > .arrow {
+    transform: translateX(2px);
+    opacity: 1; }
+
+.post-info a.read-more {
+  color: #1d72f7; }
+
+/*
+//First version
+.posts {
+  width: 80%;
+  margin: 0 auto;
+  .post {
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      li {
+        display: inline;
+      }
+    }
+    .post-image img {
+      width: 25%;
+      height: auto;
+    }
+  }
+}
+*/
 #team-about .container .head {
   flex: 1; }
 #team-about .container .slide {
