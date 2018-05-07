@@ -125,8 +125,6 @@ function blueflowermedia_scripts() {
 
 	wp_enqueue_style( 'blueflowermedia-animatecss', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css' );
 
-	wp_enqueue_style( 'blueflowermedia-fontawesomecss', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' );
-
 	wp_enqueue_style( 'blueflowermedia-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'blueflowermedia-jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js', array(), '20151215', true );
