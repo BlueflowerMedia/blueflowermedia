@@ -4,7 +4,12 @@
 
 .container {
 	padding: 50px 10%;
-
+	@include tablet {
+		padding: 50px 5%;
+	}
+	@include mobile {
+		padding: 50px 5%;
+	}
 	.row {
 		margin: 20px 0;
 	}

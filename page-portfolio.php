@@ -5,6 +5,9 @@
     <h1>Our Portfolio<span class="big-dot blue">.</span></h1>
 
     <div class="project left sr">
+      <div class="mobile-project-title">
+        <h2>IndiaJournal</h2>
+      </div>
       <div class="project-image">
 
       </div>
