@@ -1628,12 +1628,25 @@ footer {
   }
 }
 */
+.post-thumbnail img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover; }
+
 .container-blog {
   padding: 10px;
   max-width: 800px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap; }
+  margin: 0 auto; }
+
+#related-posts .container-blog .related-posts {
+  justify-content: flex-start; }
+  #related-posts .container-blog .related-posts .related-post {
+    flex: 1 210px;
+    margin: 10px; }
+    #related-posts .container-blog .related-posts .related-post .related-post-thumb > a img {
+      height: 400px;
+      width: 100%;
+      object-fit: cover; }
 
 #team-about .container .head {
   flex: 1; }
