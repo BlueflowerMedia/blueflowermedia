@@ -1310,6 +1310,9 @@ span.big-dot {
 .flex-row .flex4 {
   flex: 4; }
 
+button {
+  background: none; }
+
 button.tag {
   margin: 2px;
   border: none;
@@ -1323,6 +1326,9 @@ button.tag {
     background: #1d72f7; }
   button.tag.graphics {
     background: #e43838; }
+
+button.nav-contact {
+  background: white; }
 
 .container-navbar {
   padding: 10px 10%; }
