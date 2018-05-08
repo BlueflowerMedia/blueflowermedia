@@ -1215,7 +1215,8 @@ html {
     html {
       font-size: 10px; } }
 
-p, a {
+a,
+p {
   font-size: 1rem;
   margin-bottom: 1rem;
   font-family: "Roboto Slab", serif;
@@ -1228,9 +1229,12 @@ a {
 nav a {
   font-family: "Source Sans Pro", sans-serif; }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: "Source Sans Pro", sans-serif;
-  margin-bottom: 0rem;
+  margin: 0.4rem 0;
   font-weight: 700;
   line-height: 1.2;
   color: black; }
@@ -1249,7 +1253,8 @@ h3 {
 h4 {
   font-size: 1.414rem; }
 
-small, .font_small {
+.font_small,
+small {
   font-size: 0.707rem; }
 
 span.big-dot {
@@ -1328,7 +1333,7 @@ button.tag {
   color: white;
   padding: 8px 12px;
   font-weight: 300;
-  font-size: 14px; }
+  font-size: 0.8rem; }
   button.tag.web {
     background: #1d72f7; }
   button.tag.graphics {
@@ -1338,8 +1343,8 @@ button.nav-contact {
   background: #1d72f7;
   color: white;
   text-transform: uppercase;
-  padding: 10px 15px 9px 15px;
-  font-weight: 800;
+  padding: 10px 15px 9px;
+  font-weight: 700;
   font-size: 0.8rem;
   border: 3px solid #1d72f7;
   border-radius: 5px;
@@ -1492,10 +1497,11 @@ footer {
     left: 0;
     width: 100%;
     height: 100%; }
+  #section-header .container {
+    padding-top: 150px; }
 
 #section-aboutus {
   background: #1d72f7;
-  margin-top: -7%;
   clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
   -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%); }
   #section-aboutus .container {
@@ -1530,6 +1536,26 @@ footer {
         border-radius: 20px;
         background: #0645a8;
         z-index: 9998; }
+
+.service-txt {
+  flex: 1;
+  flex-flow: row;
+  margin: 10px;
+  background-color: lightgrey;
+  min-width: 300px; }
+  .service-txt .logo {
+    width: 100%; }
+    .service-txt .logo img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: 25px auto auto;
+      display: block; }
+
+.service-txt-content {
+  border: 1px solid white;
+  padding: 10px;
+  margin: 10px; }
 
 #section-services {
   background-color: white; }
@@ -1573,9 +1599,12 @@ footer {
     height: 50px !important;
     border-radius: 50%; } }
 #section-getintouch {
-  background-color: grey;
+  background-color: #1d72f7;
+  background-image: url("images/bfm-tiled-background-blue.png");
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
+  #section-getintouch .container h1 {
+    color: white; }
 
 .posts {
   text-align: center; }
@@ -1754,7 +1783,6 @@ footer {
     border: 10px solid #212121;
     padding: 20px;
     position: absolute;
-    height: 80%;
     width: 40%;
     top: 10%;
     text-align: left; }
@@ -1768,7 +1796,7 @@ footer {
         position: static;
         width: 100%;
         margin: 0 auto;
-        border-width: 4px; }
+        border-width: 0; }
         #portfolio .project .short-description h2 {
           display: none; } }
   #portfolio .project.left .short-description {

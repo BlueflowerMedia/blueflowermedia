@@ -40,7 +40,6 @@
         </div>
       </div>
 
-
       <div id="member-row-2" class="flex-row member-row">
         <div class="member sr">
           <img id="pic3" src="<?php echo get_template_directory_uri(); ?>/images/team-altab-1.jpg" alt="Altab Hossain">
@@ -61,9 +60,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
       </div>
-
     </div>
-
   </div>
 </section>
 
