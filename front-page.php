@@ -82,18 +82,23 @@
     </div>
     <div class="row owl-carousel client-logo-slider">
       <div>
-        <h3>India Journal</h3>
-        <img src="https://placeimg.com/300/200/any" alt="">
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-india-journal-logo.png" alt="India journal logo">
       </div>
       <div>
-        <h3>Mint One Financial</h3>
-        <img src="https://placeimg.com/300/200/any" alt="">
+        <img id="pic2" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-master-pizzeria-logo.png" alt="Master Pizzeria logo">
       </div>
       <div>
-        <h3>Outlier Recruitment</h3>
-        <img src="https://placeimg.com/300/200/any" alt="">
+        <img id="pic3" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-mobile-kare-logo.png" alt="Mobile Kare logo">
       </div>
-      <div><img src="https://placeimg.com/300/200/any" alt=""></div>
+      <div>
+        <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-mobilinq-logo.png" alt="Mobilinq logo">
+      </div>
+      <div>
+        <img id="pic5" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-reginos-logo.png" alt="Reginos logo">
+      </div>
+      <div>
+        <img id="pic6" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-tba-logo.png" alt="TBA logo">
+      </div>
     </div>
   </div>
 </section>
