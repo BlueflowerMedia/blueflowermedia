@@ -74,12 +74,14 @@
 
   .container {
     position: relative;
+
     .left {
-      max-width: 500px;
+      max-width: 600px;
     }
     // rellax box inside aboutus
     .fbox {
       display: block;
+
       &#fbox1 {
         @include position(absolute, $bottom: 10%, $right: 20%);
         @include box(200px, 200px);
@@ -87,12 +89,14 @@
         background: $yellow;
         z-index: 9999;
       }
+
       &#fbox2 {
         @include position(absolute, $bottom: 20%, $left: -2%);
         @include box(100px, 100px);
         border-radius: 20px;
         background: darken($blue, 5);
       }
+
       &#fbox3 {
         @include position(absolute, $bottom: -10%, $right: 13%);
         @include box(100px, 100px);
@@ -100,9 +104,7 @@
         background: darken($blue, 20);
         z-index: 9998;
       }
-
     }
-
   }
 }
 // section-services
@@ -163,6 +165,15 @@
         display: flex;
         justify-content: flex-end;
       }
+    }
+  }
+}
+@media only screen and (max-width: 400px) {
+  .t-top .logo {
+    img {
+      width: 50px!important;
+      height: 50px!important;
+      border-radius: 50%;
     }
   }
 }

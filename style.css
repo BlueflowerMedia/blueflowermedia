@@ -1501,7 +1501,7 @@ footer {
   #section-aboutus .container {
     position: relative; }
     #section-aboutus .container .left {
-      max-width: 500px; }
+      max-width: 600px; }
     #section-aboutus .container .fbox {
       display: block; }
       #section-aboutus .container .fbox#fbox1 {
@@ -1567,6 +1567,11 @@ footer {
       display: flex;
       justify-content: flex-end; }
 
+@media only screen and (max-width: 400px) {
+  .t-top .logo img {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%; } }
 #section-getintouch {
   background-color: grey;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
