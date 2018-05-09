@@ -40,9 +40,21 @@ window.sr = ScrollReveal({
 
 
 // client logo slider
-function runCarousel() {
+function runCarouselClientLogo() {
   $(".client-logo-slider").owlCarousel({
     items: 3,
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+  });
+}
+
+// portfolio slider
+function runCarouselPortfolio() {
+  $(".portfolio-slider").owlCarousel({
+    items: 1,
     loop: true,
     margin: 10,
     autoplay: true,
@@ -222,7 +234,7 @@ function runParticles() {
 }
 
 function postHeight() {
-  $(".post").height($(".post-info").outerHeight()+450);
+  $(".post").height($(".post-info").outerHeight() + 450);
 }
 
 // global functions
@@ -234,7 +246,7 @@ sr.reveal($('p'));
 
 if (pageName == "blueflowermedia") {
   runParticles();
-  runCarousel();
+  runCarouselClientLogo();
   runRellax();
 } else if (pageName == "team") {
   teamImagePlayer();
@@ -242,4 +254,6 @@ if (pageName == "blueflowermedia") {
   formSwitch();
 } else if (pageName == "blog") {
   postHeight();
+} else if (pageName == "portfolio") {
+  runCarouselPortfolio();
 }

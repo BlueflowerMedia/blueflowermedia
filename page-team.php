@@ -11,6 +11,8 @@
       <img src="https://placeimg.com/300/300/arch" alt="" class="image active">
       <img src="https://placeimg.com/360/310/arch" alt="" class="image">
       <img src="https://placeimg.com/350/270/arch" alt="" class="image">
+      <img src="https://placeimg.com/250/300/arch" alt="" class="image">
+      <img src="https://placeimg.com/320/280/arch" alt="" class="image">
     </div>
   </div>
 </section>
@@ -40,7 +42,6 @@
         </div>
       </div>
 
-
       <div id="member-row-2" class="flex-row member-row">
         <div class="member sr">
           <img id="pic3" src="<?php echo get_template_directory_uri(); ?>/images/team-altab-1.jpg" alt="Altab Hossain">
@@ -61,9 +62,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
       </div>
-
     </div>
-
   </div>
 </section>
 
