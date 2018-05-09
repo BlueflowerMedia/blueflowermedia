@@ -20,6 +20,11 @@
         <p>&copy; <?php the_time('Y') ?>. All rights reserved. BlueFlower Media</p>
       </div>
       <div class="footer-right flex1">
+				<!-- Social media -->
+					<i class="fab fa-youtube fa-2x"></i>
+					<i class="fab fa-facebook-square fa-2x"></i>
+					<i class="fab fa-instagram fa-2x"></i>
+				<!-- Social media -->
       </div>
     </div>
 </footer>
