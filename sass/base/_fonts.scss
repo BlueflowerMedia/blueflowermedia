@@ -64,6 +64,18 @@ h4 {
   font-size: 1.414rem;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    font-family: $font-secondary;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
+
 .font_small,
 small {
   font-size: 0.707rem;
@@ -100,4 +112,43 @@ span.big-dot {
 
 .white {
   color: white;
+}
+// underline
+
+.underline {
+  display: inline-block;
+  padding-bottom: 15px;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    bottom: 0;
+    border-bottom: 3px solid;
+    @include mobile {
+      left: 35%;
+    }
+  }
+
+  &.left:before {
+    left: 35%;
+  }
+
+  &.right:before {
+    left: 0;
+  }
+
+  &.middle:before {
+    left: 17.5%;
+  }
+
+  &.blue-underline:before {
+    border-color: $blue;
+  }
+
+  &.yellow-underline:before {
+    border-color: $yellow;
+  }
 }

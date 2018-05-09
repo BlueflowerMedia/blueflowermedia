@@ -27,85 +27,110 @@
 <section id="section-services">
   <div class="container">
     <h1>Services<span class="big-dot">.</span></h1>
-    <div class="root flex-row">
-      <div class="subservice wrap">
-        <p>Our in house services are flexible and customized based on our clients needs. Here are our general services we provide, talk to us to create a customized plan to help you achieve your specific goals!</p>
-      </div>
-
+    <p>Our in house services are flexible and customized based on our clients needs. Here are our general services we provide, talk to us to create a customized plan to help you achieve your specific goals!</p>
+    <div class="services flex-row">
       <!-- service names begin --->
-
       <!-- service 1 --->
-      <div class="flex-row">
-        <div class="service-txt ">
-          <div class="logo">
-            <img src="https://placeimg.com/100/100/arch" alt="">
-          </div>
-          <h3>Web Design:</h3>
-          <div class="service-txt-content">
-            <p>We build results oriented intuitive websites that leave a lasting impression.</p>
-          </div>
+      <div class="service ">
+        <div class="logo sr">
+          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-web-design-icon-2.png" alt="bfm-web-design-icon-2">
         </div>
-
-        <!-- service 2 --->
-        <div class="service-txt ">
-          <div class="logo">
-            <img src="https://placeimg.com/100/100/arch" alt="">
-          </div>
-          <h3>Graphic Design:</h3>
-          <div class="service-txt-content">
-            <p>“Good design is good business” - Thomas J. Watson Jr.</p>
-          </div>
-        </div>
-
-        <!-- service 3 --->
-        <div class="service-txt ">
-          <div class="logo">
-            <img src="https://placeimg.com/100/100/arch" alt="">
-          </div>
-          <h3>Digital Marketing:</h3>
-          <div class="service-txt-content">
-            <p>“The only thing left to do after you build your business, is to grow your business!” - BlueFlower Media</p>
-          </div>
+        <div class="service-content">
+          <h3 class="underline blue-underline">Web Design</h3>
+          <p>We build results oriented intuitive websites that leave a lasting impression.</p>
+          <ul class="service-list">
+            <li>Lorem ipsum doloiquam</li>
+            <li>sit amet, consectetur a</li>
+            <li>r dipisicing elit. Ipsam al</li>
+            <li>tate vero delectus.</li>
+          </ul>
         </div>
       </div>
 
-      <div class="flex-row">
-        <!-- service 4 --->
-        <div class="service-txt ">
-          <div class="logo">
-            <img src="https://placeimg.com/100/100/arch" alt="">
-          </div>
-          <h3>Social Media Management:</h3>
-          <div class="service-txt-content">
-            <p>We manage social profiles across all platforms. Engage with your audience real time and effectively.</p>
-          </div>
+      <!-- service 2 --->
+      <div class="service ">
+        <div class="logo sr">
+          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-grahic-design-icon-1.png" alt="bfm-grahic-design-icon-1">
         </div>
-
-        <!-- service 5 --->
-        <div class="service-txt ">
-          <div class="logo">
-            <img src="https://placeimg.com/100/100/arch" alt="">
-          </div>
-          <h3>Media Management:</h3>
-          <div class="service-txt-content">
-            <p>Grow your media business with newspaper/magazine design, advertiser management services, and more!</p>
-          </div>
-        </div>
-
-        <!-- service 6 --->
-        <div class="service-txt ">
-          <div class="logo">
-            <img src="https://placeimg.com/100/100/arch" alt="">
-          </div>
-          <h3>Cloud Hosting:</h3>
-          <div class="service-txt-content">
-            <p>Host your website/application on our secure platform. Affordable & Reliable.</p>
-          </div>
+        <div class="service-content">
+          <h3 class="underline yellow-underline">Graphic Design</h3>
+          <p>“Good design is good business” <br>- Thomas J. Watson Jr.</p>
+          <ul class="service-list">
+            <li>Print Design</li>
+            <li>Branding & Packaging</li>
+            <li>Logo Design</li>
+          </ul>
         </div>
       </div>
-      <!-- service names end --->
 
+      <!-- service 3 --->
+      <div class="service ">
+        <div class="logo sr">
+          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-digital-marketing-icon-1.png" alt="bfm-digital-marketing-icon-1">
+        </div>
+        <div class="service-content">
+          <h3 class="underline blue-underline">Digital Marketing</h3>
+          <p>“The only thing left to do after you build your business, is to grow your business!” <br>- BlueFlower Media</p>
+          <ul class="service-list">
+            <li>Strategy</li>
+            <li>Social Media Management</li>
+            <li>Social Media Marketing</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- service 4 --->
+      <div class="service ">
+        <div class="logo sr">
+          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-social-media-management-icon-1.png" alt="bfm-social-media-management-icon-1">
+        </div>
+        <div class="service-content">
+          <h3 class="underline yellow-underline">Social Media Management</h3>
+          <p>We manage social profiles across all platforms. Engage with your audience real time and effectively.</p>
+          <ul class="service-list">
+            <li>Lorem ipsum doloiquam</li>
+            <li>sit amet, consectetur a</li>
+            <li>r dipisicing elit. Ipsam al</li>
+            <li>tate vero delectus.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- service 5 --->
+      <div class="service ">
+        <div class="logo sr">
+          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-media-management-icon-1.png" alt="bfm-media-management-icon-1">
+        </div>
+        <div class="service-content">
+          <h3 class="underline blue-underline">Media Management</h3>
+          <p>Grow your media business with newspaper/magazine design, advertiser management services, and more!</p>
+          <ul class="service-list">
+            <li>Lorem ipsum doloiquam</li>
+            <li>sit amet, consectetur a</li>
+            <li>r dipisicing elit. Ipsam al</li>
+            <li>tate vero delectus.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- service 6 --->
+      <div class="service ">
+        <div class="logo sr">
+          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-hosting-icon-1.png" alt="bfm-hosting-icon-1">
+        </div>
+        <div class="service-content">
+          <h3 class="underline yellow-underline">Cloud Hosting</h3>
+          <p>Host your website/application on our secure platform. Affordable & Reliable.</p>
+          <ul class="service-list">
+            <li>Lorem ipsum doloiquam</li>
+            <li>sit amet, consectetur a</li>
+            <li>r dipisicing elit. Ipsam al</li>
+            <li>tate vero delectus.</li>
+          </ul>
+        </div>
+      </div>
     </div>
+    <!-- service names end --->
   </div>
 </section>
 

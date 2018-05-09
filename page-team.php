@@ -11,6 +11,8 @@
       <img src="https://placeimg.com/300/300/arch" alt="" class="image active">
       <img src="https://placeimg.com/360/310/arch" alt="" class="image">
       <img src="https://placeimg.com/350/270/arch" alt="" class="image">
+      <img src="https://placeimg.com/250/300/arch" alt="" class="image">
+      <img src="https://placeimg.com/320/280/arch" alt="" class="image">
     </div>
   </div>
 </section>
