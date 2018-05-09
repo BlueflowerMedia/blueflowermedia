@@ -18,13 +18,23 @@ html {
   }
 }
 
+::selection {
+  color: white;
+  background: black;
+}
+
 a,
 p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: 1rem;
-  font-family: $font-secondary;
+  font-family: $font-primary;
   color: rgba(#000000, 0.9);
   line-height: 1.6rem;
+  text-decoration: none;
+}
+
+button {
+  font-family: $font-primary;
 }
 
 a {
@@ -70,7 +80,7 @@ ul {
   padding: 0;
 
   li {
-    font-family: $font-secondary;
+    font-family: $font-primary;
     font-size: 1rem;
     font-weight: 400;
   }
@@ -123,11 +133,12 @@ span.big-dot {
   &:before {
     content: "";
     position: absolute;
-    width: 30%;
+    width: 45px;
     height: 2px;
     bottom: 0;
     border-bottom: 3px solid;
     @include mobile {
+      width: 30%;
       left: 35%;
     }
   }

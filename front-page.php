@@ -14,8 +14,8 @@
   <div class="container flex-row">
     <div class="left">
       <h1 class="white">About Us<span class="big-dot yellow">.</span></h1>
-      <p class="white">We are a Toronto based digital agency specializing in creating, improving, and managing your digital footprints. We work with clients from the ideation phase - brainstorming branding concepts, to developing and launching projects for mass market
-        use. With an emphasis on user experience, we aim to make your website/app as intuitive and pleasant as possible. As we do all of our work in house, our people are the core of our company.</p>
+      <p class="white">We are a <b>Toronto based digital agency</b> specializing in creating, improving, and managing your digital footprints. We work with clients from the ideation phase - brainstorming branding concepts, to developing and launching projects for mass
+        market use. With an emphasis on user experience, we aim to make your website/app as intuitive and pleasant as possible. As we do all of our work in house, our people are the core of our company.</p>
     </div>
     <div class="fbox" id="fbox1" style="transform: rotate(45deg);" data-rellax-speed="3"></div>
     <div class="fbox" id="fbox2" style="transform: rotate(45deg);" data-rellax-speed="5"></div>
@@ -53,7 +53,7 @@
           <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-grahic-design-icon-1.png" alt="bfm-grahic-design-icon-1">
         </div>
         <div class="service-content">
-          <h3 class="underline yellow-underline">Graphic Design</h3>
+          <h3 class="underline blue-underline">Graphic Design</h3>
           <p>“Good design is good business” <br>- Thomas J. Watson Jr.</p>
           <ul class="service-list">
             <li>Print Design</li>
@@ -85,7 +85,7 @@
           <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-social-media-management-icon-1.png" alt="bfm-social-media-management-icon-1">
         </div>
         <div class="service-content">
-          <h3 class="underline yellow-underline">Social Media Management</h3>
+          <h3 class="underline blue-underline">Social Media Management</h3>
           <p>We manage social profiles across all platforms. Engage with your audience real time and effectively.</p>
           <ul class="service-list">
             <li>Lorem ipsum doloiquam</li>
@@ -119,7 +119,7 @@
           <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-hosting-icon-1.png" alt="bfm-hosting-icon-1">
         </div>
         <div class="service-content">
-          <h3 class="underline yellow-underline">Cloud Hosting</h3>
+          <h3 class="underline blue-underline">Cloud Hosting</h3>
           <p>Host your website/application on our secure platform. Affordable & Reliable.</p>
           <ul class="service-list">
             <li>Lorem ipsum doloiquam</li>
@@ -138,10 +138,9 @@
 <section id="section-split-contacts">
   <div class="container">
     <h2>Split Contacts<span class="big-dot">.</span></h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil unde, sunt nesciunt sapiente error ipsam quis, facilis explicabo laudantium asperiores officiis in debitis! Natus nostrum pariatur sint quis, blanditiis, temporibus. We are a Toronto
-      Development & Marketing Business helping small businessess from all industries.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil unde, sunt nesciunt sapiente error ipsam quis, facilis explicabo laudantium asperiores officiis in debitis!
-      Natus nostrum pariatur sint quis, blanditiis, temporibus. We are a Toronto Development & Marketing Business helping small businessess from all industries.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil unde, sunt nesciunt sapiente
-      error ipsam quis, facilis explicabo laudantium asperiores officiis in debitis! Natus nostrum pariatur sint quis, blanditiis, temporibus. We are a Toronto Development & Marketing Business helping small businessess from all industries.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil unde, sunt nesciunt sapiente error ipsam quis, </p>
+    <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-agency-icon-1.png" alt="bfm-agency-icon-1">
+    <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-small-business-icon-1.png" alt="bfm-small-business-icon-1">
   </div>
 </section>
 
@@ -150,7 +149,6 @@
   <div class="container">
     <div class="row">
       <h2>Our Clients<span class="big-dot">.</span></h2>
-      <p>They all got a happy ending</p>
     </div>
     <div class="row owl-carousel client-logo-slider">
       <div>
@@ -232,8 +230,7 @@
 <!-- section-getintouch-->
 <section id="section-getintouch">
   <div class="container">
-    <h1>getintouch</h1>
-    <a id="contact-button" href="#section-contact">DEMO01</a>
+    <button type="button" name="button">Let's Get Started!</button>
   </div>
 </section>
 

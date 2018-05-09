@@ -42,15 +42,27 @@ window.sr = ScrollReveal({
 // client logo slider
 function runCarouselClientLogo() {
   $(".client-logo-slider").owlCarousel({
-    items: 3,
     loop: true,
-    margin: 10,
+    margin: 100,
     autoplay: true,
     autoplayTimeout: 2000,
     autoplayHoverPause: true,
-  });
-}
+    nav: false,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      760: {
+        items: 3,
+      },
+      1024: {
+        items: 4,
+      }
+    }
+  })
 
+}
 // portfolio slider
 function runCarouselPortfolio() {
   $(".portfolio-slider").owlCarousel({

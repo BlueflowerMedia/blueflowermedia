@@ -1215,13 +1215,21 @@ html {
     html {
       font-size: 10px; } }
 
+::selection {
+  color: white;
+  background: black; }
+
 a,
 p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: 1rem;
-  font-family: "Roboto Slab", serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: rgba(0, 0, 0, 0.9);
-  line-height: 1.6rem; }
+  line-height: 1.6rem;
+  text-decoration: none; }
+
+button {
+  font-family: "Source Sans Pro", sans-serif; }
 
 a {
   margin: 0; }
@@ -1258,7 +1266,7 @@ ul {
   margin: 0;
   padding: 0; }
   ul li {
-    font-family: "Roboto Slab", serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 1rem;
     font-weight: 400; }
 
@@ -1298,12 +1306,13 @@ span.big-dot {
   .underline:before {
     content: "";
     position: absolute;
-    width: 30%;
+    width: 45px;
     height: 2px;
     bottom: 0;
     border-bottom: 3px solid; }
     @media (max-width: 760px) {
       .underline:before {
+        width: 30%;
         left: 35%; } }
   .underline.left:before {
     left: 35%; }
@@ -1323,8 +1332,8 @@ span.big-dot {
   background: white; }
 
 .container {
-  padding: 50px 10%;
-  max-width: 1800px;
+  padding: 100px 10%;
+  max-width: 1600px;
   margin: 0 auto; }
   @media (min-width: 760px) and (max-width: 1023px) {
     .container {
@@ -1540,12 +1549,19 @@ footer {
   background: #1d72f7;
   clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
   -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%); }
+  @media (max-width: 760px) {
+    #section-aboutus {
+      clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+      -webkit-clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%); } }
   #section-aboutus .container {
     position: relative; }
     #section-aboutus .container .left {
       max-width: 600px; }
     #section-aboutus .container .fbox {
       display: block; }
+      @media (max-width: 760px) {
+        #section-aboutus .container .fbox {
+          z-index: 99; } }
       #section-aboutus .container .fbox#fbox1 {
         position: absolute;
         right: 20%;
@@ -1553,8 +1569,13 @@ footer {
         width: 200px;
         height: 200px;
         border-radius: 50px;
-        background: #EFDC05;
-        z-index: 9999; }
+        background: #EFDC05; }
+        @media (max-width: 760px) {
+          #section-aboutus .container .fbox#fbox1 {
+            width: 100px;
+            height: 100px;
+            border-radius: 20px;
+            background: rgba(239, 220, 5, 0.5); } }
       #section-aboutus .container .fbox#fbox2 {
         position: absolute;
         bottom: 20%;
@@ -1570,8 +1591,12 @@ footer {
         width: 100px;
         height: 100px;
         border-radius: 20px;
-        background: #0645a8;
-        z-index: 9998; }
+        background: #0645a8; }
+        @media (max-width: 760px) {
+          #section-aboutus .container .fbox#fbox3 {
+            width: 200px;
+            height: 200px;
+            border-radius: 50px; } }
 
 .services {
   margin: 50px 0; }
@@ -1615,22 +1640,38 @@ footer {
   background-color: white; }
 
 #section-split-contacts {
-  background-color: DodgerBlue;
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
+  background-color: DodgerBlue; }
+  #section-split-contacts img {
+    height: 100px;
+    border-radius: 10%;
+    margin: 0;
+    display: block; }
+    @media (max-width: 760px) {
+      #section-split-contacts img {
+        margin: 0 auto; } }
 
 #section-client-slider {
   background: white; }
   #section-client-slider .container {
     justify-content: center; }
     #section-client-slider .container .owl-carousel {
-      max-width: 700px;
-      margin: 0 auto; }
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center; }
+      @media (max-width: 760px) {
+        #section-client-slider .container .owl-carousel img {
+          width: 150px;
+          margin: 0 auto; } }
 
 #section-testomonials {
-  background-color: #aaf09e;
+  background-color: #EFDC05;
   clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
-  -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%); }
+  -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+  margin-top: -3%; }
+  @media (max-width: 760px) {
+    #section-testomonials {
+      clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
+      -webkit-clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%); } }
   #section-testomonials .container .testimonials {
     justify-content: center; }
     #section-testomonials .container .testimonials .test {
@@ -1653,12 +1694,20 @@ footer {
     height: 50px !important;
     border-radius: 50%; } }
 #section-getintouch {
-  background-color: #1d72f7;
-  background-image: url("images/bfm-tiled-background-blue.png");
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
-  #section-getintouch .container h1 {
-    color: white; }
+  background-image: url("images/bfm-tiled-background-blue.png"); }
+  #section-getintouch .container {
+    text-align: center; }
+    #section-getintouch .container button {
+      border: 3px solid white;
+      color: white;
+      font-weight: 700;
+      font-size: 3rem;
+      border-radius: 15px;
+      transition: all 0.3s cubic-bezier(0.4, 0.7, 0.4, 1.1);
+      padding: 18px 30px; }
+      #section-getintouch .container button:hover {
+        background-color: white;
+        color: #1d72f7; }
 
 .posts {
   text-align: center; }

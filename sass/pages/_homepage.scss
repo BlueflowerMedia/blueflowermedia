@@ -84,13 +84,20 @@
     // rellax box inside aboutus
     .fbox {
       display: block;
+      @include mobile {
+        z-index: 99;
+      }
 
       &#fbox1 {
         @include position(absolute, $bottom: 10%, $right: 20%);
         @include box(200px, 200px);
         border-radius: 50px;
         background: $yellow;
-        z-index: 9999;
+        @include mobile {
+          @include box(100px, 100px);
+          border-radius: 20px;
+          background: transparentize($yellow, 0.5);
+        }
       }
 
       &#fbox2 {
@@ -105,7 +112,10 @@
         @include box(100px, 100px);
         border-radius: 20px;
         background: darken($blue, 20);
-        z-index: 9998;
+        @include mobile {
+          @include box(200px, 200px);
+          border-radius: 50px;
+        }
       }
     }
   }
@@ -170,7 +180,16 @@
 
 #section-split-contacts {
   background-color: DodgerBlue;
-  @include slanted-edge(bottom-right, 100%, 85%);
+
+  img {
+    height: 100px;
+    border-radius: 10%;
+    margin: 0;
+    display: block;
+    @include mobile {
+      margin: 0 auto;
+    }
+  }
 }
 // section-client-slider
 
@@ -181,15 +200,23 @@
     justify-content: center;
 
     .owl-carousel {
-      max-width: 700px;
+      max-width: 800px;
       margin: 0 auto;
+      text-align: center;
+
+      img {
+        @include mobile {
+          width: 150px;
+          margin: 0 auto;
+        }
+      }
     }
   }
 }
 // section-testomonials
 
 #section-testomonials {
-  background-color: #aaf09e;
+  background-color: #EFDC05;
   @include slanted-edge(top-right, 100%, 15%);
 
   .container {
@@ -233,13 +260,25 @@
 // section-getintouch
 
 #section-getintouch {
-  background-color: $blue;
+  // background-color: $blue;
   background-image: url("images/bfm-tiled-background-blue.png");
-  @include slanted-edge(bottom-right, 100%, 85%);
 
   .container {
-    h1 {
+    text-align: center;
+
+    button {
+      border: 3px solid white;
       color: white;
+      font-weight: 700;
+      font-size: 3rem;
+      border-radius: 15px;
+      transition: all 0.3s cubic-bezier(0.4,0.7,0.4,1.1);
+      padding: 18px 30px;
+
+      &:hover {
+        background-color: white;
+        color: $blue;
+      }
     }
   }
 }
