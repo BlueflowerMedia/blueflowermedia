@@ -68,9 +68,8 @@ function runCarouselPortfolio() {
   $(".portfolio-slider").owlCarousel({
     items: 1,
     loop: true,
-    margin: 10,
     autoplay: true,
-    autoplayTimeout: 2000,
+    autoplayTimeout: 4000,
     autoplayHoverPause: true,
   });
 }
