@@ -112,3 +112,24 @@
     }
   }
 }
+
+//Content page
+.container-blog-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  .entry-content {
+    flex: 1;
+    margin: 0 0 0 30px;
+  }
+  .social-media {
+    text-align: right;
+    width: 50px;
+    margin: 20px auto;
+  }
+}
+
+//Footer page-links
+.footer-right {
+  text-align: right;
+}

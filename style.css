@@ -1660,6 +1660,21 @@ footer {
       width: 100%;
       object-fit: cover; }
 
+.container-blog-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px; }
+  .container-blog-content .entry-content {
+    flex: 1;
+    margin: 0 0 0 30px; }
+  .container-blog-content .social-media {
+    text-align: right;
+    width: 50px;
+    margin: 20px auto; }
+
+.footer-right {
+  text-align: right; }
+
 #team-about .container .head {
   flex: 1; }
 #team-about .container .slide {
