@@ -1926,6 +1926,21 @@ footer {
   #portfolio .project.right .short-description {
     right: 0; }
 
+#services {
+  background-color: #1d72f7;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
+  @media (max-width: 760px) {
+    #services {
+      clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%); } }
+
+.txtservice {
+  color: white; }
+
+#rd {
+  background-color: #EFDC05; }
+
 #section-contact-buttons {
   justify-content: center; }
   #section-contact-buttons button.form-button {

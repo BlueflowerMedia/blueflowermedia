@@ -1,0 +1,16 @@
+#services {
+  background-color: $blue;
+  @include slanted-edge(bottom-right, 100%, 85%);
+}
+
+.txtservice {
+  color: white;
+}
+
+#rd {
+  background-color: $yellow;
+
+  h1 {
+    // background-color: #EFDC05;
+  }
+}
