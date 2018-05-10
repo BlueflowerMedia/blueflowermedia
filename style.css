@@ -1368,7 +1368,8 @@ span.big-dot {
 
 button {
   background: rgba(255, 255, 255, 0);
-  border: none; }
+  border: none;
+  cursor: pointer; }
 
 button.tag {
   margin: 2px;
@@ -1388,7 +1389,7 @@ button.nav-contact {
   background: #1d72f7;
   color: white;
   text-transform: uppercase;
-  padding: 10px 15px 9px;
+  padding: 10px 15px;
   font-weight: 700;
   font-size: 0.8rem;
   border: 3px solid #1d72f7;
@@ -1396,7 +1397,7 @@ button.nav-contact {
   margin: 0;
   transition: all 0.3s cubic-bezier(0.16, 0.91, 0.56, 1.15); }
   button.nav-contact:hover {
-    background: white;
+    background: rgba(255, 255, 255, 0);
     color: #1d72f7; }
 
 .container-navbar {
@@ -1435,6 +1436,18 @@ nav#site-navigation .nav-middle {
     margin-left: 80px; }
     nav#site-navigation .nav-middle ul#primary-menu li {
       margin: 0 10px; }
+  @media (max-width: 760px) {
+    nav#site-navigation .nav-middle {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: white;
+      margin: 0;
+      width: 100vw;
+      height: 100vh; }
+      nav#site-navigation .nav-middle ul#primary-menu {
+        margin: 0;
+        flex-flow: column; } }
 
 .menu-item a {
   position: relative;

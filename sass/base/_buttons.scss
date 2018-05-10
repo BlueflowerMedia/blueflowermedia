@@ -1,6 +1,7 @@
 button {
 	background: rgba(#ffffff, 0);
 	border: none;
+	cursor: pointer;
 }
 
 button.tag {
@@ -26,7 +27,7 @@ button.nav-contact {
 	background: $blue;
 	color: white;
 	text-transform: uppercase;
-	padding: 10px 15px 9px;
+	padding: 10px 15px;
 	font-weight: 700;
 	font-size: 0.8rem;
 	border: 3px solid $blue;
@@ -35,7 +36,7 @@ button.nav-contact {
 	transition: all 0.3s cubic-bezier(0.16, 0.91, 0.56, 1.15);
 
 	&:hover {
-		background: white;
+		background: rgba(#ffffff, 0);
 		color: $blue;
 	}
 }

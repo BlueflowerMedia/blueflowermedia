@@ -45,6 +45,17 @@ nav#site-navigation .nav-middle {
 			margin: 0 10px;
 		}
 	}
+	@include mobile {
+		@include position(absolute, $top: 0, $left: 0);
+		background: white;
+		margin: 0;
+		width: 100vw;
+		height: 100vh;
+		ul#primary-menu {
+			margin: 0;
+			flex-flow: column;
+		}
+	}
 }
 
 
