@@ -147,9 +147,6 @@
       <button class="button" type="button" name="button">Small Business</button>
     </div>
 
-    <div class="vertical-line">
-      <div class="line"></div>
-    </div>
 
     <div class="item container-item-2 flex1">
       <h2>Agency<span class="big-dot yellow">?</span></h2>

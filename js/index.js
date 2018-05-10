@@ -5,6 +5,13 @@ var pageName = page[page.length - 2];
 function runRellax() {
   var rellax = new Rellax('.fbox');
 }
+function runRellaxVert() {
+  var rellax = new Rellax('.services-big-text', {
+    vertical: true,
+    horizontal: false,
+    speed: 10,
+  });
+}
 
 // navbar
 function navbar() {
@@ -259,6 +266,7 @@ if (pageName == "blueflowermedia") {
   runParticles();
   runCarouselClientLogo();
   runRellax();
+  runRellaxVert();
 } else if (pageName == "team") {
   teamImagePlayer();
 } else if (pageName == "contact") {
