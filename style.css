@@ -1974,6 +1974,25 @@ footer {
       clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%); } }
 
+.prz {
+  box-shadow: 15px 15px 30px -10px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  width: 300px;
+  margin: 2px;
+  text-align: center;
+  justify-content: space-between; }
+  .prz p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.2rem; }
+
+hr {
+  display: block;
+  width: 90%;
+  height: 1px;
+  color: solid grey;
+  margin: 10px auto;
+  padding: 0; }
+
 .txtservice {
   color: white; }
 
