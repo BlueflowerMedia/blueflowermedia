@@ -52,7 +52,7 @@
         <div class="member sr">
           <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/team-ali-1.jpg" alt="Ali Akbar Sarkarati">
           <h3>Ali Akbar Sarkarati</h3>
-          <p>{Frontend Developer}</p>
+          <p>{Front-end Developer}</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
         <div class="member sr">

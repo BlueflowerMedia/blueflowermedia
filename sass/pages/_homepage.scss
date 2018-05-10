@@ -222,44 +222,44 @@
 // section-testomonials
 
 #section-testomonials {
-  background-color: #EFDC05;
-  @include slanted-edge(top-right, 100%, 15%);
+  background-color: $blue;
+
+  h2 {
+    text-align: center;
+    color: white;
+  }
 
   .container {
     .testimonials {
-      justify-content: center;
+      display: flex;
+      justify-content: space-around;
+
+      .title p {
+        justify-content: center;
+      }
 
       .test {
-        max-width: 400px;
-
-        .t-top .logo {
-          flex: 1;
-
-          img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-          }
+        width: 450px;
+        min-height: 500px;
+        margin: 20px;
+        background-color: white;
+        padding: 50px;
+        text-align: center;
+        border-radius: 20px;
+        @include mobile {
+          min-height: auto;
         }
 
-        .t-top p {
-          flex: 3;
+        img {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+        }
+
+        p.test-message {
+          font-size: 1.4rem;
         }
       }
-
-      .t-bot {
-        display: flex;
-        justify-content: flex-end;
-      }
-    }
-  }
-}
-@media only screen and (max-width: 400px) {
-  .t-top .logo {
-    img {
-      width: 50px!important;
-      height: 50px!important;
-      border-radius: 50%;
     }
   }
 }
