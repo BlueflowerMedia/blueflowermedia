@@ -136,11 +136,30 @@
 
 <!-- section-split-contacts -->
 <section id="section-split-contacts">
-  <div class="container">
-    <h2>Split Contacts<span class="big-dot">.</span></h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil unde, sunt nesciunt sapiente error ipsam quis, </p>
-    <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-agency-icon-1.png" alt="bfm-agency-icon-1">
-    <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-small-business-icon-1.png" alt="bfm-small-business-icon-1">
+  <div class="container flex-row">
+
+    <div class="item container-item-1 flex1">
+      <h2>Small Business<span class="big-dot yellow">?</span></h2>
+      <div class="image-1">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/bfm-small-business-icon-1.png" alt="Image-1">
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+      <button class="button" type="button" name="button">Small Business</button>
+    </div>
+
+    <div class="vertical-line">
+      <div class="line"></div>
+    </div>
+
+    <div class="item container-item-2 flex1">
+      <h2>Agency<span class="big-dot yellow">?</span></h2>
+      <div class="image-2">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/bfm-agency-icon-1.png" alt="Image-2">
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+      <button class="button" type="button" name="button">Agency</button>
+    </div>
+
   </div>
 </section>
 

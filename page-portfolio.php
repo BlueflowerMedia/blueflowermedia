@@ -6,16 +6,12 @@
 
     <div class="project left sr">
       <div class="mobile-project-title">
-        <h2>India Journal</h2>
+        <h2 class="underline blue-underline">India Journal</h2>
       </div>
-
+      <!-- 1th -->
       <div class="project-image row owl-carousel portfolio-slider">
-        <div>
-          <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-india-journal-logo.png" alt="India journal logo">
-        </div>
-        <div>
-          <img id="pic2" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-master-pizzeria-logo.png" alt="Master Pizzeria logo">
-        </div>
+        <img id="pic1" src="https://placeimg.com/600/400/any">
+        <img id="pic2" src="https://placeimg.com/900/400/any">
       </div>
 
       <div class="short-description">
@@ -29,7 +25,7 @@
         </div>
       </div>
     </div>
-
+    <!-- 2nd -->
 
     <div class="project right sr">
       <div class="mobile-project-title">
@@ -50,7 +46,7 @@
 
       </div>
     </div>
-
+    <!-- 3th -->
     <div class="project left sr">
       <div class="mobile-project-title">
         <h2>Master Pizzeria</h2>
@@ -73,7 +69,7 @@
         </div>
       </div>
     </div>
-
+    <!-- 4th -->
     <div class="project right sr">
       <div class="mobile-project-title">
         <h2>MobileKare</h2>
@@ -96,7 +92,7 @@
             </div>
       </div>
     </div>
-
+    <!-- end  -->
   </div>
 
 </section>

@@ -1591,7 +1591,7 @@ footer {
             background: rgba(239, 220, 5, 0.5); } }
       #section-aboutus .container .fbox#fbox2 {
         position: absolute;
-        bottom: 20%;
+        bottom: 10%;
         left: -2%;
         width: 100px;
         height: 100px;
@@ -1653,14 +1653,16 @@ footer {
   background-color: white; }
 
 #section-split-contacts {
-  background-color: DodgerBlue; }
-  #section-split-contacts img {
+  background-color: #1d72f7; }
+  #section-split-contacts .container h2 {
+    color: white; }
+  #section-split-contacts .container img {
     height: 100px;
     border-radius: 10%;
     margin: 0;
     display: block; }
     @media (max-width: 760px) {
-      #section-split-contacts img {
+      #section-split-contacts .container img {
         margin: 0 auto; } }
 
 #section-client-slider {
@@ -1884,7 +1886,6 @@ footer {
         margin: 10px auto;
         text-align: center; } }
   #portfolio .project .project-image {
-    background: url("https://placeimg.com/600/400/any");
     background-size: cover;
     position: absolute;
     height: 100%;

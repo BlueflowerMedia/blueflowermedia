@@ -101,7 +101,7 @@
       }
 
       &#fbox2 {
-        @include position(absolute, $bottom: 20%, $left: -2%);
+        @include position(absolute, $bottom: 10%, $left: -2%);
         @include box(100px, 100px);
         border-radius: 20px;
         background: darken($blue, 5);
@@ -179,15 +179,21 @@
 // section-split-contacts
 
 #section-split-contacts {
-  background-color: DodgerBlue;
+  background-color: $blue;
 
-  img {
-    height: 100px;
-    border-radius: 10%;
-    margin: 0;
-    display: block;
-    @include mobile {
-      margin: 0 auto;
+  .container {
+    h2 {
+      color: white;
+    }
+
+    img {
+      height: 100px;
+      border-radius: 10%;
+      margin: 0;
+      display: block;
+      @include mobile {
+        margin: 0 auto;
+      }
     }
   }
 }
