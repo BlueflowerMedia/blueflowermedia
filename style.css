@@ -1431,7 +1431,8 @@ nav#site-navigation .nav-left {
   flex: 2;
   display: flex;
   align-items: center; }
-  nav#site-navigation .nav-left a, nav#site-navigation .nav-left h3.site-title {
+  nav#site-navigation .nav-left a,
+  nav#site-navigation .nav-left h3.site-title {
     margin: 0; }
   @media (max-width: 760px) {
     nav#site-navigation .nav-left {
@@ -1483,7 +1484,7 @@ nav#site-navigation .nav-right {
     height: 50%;
     width: 100%;
     position: absolute;
-    bottom: 0%;
+    bottom: 0;
     left: 10px;
     background: #EFDC05;
     /* box-shadow: 2px 2px 0 #000000; */
@@ -1709,35 +1710,33 @@ footer {
           margin: 0 auto; } }
 
 #section-testomonials {
-  background-color: #EFDC05;
-  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
-  -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
-  margin-top: -3%; }
-  @media (max-width: 760px) {
-    #section-testomonials {
-      clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
-      -webkit-clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%); } }
+  background-color: #1d72f7; }
+  #section-testomonials h2 {
+    text-align: center;
+    color: white; }
   #section-testomonials .container .testimonials {
-    justify-content: center; }
+    display: flex;
+    justify-content: space-around; }
+    #section-testomonials .container .testimonials .title p {
+      justify-content: center; }
     #section-testomonials .container .testimonials .test {
-      max-width: 400px; }
-      #section-testomonials .container .testimonials .test .t-top .logo {
-        flex: 1; }
-        #section-testomonials .container .testimonials .test .t-top .logo img {
-          width: 100px;
-          height: 100px;
-          border-radius: 50%; }
-      #section-testomonials .container .testimonials .test .t-top p {
-        flex: 3; }
-    #section-testomonials .container .testimonials .t-bot {
-      display: flex;
-      justify-content: flex-end; }
+      width: 450px;
+      min-height: 500px;
+      margin: 20px;
+      background-color: white;
+      padding: 50px;
+      text-align: center;
+      border-radius: 20px; }
+      @media (max-width: 760px) {
+        #section-testomonials .container .testimonials .test {
+          min-height: auto; } }
+      #section-testomonials .container .testimonials .test img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%; }
+      #section-testomonials .container .testimonials .test p.test-message {
+        font-size: 1.4rem; }
 
-@media only screen and (max-width: 400px) {
-  .t-top .logo img {
-    width: 50px !important;
-    height: 50px !important;
-    border-radius: 50%; } }
 #section-getintouch {
   background-image: url("images/bfm-tiled-background-blue.png"); }
   #section-getintouch .container {
@@ -1965,6 +1964,21 @@ footer {
     left: 0; }
   #portfolio .project.right .short-description {
     right: 0; }
+
+#services {
+  background-color: #1d72f7;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
+  @media (max-width: 760px) {
+    #services {
+      clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%); } }
+
+.txtservice {
+  color: white; }
+
+#rd {
+  background-color: #EFDC05; }
 
 #section-contact-buttons {
   justify-content: center; }
