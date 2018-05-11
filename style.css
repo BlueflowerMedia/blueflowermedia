@@ -1497,7 +1497,7 @@ nav#site-navigation .nav-right {
       box-shadow: none; }
 
 .margin-for-footer {
-  margin-bottom: 100px; }
+  margin-bottom: 200px; }
 
 footer {
   position: fixed;
@@ -1505,7 +1505,6 @@ footer {
   left: 0;
   z-index: -99;
   margin-top: -200px;
-  min-height: 100px;
   width: 100%; }
   footer .container {
     padding: 5px 10%; }
