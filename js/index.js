@@ -142,10 +142,10 @@ function runParticles() {
   particlesJS("particles", {
     "particles": {
       "number": {
-        "value": 200,
+        "value": 150,
         "density": {
           "enable": true,
-          "value_area": 800
+          "value_area": 1000
         }
       },
       "color": {
