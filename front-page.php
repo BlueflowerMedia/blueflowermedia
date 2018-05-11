@@ -17,11 +17,15 @@
       <p class="white">We are a <b>Toronto based digital agency</b> specializing in creating, improving, and managing your digital footprints. We work with clients from the ideation phase - brainstorming branding concepts, to developing and launching projects for mass
         market use. With an emphasis on user experience, we aim to make your website/app as intuitive and pleasant as possible. As we do all of our work in house, our people are the core of our company.</p>
     </div>
-    <div class="fbox" id="fbox1" style="transform: rotate(45deg);" data-rellax-speed="3">
+    <div class="fbox" id="fbox1" style="transform: rotate(45deg);" data-rellax-speed="4">
       <img src="<?php echo get_template_directory_uri(); ?>/images/about-icons/rocket.svg" alt="" style="transform: rotate(-45deg);">
     </div>
-    <div class="fbox" id="fbox2" style="transform: rotate(45deg);" data-rellax-speed="5"></div>
     <div class="fbox" id="fbox3" style="transform: rotate(45deg);" data-rellax-speed="10"></div>
+    <div class="fbox" id="fbox2" style="transform: rotate(45deg);" data-rellax-speed="5">
+    </div>
+    <div class="fbox" id="fbox3" style="transform: rotate(45deg);" data-rellax-speed="10">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/about-icons/target.svg" alt="" style="transform: rotate(-45deg);">
+    </div>
   </div>
 </section>
 
