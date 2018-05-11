@@ -26,7 +26,6 @@
       </div>
     </div>
     <!-- 2nd -->
-
     <div class="project right sr">
       <div class="mobile-project-title">
         <h2>Reginos Pizza</h2>

@@ -16,42 +16,54 @@
 <section id="section-prz">
   <div class="container flex-row">
     <!--   price 1 begin -->
-    <div class="prz flex1">
+    <div class="prz">
       <img src="https://placeimg.com/150/100/arch" alt="">
       <p class="prz-message">Lorem ipsum dolor</p>
+      <hr>
       <p>PERSONAL</p>
+      <hr>
       <p>Custom Domains</p>
-      <p>Prise start from:</p>
-      <p>$00,00</p>
+      <hr>
+      <p>Price start from:</p>
+      <p id="prz">$00,00</p>
     </div>
     <!--   price 1 end -->
     <!--   price 2 begin -->
-    <div class="prz flex1">
+    <div class="prz">
       <img src="https://placeimg.com/150/100/arch" alt="">
       <p class="prz-message">Lorem ipsum dolor</p>
+      <hr>
       <p>PERSONAL</p>
+      <hr>
       <p>Custom Domains</p>
-      <p>Prise start from:</p>
+      <hr>
+      <p>Price start from:</p>
       <p>$00,00</p>
     </div>
     <!--   price 2 end -->
     <!--   price 3 begin -->
-    <div class="prz flex1">
+    <div class="prz">
       <img src="https://placeimg.com/150/100/arch" alt="">
       <p class="prz-message">Lorem ipsum dolor</p>
+      <hr>
       <p>PERSONAL</p>
+      <hr>
       <p>Custom Domains</p>
-      <p>Prise start from:</p>
+      <hr>
+      <p>Price start from:</p>
       <p>$00,00</p>
     </div>
     <!--   price 3 end -->
     <!--   price 4 begin -->
-    <div class="prz flex1">
+    <div class="prz">
       <img src="https://placeimg.com/150/100/arch" alt="">
       <p class="prz-message">Lorem ipsum dolor</p>
+      <hr>
       <p>PERSONAL</p>
+      <hr>
       <p>Custom Domains</p>
-      <p>Prise start from:</p>
+      <hr>
+      <p>Price start from:</p>
       <p>$00,00</p>
     </div>
     <!--   price 4 end -->
