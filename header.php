@@ -27,8 +27,9 @@
 		<nav id="site-navigation" class="main-navigation fixed container-navbar">
       <!-- navbar left -->
 			<div class="nav-left">
-        <?php the_custom_logo(); ?>
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h3 class="site-title"><?php bloginfo( 'name' ); ?></h3></a>
+        <!-- <?php the_custom_logo(); ?> -->
+				<img id="logo-header" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="BlueFlower Media logo">
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h3 class="site-title"><span class="blue">Blue</span>Flower Media</h3></a>
       </div>
       <!-- navbar right -->
       <div class="nav-right">
