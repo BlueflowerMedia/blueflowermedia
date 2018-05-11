@@ -91,8 +91,8 @@
       &#fbox1 {
         @include position(absolute, $bottom: 10%, $right: 20%);
         @include box(200px, 200px);
-        border-radius: 50px;
-        background: $yellow;
+        /* border-radius: 50px; */
+        /* background: $yellow; */
         @include mobile {
           @include box(100px, 100px);
           border-radius: 20px;
@@ -109,9 +109,8 @@
 
       &#fbox3 {
         @include position(absolute, $bottom: -10%, $right: 13%);
-        @include box(100px, 100px);
+        @include box(120px, 120px);
         border-radius: 20px;
-        background: darken($blue, 20);
         @include mobile {
           @include box(200px, 200px);
           border-radius: 50px;
