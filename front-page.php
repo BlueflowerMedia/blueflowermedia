@@ -39,10 +39,12 @@
           <h3 class="underline blue-underline">Web Design</h3>
           <p>We build results oriented intuitive websites that leave a lasting impression.</p>
           <ul class="service-list">
-            <li>Lorem ipsum doloiquam</li>
-            <li>sit amet, consectetur a</li>
-            <li>r dipisicing elit. Ipsam al</li>
-            <li>tate vero delectus.</li>
+            <li>Wordpress Theme Development</li>
+            <li>Web Application Development</li>
+            <li>Database Management</li>
+            <li>UI/UX Creation</li>
+            <li>Search Engine Optimization</li>
+            <li>Website Management</li>
           </ul>
         </div>
       </div>
@@ -56,9 +58,10 @@
           <h3 class="underline blue-underline">Graphic Design</h3>
           <p>“Good design is good business” <br>- Thomas J. Watson Jr.</p>
           <ul class="service-list">
-            <li>Print Design</li>
-            <li>Branding & Packaging</li>
             <li>Logo Design</li>
+            <li>Branding/Style Guides</li>
+            <li>Posters/Signs</li>
+            <li>Print Materials</li>
           </ul>
         </div>
       </div>
@@ -72,9 +75,11 @@
           <h3 class="underline blue-underline">Digital Marketing</h3>
           <p>“The only thing left to do after you build your business, is to grow your business!” <br>- BlueFlower Media</p>
           <ul class="service-list">
-            <li>Strategy</li>
-            <li>Social Media Management</li>
-            <li>Social Media Marketing</li>
+            <li>Google Adwords Campaign Management</li>
+            <li>Content Marketing</li>
+            <li>Digital Advertising</li>
+            <li>Website Analytics & Reports</li>
+            <li>Influencer Marketing</li>
           </ul>
         </div>
       </div>
@@ -88,10 +93,11 @@
           <h3 class="underline blue-underline">Social Media Management</h3>
           <p>We manage social profiles across all platforms. Engage with your audience real time and effectively.</p>
           <ul class="service-list">
-            <li>Lorem ipsum doloiquam</li>
-            <li>sit amet, consectetur a</li>
-            <li>r dipisicing elit. Ipsam al</li>
-            <li>tate vero delectus.</li>
+            <li>Social Media Account Setup</li>
+            <li>Content & Art Creation</li>
+            <li>Post Management</li>
+            <li>Social Advertising Management</li>
+            <li>Content Writing/Marketing</li>
           </ul>
         </div>
       </div>
@@ -105,10 +111,10 @@
           <h3 class="underline blue-underline">Media Management</h3>
           <p>Grow your media business with newspaper/magazine design, advertiser management services, and more!</p>
           <ul class="service-list">
-            <li>Lorem ipsum doloiquam</li>
-            <li>sit amet, consectetur a</li>
-            <li>r dipisicing elit. Ipsam al</li>
-            <li>tate vero delectus.</li>
+            <li>Newspaper/Magazine Design</li>
+            <li>Content Management</li>
+            <li>Adsense, DoubleClick For Publishers, and other Media Advertiser Tools</li>
+            <li>Advertiser Portal Creation</li>
           </ul>
         </div>
       </div>
@@ -122,10 +128,10 @@
           <h3 class="underline blue-underline">Cloud Hosting</h3>
           <p>Host your website/application on our secure platform. Affordable & Reliable.</p>
           <ul class="service-list">
-            <li>Lorem ipsum doloiquam</li>
-            <li>sit amet, consectetur a</li>
-            <li>r dipisicing elit. Ipsam al</li>
-            <li>tate vero delectus.</li>
+            <li>Website/Web App Hosting</li>
+            <li>Website/Web App Backup</li>
+            <li>SSL Certificates</li>
+            <li>Website Security and Management</li>
           </ul>
         </div>
       </div>
