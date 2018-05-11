@@ -18,14 +18,16 @@
     <!--   price 1 begin -->
     <div class="prz">
       <img src="https://placeimg.com/150/100/arch" alt="">
-      <p class="prz-message">Lorem ipsum dolor</p>
+      <h3 class="prz-message">One Page</h3>
       <hr>
-      <p>PERSONAL</p>
+      <p>Single page</p>
       <hr>
-      <p>Custom Domains</p>
+      <p>5 Rows</p>
+      <hr>
+      <p>SEO</p>
       <hr>
       <p>Price start from:</p>
-      <p id="prz">$00,00</p>
+      <h2 class="price">$1000</h2>
     </div>
     <!--   price 1 end -->
     <!--   price 2 begin -->
@@ -54,19 +56,6 @@
       <p>$00,00</p>
     </div>
     <!--   price 3 end -->
-    <!--   price 4 begin -->
-    <div class="prz">
-      <img src="https://placeimg.com/150/100/arch" alt="">
-      <p class="prz-message">Lorem ipsum dolor</p>
-      <hr>
-      <p>PERSONAL</p>
-      <hr>
-      <p>Custom Domains</p>
-      <hr>
-      <p>Price start from:</p>
-      <p>$00,00</p>
-    </div>
-    <!--   price 4 end -->
   </div>
 </section>
 

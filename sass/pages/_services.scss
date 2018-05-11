@@ -1,27 +1,65 @@
 #services {
   background-color: $blue;
-  @include slanted-edge(bottom-right, 100%, 85%);
+  // @include slanted-edge(bottom-right, 100%, 85%);
+}
+
+#section-prz {
+  position: relative;
+
+  &:after {
+    content: "";
+    @include position(absolute, $top:0, $left:0);
+    background: $blue;
+    @include slanted-edge(bottom-right, 100%, 60%);
+    @include box(100%, 30%);
+  }
+
+  .container {
+    justify-content: center;
+    padding-top: 0;
+  }
 }
 
 .prz {
-  box-shadow: 15px 15px 30px -10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
-  // width: (100%/);
+  width: 280px;
   margin: 10px;
+  padding: 40px 20px;
   text-align: center;
   justify-content: space-between;
+  background: white;
+
+  img {
+    margin: 25px 0;
+    object-fit: contain;
+    border-radius: 50px;
+  }
+
+  h3 {
+    margin-bottom: 25px;
+  }
 
   p {
     font-family: $font-primary;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    color: #808080;
+  }
+
+  h2.price {
+    color: $blue;
+    font-weight: 400;
   }
 }
 
 hr {
   display: block;
-  width: 90%;
+  width: 70%;
   height: 1px;
-  color: solid grey;
+  border: 0;
+  background: none;
+  border-top: 1px solid rgb(227, 227, 227);
   margin: 10px auto;
   padding: 0;
 }

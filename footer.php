@@ -18,6 +18,7 @@
     <div class="container flex-row">
       <div class="footer-left flex1">
         <p>&copy; <?php the_time('Y') ?>. All rights reserved. BlueFlower Media</p>
+				<p>We are a Toronto based digital agency specializing in creating, improving, and managing your digital footprints.</p>
       </div>
       <div class="footer-right flex1">
 				<!-- Social media -->
