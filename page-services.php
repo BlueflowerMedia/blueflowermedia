@@ -24,7 +24,7 @@
       <hr>
       <p>Custom Domains</p>
       <hr>
-      <p>Prise start from:</p>
+      <p>Price start from:</p>
       <p id="prz">$00,00</p>
     </div>
     <!--   price 1 end -->
@@ -37,7 +37,7 @@
       <hr>
       <p>Custom Domains</p>
       <hr>
-      <p>Prise start from:</p>
+      <p>Price start from:</p>
       <p>$00,00</p>
     </div>
     <!--   price 2 end -->
@@ -50,7 +50,7 @@
       <hr>
       <p>Custom Domains</p>
       <hr>
-      <p>Prise start from:</p>
+      <p>Price start from:</p>
       <p>$00,00</p>
     </div>
     <!--   price 3 end -->
@@ -63,7 +63,7 @@
       <hr>
       <p>Custom Domains</p>
       <hr>
-      <p>Prise start from:</p>
+      <p>Price start from:</p>
       <p>$00,00</p>
     </div>
     <!--   price 4 end -->
