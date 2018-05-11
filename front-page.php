@@ -219,7 +219,7 @@
         <img src="https://placeimg.com/100/100/arch" alt="">
         <p class="test-message">What a talented group of next-gen creative minds can do for your business. They put it in the spotlight with an exciting website with eye-captivating visuals and contents and give you the tools that can conquer the world of your business - these
           nerds are creative, neat, very intimidating, cool and always evolving...they are BlueFlowerMedia - peace of mind guaranteed.</p>
-        <p>Ch</p>
+        <p>Shail</p>
         <p>India Journal</p>
       </div>
       <!--   Testimonia 2 end -->
