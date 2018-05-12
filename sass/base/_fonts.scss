@@ -1,7 +1,9 @@
 @include google-font(Source Sans Pro, 300 400 600 700);
 @include google-font(Roboto Slab, 300 400 700);
+@include google-font(Josefin Sans, 300 400 700);
 $font-primary: 'Source Sans Pro', sans-serif;
 $font-secondary: 'Roboto Slab', serif;
+$font-logo: 'Josefin Sans', serif;
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -87,6 +89,16 @@ ul {
     font-family: $font-primary;
     font-size: 1rem;
     font-weight: 400;
+  }
+}
+
+h3.site-title {
+  font-family: $font-logo;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  span.blue {
+    color: $blue;
   }
 }
 

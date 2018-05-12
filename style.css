@@ -26,6 +26,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  */
 @import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700");
 @import url("//fonts.googleapis.com/css?family=Roboto+Slab:300,400,700");
+@import url("//fonts.googleapis.com/css?family=Josefin+Sans:300,400,700");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -1273,6 +1274,13 @@ ul {
     font-size: 1rem;
     font-weight: 400; }
 
+h3.site-title {
+  font-family: "Josefin Sans", serif;
+  font-weight: 400;
+  text-transform: uppercase; }
+  h3.site-title span.blue {
+    color: #1d72f7; }
+
 .font_small,
 small {
   font-size: 0.707rem; }
@@ -1409,6 +1417,10 @@ button.nav-contact {
     .container-navbar {
       padding: 0; } }
 
+img#logo-header {
+  height: 90%;
+  margin: 5px 15px; }
+
 nav#site-navigation {
   display: flex;
   flex-flow: row;
@@ -1502,6 +1514,10 @@ nav#site-navigation .nav-right {
 
 .margin-for-footer {
   margin-bottom: 200px; }
+
+img#logo-footer {
+  height: 80%;
+  margin: 5px 15px; }
 
 footer {
   position: fixed;
@@ -1971,16 +1987,17 @@ footer {
     right: 0; }
 
 #services {
-  background-color: #1d72f7; }
+  background-color: white; }
 
 #section-prz {
-  position: relative; }
+  position: relative;
+  background-color: #1d72f7; }
   #section-prz:after {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    background: #1d72f7;
+    background: white;
     clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
     width: 100%;
@@ -1991,7 +2008,8 @@ footer {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 86.6666666667%, 0 100%); } }
   #section-prz .container {
     justify-content: center;
-    padding-top: 0; }
+    padding-top: 0;
+    width: 100%; }
 
 .prz {
   box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.4);
@@ -2012,10 +2030,11 @@ footer {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 0.9rem;
     line-height: 1rem;
-    color: #808080; }
+    color: black; }
   .prz h2.price {
     color: #1d72f7;
-    font-weight: 400; }
+    font-weight: 400;
+    margin-bottom: 30px; }
 
 hr {
   display: block;
@@ -2028,7 +2047,8 @@ hr {
   padding: 0; }
 
 .txtservice {
-  color: white; }
+  color: white;
+  background-color: white; }
 
 #rd {
   background-color: #EFDC05; }
