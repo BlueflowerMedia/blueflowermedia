@@ -25,6 +25,10 @@ nav#site-navigation {
 	}
 	@include mobile {
 		display: block;
+		height: auto;
+		&.scroll-color {
+			background: rgba(#ffffff, 0);
+		}
 	}
 }
 
