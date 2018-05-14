@@ -9,14 +9,14 @@
     </div>
     <div class="slide">
       <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts1.jpg" alt="" class="image active">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts2.jpg" alt="" class="image active">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts3.jpg" alt="" class="image active">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts4.jpg" alt="" class="image active">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts5.jpg" alt="" class="image active">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts6.jpg" alt="" class="image active">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts7.jpg" alt="" class="image active">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts8.jpg" alt="" class="image active">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts9.jpg" alt="" class="image active">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts2.jpg" alt="" class="image">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts3.jpg" alt="" class="image">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts4.jpg" alt="" class="image">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts5.jpg" alt="" class="image">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts6.jpg" alt="" class="image">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts7.jpg" alt="" class="image">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts8.jpg" alt="" class="image">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts9.jpg" alt="" class="image">
     </div>
   </div>
 </section>
@@ -51,7 +51,7 @@
           <img id="pic3" src="<?php echo get_template_directory_uri(); ?>/images/team/team-altab-1.jpg" alt="Altab Hossain">
           <h3>Altab Hossain</h3>
           <p>[ Backend Developer ]</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <p>I just want to solve difficult problems.</p>
         </div>
         <div class="member sr">
           <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/team/team-ali-1.jpg" alt="Ali Akbar Sarkarati">
