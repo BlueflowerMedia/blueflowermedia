@@ -13,7 +13,6 @@
 
 	</div><!-- #content -->
 
-	<div class="margin-for-footer"></div>
 	<footer id="colophon" class="site-footer">
     <div class="container flex-row">
 			<img id="logo-footer" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="BlueFlower Media logo">
@@ -24,9 +23,9 @@
       </div>
       <div class="footer-right flex1">
 				<!-- Social media -->
-					<i class="fab fa-youtube fa-2x"></i>
-					<i class="fab fa-facebook-square fa-2x"></i>
-					<i class="fab fa-instagram fa-2x"></i>
+					<a href=""><i class="fab fa-youtube fa-2x"></i></a>
+					<a href=""><i class="fab fa-facebook-square fa-2x"></i></a>
+					<a href=""><i class="fab fa-instagram fa-2x"></i></a>
 				<!-- Social media -->
       </div>
     </div>

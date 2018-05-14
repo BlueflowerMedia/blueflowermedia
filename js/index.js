@@ -6,9 +6,8 @@ function runRellax() {
   var rellax = new Rellax('.fbox');
 }
 function runRellaxVert() {
-  var rellax = new Rellax('.services-big-text', {
-    vertical: true,
-    horizontal: false,
+  var rellax = new Rellax('.fboxv', {
+    horizontal: true,
     speed: 10,
   });
 }
@@ -78,6 +77,8 @@ function runCarouselPortfolio() {
     autoplay: true,
     autoplayTimeout: 4000,
     autoplayHoverPause: true,
+    animateIn: 'fadeIn',
+    animateOut: 'fadeOut',
   });
 }
 
@@ -116,7 +117,7 @@ function teamImagePlayer() {
     next.css("left", rangeLeft);
 
     next.addClass("active");
-  }, 500);
+  }, 900);
 }
 
 // team members hover effect

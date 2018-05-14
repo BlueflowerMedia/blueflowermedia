@@ -9,6 +9,7 @@
  * @package blueflowedmedia
  */
 
+$contact = get_the_title(get_page_by_path( 'contact' ));
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -40,7 +41,7 @@
 					) );
 				?>
         <!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'blueflowermedia' ); ?></button> -->
-				<a href=""><button class="nav-contact" type="button" name="button">Contact Us</button></a>
+				<a href="<?php echo $contact; ?>"><button class="nav-contact" type="button" name="button">Contact Us</button></a>
       </div>
 		</nav>
 	</header>

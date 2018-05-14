@@ -1,57 +1,3 @@
-#section.container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-
-  .item {
-    flex: 1;
-    min-width: 400px;
-    height: auto;
-    margin: 20px;
-    text-align: center;
-  }
-
-  .vertical-line {
-    max-width: 2px;
-    flex: 1;
-    margin: 20px;
-    padding-top: 5%;
-
-    .line {
-      height: 60%;
-      background: gray;
-    }
-  }
-}
-@media only screen and (max-width: 920px) {
-  .container .vertical-line {
-    min-width: 500px;
-    padding-top: 0;
-
-    .line {
-      max-height: 2px;
-      min-width: 60%;
-      background-color: gray;
-      margin: 10px;
-    }
-  }
-}
-
-.button {
-  background-color: #4CAF50;
-  /* Green */
-  border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 10px;
-}
-// section-header
 
 #section-header {
   height: 600px;
@@ -80,42 +26,6 @@
 
     .left {
       max-width: 600px;
-    }
-    // rellax box inside aboutus
-    .fbox {
-      display: block;
-      @include mobile {
-        z-index: 99;
-      }
-
-      &#fbox1 {
-        @include position(absolute, $bottom: 10%, $right: 20%);
-        @include box(200px, 200px);
-        /* border-radius: 50px; */
-        /* background: $yellow; */
-        @include mobile {
-          @include box(100px, 100px);
-          border-radius: 20px;
-          background: transparentize($yellow, 0.5);
-        }
-      }
-
-      &#fbox2 {
-        @include position(absolute, $bottom: 10%, $left: -2%);
-        @include box(100px, 100px);
-        border-radius: 20px;
-        background: darken($blue, 5);
-      }
-
-      &#fbox3 {
-        @include position(absolute, $bottom: -10%, $right: 13%);
-        @include box(120px, 120px);
-        border-radius: 20px;
-        @include mobile {
-          @include box(200px, 200px);
-          border-radius: 50px;
-        }
-      }
     }
   }
 }
@@ -213,6 +123,10 @@
   .container {
     justify-content: center;
 
+    h2 {
+      text-align: center;
+    }
+
     .owl-carousel {
       max-width: 800px;
       margin: 0 auto;
@@ -248,12 +162,13 @@
 
       .test {
         width: 450px;
-        min-height: 500px;
+        min-height: 450px;
         margin: 20px;
         padding: 50px;
         background-color: white;
         text-align: center;
         border-radius: 20px;
+        box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.4);
         @include mobile {
           min-height: auto;
         }
@@ -266,10 +181,18 @@
 
         p.test-message {
           font-size: 1.1rem;
-          background-image: url("images/bfm-quotations.svg");
+          background-image: url("images/homepage/quotation-yellow.png");
           background-repeat: no-repeat;
           background-position: center;
-
+        }
+        p.author {
+          font-weight: 700;
+          margin-bottom: 5px;
+          margin-top: 40px;
+        }
+        p.company {
+          color: $grey;
+          margin: 0;
         }
       }
     }
@@ -278,29 +201,29 @@
 // section-getintouch
 
 #section-getintouch {
-  // background-color: $blue;
-  background-image: url("images/bfm-tiled-background-blue.png");
-
+  background-image: url("images/bfm-tiled-background-blue.svg");
+  background-size: 35vw;
   .container {
     text-align: center;
 
     button {
-      border: 3px solid white;
-      color: white;
+      background-color: white;
+      border: 5px solid $blue;
       font-weight: 700;
       font-size: 3rem;
       border-radius: 15px;
       transition: all 0.3s cubic-bezier(0.4,0.7,0.4,1.1);
       padding: 18px 30px;
-
+      z-index: 999999;
+      box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4);
       &:hover {
-        background-color: white;
-        color: $blue;
+        color: white;
+        background: $blue;
       }
     }
   }
-}
-//pop up div
 
-#section-contact .container {}
-// footer
+  &.blue {
+    background-color: $blue;
+  }
+}

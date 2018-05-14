@@ -31,7 +31,7 @@
 <!-- section-services -->
 <section id="section-services">
   <div class="container">
-    <h1>Services<span class="big-dot">.</span></h1>
+    <h1>Services<span class="big-dot blue">.</span></h1>
     <p>Our in house services are flexible and customized based on our clients needs. Here are our general services we provide, talk to us to create a customized plan to help you achieve your specific goals!</p>
     <div class="services flex-row">
       <!-- service names begin --->
@@ -113,7 +113,7 @@
           <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-media-management-icon-1.png" alt="bfm-media-management-icon-1">
         </div>
         <div class="service-content">
-          <h3 class="underline blue-underline">Media Management</h3>
+          <h3 class="underline blue-underline">Media & Publishing Marketing</h3>
           <p>Grow your media business with newspaper/magazine design, advertiser management services, and more!</p>
           <ul class="service-list">
             <li>Newspaper/Magazine Design</li>
@@ -154,8 +154,8 @@
       <div class="image-1">
         <img src="<?php echo get_template_directory_uri(); ?>/images/bfm-small-business-icon-1.png" alt="Image-1">
       </div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
-      <button class="button" type="button" name="button">Small Business</button>
+      <p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+      <button class="agency-business" type="button" name="button">Small Business</button>
     </div>
 
 
@@ -164,8 +164,8 @@
       <div class="image-2">
         <img src="<?php echo get_template_directory_uri(); ?>/images/bfm-agency-icon-1.png" alt="Image-2">
       </div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
-      <button class="button" type="button" name="button">Agency</button>
+      <p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+      <button class="agency-business" type="button" name="button">Agency</button>
     </div>
 
   </div>
@@ -175,7 +175,7 @@
 <section id="section-client-slider">
   <div class="container">
     <div class="row">
-      <h2>Our Clients<span class="big-dot">.</span></h2>
+      <h2>Our Clients<span class="big-dot blue">.</span></h2>
     </div>
     <div class="row owl-carousel client-logo-slider">
       <div>
@@ -204,26 +204,26 @@
 <section id="section-testomonials">
   <div class="container">
     <div class="row">
-      <h2>Testimonial<span class="big-dot yellow">.</span></h2>
+      <h2>Testimonials<span class="big-dot yellow">.</span></h2>
     </div>
-    <div class="testimonials flex-row">
+    <div class="row flex-row testimonials">
 
       <!--   Testimonial 1 begin -->
       <div class="test">
         <img src="https://placeimg.com/100/100/arch" alt="">
         <p class="test-message">Blueflower Media created my e-commerce website for my artwork from scratch. In a short period of time the website was up and working with great visuals and smooth functionality for visitors. Staff are friendly, flexible and the project was completed
           on budget. I recommend them :)</p>
-        <p>Christian Turner</p>
-        <p>Owner CT Paintings</p>
+        <p class="author">Christian</p>
+        <p class="company">CT Paintings</p>
       </div>
       <!--   Testimonia 1 end -->
       <!--   Testimonial 2 begin -->
       <div class="test">
         <img src="https://placeimg.com/100/100/arch" alt="">
         <p class="test-message">What a talented group of next-gen creative minds can do for your business. They put it in the spotlight with an exciting website with eye-captivating visuals and contents and give you the tools that can conquer the world of your business - these
-          nerds are creative, neat, very intimidating, cool and always evolving...they are BlueFlowerMedia - peace of mind guaranteed.</p>
-        <p>Shail</p>
-        <p>India Journal</p>
+          nerds are creative, neat, very intimidating, cool and always evolving.</p>
+        <p class="author">Shail</p>
+        <p class="company">India Journal</p>
       </div>
       <!--   Testimonia 2 end -->
 
@@ -235,9 +235,8 @@
 <!-- section-getintouch-->
 <section id="section-getintouch">
   <div class="container">
-    <button type="button" name="button">Let's Get Started!</button>
+    <a href="<?php echo get_the_title(get_page_by_path( 'contact' )); ?>"><button type="button" name="button">Let's Get Started!</button></a>
   </div>
 </section>
-
 
 <?php get_footer(); ?>

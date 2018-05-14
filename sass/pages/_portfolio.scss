@@ -1,4 +1,5 @@
 #portfolio {
+  background: white;
   .project {
     position: relative;
     min-height: 500px;
@@ -14,7 +15,7 @@
       }
     }
 
-    .project-image {
+    .portfolio-slider {
       background-size: cover;
       position: absolute;
       height: 100%;
@@ -33,14 +34,18 @@
         margin-bottom: 10px;
         box-shadow: none !important;
       }
+      img.portfolio-image {
+        object-fit: cover;
+        height: 100%;
+      }
     }
 
-    &.left .project-image {
+    &.left .portfolio-slider {
       left: 30%;
       box-shadow: 15px 15px 30px -10px rgba(0, 0, 0, 0.4);
     }
 
-    &.right .project-image {
+    &.right .portfolio-slider {
       right: 30%;
       box-shadow: -15px 15px 30px -10px rgba(0, 0, 0, 0.4);
     }

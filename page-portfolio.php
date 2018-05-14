@@ -9,9 +9,9 @@
         <h2 class="underline blue-underline">India Journal</h2>
       </div>
       <!-- 1th -->
-      <div class="project-image row owl-carousel portfolio-slider">
-        <img id="pic1" src="https://placeimg.com/600/400/any">
-        <img id="pic2" src="https://placeimg.com/900/400/any">
+      <div class="row owl-carousel portfolio-slider">
+        <img class="portfolio-image" id="pic1" src="https://placeimg.com/600/400/any">
+        <img class="portfolio-image" id="pic2" src="https://placeimg.com/900/400/any">
       </div>
 
       <div class="short-description">
@@ -82,7 +82,7 @@
           the internet, we automated the process of uploading products to many online platforms as efficiently as possible.
           <p>
             <div class="project-tags">
-              <button class="tag web" disabled>Web Design</button>
+              <button class="tag web" disabled>Web Desisergn</button>
               <button class="tag graphics" disabled>Logo Design</button>
               <button class="tag web" disabled>E-Commerce Design</button>
               <button class="tag graphics" disabled>Product/Inventory Management</button>
@@ -94,6 +94,13 @@
     <!-- end  -->
   </div>
 
+</section>
+
+<!-- section-getintouch-->
+<section id="section-getintouch" class="blue">
+  <div class="container">
+    <a href="<?php echo get_the_title(get_page_by_path( 'contact' )); ?>"><button type="button" name="button">Let's Get Started!</button></a>
+  </div>
 </section>
 
 

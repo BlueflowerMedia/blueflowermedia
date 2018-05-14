@@ -9,7 +9,7 @@
 
   &:after {
     content: "";
-    @include position(absolute, $top:0, $left:0);
+    @include position(absolute, $top:-2px, $left:0);
     background: white;
     @include slanted-edge(bottom-right, 100%, 60%);
     @include box(100%, 30%);
@@ -73,9 +73,5 @@ hr {
 }
 
 #rd {
-  background-color: $yellow;
-
-  h1 {
-    // background-color: #EFDC05;
-  }
+  background-color: $blue;
 }

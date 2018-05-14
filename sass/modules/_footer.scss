@@ -1,27 +1,37 @@
-.margin-for-footer {
-	margin-bottom: 200px;
-}
-
 img#logo-footer {
 	height: 80%;
-	margin: 5px 15px;
+	margin: 0 35px 0 0;
 }
 
 footer {
-	position: fixed;
-	bottom: 0;
-	left: 0;
+	background: white;
+	border: 20px solid $blue;
 	z-index: -99;
-	margin-top: -200px;
 	width: 100%;
 
 	.container {
-		padding: 5px 10%;
+		padding: 50px 10%;
 	}
 
 	p {
 		opacity: 1 !important;
 	}
 
-	.footer-right {}
+	.footer-right {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		i {
+		  display: inline-block;
+		  border-radius: 60px;
+		  box-shadow: 0px 0px 2px #888;
+		  padding: 0.5em;
+			margin: 5px;
+			transition: all 0.3s cubic-bezier(0.16, 0.91, 0.56, 1.0);
+		}
+		a:hover i {
+			background: $blue;
+			color: white;
+		}
+	}
 }

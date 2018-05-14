@@ -1,0 +1,80 @@
+// rellax box inside aboutus
+.fbox {
+	display: block;
+	@include mobile {
+		z-index: 99;
+	}
+}
+
+.fboxv {
+	display: block;
+	@include mobile {
+		z-index: 99;
+	}
+}
+
+
+#fbox1 {
+	@include position(absolute, $bottom: 10%, $right: 20%);
+	@include box(200px, 200px);
+	/* border-radius: 50px; */
+	/* background: $yellow; */
+	@include mobile {
+		@include box(100px, 100px);
+		border-radius: 20px;
+		background: transparentize($yellow, 0.5);
+	}
+}
+
+#fbox2 {
+	@include position(absolute, $bottom: 10%, $left: -2%);
+	@include box(100px, 100px);
+	border-radius: 20px;
+	background: darken($blue, 5);
+}
+
+#fbox3 {
+	@include position(absolute, $bottom: -10%, $right: 13%);
+	@include box(120px, 120px);
+	border-radius: 20px;
+	@include mobile {
+		@include box(200px, 200px);
+		border-radius: 50px;
+	}
+}
+
+#fbox4 {
+	background: $blue;
+	@include position(absolute, $bottom: -750%, $right: 22%);
+	@include box(200px, 200px);
+	border-radius: 50px;
+	@include mobile {
+		@include box(100px, 100px);
+		border-radius: 20px;
+		background: transparentize($yellow, 0.5);
+	}
+}
+
+#fbox5 {
+	background: $blue;
+	@include position(absolute, $bottom: -770%, $left: 30%);
+	@include box(200px, 200px);
+	border-radius: 50px;
+	@include mobile {
+		@include box(100px, 100px);
+		border-radius: 20px;
+		background: transparentize($yellow, 0.5);
+	}
+}
+
+#fbox6 {
+	background: $yellow;
+	@include position(absolute, $bottom: -1040%, $left: 20%);
+	@include box(120px, 120px);
+	border-radius: 30px;
+	@include mobile {
+		@include box(100px, 100px);
+		border-radius: 20px;
+		background: transparentize($yellow, 0.5);
+	}
+}
