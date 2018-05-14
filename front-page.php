@@ -38,7 +38,7 @@
       <!-- service 1 --->
       <div class="service ">
         <div class="logo sr">
-          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-web-design-icon-2.png" alt="bfm-web-design-icon-2">
+          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-web-design-icon.svg" alt="bfm-web-design-icon">
         </div>
         <div class="service-content">
           <h3 class="underline blue-underline">Web Design</h3>
@@ -57,7 +57,7 @@
       <!-- service 2 --->
       <div class="service ">
         <div class="logo sr">
-          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-grahic-design-icon-1.png" alt="bfm-grahic-design-icon-1">
+          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-graphic-design-icon.svg" alt="bfm-graphic-design-icon">
         </div>
         <div class="service-content">
           <h3 class="underline blue-underline">Graphic Design</h3>
@@ -74,7 +74,7 @@
       <!-- service 3 --->
       <div class="service ">
         <div class="logo sr">
-          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-digital-marketing-icon-1.png" alt="bfm-digital-marketing-icon-1">
+          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-digital-marketing-icon.svg" alt="bfm-digital-marketing-icon">
         </div>
         <div class="service-content">
           <h3 class="underline blue-underline">Digital Marketing</h3>
@@ -92,7 +92,7 @@
       <!-- service 4 --->
       <div class="service ">
         <div class="logo sr">
-          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-social-media-management-icon-1.png" alt="bfm-social-media-management-icon-1">
+          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-social-icon.svg" alt="bfm-social-icon">
         </div>
         <div class="service-content">
           <h3 class="underline blue-underline">Social Media Management</h3>
@@ -110,7 +110,7 @@
       <!-- service 5 --->
       <div class="service ">
         <div class="logo sr">
-          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-media-management-icon-1.png" alt="bfm-media-management-icon-1">
+          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-media-icon.svg" alt="bfm-media-icon">
         </div>
         <div class="service-content">
           <h3 class="underline blue-underline">Media & Publishing Marketing</h3>
@@ -127,7 +127,7 @@
       <!-- service 6 --->
       <div class="service ">
         <div class="logo sr">
-          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-hosting-icon-1.png" alt="bfm-hosting-icon-1">
+          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-hosting-icon.svg" alt="bfm-hosting-icon">
         </div>
         <div class="service-content">
           <h3 class="underline blue-underline">Cloud Hosting</h3>

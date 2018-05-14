@@ -15,17 +15,17 @@
 
 	<footer id="colophon" class="site-footer">
     <div class="container flex-row">
-			<img id="logo-footer" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="BlueFlower Media logo">
+			<!-- <img id="logo-footer" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="BlueFlower Media logo"> -->
       <div class="footer-left flex1">
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h3 class="site-title"><span class="blue">Blue</span>Flower Media</h3></a>
-				<p>We are a Toronto based digital agency specializing in creating, improving, and managing your digital footprints.</p>
-				<p>&copy; <?php the_time('Y') ?>. All rights reserved. BlueFlower Media</p>
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h3 class="site-title dark"><span class="blue">Blue</span>Flower Media</h3></a>
+				<p class="white">We are a Toronto based digital agency specializing in creating, improving, and managing your digital footprints.</p>
+				<p class="white">&copy; <?php the_time('Y') ?>. All rights reserved. BlueFlower Media</p>
       </div>
       <div class="footer-right flex1">
 				<!-- Social media -->
-					<a href=""><i class="fab fa-youtube fa-2x"></i></a>
-					<a href=""><i class="fab fa-facebook-square fa-2x"></i></a>
-					<a href=""><i class="fab fa-instagram fa-2x"></i></a>
+					<a href=""><i class="fab fa-youtube"></i></a>
+					<a href=""><i class="fab fa-facebook-square" style="color:#3B5998 "></i></a>
+					<a href=""><i class="fab fa-instagram" style="color:#fb3958"></i></a>
 				<!-- Social media -->
       </div>
     </div>
