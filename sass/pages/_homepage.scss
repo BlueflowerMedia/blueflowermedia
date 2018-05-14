@@ -1,4 +1,3 @@
-
 #section-header {
   height: 600px;
   position: relative;
@@ -99,6 +98,10 @@
 #section-split-contacts {
   background-color: $blue;
 
+  .item {
+    margin: 0 50px;
+  }
+
   .container {
     h2 {
       color: white;
@@ -177,6 +180,7 @@
           width: 100px;
           height: 100px;
           border-radius: 50%;
+          object-fit: cover;
         }
 
         p.test-message {
@@ -185,11 +189,13 @@
           background-repeat: no-repeat;
           background-position: center;
         }
+
         p.author {
           font-weight: 700;
           margin-bottom: 5px;
           margin-top: 40px;
         }
+
         p.company {
           color: $grey;
           margin: 0;
@@ -203,6 +209,7 @@
 #section-getintouch {
   background-image: url("images/bfm-tiled-background-blue.svg");
   background-size: 35vw;
+
   .container {
     text-align: center;
 
@@ -216,6 +223,7 @@
       padding: 18px 30px;
       z-index: 999999;
       box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4);
+
       &:hover {
         color: white;
         background: $blue;

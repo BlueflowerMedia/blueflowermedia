@@ -41,7 +41,7 @@
           <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-web-design-icon.svg" alt="bfm-web-design-icon">
         </div>
         <div class="service-content">
-          <h3 class="underline blue-underline">Web Design</h3>
+          <a href="<?php echo get_the_title(get_page_by_path( 'services-web-design' )); ?>"><h3 class="underline blue-underline">Web Design</h3></a>
           <p>We build results oriented intuitive websites that leave a lasting impression.</p>
           <ul class="service-list">
             <li>Wordpress Theme Development</li>
@@ -60,7 +60,7 @@
           <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-graphic-design-icon.svg" alt="bfm-graphic-design-icon">
         </div>
         <div class="service-content">
-          <h3 class="underline blue-underline">Graphic Design</h3>
+          <a href="<?php echo get_the_title(get_page_by_path( 'services-graphic-design' )); ?>"><h3 class="underline blue-underline">Graphic Design</h3></a>
           <p>“Good design is good business” <br>- Thomas J. Watson Jr.</p>
           <ul class="service-list">
             <li>Logo Design</li>
@@ -77,7 +77,7 @@
           <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-digital-marketing-icon.svg" alt="bfm-digital-marketing-icon">
         </div>
         <div class="service-content">
-          <h3 class="underline blue-underline">Digital Marketing</h3>
+          <a href="<?php echo get_the_title(get_page_by_path( 'services-digital-marketing' )); ?>"><h3 class="underline blue-underline">Digital Marketing</h3></a>
           <p>“The only thing left to do after you build your business, is to grow your business!” <br>- BlueFlower Media</p>
           <ul class="service-list">
             <li>Google Adwords Campaign Management</li>
@@ -95,7 +95,7 @@
           <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-social-icon.svg" alt="bfm-social-icon">
         </div>
         <div class="service-content">
-          <h3 class="underline blue-underline">Social Media Management</h3>
+          <a href="<?php echo get_the_title(get_page_by_path( 'services-social-media-management' )); ?>"><h3 class="underline blue-underline">Social Media Management</h3></a>
           <p>We manage social profiles across all platforms. Engage with your audience real time and effectively.</p>
           <ul class="service-list">
             <li>Social Media Account Setup</li>
@@ -113,7 +113,7 @@
           <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-media-icon.svg" alt="bfm-media-icon">
         </div>
         <div class="service-content">
-          <h3 class="underline blue-underline">Media & Publishing Marketing</h3>
+          <a href="<?php echo get_the_title(get_page_by_path( 'services-media-management' )); ?>"><h3 class="underline blue-underline">Media & Publishing Marketing</h3></a>
           <p>Grow your media business with newspaper/magazine design, advertiser management services, and more!</p>
           <ul class="service-list">
             <li>Newspaper/Magazine Design</li>
@@ -130,7 +130,7 @@
           <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-hosting-icon.svg" alt="bfm-hosting-icon">
         </div>
         <div class="service-content">
-          <h3 class="underline blue-underline">Cloud Hosting</h3>
+          <a href="<?php echo get_the_title(get_page_by_path( 'services-cloud-hosting' )); ?>"><h3 class="underline blue-underline">Cloud Hosting</h3></a>
           <p>Host your website/application on our secure platform. Affordable & Reliable.</p>
           <ul class="service-list">
             <li>Website/Web App Hosting</li>
@@ -210,7 +210,7 @@
 
       <!--   Testimonial 1 begin -->
       <div class="test">
-        <img src="https://placeimg.com/100/100/arch" alt="">
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/testimonial/Christian Turner_2531-300x200.jpg" alt="">
         <p class="test-message">Blueflower Media created my e-commerce website for my artwork from scratch. In a short period of time the website was up and working with great visuals and smooth functionality for visitors. Staff are friendly, flexible and the project was completed
           on budget. I recommend them :)</p>
         <p class="author">Christian</p>
@@ -219,7 +219,7 @@
       <!--   Testimonia 1 end -->
       <!--   Testimonial 2 begin -->
       <div class="test">
-        <img src="https://placeimg.com/100/100/arch" alt="">
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-india-journal-logo.png" alt="">
         <p class="test-message">What a talented group of next-gen creative minds can do for your business. They put it in the spotlight with an exciting website with eye-captivating visuals and contents and give you the tools that can conquer the world of your business - these
           nerds are creative, neat, very intimidating, cool and always evolving.</p>
         <p class="author">Shail</p>

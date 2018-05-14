@@ -1,6 +1,16 @@
 #services {
+  margin-top: 40px;
   background-color: white;
   // @include slanted-edge(bottom-right, 100%, 85%);
+  .services-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 200px;
+    }
+  }
 }
 
 #section-prz {
