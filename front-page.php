@@ -4,10 +4,11 @@
 <section id="section-header" class="sr">
   <div id="particles"></div>
   <div class="container">
-    <h1 class="sr blue">We help small businesses grow digitally.</h1>
-    <h3>The digital world is changing at an ever growing rate, <br> our job is to make sure your business adapts to market demands.</h3>
+    <h1 class="sr blue">Let us help make your business bloom.</h1>
+    <h3>The digital world is changing at an ever growing rate. <br> our job is to make sure your business adapts to market demands.</h3>
   </div>
 </section>
+
 
 <!-- section-aboutus -->
 <section id="section-aboutus">

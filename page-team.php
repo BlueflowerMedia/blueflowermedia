@@ -51,7 +51,7 @@
           <img id="pic3" src="<?php echo get_template_directory_uri(); ?>/images/team/team-altab-1.jpg" alt="Altab Hossain">
           <h3>Altab Hossain</h3>
           <p>[ Backend Developer ]</p>
-          <p>I just want to solve difficult problems.</p>
+          <p>I am always curious about hardest problems in the office.</p>
         </div>
         <div class="member sr">
           <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/team/team-ali-1.jpg" alt="Ali Akbar Sarkarati">
