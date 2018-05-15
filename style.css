@@ -1280,6 +1280,8 @@ h3.site-title {
   text-transform: uppercase; }
   h3.site-title span.blue {
     color: #1d72f7; }
+  h3.site-title.dark {
+    color: white; }
 
 .font_small,
 small {
@@ -1531,12 +1533,12 @@ img#logo-footer {
   margin: 0 35px 0 0; }
 
 footer {
-  background: white;
-  border: 20px solid #1d72f7;
+  background: #00193c;
   z-index: -99;
   width: 100%; }
   footer .container {
-    padding: 50px 10%; }
+    padding: 50px 10%;
+    color: white; }
   footer p {
     opacity: 1 !important; }
   footer .footer-right {
@@ -1545,14 +1547,24 @@ footer {
     align-items: center; }
     footer .footer-right i {
       display: inline-block;
+      background: white;
       border-radius: 60px;
-      box-shadow: 0px 0px 2px #888;
+      box-shadow: 0 0 2px #888;
       padding: 0.5em;
       margin: 5px;
       transition: all 0.3s cubic-bezier(0.16, 0.91, 0.56, 1); }
-    footer .footer-right a:hover i {
-      background: #1d72f7;
-      color: white; }
+
+#section-404 {
+  height: 85vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center; }
+  #section-404 h1 {
+    font-size: 10rem;
+    color: #00193c; }
+  #section-404 p {
+    color: #333333; }
 
 #contact-popup {
   position: fixed;
@@ -1739,6 +1751,8 @@ footer {
 
 #section-split-contacts {
   background-color: #1d72f7; }
+  #section-split-contacts .item {
+    margin: 0 50px; }
   #section-split-contacts .container h2 {
     color: white; }
   #section-split-contacts .container img {
@@ -1790,7 +1804,8 @@ footer {
       #section-testomonials .container .testimonials .test img {
         width: 100px;
         height: 100px;
-        border-radius: 50%; }
+        border-radius: 50%;
+        object-fit: cover; }
       #section-testomonials .container .testimonials .test p.test-message {
         font-size: 1.1rem;
         background-image: url("images/homepage/quotation-yellow.png");
@@ -2051,7 +2066,14 @@ footer {
       right: 0; }
 
 #services {
+  margin-top: 40px;
   background-color: white; }
+  #services .services-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #services .services-logo img {
+      width: 200px; }
 
 #section-prz {
   position: relative;
@@ -2062,14 +2084,14 @@ footer {
     top: -2px;
     left: 0;
     background: white;
-    clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
     width: 100%;
-    height: 30%; }
+    height: 25%; }
     @media (max-width: 760px) {
       #section-prz:after {
-        clip-path: polygon(0 0, 100% 0, 100% 86.6666666667%, 0 100%);
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 86.6666666667%, 0 100%); } }
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%); } }
   #section-prz .container {
     justify-content: center;
     padding-top: 0;

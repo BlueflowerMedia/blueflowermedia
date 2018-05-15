@@ -2,10 +2,10 @@
 
 <section id="services">
   <div class="container flex-row">
-    <div class="pict flex1">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-web-design-icon-2.png" alt="" class="image">
+    <div class="services-logo flex1">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-digital-marketing-icon.svg" alt="" class="image">
     </div>
-    <div class="txtservice flex1">
+    <div class="txtservice flex2">
       <h1>Digital Marketing</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo dolor in reprehenderit.
       </p>

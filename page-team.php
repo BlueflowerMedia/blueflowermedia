@@ -36,7 +36,7 @@
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/team/team-noman-1.jpg" alt="Noman Hossain">
           <h3>Noman Hossain</h3>
           <p>[ Lead Designer<br>Project Manager ]</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <p>I am the guy who talk to you on phone.</p>
         </div>
         <div class="member sr">
           <img id="pic2" src="<?php echo get_template_directory_uri(); ?>/images/team/team-fahim-1.jpg" alt="Fahim Shahreer">

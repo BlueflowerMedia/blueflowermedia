@@ -100,6 +100,10 @@ h3.site-title {
   span.blue {
     color: $blue;
   }
+
+  &.dark {
+    color: white;
+  }
 }
 
 .font_small,
@@ -119,7 +123,6 @@ span.big-dot {
   text-align: right;
 }
 /* colors */
-
 .blue {
   color: $blue;
 }
