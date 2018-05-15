@@ -10,7 +10,7 @@
 </section>
 
 
-<!-- section-aboutus -->
+<!-- section-aboutus ---------------------------------------------------->
 <section id="section-aboutus">
   <div class="container flex-row">
     <div class="left">
@@ -29,7 +29,7 @@
   </div>
 </section>
 
-<!-- section-services -->
+<!-- section-services -------------------------------------------------->
 <section id="section-services">
   <div class="container">
     <h1>Services<span class="big-dot blue">.</span></h1>
@@ -39,7 +39,7 @@
       <!-- service 1 --->
       <div class="service ">
         <div class="logo sr">
-          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-web-design-icon.svg" alt="bfm-web-design-icon">
+          <a href="<?php echo get_the_title(get_page_by_path( 'services-web-design' )); ?>"><img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-web-design-icon.svg" alt="bfm-web-design-icon"></a>
         </div>
         <div class="service-content">
           <a href="<?php echo get_the_title(get_page_by_path( 'services-web-design' )); ?>"><h3 class="underline blue-underline">Web Design</h3></a>
@@ -58,7 +58,7 @@
       <!-- service 2 --->
       <div class="service ">
         <div class="logo sr">
-          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-graphic-design-icon.svg" alt="bfm-graphic-design-icon">
+          <a href="<?php echo get_the_title(get_page_by_path( 'services-graphic-design' )); ?>"><img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-graphic-design-icon.svg" alt="bfm-graphic-design-icon"></a>
         </div>
         <div class="service-content">
           <a href="<?php echo get_the_title(get_page_by_path( 'services-graphic-design' )); ?>"><h3 class="underline blue-underline">Graphic Design</h3></a>
@@ -75,7 +75,7 @@
       <!-- service 3 --->
       <div class="service ">
         <div class="logo sr">
-          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-digital-marketing-icon.svg" alt="bfm-digital-marketing-icon">
+          <a href="<?php echo get_the_title(get_page_by_path( 'services-digital-marketing' )); ?>"><img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-digital-marketing-icon.svg" alt="bfm-digital-marketing-icon"></a>
         </div>
         <div class="service-content">
           <a href="<?php echo get_the_title(get_page_by_path( 'services-digital-marketing' )); ?>"><h3 class="underline blue-underline">Digital Marketing</h3></a>
@@ -93,7 +93,7 @@
       <!-- service 4 --->
       <div class="service ">
         <div class="logo sr">
-          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-social-icon.svg" alt="bfm-social-icon">
+          <a href="<?php echo get_the_title(get_page_by_path( 'services-social-media-management' )); ?>"><img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-social-icon.svg" alt="bfm-social-icon"></a>
         </div>
         <div class="service-content">
           <a href="<?php echo get_the_title(get_page_by_path( 'services-social-media-management' )); ?>"><h3 class="underline blue-underline">Social Media Management</h3></a>
@@ -111,7 +111,7 @@
       <!-- service 5 --->
       <div class="service ">
         <div class="logo sr">
-          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-media-icon.svg" alt="bfm-media-icon">
+          <a href="<?php echo get_the_title(get_page_by_path( 'services-media-management' )); ?>"><img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-media-icon.svg" alt="bfm-media-icon"></a>
         </div>
         <div class="service-content">
           <a href="<?php echo get_the_title(get_page_by_path( 'services-media-management' )); ?>"><h3 class="underline blue-underline">Media & Publishing Marketing</h3></a>
@@ -128,7 +128,7 @@
       <!-- service 6 --->
       <div class="service ">
         <div class="logo sr">
-          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-hosting-icon.svg" alt="bfm-hosting-icon">
+          <a href="<?php echo get_the_title(get_page_by_path( 'services-cloud-hosting' )); ?>"><img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-hosting-icon.svg" alt="bfm-hosting-icon"></a>
         </div>
         <div class="service-content">
           <a href="<?php echo get_the_title(get_page_by_path( 'services-cloud-hosting' )); ?>"><h3 class="underline blue-underline">Cloud Hosting</h3></a>
@@ -146,7 +146,7 @@
   </div>
 </section>
 
-<!-- section-split-contacts -->
+<!-- section-split-contacts ---------------------------------------------------->
 <section id="section-split-contacts">
   <div class="container flex-row">
 
@@ -172,7 +172,7 @@
   </div>
 </section>
 
-<!-- section-client-slider -->
+<!-- section-client-slider ---------------------------------------------------->
 <section id="section-client-slider">
   <div class="container">
     <div class="row">
@@ -201,7 +201,7 @@
   </div>
 </section>
 
-<!-- section-testomonials -->
+<!-- section-testomonials ---------------------------------------------------->
 <section id="section-testomonials">
   <div class="container">
     <div class="row">
@@ -233,7 +233,7 @@
   </div>
 </section>
 
-<!-- section-getintouch-->
+<!-- section-getintouch ---------------------------------------------------->
 <section id="section-getintouch">
   <div class="container">
     <a href="<?php echo get_the_title(get_page_by_path( 'contact' )); ?>"><button type="button" name="button">Let's Get Started!</button></a>
