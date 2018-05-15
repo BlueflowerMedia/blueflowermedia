@@ -21,8 +21,8 @@
     content: "";
     @include position(absolute, $top:-2px, $left:0);
     background: white;
-    @include slanted-edge(bottom-right, 100%, 60%);
-    @include box(100%, 30%);
+    @include slanted-edge(bottom-right, 100%, 70%);
+    @include box(100%, 25%);
   }
 
   .container {
