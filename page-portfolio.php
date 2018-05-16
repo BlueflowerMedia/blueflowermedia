@@ -4,11 +4,11 @@
   <div class="container flex-column">
     <h1>Our Portfolio<span class="big-dot blue">.</span></h1>
 
+    <!-- 1st -->
     <div class="project left sr">
       <div class="mobile-project-title">
         <h2 class="underline blue-underline">India Journal</h2>
       </div>
-      <!-- 1st -->
       <div class="row owl-carousel portfolio-slider">
         <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/india-journal-portfolio-photo-1.png" alt="" class="image">
         <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/india-journal-portfolio-photo-2.png" alt="" class="image">
@@ -36,7 +36,9 @@
       </div>
 
       <div class="short-description">
+        <div class="mobile-project-title">
         <h2>Reginos Pizza</h2>
+      </div>
         <p>Reginos Pizza, with their 14 locations needed a dedicated graphic design team to design their restaurant flyers, interior posters, menus, web graphics, tv screens, etc. It was our job to make sure the design was amazing and consistent throughout
           make the brand experience memorable. We now take care of all Reginos Pizza design work.</p>
         <div class="project-tags">
@@ -52,11 +54,10 @@
       <div class="mobile-project-title">
         <h2 class="underline blue-underline">Master Pizzeria</h2>
       </div>
-      <!-- 1st -->
       <div class="row owl-carousel portfolio-slider">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/india-journal-portfolio-photo-1.png" alt="" class="image">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/india-journal-portfolio-photo-2.png" alt="" class="image">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/india-journal-portfolio-photo-3.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/master-pizzeria-portfolio-photo-1.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/master-pizzeria-portfolio-photo-2.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/master-pizzeria-portfolio-photo-3.jpg" alt="" class="image">
       </div>
 
       <div class="short-description">
@@ -88,7 +89,7 @@
         <h2>MobileKare</h2>
         <p>All of Mobilekare's experience in retail lead them to choose us to take them online. We made sure MobileKare’s website has a user-focused design purposed for high volumes of sales. The product uploading procces is streamlined and automated for several different online platforms.<p>
             <div class="project-tags">
-              <button class="tag web" disabled>Web Desisergn</button>
+              <!-- <button class="tag web" disabled>Web Desisergn</button> -->
               <button class="tag graphics" disabled>Logo Design</button>
               <button class="tag web" disabled>E-Commerce Design</button>
               <button class="tag graphics" disabled>Product/Inventory Management</button>
