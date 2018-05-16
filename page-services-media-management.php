@@ -14,7 +14,7 @@
 </section>
 <section id="rd">
   <div class="container">
-    <p class="white">Media & Publishing services vary widely depending on the client needs. Contactus with your project details to receive a precise quote.
+    <p class="white">Media & Publishing services vary widely depending on the client needs. Contact us with your project details to receive a precise quote.
 </p>
   </div>
 </section>
