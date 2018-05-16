@@ -4,8 +4,8 @@
 <section id="section-header" class="sr">
   <div id="particles"></div>
   <div class="container">
-    <h1 class="sr blue">Let us help make your business bloom.</h1>
-    <h3>The digital world is changing at an ever growing rate. <br> our job is to make sure your business adapts to market demands.</h3>
+    <h1 class="sr blue">Lets make your business bloom!</h1>
+    <h3>The Digital World is vast and ever-changing. <br> We keep your business at the Digital Frontier.</h3>
   </div>
 </section>
 
@@ -15,8 +15,8 @@
   <div class="container flex-row">
     <div class="left">
       <h1 class="white">About Us<span class="big-dot yellow">.</span></h1>
-      <p class="white">We are a <b>Toronto based digital agency</b> specializing in creating, improving, and managing your digital footprints. We work with clients from the ideation phase - brainstorming branding concepts, to developing and launching projects for mass
-        market use. With an emphasis on user experience, we aim to make your website/app as intuitive and pleasant as possible. As we do all of our work in house, our people are the core of our company.</p>
+      <p class="white">We are a <b>Toronto based digital agency</b> specializing in creating, improving, and managing your digital footprints. We work with clients from the ground up - anything from brainstorming branding concepts to developing and launching projects for mass
+        market use. With an emphasis on user experience, we  make your website/app as intuitive and accesible to all your clients. We do all of our work in house so our people are well-versed and the very core of BlueFlower Media.</p>
     </div>
     <div class="fbox" id="fbox1" style="transform: rotate(45deg);" data-rellax-speed="4">
       <img src="<?php echo get_template_directory_uri(); ?>/images/about-icons/rocket.svg" alt="" style="transform: rotate(-45deg);">
@@ -33,7 +33,7 @@
 <section id="section-services">
   <div class="container">
     <h1>Services<span class="big-dot blue">.</span></h1>
-    <p>Our in house services are flexible and customized based on our clients needs. Here are our general services we provide, talk to us to create a customized plan to help you achieve your specific goals!</p>
+    <p>Our in house services are flexible and tailored to each of our clients' unique needs. Here are our general services we provide, simply contact us to tailor a customized plan for your vision!</p>
     <div class="services flex-row">
       <!-- service names begin --->
       <!-- service 1 --->
@@ -43,7 +43,7 @@
         </div>
         <div class="service-content">
           <a href="<?php echo get_the_title(get_page_by_path( 'services-web-design' )); ?>"><h3 class="underline blue-underline">Web Design</h3></a>
-          <p>We build results oriented intuitive websites that leave a lasting impression.</p>
+          <p>We build result- oriented intuitive websites guaranteed to leave a lasting impression.</p>
           <ul class="service-list">
             <li>Wordpress Theme Development</li>
             <li>Web Application Development</li>
@@ -97,7 +97,7 @@
         </div>
         <div class="service-content">
           <a href="<?php echo get_the_title(get_page_by_path( 'services-social-media-management' )); ?>"><h3 class="underline blue-underline">Social Media Management</h3></a>
-          <p>We manage social profiles across all platforms. Engage with your audience real time and effectively.</p>
+          <p>We manage social profiles across all platforms. Engage with your audience effectivly in real time.</p>
           <ul class="service-list">
             <li>Social Media Account Setup</li>
             <li>Content & Art Creation</li>
@@ -132,7 +132,7 @@
         </div>
         <div class="service-content">
           <a href="<?php echo get_the_title(get_page_by_path( 'services-cloud-hosting' )); ?>"><h3 class="underline blue-underline">Cloud Hosting</h3></a>
-          <p>Host your website/application on our secure platform. Affordable & Reliable.</p>
+          <p>Host your website/application on our secure platform. Both Affordable & Reliable.</p>
           <ul class="service-list">
             <li>Website/Web App Hosting</li>
             <li>Website/Web App Backup</li>
