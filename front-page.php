@@ -15,8 +15,8 @@
   <div class="container flex-row">
     <div class="left">
       <h1 class="white">About Us<span class="big-dot yellow">.</span></h1>
-      <p class="white">We are a <b>Toronto based digital agency</b> specializing in creating, improving, and managing your digital footprints. We work with clients from the ground up - anything from brainstorming branding concepts to developing and launching projects for mass
-        market use. With an emphasis on user experience, we  make your website/app as intuitive and accesible to all your clients. We do all of our work in house so our people are well-versed and the very core of BlueFlower Media.</p>
+      <p class="white">We are a <b>Toronto based digital agency</b> specializing in creating, improving, and managing your digital footprints. We work with clients from the ground up - anything from brainstorming branding concepts to developing and launching projects
+        for mass market use. With an emphasis on user experience, we make your website/app as intuitive and accesible to all your clients. We do all of our work in house so our people are well-versed and the very core of BlueFlower Media.</p>
     </div>
     <div class="fbox" id="fbox1" style="transform: rotate(45deg);" data-rellax-speed="4">
       <img src="<?php echo get_template_directory_uri(); ?>/images/about-icons/rocket.svg" alt="" style="transform: rotate(-45deg);">
@@ -37,12 +37,14 @@
     <div class="services flex-row">
       <!-- service names begin --->
       <!-- service 1 --->
-      <div class="service ">
-        <div class="logo sr">
-          <a href="<?php echo get_the_title(get_page_by_path( 'services-web-design' )); ?>"><img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-web-design-icon.svg" alt="bfm-web-design-icon"></a>
-        </div>
+      <div class="service">
+        <a class="service-anchor" href="<?php echo get_the_title(get_page_by_path( 'services-web-design' )); ?>">
+          <div class="logo sr">
+            <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-web-design-icon.svg" alt="bfm-web-design-icon">
+            <h3 class="underline blue-underline">Web Design</h3>
+          </div>
+        </a>
         <div class="service-content">
-          <a href="<?php echo get_the_title(get_page_by_path( 'services-web-design' )); ?>"><h3 class="underline blue-underline">Web Design</h3></a>
           <p>We build result- oriented intuitive websites guaranteed to leave a lasting impression.</p>
           <ul class="service-list">
             <li>Wordpress Theme Development</li>
@@ -57,11 +59,13 @@
 
       <!-- service 2 --->
       <div class="service ">
-        <div class="logo sr">
-          <a href="<?php echo get_the_title(get_page_by_path( 'services-graphic-design' )); ?>"><img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-graphic-design-icon.svg" alt="bfm-graphic-design-icon"></a>
-        </div>
+        <a class="service-anchor" href="<?php echo get_the_title(get_page_by_path( 'services-graphic-design' )); ?>">
+          <div class="logo sr">
+            <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-graphic-design-icon.svg" alt="bfm-graphic-design-icon">
+            <h3 class="underline blue-underline">Graphic Design</h3>
+          </div>
+        </a>
         <div class="service-content">
-          <a href="<?php echo get_the_title(get_page_by_path( 'services-graphic-design' )); ?>"><h3 class="underline blue-underline">Graphic Design</h3></a>
           <p>“Good design is good business” <br>- Thomas J. Watson Jr.</p>
           <ul class="service-list">
             <li>Logo Design</li>
@@ -74,11 +78,13 @@
 
       <!-- service 3 --->
       <div class="service ">
-        <div class="logo sr">
-          <a href="<?php echo get_the_title(get_page_by_path( 'services-digital-marketing' )); ?>"><img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-digital-marketing-icon.svg" alt="bfm-digital-marketing-icon"></a>
-        </div>
+        <a class="service-anchor" href="<?php echo get_the_title(get_page_by_path( 'services-digital-marketing' )); ?>">
+          <div class="logo sr">
+            <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-digital-marketing-icon.svg" alt="bfm-digital-marketing-icon">
+            <h3 class="underline blue-underline">Digital Marketing</h3>
+          </div>
+        </a>
         <div class="service-content">
-          <a href="<?php echo get_the_title(get_page_by_path( 'services-digital-marketing' )); ?>"><h3 class="underline blue-underline">Digital Marketing</h3></a>
           <p>“The only thing left to do after you build your business, is to grow your business!” <br>- BlueFlower Media</p>
           <ul class="service-list">
             <li>Google Adwords Campaign Management</li>
@@ -91,12 +97,14 @@
       </div>
 
       <!-- service 4 --->
-      <div class="service ">
-        <div class="logo sr">
-          <a href="<?php echo get_the_title(get_page_by_path( 'services-social-media-management' )); ?>"><img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-social-icon.svg" alt="bfm-social-icon"></a>
-        </div>
+      <div class="service">
+        <a class="service-anchor" href="<?php echo get_the_title(get_page_by_path( 'services-social-media-management' )); ?>">
+          <div class="logo sr">
+            <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-social-icon.svg" alt="bfm-social-icon">
+            <h3 class="underline blue-underline">Social Media Management</h3>
+          </div>
+        </a>
         <div class="service-content">
-          <a href="<?php echo get_the_title(get_page_by_path( 'services-social-media-management' )); ?>"><h3 class="underline blue-underline">Social Media Management</h3></a>
           <p>We manage social profiles across all platforms. Engage with your audience effectivly in real time.</p>
           <ul class="service-list">
             <li>Social Media Account Setup</li>
@@ -110,11 +118,13 @@
 
       <!-- service 5 --->
       <div class="service ">
-        <div class="logo sr">
-          <a href="<?php echo get_the_title(get_page_by_path( 'services-media-management' )); ?>"><img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-media-icon.svg" alt="bfm-media-icon"></a>
-        </div>
+        <a class="service-anchor" href="<?php echo get_the_title(get_page_by_path( 'services-media-management' )); ?>">
+          <div class="logo sr">
+            <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-media-icon.svg" alt="bfm-media-icon">
+            <h3 class="underline blue-underline">Media & Publishing Marketing</h3>
+          </div>
+        </a>
         <div class="service-content">
-          <a href="<?php echo get_the_title(get_page_by_path( 'services-media-management' )); ?>"><h3 class="underline blue-underline">Media & Publishing Marketing</h3></a>
           <p>Grow your media business with newspaper/magazine design, advertiser management services, and more!</p>
           <ul class="service-list">
             <li>Newspaper/Magazine Design</li>
@@ -127,11 +137,13 @@
 
       <!-- service 6 --->
       <div class="service ">
-        <div class="logo sr">
-          <a href="<?php echo get_the_title(get_page_by_path( 'services-cloud-hosting' )); ?>"><img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-hosting-icon.svg" alt="bfm-hosting-icon"></a>
-        </div>
+        <a class="service-anchor" href="<?php echo get_the_title(get_page_by_path( 'services-cloud-hosting' )); ?>">
+          <div class="logo sr">
+            <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-hosting-icon.svg" alt="bfm-hosting-icon">
+            <h3 class="underline blue-underline">Cloud Hosting</h3>
+          </div>
+        </a>
         <div class="service-content">
-          <a href="<?php echo get_the_title(get_page_by_path( 'services-cloud-hosting' )); ?>"><h3 class="underline blue-underline">Cloud Hosting</h3></a>
           <p>Host your website/application on our secure platform. Both Affordable & Reliable.</p>
           <ul class="service-list">
             <li>Website/Web App Hosting</li>
@@ -155,7 +167,7 @@
       <div class="image-1">
         <img src="<?php echo get_template_directory_uri(); ?>/images/bfm-small-business-icon-1.png" alt="Image-1">
       </div>
-      <p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+      <p class="white">Looking to grow your business online? BlueFlower Media helps small business owners all across Canada achieve their digital goals.</p>
       <button class="agency-business" type="button" name="button">Small Business</button>
     </div>
 
@@ -165,7 +177,7 @@
       <div class="image-2">
         <img src="<?php echo get_template_directory_uri(); ?>/images/bfm-agency-icon-1.png" alt="Image-2">
       </div>
-      <p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+      <p class="white">Does your agency need a helping hand with its development and design work? BlueFlower Media helps toronto agencies manage client expectations with our special agency rates.</p>
       <button class="agency-business" type="button" name="button">Agency</button>
     </div>
 

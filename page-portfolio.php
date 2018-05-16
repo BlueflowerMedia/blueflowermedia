@@ -8,10 +8,11 @@
       <div class="mobile-project-title">
         <h2 class="underline blue-underline">India Journal</h2>
       </div>
-      <!-- 1th -->
+      <!-- 1st -->
       <div class="row owl-carousel portfolio-slider">
-        <img class="portfolio-image" id="pic1" src="https://placeimg.com/600/400/any">
-        <img class="portfolio-image" id="pic2" src="https://placeimg.com/900/400/any">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/india-journal-portfolio-photo-1.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/india-journal-portfolio-photo-2.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/india-journal-portfolio-photo-3.png" alt="" class="image">
       </div>
 
       <div class="short-description">
@@ -28,11 +29,13 @@
     <!-- 2nd -->
     <div class="project right sr">
       <div class="mobile-project-title">
-        <h2>Reginos Pizza</h2>
+        <h2 class="underline blue-underline">Reginos Pizza</h2>
       </div>
-      <div class="project-image">
+      <div class="row owl-carousel portfolio-slider">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/india-journal-portfolio-photo-2.png" alt="" class="image">
 
       </div>
+
       <div class="short-description">
         <h2>Reginos Pizza</h2>
         <p>Reginos Pizza, with their 14 locations needed a dedicated graphic design team to design their restaurant flyers, interior posters, menus, web graphics, tv screens, etc. It was our job to make sure the design was amazing and consistent throughout
@@ -51,6 +54,8 @@
         <h2>Master Pizzeria</h2>
       </div>
       <div class="project-image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/india-journal-portfolio-photo-2.png" alt="" class="image">
+
 
       </div>
       <div class="short-description">
