@@ -86,9 +86,7 @@
 
       <div class="short-description">
         <h2>MobileKare</h2>
-        <p>With all their experience in retail, Mobilekare wanted an experienced team to take them online. Our job was to make sure MobileKare’s website had a great user experience and conducive to high volumes of sales. Since customers are everywhere on
-          the internet, we automated the process of uploading products to many online platforms as efficiently as possible.
-          <p>
+        <p>All of Mobilekare's experience in retail lead them to choose us to take them online. We made sure MobileKare’s website has a user-focused design purposed for high volumes of sales. The product uploading procces is streamlined and automated for several different online platforms.<p>
             <div class="project-tags">
               <button class="tag web" disabled>Web Desisergn</button>
               <button class="tag graphics" disabled>Logo Design</button>
