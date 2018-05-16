@@ -33,7 +33,6 @@
       </div>
       <div class="row owl-carousel portfolio-slider">
         <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/india-journal-portfolio-photo-2.png" alt="" class="image">
-
       </div>
 
       <div class="short-description">
@@ -51,36 +50,40 @@
     <!-- 3th -->
     <div class="project left sr">
       <div class="mobile-project-title">
-        <h2>Master Pizzeria</h2>
+        <h2 class="underline blue-underline">Master Pizzeria</h2>
       </div>
-      <div class="project-image">
+      <!-- 1st -->
+      <div class="row owl-carousel portfolio-slider">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/india-journal-portfolio-photo-1.png" alt="" class="image">
         <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/india-journal-portfolio-photo-2.png" alt="" class="image">
-
-
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/india-journal-portfolio-photo-3.png" alt="" class="image">
       </div>
+
       <div class="short-description">
         <h2>Master Pizzeria</h2>
         <p>Master Pizzeria had already established their brand presence locally and needed to make the jump to go online while creating menus and promotional flyers for their business. The goal was to allow their online visitors to get a full glimpse of
           what their experience at Master Pizzeria could be like before ever being inside.</p>
         <div class="project-tags">
           <button class="tag web" disabled>Web design</button>
-          <button class="tag graphics" disabled>Videography</button>
+          <button class="tag graphics" disabled>Plugin Development</button>
           <button class="tag web" disabled>Graphic Design</button>
-          <button class="tag graphics" disabled>Flyer Design</button>
-          <button class="tag web" disabled>Logo Design</button>
-          <button class="tag graphics" disabled>Google Maps Optimization</button>
-
         </div>
       </div>
     </div>
     <!-- 4th -->
     <div class="project right sr">
       <div class="mobile-project-title">
-        <h2>MobileKare</h2>
+        <h2 class="underline blue-underline">MobileKare</h2>
       </div>
-      <div class="project-image">
+      <div class="row owl-carousel portfolio-slider">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/mobile-kare-portfolio-photo-1.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/mobile-kare-portfolio-photo-2.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/mobile-kare-portfolio-photo-3.png" alt="" class="image">
 
       </div>
+
+
+
       <div class="short-description">
         <h2>MobileKare</h2>
         <p>With all their experience in retail, Mobilekare wanted an experienced team to take them online. Our job was to make sure MobileKare’s website had a great user experience and conducive to high volumes of sales. Since customers are everywhere on
