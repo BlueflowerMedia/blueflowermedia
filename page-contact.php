@@ -28,13 +28,16 @@
     <div class="contact-info flex1">
       <h3>INFO<span class="big-dot blue">.</span></h3>
       <p>
+        <a href=""><i class="fas fa-phone-volume" style="color:#3B5998"></i></a>
         (647) 712-6119
       </p>
       <p>
+        <a href=""><i class="fas fa-envelope-square" style="color:#3B5998"></i></a>
         contact@blueflowermedia.com
       </p>
       <p>
-        3214 Danforth Ave Scarborough ON - M1L 1C1 CANADA
+        <a href=""><i class="fas fa-map-marker" style="color:red"></i></a>
+        3214 Danforth Ave Scarborough, M1L 1C1 (ON) CANADA
       </p>
     </div>
     <div class="contact-map flex1">

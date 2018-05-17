@@ -1763,12 +1763,18 @@ footer {
     .service {
       width: calc(100% - 20px);
       text-align: center; } }
+  .service a.service-anchor {
+    display: block; }
+    .service a.service-anchor h3::before {
+      transition: width 0.2s cubic-bezier(0.13, 0.59, 0.63, 1.07); }
+    .service a.service-anchor:hover h3::before {
+      width: 100px; }
   .service .logo {
     width: 100%; }
     .service .logo img {
       height: 100px;
       border-radius: 10%;
-      margin: 0;
+      margin: 0 0 18px;
       display: block; }
       @media (max-width: 760px) {
         .service .logo img {
@@ -1783,7 +1789,9 @@ footer {
         text-align: center; } }
 
 .service-list {
-  color: #6b6b6b; }
+  color: #6b6b6b;
+  list-style-image: url("images/bfm-arrow-icon.svg");
+  margin-left: 15px; }
 
 #section-split-contacts {
   background-color: #1d72f7; }
@@ -2070,11 +2078,13 @@ footer {
         object-fit: cover;
         height: 100%; }
     #portfolio .project.left .portfolio-slider {
-      left: 30%;
-      box-shadow: 15px 15px 30px -10px rgba(0, 0, 0, 0.4); }
+      left: 30%; }
+      #portfolio .project.left .portfolio-slider .owl-stage-outer {
+        box-shadow: 15px 15px 30px -10px rgba(0, 0, 0, 0.4); }
     #portfolio .project.right .portfolio-slider {
-      right: 30%;
-      box-shadow: -15px 15px 30px -10px rgba(0, 0, 0, 0.4); }
+      right: 30%; }
+      #portfolio .project.right .portfolio-slider .owl-stage-outer {
+        box-shadow: -15px 15px 30px -10px rgba(0, 0, 0, 0.4); }
     #portfolio .project .short-description {
       background: white;
       border: 10px solid #212121;

@@ -1,5 +1,6 @@
 #portfolio {
   background: white;
+
   .project {
     position: relative;
     min-height: 500px;
@@ -34,6 +35,7 @@
         margin-bottom: 10px;
         box-shadow: none !important;
       }
+
       img.portfolio-image {
         object-fit: cover;
         height: 100%;
@@ -42,12 +44,18 @@
 
     &.left .portfolio-slider {
       left: 30%;
-      box-shadow: 15px 15px 30px -10px rgba(0, 0, 0, 0.4);
+
+      .owl-stage-outer {
+        box-shadow: 15px 15px 30px -10px rgba(0, 0, 0, 0.4);
+      }
     }
 
     &.right .portfolio-slider {
       right: 30%;
-      box-shadow: -15px 15px 30px -10px rgba(0, 0, 0, 0.4);
+
+      .owl-stage-outer {
+        box-shadow: -15px 15px 30px -10px rgba(0, 0, 0, 0.4);
+      }
     }
 
     .short-description {

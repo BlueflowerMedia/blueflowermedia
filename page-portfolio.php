@@ -4,14 +4,15 @@
   <div class="container flex-column">
     <h1>Our Portfolio<span class="big-dot blue">.</span></h1>
 
+    <!-- 1st -->
     <div class="project left sr">
       <div class="mobile-project-title">
         <h2 class="underline blue-underline">India Journal</h2>
       </div>
-      <!-- 1th -->
       <div class="row owl-carousel portfolio-slider">
-        <img class="portfolio-image" id="pic1" src="https://placeimg.com/600/400/any">
-        <img class="portfolio-image" id="pic2" src="https://placeimg.com/900/400/any">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/india-journal-portfolio-photo-1.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/india-journal-portfolio-photo-2.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/india-journal-portfolio-photo-3.png" alt="" class="image">
       </div>
 
       <div class="short-description">
@@ -28,11 +29,13 @@
     <!-- 2nd -->
     <div class="project right sr">
       <div class="mobile-project-title">
-        <h2>Reginos Pizza</h2>
+        <h2 class="underline blue-underline">Reginos Pizza</h2>
       </div>
-      <div class="project-image">
+      <div class="row owl-carousel portfolio-slider">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/reginos-pizzia-portfolio-photo-1.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/reginos-pizza-portfolio-photo-2.png" alt="" class="image">
+      </div>
 
-      </div>
       <div class="short-description">
         <h2>Reginos Pizza</h2>
         <p>Reginos Pizza, with their 14 locations needed a dedicated graphic design team to design their restaurant flyers, interior posters, menus, web graphics, tv screens, etc. It was our job to make sure the design was amazing and consistent throughout
@@ -48,46 +51,49 @@
     <!-- 3th -->
     <div class="project left sr">
       <div class="mobile-project-title">
-        <h2>Master Pizzeria</h2>
+        <h2 class="underline blue-underline">Master Pizzeria</h2>
       </div>
-      <div class="project-image">
+      <div class="row owl-carousel portfolio-slider">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/master-pizzeria-portfolio-photo-1.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/master-pizzeria-portfolio-photo-2.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/master-pizzeria-portfolio-photo-3.png" alt="" class="image">
+      </div>
 
-      </div>
       <div class="short-description">
         <h2>Master Pizzeria</h2>
         <p>Master Pizzeria had already established their brand presence locally and needed to make the jump to go online while creating menus and promotional flyers for their business. The goal was to allow their online visitors to get a full glimpse of
           what their experience at Master Pizzeria could be like before ever being inside.</p>
         <div class="project-tags">
           <button class="tag web" disabled>Web design</button>
-          <button class="tag graphics" disabled>Videography</button>
+          <button class="tag graphics" disabled>Plugin Development</button>
           <button class="tag web" disabled>Graphic Design</button>
-          <button class="tag graphics" disabled>Flyer Design</button>
-          <button class="tag web" disabled>Logo Design</button>
-          <button class="tag graphics" disabled>Google Maps Optimization</button>
-
         </div>
       </div>
     </div>
     <!-- 4th -->
     <div class="project right sr">
       <div class="mobile-project-title">
-        <h2>MobileKare</h2>
+        <h2 class="underline blue-underline">MobileKare</h2>
       </div>
-      <div class="project-image">
+      <div class="row owl-carousel portfolio-slider">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/mobile-kare-portfolio-photo-1.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/mobile-kare-portfolio-photo-2.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/mobile-kare-portfolio-photo-3.png" alt="" class="image">
 
       </div>
+
+
+
       <div class="short-description">
         <h2>MobileKare</h2>
-        <p>With all their experience in retail, Mobilekare wanted an experienced team to take them online. Our job was to make sure MobileKare’s website had a great user experience and conducive to high volumes of sales. Since customers are everywhere on
-          the internet, we automated the process of uploading products to many online platforms as efficiently as possible.
-          <p>
+        <p>All of Mobilekare's experience in retail lead them to choose us to take them online. We made sure MobileKare’s website has a user-focused design purposed for high volumes of sales. The product uploading procces is streamlined and automated for several different online platforms.<p>
             <div class="project-tags">
-              <button class="tag web" disabled>Web Desisergn</button>
-              <button class="tag graphics" disabled>Logo Design</button>
-              <button class="tag web" disabled>E-Commerce Design</button>
-              <button class="tag graphics" disabled>Product/Inventory Management</button>
-              <button class="tag web" disabled>Multi Platform Product Upload Automation</button>
-              <button class="tag graphics" disabled>Web/Print Design</button>
+              <!-- <button class="tag web" disabled>Web Desisergn</button> -->
+              <button class="tag web" disabled>Logo Design</button>
+              <button class="tag graphics" disabled>E-Commerce Design</button>
+              <button class="tag web" disabled>Product/Inventory Management</button>
+              <button class="tag graphics" disabled>Multi Platform Product Upload Automation</button>
+              <button class="tag web" disabled>Web/Print Design</button>
             </div>
       </div>
     </div>
