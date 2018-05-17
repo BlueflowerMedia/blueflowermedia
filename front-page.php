@@ -4,7 +4,7 @@
 <section id="section-header" class="sr">
   <div id="particles"></div>
   <div class="container">
-    <h1 class="sr blue">Lets make your business bloom!</h1>
+    <h1 class="sr blue">Let's make your business bloom!</h1>
     <h3>The Digital World is vast and ever-changing. <br> We keep your business at the Digital Frontier.</h3>
   </div>
 </section>
