@@ -34,15 +34,17 @@ $contact = get_the_title(get_page_by_path( 'contact' ));
       </div>
       <!-- navbar right -->
       <div class="nav-right">
-        <?php
-					wp_nav_menu( array(
-						'theme_location' => 'menu-1',
-						'menu_id'        => 'primary-menu',
-					) );
-				?>
+
+				        <?php
+									wp_nav_menu( array(
+										'theme_location' => 'menu-1',
+										'menu_id'        => 'primary-menu',
+									) );
+								?>
         <!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'blueflowermedia' ); ?></button> -->
 				<a href="<?php echo $contact; ?>"><button class="nav-contact" type="button" name="button">Contact Us</button></a>
       </div>
+      <!-- hamburger div -->
 		</nav>
 	</header>
 

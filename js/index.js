@@ -31,6 +31,21 @@ function navbar() {
   });
 };
 
+// navbar mobile
+function navbarMobile() {
+  var hamburgerDiv = $("#hamburger-div");
+  var hamburgerDiv = hamburgerDiv.children()[0];
+  var menu = $("#hamburger-div");
+
+  $(hamburgerDiv).click(function() {
+    if($(this).hasClass("active")) {
+      alert("it has active");
+    }
+    else {
+      alert("nope");
+    }
+  })
+};
 
 // scrollReveal
 window.sr = ScrollReveal({
@@ -258,6 +273,7 @@ function postHeight() {
 
 // global functions
 navbar();
+navbarMobile();
 sr.reveal($('.sr'));
 sr.reveal($('h1'));
 sr.reveal($('p'));
