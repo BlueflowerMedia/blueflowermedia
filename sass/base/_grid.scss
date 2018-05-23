@@ -55,3 +55,14 @@
 		flex: 4;
 	}
 }
+
+.no-mobile {
+	@include mobile {
+		display: none;
+	}
+}
+.no-tablet {
+	@include tablet {
+		display: none;
+	}
+}

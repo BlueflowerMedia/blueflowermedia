@@ -57,3 +57,21 @@ button.agency-business {
 		background: white;
 	}
 }
+
+
+/* Hamburgers */
+
+.hamburger .line{
+  width: 25px;
+  height: 4px;
+  background-color: $blue;
+  display: block;
+  margin: 4px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger:hover{
+  cursor: pointer;
+}

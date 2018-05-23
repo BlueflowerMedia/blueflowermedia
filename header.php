@@ -25,26 +25,48 @@ $contact = get_the_title(get_page_by_path( 'contact' ));
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'blueflowermedia' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<nav id="site-navigation" class="main-navigation fixed container-navbar">
+		<nav id="site-navigation" class="main-navigation fixed container-navbar flex-row">
       <!-- navbar left -->
-			<div class="nav-left">
+			<div class="nav-left flex2 flex-row">
         <!-- <?php the_custom_logo(); ?> -->
-				<img id="logo-header" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="BlueFlower Media logo">
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h3 class="site-title"><span class="blue">Blue</span>Flower Media</h3></a>
+          <img id="logo-header" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="BlueFlower Media logo">
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h3 class="site-title"><span class="blue">Blue</span>Flower Media</h3></a>
       </div>
       <!-- navbar right -->
-      <div class="nav-right">
+      <div class="nav-middle">
 
-				        <?php
-									wp_nav_menu( array(
-										'theme_location' => 'menu-1',
-										'menu_id'        => 'primary-menu',
-									) );
-								?>
+      </div>
+      <div class="nav-middle flex4 flex-row no-mobile">
+        <?php
+          wp_nav_menu( array(
+            'theme_location' => 'menu-1',
+            'menu_id'        => 'primary-menu',
+          ) );
+        ?>
+
         <!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'blueflowermedia' ); ?></button> -->
-				<a href="<?php echo $contact; ?>"><button class="nav-contact" type="button" name="button">Contact Us</button></a>
+      </div>
+      <div class="nav-right flex1 flex-row no-mobile">
+        <a href="<?php echo $contact; ?>"><button class="nav-contact" type="button" name="button">Contact Us</button></a>
+      </div>
+			<!-- Navbar mobile -->
+			<div class="nav-mobile">
+        <ul id="mobile-menu">
+          <li><a href="">Home</a></li>
+          <li><a href="">Team</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="<?php echo $contact; ?>"><button class="nav-contact" type="button" name="button">Contact Us</button></a></li>
+        </ul>
       </div>
       <!-- hamburger div -->
+			<div class="hamburger" id="hamburger-bfm">
+				<span class="line"></span>
+				<span class="line"></span>
+				<span class="line"></span>
+			</div>
+
 		</nav>
 	</header>
 
