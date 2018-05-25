@@ -33,13 +33,13 @@
 
       <div id="member-row-1" class="flex-row member-row">
         <div class="member sr">
-          <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/team/noman-headshot.jpg" alt="Noman Hossain">
+          <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/team/team-noman-2.jpg" alt="Noman Hossain">
           <h3>Noman Hossain</h3>
           <p>[ Lead Designer<br>Project Manager ]</p>
           <p>I am the guy who talk to you on phone.</p>
         </div>
         <div class="member sr">
-          <img id="pic2" src="<?php echo get_template_directory_uri(); ?>/images/team/fahim-headshot.jpg" alt="Fahim Shahreer">
+          <img id="pic2" src="<?php echo get_template_directory_uri(); ?>/images/team/team-fahim-1.jpg" alt="Fahim Shahreer">
           <h3>Fahim Shahreer</h3>
           <p>[ Lead Developer<br>Project Manager ]</p>
           <p>Office never has enough coffee for me.</p>
@@ -48,7 +48,7 @@
 
       <div id="member-row-2" class="flex-row member-row">
         <div class="member sr">
-          <img id="pic3" src="<?php echo get_template_directory_uri(); ?>/images/team/team-altab-1.jpg" alt="Altab Hossain">
+          <img id="pic3" src="<?php echo get_template_directory_uri(); ?>/images/team/team-altab-2.jpg" alt="Altab Hossain">
           <h3>Altab Hossain</h3>
           <p>[ Backend Developer ]</p>
           <p>I am always curious about hardest problems in the office.</p>
@@ -78,11 +78,11 @@
         <div class="member sr">
           <img id="pic7" src="<?php echo get_template_directory_uri(); ?>/images/team/rif-headshot.jpg" alt="Zulfiqur Rahman">
           <h3>Rifaquat Nabi</h3>
-          <p>[ Marcketing Manager ]</p>
+          <p>[ Digital Marketing Manager ]</p>
           <p>I am the one who knocks</p>
         </div>
         <div class="member sr">
-          <img id="pic8" src="<?php echo get_template_directory_uri(); ?>/images/team/chandra-headshot.jpg" alt="Zulfiqur Rahman">
+          <img id="pic8" src="<?php echo get_template_directory_uri(); ?>/images/team/chandra-headshot-2.jpg" alt="Zulfiqur Rahman">
           <h3>Chandra Shrestha</h3>
           <p>[ Front-End Developer ]</p>
           <p>I am the most hard worker</p>
