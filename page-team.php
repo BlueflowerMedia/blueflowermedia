@@ -73,19 +73,19 @@
           <img id="pic6" src="<?php echo get_template_directory_uri(); ?>/images/team/binod-thapa-headshot.jpg" alt="Zulfiqur Rahman">
           <h3>Binod Thapa</h3>
           <p>[ Front-End Developer ]</p>
-          <p>Lorem</p>
+          <p>I love coding...</p>
         </div>
         <div class="member sr">
           <img id="pic7" src="<?php echo get_template_directory_uri(); ?>/images/team/rif-headshot.jpg" alt="Zulfiqur Rahman">
           <h3>Rifaquat Nabi</h3>
           <p>[ Marcketing Manager ]</p>
-          <p>Lorem</p>
+          <p>I am the one who knocks</p>
         </div>
         <div class="member sr">
           <img id="pic8" src="<?php echo get_template_directory_uri(); ?>/images/team/chandra-headshot.jpg" alt="Zulfiqur Rahman">
           <h3>Chandra Shrestha</h3>
           <p>[ Front-End Developer ]</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <p>I am the most hard worker</p>
         </div>
       </div>
 
