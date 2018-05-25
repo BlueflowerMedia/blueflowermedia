@@ -56,15 +56,40 @@
         <div class="member sr">
           <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/team/ali-akbar-headshot.jpg" alt="Ali Akbar Sarkarati">
           <h3>Ali Akbar Sarkarati</h3>
-          <p>[ Front-end Developer ]</p>
+          <p>[ Full-stack Developer ]</p>
           <p>Technology is my passion.</p>
         </div>
         <div class="member sr">
           <img id="pic5" src="<?php echo get_template_directory_uri(); ?>/images/team/team-zulfiqur-1.jpg" alt="Zulfiqur Rahman">
           <h3>Zulfiqur Rahman</h3>
           <p>[ Junior Developer ]</p>
+          <p>Lorem</p>
+        </div>
+      </div>
+
+
+        <div id="member-row-3" class="flex-row member-row">
+        <div class="member sr">
+          <img id="pic6" src="<?php echo get_template_directory_uri(); ?>/images/team/team-zulfiqur-1.jpg" alt="Zulfiqur Rahman">
+          <h3>Binod Thapa</h3>
+          <p>[ Front-End Developer ]</p>
+          <p>Lorem</p>
+        </div>
+        <div class="member sr">
+          <img id="pic7" src="<?php echo get_template_directory_uri(); ?>/images/team/team-zulfiqur-1.jpg" alt="Zulfiqur Rahman">
+          <h3>Rifaquat Nabi</h3>
+          <p>[ Marcketing Manager ]</p>
+          <p>Lorem</p>
+        </div>
+        <div class="member sr">
+          <img id="pic8" src="<?php echo get_template_directory_uri(); ?>/images/team/team-zulfiqur-1.jpg" alt="Zulfiqur Rahman">
+          <h3>Chandra Shrestha</h3>
+          <p>[ Front-End Developer ]</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
+      </div>
+
+
       </div>
     </div>
   </div>
