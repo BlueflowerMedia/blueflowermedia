@@ -38,8 +38,7 @@
 	@include box(120px, 120px);
 	border-radius: 20px;
 	@include mobile {
-		@include box(200px, 200px);
-		border-radius: 50px;
+		display: none;
 	}
 }
 

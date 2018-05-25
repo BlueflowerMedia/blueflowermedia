@@ -105,6 +105,9 @@
 .service-list {
   color: #6b6b6b;
   list-style-image: url("images/bfm-arrow-icon.svg");
+  @include mobile {
+    list-style: none;
+  }
   margin-left: 15px;
 }
 // section-split-contacts

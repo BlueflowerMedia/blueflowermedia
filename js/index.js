@@ -31,6 +31,7 @@ function navbar() {
   });
 };
 
+
 // navbar mobile
 function navbarMobile() {
   $("#hamburger-bfm").click(function(){

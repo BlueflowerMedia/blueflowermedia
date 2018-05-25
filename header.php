@@ -52,13 +52,18 @@ $contact = get_the_title(get_page_by_path( 'contact' ));
 			<!-- Navbar mobile -->
 			<div class="nav-mobile">
         <ul id="mobile-menu">
-          <li><a href="">Home</a></li>
-          <li><a href="">Team</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Blog</a></li>
+          <li><a class="main-items" href="">Home</a></li>
+          <li><a class="main-items" href="">Team</a></li>
+          <li><a class="main-items" href="">Portfolio</a></li>
+          <li><a class="main-items" href="">Blog</a></li>
+          <li><h2>Our Services<span class="big-dot blue">.</span></h2></li>
+          <li><a href="">Web Design</a></li>
+          <li><a href="">Graphic Design</a></li>
+          <li><a href="">Digital Marketing</a></li>
+          <li><a href="">Social Media Management</a></li>
+          <li><a href="">Media and Publishing management</a></li>
+          <li><a href="">Cloud Hosting</a></li>
           <li><a href="<?php echo $contact; ?>"><button class="nav-contact" type="button" name="button">Contact Us</button></a></li>
-        </ul>
       </div>
       <!-- hamburger div -->
 			<div class="hamburger" id="hamburger-bfm">
