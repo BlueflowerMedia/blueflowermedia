@@ -10,6 +10,20 @@
  */
 
 $contact = get_the_title(get_page_by_path( 'contact' ));
+$team = get_the_title(get_page_by_path( 'team' ));
+$webdesign = get_the_title(get_page_by_path( 'services-web-design' ));
+$graphicdesign = get_the_title(get_page_by_path( 'services-graphic-design' ));
+$digitalmarketing = get_the_title(get_page_by_path( 'services-digital-marketing' ));
+$socialmediamanagement = get_the_title(get_page_by_path( 'services-social-media-management' ));
+$socialmediamanagement = get_the_title(get_page_by_path( 'services-digital-marketing' ));
+$mediapublishingmanagement = get_the_title(get_page_by_path( 'services-web-mediapublishingmanagement' ));
+$cloudhosting = get_the_title(get_page_by_path( 'services-cloud-hosting' ));
+
+
+
+
+
+
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -27,7 +41,7 @@ $contact = get_the_title(get_page_by_path( 'contact' ));
 	<header id="masthead" class="site-header">
 		<nav id="site-navigation" class="main-navigation fixed container-navbar flex-row">
       <!-- navbar left -->
-			<div class="nav-left flex2 flex-row">
+			<div class="nav-left flex3 flex-row">
         <!-- <?php the_custom_logo(); ?> -->
           <img id="logo-header" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="BlueFlower Media logo">
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h3 class="site-title"><span class="blue">Blue</span>Flower Media</h3></a>
@@ -50,19 +64,19 @@ $contact = get_the_title(get_page_by_path( 'contact' ));
         <a href="<?php echo $contact; ?>"><button class="nav-contact" type="button" name="button">Contact Us</button></a>
       </div>
 			<!-- Navbar mobile -->
-			<div class="nav-mobile">
+			<div id="nav-mobile">
         <ul id="mobile-menu">
-          <li><a class="main-items" href="">Home</a></li>
-          <li><a class="main-items" href="">Team</a></li>
-          <li><a class="main-items" href="">Portfolio</a></li>
-          <li><a class="main-items" href="">Blog</a></li>
+          <li><a class="main-items" href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
+          <li><a class="main-items" href="<?php echo $team; ?>">Team</a></li>
+          <li><a class="main-items" href="<?php echo $contact; ?>">Portfolio</a></li>
+          <li><a class="main-items" href="<?php echo $contact; ?>">Blog</a></li>
           <li><h2>Our Services<span class="big-dot blue">.</span></h2></li>
-          <li><a href="">Web Design</a></li>
-          <li><a href="">Graphic Design</a></li>
-          <li><a href="">Digital Marketing</a></li>
-          <li><a href="">Social Media Management</a></li>
-          <li><a href="">Media and Publishing management</a></li>
-          <li><a href="">Cloud Hosting</a></li>
+          <li><a href="<?php echo $webdesign; ?>">Web Design</a></li>
+          <li><a href="<?php echo $graphicdesign; ?>">Graphic Design</a></li>
+          <li><a href="<?php echo $digitalmarketing; ?>">Digital Marketing</a></li>
+          <li><a href="<?php echo $socialmediamanagement; ?>">Social Media Management</a></li>
+          <li><a href="<?php echo $mediapublishingmanagement; ?>">Media and Publishing management</a></li>
+          <li><a href="<?php echo $cloudhosting; ?>">Cloud Hosting</a></li>
           <li><a href="<?php echo $contact; ?>"><button class="nav-contact" type="button" name="button">Contact Us</button></a></li>
       </div>
       <!-- hamburger div -->

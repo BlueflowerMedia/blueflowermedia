@@ -11,11 +11,11 @@
     <section id="section-contact-forms">
       <div class="container">
         <div class="form active" id="form1">
-          <h1>Form1 </h1>
+          <?php echo do_shortcode( '[contact-form-7 id="55" title="Small Business"]' ); ?>
         </div>
 
         <div class="form" id="form2">
-          <h1>Form2</h1>
+          <?php echo do_shortcode( '[contact-form-7 id="56" title="Agency"]' ); ?>
         </div>
       </div>
     </section>

@@ -3,128 +3,130 @@ var page = path.split("/")
 var pageName = page[page.length - 2];
 
 function runRellax() {
-  var rellax = new Rellax('.fbox');
+	var rellax = new Rellax('.fbox');
 }
+
 function runRellaxVert() {
-  var rellax = new Rellax('.fboxv', {
-    horizontal: true,
-    speed: 10,
-  });
+	var rellax = new Rellax('.fboxv', {
+		horizontal: true,
+		speed: 10,
+	});
 }
 
 // navbar
 function navbar() {
-  var navbar = $("#site-navigation");
-  var scroll = $(window).scrollTop();
-  if (scroll > 0) {
-    navbar.addClass("scroll-color");
-  } else {
-    navbar.removeClass("scroll-color");
-  }
-  $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    if (scroll > 0) {
-      navbar.addClass("scroll-color");
-    } else {
-      navbar.removeClass("scroll-color");
-    }
-  });
+	var navbar = $("#site-navigation");
+	var scroll = $(window).scrollTop();
+	if (scroll > 0) {
+		navbar.addClass("scroll-color");
+	} else {
+		navbar.removeClass("scroll-color");
+	}
+	$(window).scroll(function() {
+		var scroll = $(window).scrollTop();
+		if (scroll > 0) {
+			navbar.addClass("scroll-color");
+		} else {
+			navbar.removeClass("scroll-color");
+		}
+	});
 };
 
 
 // navbar mobile
 function navbarMobile() {
-  $("#hamburger-bfm").click(function(){
-    $(this).toggleClass("is-active");
-  });
+	$("#hamburger-bfm").click(function() {
+		$(this).toggleClass("is-active");
+		$("#nav-mobile").toggleClass("open");
+	});
 };
 
 // scrollReveal
 window.sr = ScrollReveal({
-  reset: false,
-  origin: 'top',
-  distance: '10%',
-  opacity: 0,
-  scale: 1,
-  delay: 200,
-  easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
-  duration: 1000,
+	reset: false,
+	origin: 'top',
+	distance: '10%',
+	opacity: 0,
+	scale: 1,
+	delay: 200,
+	easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+	duration: 1000,
 })
 
 
 // client logo slider
 function runCarouselClientLogo() {
-  $(".client-logo-slider").owlCarousel({
-    loop: true,
-    margin: 100,
-    autoplay: true,
-    autoplayTimeout: 2000,
-    autoplayHoverPause: true,
-    nav: false,
-    responsiveClass: true,
-    responsive: {
-      0: {
-        items: 1,
-      },
-      760: {
-        items: 3,
-      },
-      1024: {
-        items: 4,
-      }
-    }
-  })
+	$(".client-logo-slider").owlCarousel({
+		loop: true,
+		margin: 100,
+		autoplay: true,
+		autoplayTimeout: 2000,
+		autoplayHoverPause: true,
+		nav: false,
+		responsiveClass: true,
+		responsive: {
+			0: {
+				items: 1,
+			},
+			760: {
+				items: 3,
+			},
+			1024: {
+				items: 4,
+			}
+		}
+	})
 
 }
 // portfolio slider
 function runCarouselPortfolio() {
-  $(".portfolio-slider").owlCarousel({
-    items: 1,
-    loop: true,
-    autoplay: true,
-    autoplayTimeout: 4000,
-    autoplayHoverPause: true,
-    animateIn: 'fadeIn',
-    animateOut: 'fadeOut',
-  });
+	$(".portfolio-slider").owlCarousel({
+		items: 1,
+		loop: true,
+		autoplay: true,
+		autoplayTimeout: 4000,
+		autoplayHoverPause: true,
+		animateIn: 'fadeIn',
+		animateOut: 'fadeOut',
+	});
 }
 
 
 
 // contact js
 function formSwitch() {
-  var formBtn1 = $("#form-btn1");
-  var formBtn2 = $("#form-btn2");
+	var formBtn1 = $("#form-btn1");
+	var formBtn2 = $("#form-btn2");
 
-  formBtn1.click(function() {
-    $("#form1").addClass("active");
-    $("#form2").removeClass("active");
-    $(this).removeClass("form2");
-  });
+	formBtn1.click(function() {
+		$("#form1").addClass("active");
+		$("#form2").removeClass("active");
+		$(this).removeClass("form2");
+	});
 
-  formBtn2.click(function() {
-    $("#form2").addClass("active");
-    $("#form1").removeClass("active");
-    formBtn1.addClass("form2");
-  });
+	formBtn2.click(function() {
+		$("#form2").addClass("active");
+		$("#form1").removeClass("active");
+		formBtn1.addClass("form2");
+	});
 }
 
 
 
 // team page image slider
 function teamImagePlayer() {
-  setInterval(function() {
-    var next = $(".slide .active").removeClass("active").next(".image");
-    if (!next.length) {
-      next = $(".slide .image:first");
-    }
-    var rangeTop = (Math.floor(Math.random() * 15) + 0).toString() + "%";
-    var rangeLeft = (Math.floor(Math.random() * 10) + 10).toString() + "%";
-    next.css("top", rangeTop);
-    next.css("left", rangeLeft);
+	setInterval(function() {
+		var next = $(".slide .active").removeClass("active").next(".image");
+		if (!next.length) {
+			next = $(".slide .image:first");
+		}
+		var rangeTop = (Math.floor(Math.random() * 15) + 0).toString() + "%";
+		var rangeLeft = (Math.floor(Math.random() * 10) + 10).toString() + "%";
+		next.css("top", rangeTop);
+		next.css("left", rangeLeft);
 
-    next.addClass("active");
-  }, 900);
+		next.addClass("active");
+	}, 900);
 }
 
 // team members hover effect
@@ -147,120 +149,120 @@ function teamImagePlayer() {
 
 // Particle JS in header in homepage
 function runParticles() {
-  particlesJS("particles", {
-    "particles": {
-      "number": {
-        "value": 150,
-        "density": {
-          "enable": true,
-          "value_area": 1000
-        }
-      },
-      "color": {
-        "value": "#1d72f7"
-      },
-      "shape": {
-        "type": "circle",
-        "stroke": {
-          "width": 0,
-          "color": "#000000"
-        },
-        "polygon": {
-          "nb_sides": 5
-        },
-        "image": {
-          "src": "img/github.svg",
-          "width": 100,
-          "height": 100
-        }
-      },
-      "opacity": {
-        "value": 0.21646062821684559,
-        "random": true,
-        "anim": {
-          "enable": true,
-          "speed": 6.4154099771806266,
-          "opacity_min": 1,
-          "sync": true
-        }
-      },
-      "size": {
-        "value": 3,
-        "random": true,
-        "anim": {
-          "enable": false,
-          "speed": 40,
-          "size_min": 0.1,
-          "sync": false
-        }
-      },
-      "line_linked": {
-        "enable": true,
-        "distance": 112.2388442605866,
-        "color": "#1d72f7",
-        "opacity": 0.6173136434332263,
-        "width": 1
-      },
-      "move": {
-        "enable": true,
-        "speed": 1,
-        "direction": "none",
-        "random": false,
-        "straight": false,
-        "out_mode": "out",
-        "bounce": false,
-        "attract": {
-          "enable": false,
-          "rotateX": 600,
-          "rotateY": 1200
-        }
-      }
-    },
-    "interactivity": {
-      "detect_on": "canvas",
-      "events": {
-        "onhover": {
-          "enable": false,
-          "mode": "repulse"
-        },
-        "onclick": {
-          "enable": false,
-          "mode": "push"
-        },
-        "resize": true
-      },
-      "modes": {
-        "grab": {
-          "distance": 400,
-          "line_linked": {
-            "opacity": 1
-          }
-        },
-        "bubble": {
-          "distance": 400,
-          "size": 40,
-          "duration": 2,
-          "opacity": 8,
-          "speed": 3
-        },
-        "repulse": {
-          "distance": 200,
-          "duration": 0.4
-        },
-        "push": {
-          "particles_nb": 4
-        },
-        "remove": {
-          "particles_nb": 2
-        }
-      }
-    },
-    "retina_detect": true
-  });
+	particlesJS("particles", {
+		"particles": {
+			"number": {
+				"value": 150,
+				"density": {
+					"enable": true,
+					"value_area": 1000
+				}
+			},
+			"color": {
+				"value": "#1d72f7"
+			},
+			"shape": {
+				"type": "circle",
+				"stroke": {
+					"width": 0,
+					"color": "#000000"
+				},
+				"polygon": {
+					"nb_sides": 5
+				},
+				"image": {
+					"src": "img/github.svg",
+					"width": 100,
+					"height": 100
+				}
+			},
+			"opacity": {
+				"value": 0.21646062821684559,
+				"random": true,
+				"anim": {
+					"enable": true,
+					"speed": 6.4154099771806266,
+					"opacity_min": 1,
+					"sync": true
+				}
+			},
+			"size": {
+				"value": 3,
+				"random": true,
+				"anim": {
+					"enable": false,
+					"speed": 40,
+					"size_min": 0.1,
+					"sync": false
+				}
+			},
+			"line_linked": {
+				"enable": true,
+				"distance": 112.2388442605866,
+				"color": "#1d72f7",
+				"opacity": 0.6173136434332263,
+				"width": 1
+			},
+			"move": {
+				"enable": true,
+				"speed": 1,
+				"direction": "none",
+				"random": false,
+				"straight": false,
+				"out_mode": "out",
+				"bounce": false,
+				"attract": {
+					"enable": false,
+					"rotateX": 600,
+					"rotateY": 1200
+				}
+			}
+		},
+		"interactivity": {
+			"detect_on": "canvas",
+			"events": {
+				"onhover": {
+					"enable": false,
+					"mode": "repulse"
+				},
+				"onclick": {
+					"enable": false,
+					"mode": "push"
+				},
+				"resize": true
+			},
+			"modes": {
+				"grab": {
+					"distance": 400,
+					"line_linked": {
+						"opacity": 1
+					}
+				},
+				"bubble": {
+					"distance": 400,
+					"size": 40,
+					"duration": 2,
+					"opacity": 8,
+					"speed": 3
+				},
+				"repulse": {
+					"distance": 200,
+					"duration": 0.4
+				},
+				"push": {
+					"particles_nb": 4
+				},
+				"remove": {
+					"particles_nb": 2
+				}
+			}
+		},
+		"retina_detect": true
+	});
 }
 
 function postHeight() {
-  $(".post").height($(".post-info").outerHeight() + 450);
+	$(".post").height($(".post-info").outerHeight() + 450);
 }
 
 // global functions
@@ -270,18 +272,17 @@ sr.reveal($('.sr'));
 sr.reveal($('h1'));
 sr.reveal($('p'));
 
-
-if (pageName == "blueflowermedia") {
-  runParticles();
-  runCarouselClientLogo();
-  runRellax();
-  runRellaxVert();
+if (pageName == "") {
+	runParticles();
+	runCarouselClientLogo();
+	runRellax();
+	runRellaxVert();
 } else if (pageName == "team") {
-  teamImagePlayer();
-} else if (pageName == "contact") {
-  formSwitch();
+	teamImagePlayer();
+} else if (pageName == "Contact") {
+	formSwitch();
 } else if (pageName == "blog") {
-  postHeight();
+	postHeight();
 } else if (pageName == "portfolio") {
-  runCarouselPortfolio();
+	runCarouselPortfolio();
 }
