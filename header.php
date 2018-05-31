@@ -16,7 +16,7 @@ $graphicdesign = get_the_title(get_page_by_path( 'services-graphic-design' ));
 $digitalmarketing = get_the_title(get_page_by_path( 'services-digital-marketing' ));
 $socialmediamanagement = get_the_title(get_page_by_path( 'services-social-media-management' ));
 $socialmediamanagement = get_the_title(get_page_by_path( 'services-digital-marketing' ));
-$mediapublishingmanagement = get_the_title(get_page_by_path( 'services-web-mediapublishingmanagement' ));
+$mediapublishingmanagement = get_the_title(get_page_by_path( 'services-media-and-publishing-marketing' ));
 $cloudhosting = get_the_title(get_page_by_path( 'services-cloud-hosting' ));
 
 
