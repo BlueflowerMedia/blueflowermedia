@@ -86,3 +86,46 @@
     min-width: 300px;
   }
 }
+
+//Contact us Section
+.contactus-container {
+  padding: 20px 10%;
+  background-color: lightgrey;
+
+  form input {
+    border: 3px solid #1d72f7;
+    width: 100%;
+  }
+  .wpcf7-submit {
+    background-color: #1d72f7;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 8px;
+    width: 120px;
+  }
+}
+.one-half {
+    position: relative;
+    margin-right: 4%;
+    float: left;
+    margin-bottom: 20px;
+    width: 48%;
+}
+
+.last {
+    margin-right: 0 !important;
+    clear: right;
+}
+
+@media only screen and (max-width: 767px) {
+    .one-half {
+        width: 100%;
+        margin-right: 0;
+    }
+    .contactus-container {
+      .wpcf7-submit {
+        width: 80px;
+      }
+    }
+
+}
