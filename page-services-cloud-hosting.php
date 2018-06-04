@@ -7,14 +7,13 @@
     </div>
     <div class="txtservice flex2">
       <h1>Cloud Hosting<span class="big-dot blue">.</span></h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo dolor in reprehenderit.
-      </p>
+      <p></p>
     </div>
   </div>
 </section>
 <section id="rd">
   <div class="container">
-    <h1 class="white">Coming Soon.</h1>
+    <h1 class="white center">Coming Soon.</h1>
   </div>
 </section>
 <!--  Digital Marketing design ------------------------------------------------------------------------------>
