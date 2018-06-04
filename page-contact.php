@@ -2,23 +2,29 @@
 
 <section id="section-contact">
   <div class="container">
-    <h1>Contacts<span class="big-dot blue">.</span></h1>
-    <section id="section-contact-buttons" class="flex-row">
-      <button id="form-btn1" class="form-button" type="button"><h4>Small Businesses</h4></button>
-      <button id="form-btn2" class="form-button" type="button"><h4>Agencies</h4></button>
-    </section>
+    <h1>Contact Us<span class="big-dot blue">.</span></h1>
+  </div>
+</section>
 
-    <section id="section-contact-forms">
-      <div class="container">
-        <div class="form active" id="form1">
-          <?php echo do_shortcode( '[contact-form-7 id="55" title="Small Business"]' ); ?>
-        </div>
+<section id="contact-info">
+  <div class="container flex-row">
+    <div class="contact-type flex1">
+      <i class="fas fa-map-marker-alt"></i>
+      <h4>Location</h4>
+      <p>3214 Danforth Ave,<br>Toronto, ON M1L 1C1</p>
+    </div>
 
-        <div class="form" id="form2">
-          <?php echo do_shortcode( '[contact-form-7 id="56" title="Agency"]' ); ?>
-        </div>
-      </div>
-    </section>
+    <div class="contact-type flex1">
+      <i class="fas fa-phone"></i>
+      <h4>Phone Number</h4>
+      <p>647-712-6119</p>
+    </div>
+
+    <div class="contact-type flex1">
+      <i class="fas fa-envelope-open"></i>
+      <h4>E-mail</h4>
+      <p>contact@blueflowermedia.com</p>
+    </div>
 
   </div>
 </section>
@@ -29,7 +35,7 @@
       <h3>INFO<span class="big-dot blue">.</span></h3>
       <p>
         <a href=""><i class="fas fa-phone-volume" style="color:#3B5998"></i></a>
-        (647) 712-6119
+
       </p>
       <p>
         <a href=""><i class="fas fa-envelope-square" style="color:#3B5998"></i></a>
@@ -45,6 +51,10 @@
         width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
   </div>
+  <div class="form active" id="form1">
+    <?php echo do_shortcode( '[contact-form-7 id="55" title="Small Business"]' ); ?>
+  </div>
+
 </section>
 
 <?php get_footer(); ?>

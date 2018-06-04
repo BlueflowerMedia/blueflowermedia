@@ -1,83 +1,36 @@
-#section-contact-buttons {
-  justify-content: center;
-
-  button.form-button {
-    background: rgba(255, 255, 255, 0);
-    padding: 10px;
-    margin: 10px;
-    width: 300px;
-    border: none;
-    position: relative;
-    outline: none;
-
-    h4 {
-      color: darken($blue, 40);
-    }
-
-    h4 {
-      margin: 0;
-    }
-  }
-
-  button#form-btn1 {
-    &:after {
-      content: "";
-      background-color: blue;
-      width: 40%;
-      height: 2px;
-      position: absolute;
-      bottom: 0;
-      left: 30%;
-      transition: all 0.4s cubic-bezier(0.13, 0.59, 0.63, 1.07);
-    }
-
-    &.form2:after {
-      left: 147%;
-      width: 20%;
-
-      h4 {
-        color: black;
+#section-contact .container {
+  form {
+    input {
+      margin: 5px 0;
+      padding: 8px
+       10px;
+      border-radius: 0;
+      border: none;
+      border-bottom: 2px solid #696969;
+      transition: border 0.5s cubic-bezier(0.7,0.7,0.7,1.0);
+      &:focus {
+        border-bottom-color: $blue;
+        outline: none;
       }
     }
   }
 }
 
-#section-contact-forms .container {
-  position: relative;
-  height: 600px;
-
-  .form {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 500px;
-    width: 100%;
-    opacity: 0;
-    transition: all 0.7s cubic-bezier(.29,1.13,.42,1.07);
-  }
-
-  #form1 {
-    transform: translateX(-100%);
-
-    &.active {
-      transform: translateX(0);
-      opacity: 1;
+section#contact-info {
+  .container {
+    .contact-type {
+      margin: 25px 0;
+      text-align: center;
+      i {
+        color: $blue;
+        font-size: 1.5rem;
+        margin: 20px 0;
+      }
     }
-  }
-
-  #form2 {
-    transform: translateX(100%);
-
-    &.active {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-
-  form {
-    text-align: center;
   }
 }
+
+
 // part contact and map
 
 #contact-map .container {
@@ -85,4 +38,46 @@
   .contact-map {
     min-width: 300px;
   }
+}
+//Contact us Section
+.contactus-container {
+  padding: 20px 10%;
+  background-color: lightgrey;
+
+  form input {
+    border: 3px solid #1d72f7;
+    width: 100%;
+  }
+  .wpcf7-submit {
+    background-color: #1d72f7;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 8px;
+    width: 120px;
+  }
+}
+.one-half {
+    position: relative;
+    margin-right: 4%;
+    float: left;
+    margin-bottom: 20px;
+    width: 48%;
+}
+
+.last {
+    margin-right: 0 !important;
+    clear: right;
+}
+
+@media only screen and (max-width: 767px) {
+    .one-half {
+        width: 100%;
+        margin-right: 0;
+    }
+    .contactus-container {
+      .wpcf7-submit {
+        width: 80px;
+      }
+    }
+
 }
