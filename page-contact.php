@@ -5,7 +5,8 @@
     <h1>Contacts<span class="big-dot blue">.</span></h1>
 
     <section id="section-contact-forms">
-      <div class="container">
+      <div class="contactus-container">
+        <!-- <div class="container"> -->
         <div class="form active" id="form1">
           <?php echo do_shortcode( '[contact-form-7 id="55" title="Small Business"]' ); ?>
         </div>

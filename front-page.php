@@ -165,7 +165,7 @@
     <div class="item container-item-1 flex1">
       <h2>Small Business<span class="big-dot yellow">?</span></h2>
       <div class="image-1">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/bfm-small-business-icon-1.png" alt="Image-1">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/bfm-new-small-business-icon.svg" alt="Image-1">
       </div>
       <p class="white">Looking to grow your business online? BlueFlower Media helps small business owners all across Canada achieve their digital goals.</p>
       <button class="agency-business" type="button" name="button">Small Business</button>
@@ -175,7 +175,7 @@
     <div class="item container-item-2 flex1">
       <h2>Agency<span class="big-dot yellow">?</span></h2>
       <div class="image-2">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/bfm-agency-icon-1.png" alt="Image-2">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/bfm-new-agency-icon.svg" alt="Image-2">
       </div>
       <p class="white">Does your agency need a helping hand with its development and design work? BlueFlower Media helps toronto agencies manage client expectations with our special agency rates.</p>
       <button class="agency-business" type="button" name="button">Agency</button>
