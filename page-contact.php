@@ -3,19 +3,11 @@
 <section id="section-contact">
   <div class="container">
     <h1>Contacts<span class="big-dot blue">.</span></h1>
-    <section id="section-contact-buttons" class="flex-row">
-      <button id="form-btn1" class="form-button" type="button"><h4>Small Businesses</h4></button>
-      <button id="form-btn2" class="form-button" type="button"><h4>Agencies</h4></button>
-    </section>
 
     <section id="section-contact-forms">
       <div class="container">
         <div class="form active" id="form1">
-          <h1>Form1 </h1>
-        </div>
-
-        <div class="form" id="form2">
-          <h1>Form2</h1>
+          <?php echo do_shortcode( '[contact-form-7 id="55" title="Small Business"]' ); ?>
         </div>
       </div>
     </section>

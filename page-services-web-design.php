@@ -7,8 +7,7 @@
     </div>
     <div class="txtservice flex2">
       <h1>Web Design<span class="big-dot blue">.</span></h1>
-      <p>We build result- oriented intuitive websites guaranteed to leave a lasting impression.
-      </p>
+      <p>Web-development is an integral part to growth of the modern business. Our team of experts understand this and create websites with an uncompromising high standard for intuitive and accessible designs.</p>
     </div>
   </div>
 </section>

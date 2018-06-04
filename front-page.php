@@ -16,7 +16,7 @@
     <div class="left">
       <h1 class="white">About Us<span class="big-dot yellow">.</span></h1>
       <p class="white">We are a <b>Toronto based digital agency</b> specializing in creating, improving, and managing your digital footprints. We work with clients from the ground up - anything from brainstorming branding concepts to developing and launching projects
-        for mass market use. With an emphasis on user experience, we make your website/app intuitive and accesible to all your clients. We do all of our work in house so our people are well-versed and the very core of BlueFlower Media.</p>
+        for mass market use. With an emphasis on user experience, we make your website/app intuitive and accessible to all your clients. We do all of our work in house so our people are well-versed and the very core of BlueFlower Media.</p>
     </div>
     <div class="fbox" id="fbox1" style="transform: rotate(45deg);" data-rellax-speed="4">
       <img src="<?php echo get_template_directory_uri(); ?>/images/about-icons/rocket.svg" alt="" style="transform: rotate(-45deg);">

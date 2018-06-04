@@ -27,7 +27,7 @@ $contact = get_the_title(get_page_by_path( 'contact' ));
 	<header id="masthead" class="site-header">
 		<nav id="site-navigation" class="main-navigation fixed container-navbar flex-row">
       <!-- navbar left -->
-			<div class="nav-left flex2 flex-row">
+			<div class="nav-left flex3 flex-row">
         <!-- <?php the_custom_logo(); ?> -->
           <img id="logo-header" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="BlueFlower Media logo">
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h3 class="site-title"><span class="blue">Blue</span>Flower Media</h3></a>
@@ -50,7 +50,7 @@ $contact = get_the_title(get_page_by_path( 'contact' ));
         <a href="<?php echo $contact; ?>"><button class="nav-contact" type="button" name="button">Contact Us</button></a>
       </div>
 			<!-- Navbar mobile -->
-			<div class="nav-mobile">
+			<div id="nav-mobile">
         <ul id="mobile-menu">
           <li><a class="main-items" href="">Home</a></li>
           <li><a class="main-items" href="">Team</a></li>

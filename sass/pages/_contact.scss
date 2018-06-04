@@ -11,7 +11,7 @@
     outline: none;
 
     h4 {
-      color: #626262;
+      color: darken($blue, 40);
     }
 
     h4 {
@@ -57,7 +57,6 @@
   }
 
   #form1 {
-    background-color: blue;
     transform: translateX(-30%);
 
     &.active {
@@ -67,13 +66,16 @@
   }
 
   #form2 {
-    background-color: red;
     transform: translateX(30%);
 
     &.active {
       transform: translateX(0);
       opacity: 1;
     }
+  }
+
+  form {
+    text-align: center;
   }
 }
 // part contact and map

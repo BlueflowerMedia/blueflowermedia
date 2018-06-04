@@ -7,8 +7,7 @@
     </div>
     <div class="txtservice flex2">
       <h1>Digital Marketing<span class="big-dot blue">.</span></h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo dolor in reprehenderit.
-      </p>
+      <p>We help media and publishing companies with print design and resource management for online advertising.</p>
     </div>
   </div>
 </section>

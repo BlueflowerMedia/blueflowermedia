@@ -7,8 +7,7 @@
     </div>
     <div class="txtservice flex2">
       <h1>Graphic Design<span class="big-dot blue">.</span></h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo dolor in reprehenderit.
-      </p>
+      <p>First-impressions can only be made once. The first look must make both an immediate as well as a long lasting impression. Creating such logos, posters, and signs requires the deft hand and intuitive eye our agency recruits specifically for.</p>
     </div>
   </div>
 </section>

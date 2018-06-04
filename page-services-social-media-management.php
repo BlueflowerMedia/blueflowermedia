@@ -7,8 +7,7 @@
     </div>
     <div class="txtservice flex2">
       <h1>Social Media Management<span class="big-dot blue">.</span></h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo dolor in reprehenderit.
-      </p>
+      <p>We have dedicated content producers to engage with the public professionally,effectively, and consistently. We have a deep understanding of public relationships and ability to foster a positive public image.</p>
     </div>
   </div>
 </section>
