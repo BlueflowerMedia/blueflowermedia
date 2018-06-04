@@ -3,9 +3,29 @@
 <section id="section-contact">
   <div class="container">
     <h1>Contact Us<span class="big-dot blue">.</span></h1>
-    <div class="form active" id="form1">
-      <?php echo do_shortcode( '[contact-form-7 id="55" title="Small Business"]' ); ?>
+  </div>
+</section>
+
+<section id="contact-info">
+  <div class="container flex-row">
+    <div class="contact-type flex1">
+      <i class="fas fa-map-marker-alt"></i>
+      <h4>Location</h4>
+      <p>3214 Danforth Ave,<br>Toronto, ON M1L 1C1</p>
     </div>
+
+    <div class="contact-type flex1">
+      <i class="fas fa-phone"></i>
+      <h4>Phone Number</h4>
+      <p>647-712-6119</p>
+    </div>
+
+    <div class="contact-type flex1">
+      <i class="fas fa-envelope-open"></i>
+      <h4>E-mail</h4>
+      <p>contact@blueflowermedia.com</p>
+    </div>
+
   </div>
 </section>
 
@@ -15,7 +35,7 @@
       <h3>INFO<span class="big-dot blue">.</span></h3>
       <p>
         <a href=""><i class="fas fa-phone-volume" style="color:#3B5998"></i></a>
-        (647) 712-6119
+
       </p>
       <p>
         <a href=""><i class="fas fa-envelope-square" style="color:#3B5998"></i></a>
@@ -31,6 +51,10 @@
         width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
   </div>
+  <div class="form active" id="form1">
+    <?php echo do_shortcode( '[contact-form-7 id="55" title="Small Business"]' ); ?>
+  </div>
+
 </section>
 
 <?php get_footer(); ?>

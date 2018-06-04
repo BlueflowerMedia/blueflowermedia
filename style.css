@@ -2332,6 +2332,14 @@ hr {
     border-bottom-color: #1d72f7;
     outline: none; }
 
+section#contact-info .container .contact-type {
+  margin: 25px 0;
+  text-align: center; }
+  section#contact-info .container .contact-type i {
+    color: #1d72f7;
+    font-size: 1.5rem;
+    margin: 20px 0; }
+
 #contact-map .container .contact-info,
 #contact-map .container .contact-map {
   min-width: 300px; }
