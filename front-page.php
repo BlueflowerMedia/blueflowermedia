@@ -183,7 +183,7 @@
     </div>
   </div>
   <div class="goto-contact">
-    <button class="agency-business" type="button" name="button">Get in Touch</button>
+    <a href="<?php echo get_the_title(get_page_by_path( 'contact' )); ?>"><button class="agency-business" type="button" name="button">Get in Touch</button></a>
   </div>
 
   </div>
