@@ -21,7 +21,7 @@
     </div>
 
     <div class="contact-type flex1">
-      <i class="fas fa-envelope-open"></i>
+      ]<i class="fas fa-envelope-open"></i>
       <h4>E-mail</h4>
       <p>contact@blueflowermedia.com</p>
     </div>
