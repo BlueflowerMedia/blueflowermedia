@@ -1,4 +1,7 @@
 #section-contact .container {
+  @include mobile {
+    display: block;
+  }
   form {
     input {
       margin: 5px 0;
@@ -16,19 +19,15 @@
   }
 }
 
-section#contact-info {
-  .container {
-    .contact-type {
-      margin: 25px 0;
-      text-align: center;
-      i {
-        color: $blue;
-        font-size: 1.5rem;
-        margin: 20px 0;
-      }
-    }
+.contact-type {
+  margin: 25px 0;
+  i {
+    color: $blue;
+    font-size: 2rem;
+    margin: 15px 0 5px 0;
   }
 }
+
 
 
 // part contact and map
@@ -80,4 +79,75 @@ section#contact-info {
       }
     }
 
+}
+.contact-form-part-1 {
+  display: flex;
+  padding: 15px;
+  background-color: lightblue;
+  width: 100%;
+}
+
+.contact-form-part-1 input {
+  flex: 1;
+}
+.your-name{
+
+  input {
+    border: none;
+    border-bottom: 2px solid darkgrey;
+    border-radius: 0;
+    margin: 7px;
+  }
+}
+
+.your-email {
+  input {
+    border: none;
+    border-bottom: 2px solid darkgrey;
+    border-radius: 0;
+    margin: 7px;
+  }
+}
+
+.your-phone {
+  input {
+    border: none;
+    border-bottom: 2px solid darkgrey;
+    border-radius: 0;
+    margin: 7px;
+  }
+}
+
+.contact-form-part-2 {
+  justify-content: center;
+  display: flex;
+}
+
+.advanced-group-inner-container {
+  background-color: #f9f9f9;
+  padding: 15px;
+
+}
+
+
+
+.contact-form-part-3 {
+  display: flex;
+}
+
+.contact-form-part-3 input {
+  flex: 1;
+  margin: 7px;
+}
+
+.contact-form-part-4 {
+  width: 100%;
+}
+
+.contact-form-part-5 {
+  display: flex;
+}
+
+.contact-form-part-5 select {
+  flex: 1;
 }

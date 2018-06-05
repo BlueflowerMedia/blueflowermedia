@@ -2364,6 +2364,9 @@ hr {
 #rd {
   background-color: #1d72f7; }
 
+@media (max-width: 760px) {
+  #section-contact .container {
+    display: block; } }
 #section-contact .container form input {
   margin: 5px 0;
   padding: 8px 10px;
@@ -2375,13 +2378,12 @@ hr {
     border-bottom-color: #1d72f7;
     outline: none; }
 
-section#contact-info .container .contact-type {
-  margin: 25px 0;
-  text-align: center; }
-  section#contact-info .container .contact-type i {
+.contact-type {
+  margin: 25px 0; }
+  .contact-type i {
     color: #1d72f7;
-    font-size: 1.5rem;
-    margin: 20px 0; }
+    font-size: 2rem;
+    margin: 15px 0 5px 0; }
 
 #contact-map .container .contact-info,
 #contact-map .container .contact-map {
@@ -2418,3 +2420,53 @@ section#contact-info .container .contact-type {
 
   .contactus-container .wpcf7-submit {
     width: 80px; } }
+.contact-form-part-1 {
+  display: flex;
+  padding: 15px;
+  background-color: lightblue;
+  width: 100%; }
+
+.contact-form-part-1 input {
+  flex: 1; }
+
+.your-name input {
+  border: none;
+  border-bottom: 2px solid darkgrey;
+  border-radius: 0;
+  margin: 7px; }
+
+.your-email input {
+  border: none;
+  border-bottom: 2px solid darkgrey;
+  border-radius: 0;
+  margin: 7px; }
+
+.your-phone input {
+  border: none;
+  border-bottom: 2px solid darkgrey;
+  border-radius: 0;
+  margin: 7px; }
+
+.contact-form-part-2 {
+  justify-content: center;
+  display: flex; }
+
+.advanced-group-inner-container {
+  background-color: #f9f9f9;
+  padding: 15px; }
+
+.contact-form-part-3 {
+  display: flex; }
+
+.contact-form-part-3 input {
+  flex: 1;
+  margin: 7px; }
+
+.contact-form-part-4 {
+  width: 100%; }
+
+.contact-form-part-5 {
+  display: flex; }
+
+.contact-form-part-5 select {
+  flex: 1; }
