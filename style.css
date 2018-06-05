@@ -2054,6 +2054,9 @@ footer {
   .posts .post {
     width: 70%;
     margin: 0 auto; }
+    .posts .post p.date {
+      font-size: 0.9rem;
+      color: #8f8e8e; }
     .posts .post .sharedaddy {
       display: none; }
     .posts .post .post-image {
@@ -2065,8 +2068,8 @@ footer {
       .posts .post .post-image .post-info {
         position: absolute;
         top: 80%;
-        left: 10%;
-        width: 80%;
+        left: 6%;
+        width: 88%;
         height: auto;
         background-color: white;
         padding: 10px;
@@ -2090,7 +2093,9 @@ footer {
     .post-info a .arrow svg {
       fill: white; }
   .post-info a.read-more {
-    padding: 5px; }
+    padding: 5px;
+    font-weight: 700;
+    font-size: 1rem; }
   .post-info a:hover > .arrow {
     transform: translate(2px, 2px);
     opacity: 1; }
@@ -2126,7 +2131,7 @@ footer {
 
 .container-blog {
   padding: 10px;
-  max-width: 800px;
+  max-width: 950px;
   margin: 0 auto; }
 
 #related-posts .container-blog .related-posts {
@@ -2140,22 +2145,14 @@ footer {
       object-fit: cover; }
 
 h1.entry-title {
-  margin-top: 3rem;
+  margin-top: 100px 0 10px 0;
   font-size: 3.2rem; }
 
-.container-blog-content {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 30px; }
-  .container-blog-content .entry-content {
-    flex: 1;
-    margin: 0 0 0 30px; }
-    .container-blog-content .entry-content p {
-      font-size: 1.05rem; }
-  .container-blog-content .social-media {
-    text-align: right;
-    width: 50px;
-    margin: 20px auto; }
+.entry-content {
+  width: 75%;
+  margin: 10px auto; }
+  .entry-content p {
+    font-size: 1.05rem; }
 
 .footer-right {
   text-align: right; }
