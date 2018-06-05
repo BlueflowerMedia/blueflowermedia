@@ -63,8 +63,7 @@
           <img id="pic5" src="<?php echo get_template_directory_uri(); ?>/images/team/team-zulfiqur.jpg" alt="Zulfiqur Rahman">
           <h3>Zulfiqur Rahman</h3>
           <p>[ Junior Developer ]</p>
-          <p>People say I am the funniest person in the office and I agree. I also received my masters in Computer Engineering.
-</p>
+          <p>People say I am the funniest person in the office and I agree. I also received my masters in Computer Engineering.</p>
         </div>
       </div>
 

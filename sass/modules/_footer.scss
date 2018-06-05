@@ -12,6 +12,10 @@ footer {
 	.container {
 		padding: 50px 10%;
 		color: white;
+		@include mobile {
+			display: block;
+			text-align: center;
+		}
 	}
 
 	p {
@@ -22,6 +26,9 @@ footer {
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
+		@include mobile {
+			justify-content: center;
+		}
 
 		i {
 			display: inline-block;

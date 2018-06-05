@@ -1341,6 +1341,10 @@ span.big-dot {
 * {
   z-index: 999; }
 
+body {
+  width: 100vw;
+  overflow-x: hidden; }
+
 #content {
   background: white; }
 
@@ -1710,12 +1714,19 @@ footer {
   footer .container {
     padding: 50px 10%;
     color: white; }
+    @media (max-width: 760px) {
+      footer .container {
+        display: block;
+        text-align: center; } }
   footer p {
     opacity: 1 !important; }
   footer .footer-right {
     display: flex;
     justify-content: flex-end;
     align-items: center; }
+    @media (max-width: 760px) {
+      footer .footer-right {
+        justify-content: center; } }
     footer .footer-right i {
       display: inline-block;
       background: white;
@@ -2144,6 +2155,17 @@ footer {
 #team-about {
   background: white; }
 
+@media (max-width: 760px) {
+  #team-about .container {
+    display: block; }
+    #team-about .container .slide {
+      height: 350px; }
+      #team-about .container .slide .image {
+        top: 50px !important;
+        left: 0 !important;
+        width: 90vw !important;
+        height: auto;
+        object-fit: cover; } }
 #team-about .container .head {
   flex: 1; }
 #team-about .container .slide {
@@ -2167,6 +2189,9 @@ footer {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 800;
   z-index: 10; }
+  @media (max-width: 760px) {
+    #team-about .container:after {
+      display: none; } }
 
 #our-team {
   background: white; }
