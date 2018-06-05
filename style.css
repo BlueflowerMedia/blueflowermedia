@@ -2052,8 +2052,13 @@ footer {
 .posts {
   text-align: center; }
   .posts .post {
-    width: 80%;
+    width: 70%;
     margin: 0 auto; }
+    .posts .post p.date {
+      font-size: 0.9rem;
+      color: #8f8e8e; }
+    .posts .post .sharedaddy {
+      display: none; }
     .posts .post .post-image {
       position: relative; }
       .posts .post .post-image img {
@@ -2063,12 +2068,14 @@ footer {
       .posts .post .post-image .post-info {
         position: absolute;
         top: 80%;
-        left: 10%;
-        width: 80%;
+        left: 6%;
+        width: 88%;
         height: auto;
         background-color: white;
         padding: 10px;
         box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.2); }
+        .posts .post .post-image .post-info p {
+          font-size: 1.0rem; }
         @media (max-width: 760px) {
           .posts .post .post-image .post-info {
             top: 100%;
@@ -2086,15 +2093,15 @@ footer {
     .post-info a .arrow svg {
       fill: white; }
   .post-info a.read-more {
-    border: 1px solid black;
-    background-color: black;
-    padding: 5px; }
+    padding: 5px;
+    font-weight: 700;
+    font-size: 1rem; }
   .post-info a:hover > .arrow {
     transform: translate(2px, 2px);
     opacity: 1; }
 
 .post-info a.read-more {
-  color: white; }
+  color: #1d72f7; }
 
 /*
 //First version
@@ -2124,7 +2131,7 @@ footer {
 
 .container-blog {
   padding: 10px;
-  max-width: 800px;
+  max-width: 950px;
   margin: 0 auto; }
 
 #related-posts .container-blog .related-posts {
@@ -2137,20 +2144,25 @@ footer {
       width: 100%;
       object-fit: cover; }
 
-.container-blog-content {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 30px; }
-  .container-blog-content .entry-content {
-    flex: 1;
-    margin: 0 0 0 30px; }
-  .container-blog-content .social-media {
-    text-align: right;
-    width: 50px;
-    margin: 20px auto; }
+h1.entry-title {
+  margin-top: 100px 0 10px 0;
+  font-size: 3.2rem; }
+
+.entry-content {
+  width: 75%;
+  margin: 10px auto; }
+  .entry-content p {
+    font-size: 1.05rem; }
 
 .footer-right {
   text-align: right; }
+
+div.entry-content p:first-child:first-letter {
+  float: left;
+  font-size: 5em;
+  color: #00193c;
+  margin-right: 0.10em;
+  line-height: 90%; }
 
 #team-about {
   background: white; }

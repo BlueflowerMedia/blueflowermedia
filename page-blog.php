@@ -8,10 +8,10 @@
       <?php if ( $query->have_posts() ): while ( $query->have_posts() ): $query->the_post(); ?>
         <div class="post">
           <div class="post-image">
-            <?php the_post_thumbnail(); ?>
+            <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
             <div class="post-info">
               <a href="<?php the_permalink(); ?>" title="Read"><h2><?php the_title(); ?></h2></a>
-              <?php the_time('M j, Y'); ?>
+              <p class="date"><?php echo  get_the_time('M j, Y'); ?></p>
               <?php the_excerpt(); ?>
               <a href="<?php echo get_permalink(); ?>" class="read-more"> Read More
                 <span class="arrow">
