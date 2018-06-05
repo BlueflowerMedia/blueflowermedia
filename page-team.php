@@ -36,7 +36,7 @@
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/team/team-noman.jpg" alt="Noman Hossain">
           <h3>Noman Hossain</h3>
           <p>[ Lead Designer<br>Project Manager ]</p>
-          <p>I am the guy who talk to you on phone.</p>
+          <p>I am the guy who talks to you on phone.</p>
         </div>
         <div class="member sr">
           <img id="pic2" src="<?php echo get_template_directory_uri(); ?>/images/team/team-fahim.jpg" alt="Fahim Shahreer">
@@ -51,19 +51,19 @@
           <img id="pic3" src="<?php echo get_template_directory_uri(); ?>/images/team/team-altab.jpg" alt="Altab Hossain">
           <h3>Altab Hossain</h3>
           <p>[ Backend Developer ]</p>
-          <p>I am always curious about hardest problems in the office.</p>
+          <p>I have my PHD in Computer Science. I like using my technical knowledge to practically solve real world client problems.</p>
         </div>
         <div class="member sr">
           <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/team/team-ali.jpg" alt="Ali Akbar Sarkarati">
           <h3>Ali Akbar Sarkarati</h3>
           <p>[ Full-stack Developer ]</p>
-          <p>Stay calm and be happy.</p>
+          <p>I have a passion for the subjective arts. This surprisingly lead me to a career in web design. I also love making Music.</p>
         </div>
         <div class="member sr">
           <img id="pic5" src="<?php echo get_template_directory_uri(); ?>/images/team/team-zulfiqur.jpg" alt="Zulfiqur Rahman">
           <h3>Zulfiqur Rahman</h3>
           <p>[ Junior Developer ]</p>
-          <p>I'll think of something by tomorrow.</p>
+          <p>People say I am the funniest person in the office and I agree. I also received my masters in Computer Engineering.</p>
         </div>
       </div>
 
@@ -73,19 +73,19 @@
           <img id="pic6" src="<?php echo get_template_directory_uri(); ?>/images/team/team-binod.jpg" alt="Zulfiqur Rahman">
           <h3>Binod Thapa</h3>
           <p>[ Front-End Developer ]</p>
-          <p>I love coding...</p>
+          <p>I love visiting new places to get inspiration for our design work.</p>
         </div>
         <div class="member sr">
           <img id="pic7" src="<?php echo get_template_directory_uri(); ?>/images/team/team-rif.jpg" alt="Zulfiqur Rahman">
           <h3>Rifaquat Nabi</h3>
           <p>[ Digital Marketing Manager ]</p>
-          <p>I am the one who knocks</p>
+          <p>I am the one who knocks.</p>
         </div>
         <div class="member sr">
           <img id="pic8" src="<?php echo get_template_directory_uri(); ?>/images/team/team-chandra.jpg" alt="Zulfiqur Rahman">
           <h3>Chandra Shrestha</h3>
           <p>[ Front-End Developer ]</p>
-          <p>I am the most hard worker</p>
+          <p>There’s nothing I love more than travelling, web design and my family - maybe not in that order.</p>
         </div>
       </div>
 

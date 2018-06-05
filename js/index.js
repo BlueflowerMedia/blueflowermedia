@@ -92,25 +92,24 @@ function runCarouselPortfolio() {
 }
 
 
-
-// contact js
-function formSwitch() {
-	var formBtn1 = $("#form-btn1");
-	var formBtn2 = $("#form-btn2");
-
-	formBtn1.click(function() {
-		$("#form1").addClass("active");
-		$("#form2").removeClass("active");
-		$(this).removeClass("form2");
-	});
-
-	formBtn2.click(function() {
-		$("#form2").addClass("active");
-		$("#form1").removeClass("active");
-		formBtn1.addClass("form2");
-	});
-}
-
+// // contact js
+// function formSwitch() {
+// 	var formBtn1 = $("#form-btn1");
+// 	var formBtn2 = $("#form-btn2");
+//
+// 	formBtn1.click(function() {
+// 		$("#form1").addClass("active");
+// 		$("#form2").removeClass("active");
+// 		$(this).removeClass("form2");
+// 	});
+//
+// 	formBtn2.click(function() {
+// 		$("#form2").addClass("active");
+// 		$("#form1").removeClass("active");
+// 		formBtn1.addClass("form2");
+// 	});
+// }
+//
 
 
 // team page image slider
@@ -270,7 +269,6 @@ navbar();
 navbarMobile();
 sr.reveal($('.sr'));
 sr.reveal($('h1'));
-sr.reveal($('p'));
 
 if (pageName == "") {
 	runParticles();

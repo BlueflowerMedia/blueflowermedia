@@ -2,6 +2,11 @@
 	z-index: 999;
 }
 
+body {
+	width: 100vw;
+	overflow-x: hidden;
+}
+
 #content {
 	background: white;
 }

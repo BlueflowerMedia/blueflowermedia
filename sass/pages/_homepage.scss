@@ -120,6 +120,7 @@
   }
 
   .container {
+    text-align: center;
     h2 {
       color: white;
     }
@@ -129,8 +130,28 @@
       border-radius: 10%;
       margin: 0;
       display: block;
-      @include mobile {
-        margin: 0 auto;
+      margin: 0 auto;
+    }
+
+  }
+  .goto-contact {
+    margin: 0;
+    text-align: center;
+    button {
+      background-color: $blue;
+      border: 3px solid white;
+      color: white;
+      font-weight: 700;
+      font-size: 1.5rem;
+      border-radius: 8px;
+      transition: all 0.3s cubic-bezier(0.4,0.7,0.4,1.1);
+      padding: 15px 20px;
+      z-index: 999999;
+/*       box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4);
+ */
+      &:hover {
+        color: $blue;
+        background: white;
       }
     }
   }

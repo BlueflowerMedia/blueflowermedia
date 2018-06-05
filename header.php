@@ -9,15 +9,19 @@
  * @package blueflowedmedia
  */
 
-$contact = get_the_title(get_page_by_path( 'contact' ));
-$team = get_the_title(get_page_by_path( 'team' ));
-$webdesign = get_the_title(get_page_by_path( 'services-web-design' ));
-$graphicdesign = get_the_title(get_page_by_path( 'services-graphic-design' ));
-$digitalmarketing = get_the_title(get_page_by_path( 'services-digital-marketing' ));
-$socialmediamanagement = get_the_title(get_page_by_path( 'services-social-media-management' ));
-$socialmediamanagement = get_the_title(get_page_by_path( 'services-digital-marketing' ));
-$mediapublishingmanagement = get_the_title(get_page_by_path( 'services-media-and-publishing-marketing' ));
-$cloudhosting = get_the_title(get_page_by_path( 'services-cloud-hosting' ));
+$contact = get_permalink(get_page_by_path( 'contact' ));
+$team = get_permalink(get_page_by_path( 'team' ));
+$blog = get_permalink(get_page_by_path( 'blog' ));
+$portfolio = get_permalink(get_page_by_path( 'Portfolio' ));
+
+$webdesign = get_permalink(get_page_by_path( 'services-web-design' ));
+$graphicdesign = get_permalink(get_page_by_path( 'services-graphic-design' ));
+$digitalmarketing = get_permalink(get_page_by_path( 'services-digital-marketing' ));
+$socialmediamanagement = get_permalink(get_page_by_path( 'services-social-media-management' ));
+$socialmediamanagement = get_permalink(get_page_by_path( 'services-digital-marketing' ));
+$mediapublishingmanagement = get_permalink(get_page_by_path( 'services-media-and-publishing-marketing' ));
+$cloudhosting = get_permalink(get_page_by_path( 'services-cloud-hosting' ));
+
 
 
 
@@ -68,8 +72,8 @@ $cloudhosting = get_the_title(get_page_by_path( 'services-cloud-hosting' ));
         <ul id="mobile-menu">
           <li><a class="main-items" href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
           <li><a class="main-items" href="<?php echo $team; ?>">Team</a></li>
-          <li><a class="main-items" href="<?php echo $contact; ?>">Portfolio</a></li>
-          <li><a class="main-items" href="<?php echo $contact; ?>">Blog</a></li>
+          <li><a class="main-items" href="<?php echo $portfolio; ?>">Portfolio</a></li>
+          <li><a class="main-items" href="<?php echo $blog; ?>">Blog</a></li>
           <li><h2>Our Services<span class="big-dot blue">.</span></h2></li>
           <li><a href="<?php echo $webdesign; ?>">Web Design</a></li>
           <li><a href="<?php echo $graphicdesign; ?>">Graphic Design</a></li>

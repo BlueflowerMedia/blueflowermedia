@@ -39,7 +39,7 @@
       <!-- service 1 --->
       <div class="service">
         <a class="service-anchor" href="<?php echo get_the_title(get_page_by_path( 'services-web-design' )); ?>">
-          <div class="logo sr">
+          <div class="logo">
             <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-web-design-icon.svg" alt="bfm-web-design-icon">
             <h3 class="underline blue-underline">Web Design</h3>
           </div>
@@ -60,7 +60,7 @@
       <!-- service 2 --->
       <div class="service ">
         <a class="service-anchor" href="<?php echo get_the_title(get_page_by_path( 'services-graphic-design' )); ?>">
-          <div class="logo sr">
+          <div class="logo">
             <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-graphic-design-icon.svg" alt="bfm-graphic-design-icon">
             <h3 class="underline blue-underline">Graphic Design</h3>
           </div>
@@ -79,7 +79,7 @@
       <!-- service 3 --->
       <div class="service ">
         <a class="service-anchor" href="<?php echo get_the_title(get_page_by_path( 'services-digital-marketing' )); ?>">
-          <div class="logo sr">
+          <div class="logo">
             <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-digital-marketing-icon.svg" alt="bfm-digital-marketing-icon">
             <h3 class="underline blue-underline">Digital Marketing</h3>
           </div>
@@ -99,7 +99,7 @@
       <!-- service 4 --->
       <div class="service">
         <a class="service-anchor" href="<?php echo get_the_title(get_page_by_path( 'services-social-media-management' )); ?>">
-          <div class="logo sr">
+          <div class="logo">
             <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-social-icon.svg" alt="bfm-social-icon">
             <h3 class="underline blue-underline">Social Media Management</h3>
           </div>
@@ -119,7 +119,7 @@
       <!-- service 5 --->
       <div class="service ">
         <a class="service-anchor" href="<?php echo get_the_title(get_page_by_path( 'services-media-management' )); ?>">
-          <div class="logo sr">
+          <div class="logo">
             <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-media-icon.svg" alt="bfm-media-icon">
             <h3 class="underline blue-underline">Media & Publishing Marketing</h3>
           </div>
@@ -138,7 +138,7 @@
       <!-- service 6 --->
       <div class="service ">
         <a class="service-anchor" href="<?php echo get_the_title(get_page_by_path( 'services-cloud-hosting' )); ?>">
-          <div class="logo sr">
+          <div class="logo">
             <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-hosting-icon.svg" alt="bfm-hosting-icon">
             <h3 class="underline blue-underline">Cloud Hosting</h3>
           </div>
@@ -160,15 +160,16 @@
 
 <!-- section-split-contacts ---------------------------------------------------->
 <section id="section-split-contacts">
-  <div class="container flex-row">
+  <div class="container">
+    <div class="row flex-row">
 
     <div class="item container-item-1 flex1">
       <h2>Small Business<span class="big-dot yellow">?</span></h2>
       <div class="image-1">
         <img src="<?php echo get_template_directory_uri(); ?>/images/bfm-new-small-business-icon.svg" alt="Image-1">
       </div>
-      <p class="white">Looking to grow your business online? BlueFlower Media helps small business owners all across Canada achieve their digital goals.</p>
-      <button class="agency-business" type="button" name="button">Small Business</button>
+      <p class="white">Looking to grow your business online?<br> BlueFlower Media helps small business owners all across Canada achieve their digital goals.</p>
+      <!-- <button class="agency-business" type="button" name="button">Small Business</button> -->
     </div>
 
 
@@ -178,10 +179,15 @@
         <img src="<?php echo get_template_directory_uri(); ?>/images/bfm-new-agency-icon.svg" alt="Image-2">
       </div>
       <p class="white">Does your agency need a helping hand with its development and design work? BlueFlower Media helps toronto agencies manage client expectations with our special agency rates.</p>
-      <button class="agency-business" type="button" name="button">Agency</button>
+      <!-- <button class="agency-business" type="button" name="button">Agency</button> -->
     </div>
+  </div>
+  <div class="goto-contact">
+    <a href="<?php echo get_the_title(get_page_by_path( 'contact' )); ?>"><button class="agency-business" type="button" name="button">Get in Touch</button></a>
+  </div>
 
   </div>
+
 </section>
 
 <!-- section-client-slider ---------------------------------------------------->
