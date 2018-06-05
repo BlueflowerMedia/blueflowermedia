@@ -1,7 +1,10 @@
 .posts {
   text-align: center;
     .post {
-    width: 80%;
+    .sharedaddy {
+      display: none;
+    }
+    width: 70%;
     margin: 0 auto;
     .post-image {
       position: relative;
@@ -19,6 +22,9 @@
         background-color: white;
         padding: 10px;
         box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.2);
+        p {
+          font-size: 1.0rem;
+        }
         @include mobile {
           top: 100%;
           width: 100%;
@@ -42,8 +48,8 @@
     }
   }
   &.read-more {
-    border: 1px solid black;
-    background-color: black;
+    //border: 1px solid black;
+    //background-color: black;
     padding: 5px;
   }
   &:hover > .arrow{
@@ -54,7 +60,7 @@
 
 .post-info a {
   &.read-more {
-    color: white;
+    color: $blue;
   }
 }
 
@@ -113,6 +119,11 @@
   }
 }
 
+h1.entry-title {
+  margin-top: 3rem;
+  font-size: 3.2rem;
+}
+
 //Content page
 .container-blog-content {
   display: flex;
@@ -121,6 +132,9 @@
   .entry-content {
     flex: 1;
     margin: 0 0 0 30px;
+    p {
+      font-size: 1.05rem;
+    }
   }
   .social-media {
     text-align: right;
@@ -132,4 +146,13 @@
 //Footer page-links
 .footer-right {
   text-align: right;
+}
+
+div.entry-content p:first-child:first-letter {
+float:left;
+font-size:5em;
+color: $black;
+margin-right:0.10em;
+line-height:90%;
+//text-shadow: 0.05em 0.05em #C0C0C0;
 }

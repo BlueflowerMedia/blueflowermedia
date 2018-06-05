@@ -16,11 +16,11 @@ get_header();
 		while ( have_posts() ) :
 			the_post();
 
-			get_template_part( 'template-parts/content', get_post_type() );
-			//the_post_navigation();
-
 			// Store the post category
 			$post_cat_id = get_the_category()[0]->term_id;
+
+			get_template_part( 'template-parts/content', get_post_type() );
+			//the_post_navigation();
 
 		endwhile; // End of the loop.
 		?>

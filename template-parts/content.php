@@ -24,6 +24,7 @@
 				<?php
 				blueflowermedia_posted_on();
 				blueflowermedia_posted_by();
+				
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
@@ -56,8 +57,8 @@
 		<!-- Social media -->
 		<div class="social-media flex-column">
 			<!-- <i class="fab fa-youtube fa-2x"></i> -->
-			<i class="fab fa-facebook-square fa-2x"></i>
-			<i class="fab fa-twitter-square fa-2x"></i>
+			<!-- <i class="fab fa-facebook-square fa-2x"></i>
+			<i class="fab fa-twitter-square fa-2x"></i> -->
 		</div>
 		<!-- Social media -->
 
