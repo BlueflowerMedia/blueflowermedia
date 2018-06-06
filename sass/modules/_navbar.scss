@@ -94,7 +94,7 @@ nav#site-navigation {
 /* Hamburger */
 #hamburger-bfm{
   position: relative;
-	top: 3px;
+	top: 10px;
 	right: -20px;
 transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -139,7 +139,8 @@ transition: all 0.3s ease-in-out;
 	@include position(absolute, $top: 0, $left: 0);
 	z-index: 99;
 	padding: 70px 5px;
-	height: 100vh;
+	min-height: 100vh;
+	overflow: hidden;
 	width: 100vw;
 	background: white;
 	text-align: center;
@@ -298,6 +299,6 @@ ul#primary-menu ul {
 
 // logo
 img#logo-header {
-	height: 90%;
+	height: 43px;
 	margin: 5px 15px;
 }

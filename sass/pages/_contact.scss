@@ -84,42 +84,33 @@
     }
 
 }
+.wpcf7 {
+  background: $blue;
+  input {
+    background: none;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 7px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    &:focus {
+      outline: none;
+      background: white;
+      border: 3px solid white;
+    }
+  }
+}
 .contact-form-part-1 {
   display: flex;
+  flex-flow: row wrap;
   padding: 15px;
   width: 100%;
-  background-color: red;
+  justify-content: center;
 }
 
 .contact-form-part-1 input {
   flex: 1;
-}
-.your-name{
-
-  input {
-    border: none;
-    border-bottom: 2px solid darkgrey;
-    border-radius: 0;
-    margin: 7px;
-  }
-}
-
-.your-email {
-  input {
-    border: none;
-    border-bottom: 2px solid darkgrey;
-    border-radius: 0;
-    margin: 7px;
-  }
-}
-
-.your-phone {
-  input {
-    border: none;
-    border-bottom: 2px solid darkgrey;
-    border-radius: 0;
-    margin: 7px;
-  }
 }
 
 .contact-form-part-2 {

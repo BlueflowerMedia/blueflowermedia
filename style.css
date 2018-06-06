@@ -1214,7 +1214,7 @@ html {
       font-size: 14px; } }
   @media (max-width: 760px) {
     html {
-      font-size: 14px; } }
+      font-size: 10px; } }
 
 ::selection {
   color: white;
@@ -1228,6 +1228,11 @@ p {
   color: rgba(0, 0, 0, 0.9);
   line-height: 1.6rem;
   text-decoration: none; }
+  @media (max-width: 760px) {
+    a,
+    p {
+      font-size: 1.5rem;
+      line-height: 1.8rem; } }
 
 button {
   font-family: "Source Sans Pro", sans-serif; }
@@ -1529,7 +1534,7 @@ nav#site-navigation {
 /* Hamburger */
 #hamburger-bfm {
   position: relative;
-  top: 3px;
+  top: 10px;
   right: -20px;
   transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -1570,7 +1575,8 @@ nav#site-navigation {
   left: 0;
   z-index: 99;
   padding: 70px 5px;
-  height: 100vh;
+  min-height: 100vh;
+  overflow: hidden;
   width: 100vw;
   background: white;
   text-align: center;
@@ -1700,7 +1706,7 @@ ul#primary-menu ul {
           width: 90%; }
 
 img#logo-header {
-  height: 90%;
+  height: 43px;
   margin: 5px 15px; }
 
 img#logo-footer {
@@ -2440,32 +2446,30 @@ hr {
 
   .contactus-container .wpcf7-submit {
     width: 80px; } }
+.wpcf7 {
+  background: #1d72f7; }
+  .wpcf7 input {
+    background: none;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 7px;
+    color: white;
+    padding: 10px;
+    text-align: center; }
+    .wpcf7 input:focus {
+      outline: none;
+      background: white;
+      border: 3px solid white; }
+
 .contact-form-part-1 {
   display: flex;
+  flex-flow: row wrap;
   padding: 15px;
   width: 100%;
-  background-color: red; }
+  justify-content: center; }
 
 .contact-form-part-1 input {
   flex: 1; }
-
-.your-name input {
-  border: none;
-  border-bottom: 2px solid darkgrey;
-  border-radius: 0;
-  margin: 7px; }
-
-.your-email input {
-  border: none;
-  border-bottom: 2px solid darkgrey;
-  border-radius: 0;
-  margin: 7px; }
-
-.your-phone input {
-  border: none;
-  border-bottom: 2px solid darkgrey;
-  border-radius: 0;
-  margin: 7px; }
 
 .contact-form-part-2 {
   justify-content: center;

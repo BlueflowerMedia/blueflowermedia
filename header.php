@@ -45,10 +45,8 @@ $cloudhosting = get_permalink(get_page_by_path( 'services-cloud-hosting' ));
 	<header id="masthead" class="site-header">
 		<nav id="site-navigation" class="main-navigation fixed container-navbar flex-row">
       <!-- navbar left -->
-			<div class="nav-left flex3 flex-row">
-        <!-- <?php the_custom_logo(); ?> -->
-          <img id="logo-header" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="BlueFlower Media logo">
-          <!-- <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h3 class="site-title"><span class="blue">Blue</span>Flower Media</h3></a> -->
+			<div class="nav-left flex3">
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img id="logo-header" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="BlueFlower Media logo"></a>
       </div>
       <!-- navbar right -->
       <div class="nav-middle">
