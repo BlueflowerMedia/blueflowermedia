@@ -1211,10 +1211,10 @@ html {
   font-size: 16px; }
   @media (min-width: 760px) and (max-width: 1023px) {
     html {
-      font-size: 13px; } }
+      font-size: 14px; } }
   @media (max-width: 760px) {
     html {
-      font-size: 10px; } }
+      font-size: 14px; } }
 
 ::selection {
   color: white;
@@ -1594,7 +1594,7 @@ nav#site-navigation {
       #nav-mobile ul#mobile-menu li h2 {
         margin-top: 3vh; }
       #nav-mobile ul#mobile-menu li a {
-        padding: 10px 5px;
+        padding: 5px 5px;
         font-size: 1.3rem; }
         #nav-mobile ul#mobile-menu li a button {
           font-size: 1.6rem;
@@ -2145,8 +2145,13 @@ footer {
       object-fit: cover; }
 
 h1.entry-title {
-  margin-top: 100px 0 10px 0;
+  margin: 100px auto 10px auto;
+  width: 75%;
   font-size: 3.2rem; }
+
+.entry-meta {
+  width: 75%;
+  margin: 0 auto 20px auto; }
 
 .entry-content {
   width: 75%;

@@ -126,8 +126,13 @@
 }
 
 h1.entry-title {
-  margin-top: 100px 0 10px 0;
+  margin: 100px auto 10px auto;
+  width: 75%;
   font-size: 3.2rem;
+}
+.entry-meta {
+  width: 75%;
+  margin: 0 auto 20px auto;
 }
 
 //Content page
