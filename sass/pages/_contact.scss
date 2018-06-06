@@ -1,26 +1,29 @@
-#section-contact .container {
-  @include mobile {
-    display: block;
-  }
-  form {
-    input {
-      margin: 5px 0;
-      padding: 8px
-       10px;
-      border-radius: 0;
-      border: none;
-      border-bottom: 2px solid #696969;
-      transition: border 0.5s cubic-bezier(0.7,0.7,0.7,1.0);
-      &:focus {
-        border-bottom-color: $blue;
-        outline: none;
+#section-contact {
+  .container {
+    form {
+      input {
+        margin: 5px 0;
+        padding: 8px
+         10px;
+        border-radius: 0;
+        border: none;
+        border-bottom: 2px solid #696969;
+        transition: border 0.5s cubic-bezier(0.7,0.7,0.7,1.0);
+        &:focus {
+          border-bottom-color: $blue;
+          outline: none;
+        }
       }
     }
   }
 }
 
+
 .contact-type {
   margin: 25px 0;
+  @include mobile {
+    text-align: center;
+  }
   i {
     color: $blue;
     font-size: 2rem;
@@ -28,6 +31,9 @@
   }
 }
 
+.contact-map {
+  min-width: 250px;
+}
 
 
 // part contact and map
@@ -83,8 +89,8 @@
 .contact-form-part-1 {
   display: flex;
   padding: 15px;
-  background-color: lightblue;
   width: 100%;
+  background-color: red;
 }
 
 .contact-form-part-1 input {
@@ -145,9 +151,10 @@
 }
 
 .contact-form-part-5 {
-  display: flex;
+
 }
 
 .contact-form-part-5 select {
-  flex: 1;
+  display: block;
+  margin: auto;
 }

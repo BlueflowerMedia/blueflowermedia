@@ -26,7 +26,7 @@
   </div>
 </section>
 
-<section id="contact-map">
+<!-- <section id="contact-map">
   <div class="container flex-row">
     <div class="contact-info flex1">
       <div class="form active" id="form1">
@@ -35,6 +35,6 @@
     </div>
   </div>
 </section>
-
+ -->
 
 <?php get_footer(); ?>

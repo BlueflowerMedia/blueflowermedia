@@ -2376,9 +2376,6 @@ hr {
 #rd {
   background-color: #1d72f7; }
 
-@media (max-width: 760px) {
-  #section-contact .container {
-    display: block; } }
 #section-contact .container form input {
   margin: 5px 0;
   padding: 8px 10px;
@@ -2392,10 +2389,16 @@ hr {
 
 .contact-type {
   margin: 25px 0; }
+  @media (max-width: 760px) {
+    .contact-type {
+      text-align: center; } }
   .contact-type i {
     color: #1d72f7;
     font-size: 2rem;
     margin: 15px 0 5px 0; }
+
+.contact-map {
+  min-width: 250px; }
 
 #contact-map .container .contact-info,
 #contact-map .container .contact-map {
@@ -2435,8 +2438,8 @@ hr {
 .contact-form-part-1 {
   display: flex;
   padding: 15px;
-  background-color: lightblue;
-  width: 100%; }
+  width: 100%;
+  background-color: red; }
 
 .contact-form-part-1 input {
   flex: 1; }
@@ -2477,8 +2480,6 @@ hr {
 .contact-form-part-4 {
   width: 100%; }
 
-.contact-form-part-5 {
-  display: flex; }
-
 .contact-form-part-5 select {
-  flex: 1; }
+  display: block;
+  margin: auto; }
