@@ -2415,57 +2415,79 @@ hr {
 #contact-map .container .contact-map {
   min-width: 300px; }
 
-.contactus-container {
-  padding: 20px 10%;
-  background-color: lightgrey; }
-  .contactus-container form input {
-    border: 3px solid #1d72f7;
-    width: 100%; }
-  .contactus-container .wpcf7-submit {
-    background-color: #1d72f7;
-    font-size: 1.5rem;
+section#contact-form {
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  padding-top: 50px;
+  background: #1d72f7;
+  color: white; }
+  @media (max-width: 760px) {
+    section#contact-form {
+      clip-path: polygon(0 3.3333333333%, 100% 0, 100% 100%, 0 100%);
+      -webkit-clip-path: polygon(0 3.3333333333%, 100% 0, 100% 100%, 0 100%); } }
+  section#contact-form h3 {
     color: white;
-    border-radius: 8px;
-    width: 120px; }
-
-.one-half {
-  position: relative;
-  margin-right: 4%;
-  float: left;
-  margin-bottom: 20px;
-  width: 48%; }
-
-.last {
-  margin-right: 0 !important;
-  clear: right; }
-
-@media only screen and (max-width: 767px) {
-  .one-half {
-    width: 100%;
-    margin-right: 0; }
-
-  .contactus-container .wpcf7-submit {
-    width: 80px; } }
-.wpcf7 {
-  background: #1d72f7; }
-  .wpcf7 input {
-    background: none;
-    border: 3px solid white;
-    border-radius: 50px;
-    margin: 7px;
-    color: white;
-    padding: 10px;
     text-align: center; }
-    .wpcf7 input:focus {
-      outline: none;
-      background: white;
-      border: 3px solid white; }
+
+.wpcf7 input {
+  border: 3px solid white;
+  border-radius: 50px;
+  margin: 7px;
+  color: black;
+  padding: 10px 30px;
+  box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4); }
+  .wpcf7 input:focus {
+    outline: none;
+    background: white;
+    border: 3px solid white; }
+.wpcf7 i {
+  width: 30px;
+  padding: 0;
+  margin: 0; }
+
+textarea {
+  border: 3px solid white;
+  border-radius: 50px;
+  box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4);
+  padding: 30px 40px;
+  height: 170px;
+  max-width: 900px; }
+  textarea:focus {
+    outline: none; }
+
+input[type="submit"] {
+  background: none;
+  border: 3px solid white;
+  border-radius: 20px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 12px 40px;
+  margin: 10px auto;
+  text-align: center;
+  box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s linear;
+  cursor: pointer; }
+  input[type="submit"]:hover, input[type="submit"]:active {
+    color: #1d72f7;
+    background: white;
+    border-color: white; }
+
+select {
+  border: 3px solid white;
+  border-radius: 50px;
+  margin: 7px;
+  color: black;
+  padding: 10px 30px;
+  box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4); }
+
+span.wpcf7-not-valid-tip {
+  color: white; }
 
 .contact-form-part-1 {
   display: flex;
   flex-flow: row wrap;
   padding: 15px;
-  width: 100%;
   justify-content: center; }
 
 .contact-form-part-1 input {
@@ -2475,20 +2497,31 @@ hr {
   justify-content: center;
   display: flex; }
 
-.advanced-group-inner-container {
-  background-color: #f9f9f9;
-  padding: 15px; }
-
 .contact-form-part-3 {
-  display: flex; }
+  text-align: center; }
+  .contact-form-part-3 label {
+    color: white;
+    margin: 10px 0; }
 
-.contact-form-part-3 input {
-  flex: 1;
-  margin: 7px; }
+.contact-form-part-4-5 {
+  margin-left: 15%;
+  display: flex; }
+  @media (max-width: 760px) {
+    .contact-form-part-4-5 {
+      flex-flow: column; } }
 
 .contact-form-part-4 {
-  width: 100%; }
+  flex: 1; }
+  .contact-form-part-4 label {
+    color: white; }
 
-.contact-form-part-5 select {
-  display: block;
-  margin: auto; }
+.contact-form-part-5 {
+  flex: 1; }
+  .contact-form-part-5 label {
+    color: white; }
+
+.contact-form-part-4 .wpcf7-list-item {
+  display: block; }
+
+.contact-form-part-6 {
+  text-align: center; }
