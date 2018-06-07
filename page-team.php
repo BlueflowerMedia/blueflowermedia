@@ -38,13 +38,13 @@
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/team/team-noman.jpg" alt="Noman Hossain">
           <h3>Noman Hossain</h3>
           <p>[ Account Manager ]<br>[ Graphic Designer ]</p>
-          <p>I am the guy who talks to you on phone.</p>
+          <p>I help clients communicate their business problems well, and work with them closely throughout projects. </p>
         </div>
         <div class="member sr">
           <img id="pic2" src="<?php echo get_template_directory_uri(); ?>/images/team/team-fahim.jpg" alt="Fahim Shahreer">
           <h3>Fahim Shahreer</h3>
           <p>[ Lead Developer ]<br>[ Project Manager ]</p>
-          <p>Office never has enough coffee for me.</p>
+          <p>The office never has enough coffee for me.</p>
         </div>
       </div>
 
