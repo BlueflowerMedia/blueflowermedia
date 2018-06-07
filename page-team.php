@@ -5,7 +5,9 @@
     <div class="head">
       <h1>About Us<span class="big-dot blue">.</span></h1>
       <p>Doing What we love to do!</p>
-      <p>We are a Toronto Development & Marketing Business helping small businesses from all industries.</p>
+      <p>We are a Toronto Development & Marketing Agency helping small businesses from all industries.
+        With a combined 50+ years of experience solving digital problems for clients, we are confident in our ability to improve performance and increase results.<br><br>
+      Our Toronto base is convenient for our local clients to have in person meetings to discuss projects and get to know us better.</p>
     </div>
     <div class="slide">
       <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts1.jpg" alt="" class="image active">
@@ -35,14 +37,14 @@
         <div class="member sr">
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/team/team-noman.jpg" alt="Noman Hossain">
           <h3>Noman Hossain</h3>
-          <p>[ Lead Designer ]<br>[ Project Manager ]</p>
-          <p>I am the guy who talks to you on phone.</p>
+          <p>[ Account Manager ]<br>[ Graphic Designer ]</p>
+          <p>I help clients communicate their business problems well, and work with them closely throughout projects. </p>
         </div>
         <div class="member sr">
           <img id="pic2" src="<?php echo get_template_directory_uri(); ?>/images/team/team-fahim.jpg" alt="Fahim Shahreer">
           <h3>Fahim Shahreer</h3>
           <p>[ Lead Developer ]<br>[ Project Manager ]</p>
-          <p>Office never has enough coffee for me.</p>
+          <p>The office never has enough coffee for me.</p>
         </div>
       </div>
 
