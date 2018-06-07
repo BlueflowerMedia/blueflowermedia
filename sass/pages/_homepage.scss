@@ -147,8 +147,8 @@
       transition: all 0.3s cubic-bezier(0.4,0.7,0.4,1.1);
       padding: 15px 20px;
       z-index: 999999;
-/*       box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4);
- */
+      box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4);
+
       &:hover {
         color: $blue;
         background: white;

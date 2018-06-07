@@ -8,7 +8,9 @@ body {
 }
 
 #content {
-	background: white;
+	@include mobile {
+		margin-top: 30px;
+	}
 }
 
 .container {

@@ -23,9 +23,9 @@
       </div>
       <div class="footer-right flex1">
 				<!-- Social media -->
-					<a href=""><i class="fab fa-youtube" style="color:red"></i></a>
-					<a href=""><i class="fab fa-facebook-square" style="color:#3B5998"></i></a>
-					<a href=""><i class="fab fa-instagram" style="color:#fb3958"></i></a>
+					<a href="https://www.youtube.com/channel/UCqw7fUs6HF6hklD2GtrhrXg" target="_blank"><i class="fab fa-youtube" style="color:red"></i></a>
+					<a href="https://www.facebook.com/blueflowermediacorp" target="_blank"><i class="fab fa-facebook-square" style="color:#3B5998"></i></a>
+					<a href="https://www.instagram.com/blueflowermedia/" target="_blank"><i class="fab fa-instagram" style="color:#fb3958"></i></a>
 				<!-- Social media -->
       </div>
     </div>

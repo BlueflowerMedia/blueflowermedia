@@ -1214,7 +1214,7 @@ html {
       font-size: 14px; } }
   @media (max-width: 760px) {
     html {
-      font-size: 10px; } }
+      font-size: 12px; } }
 
 ::selection {
   color: white;
@@ -1256,9 +1256,15 @@ h4 {
 h1 {
   font-size: 4.998rem;
   margin-bottom: 2rem; }
+  @media (max-width: 760px) {
+    h1 {
+      font-size: 3.5rem; } }
 
 h2 {
   font-size: 2.827rem; }
+  @media (max-width: 760px) {
+    h2 {
+      font-size: 2.4rem; } }
 
 h3 {
   font-size: 1.6rem;
@@ -1294,6 +1300,12 @@ small {
 
 span.big-dot {
   font-size: 1.2em; }
+
+time {
+  font-size: 1rem; }
+
+a.url {
+  font-size: 1rem; }
 
 .center {
   text-align: center; }
@@ -1350,8 +1362,9 @@ body {
   width: 100vw;
   overflow-x: hidden; }
 
-#content {
-  background: white; }
+@media (max-width: 760px) {
+  #content {
+    margin-top: 30px; } }
 
 .container {
   padding: 100px 10%;
@@ -1400,6 +1413,8 @@ button {
   background: rgba(255, 255, 255, 0);
   border: none;
   cursor: pointer; }
+  button:focus {
+    outline: none; }
 
 button.tag {
   margin: 2px;
@@ -1426,7 +1441,9 @@ button.nav-contact {
   border: 3px solid #1d72f7;
   border-radius: 5px;
   margin: 0;
-  transition: all 0.3s cubic-bezier(0.16, 0.91, 0.56, 1); }
+  transition: all 0.3s cubic-bezier(0.16, 0.91, 0.56, 1);
+  white-space: nowrap;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4); }
   button.nav-contact:hover {
     background: rgba(255, 255, 255, 0);
     color: #1d72f7; }
@@ -1791,10 +1808,7 @@ footer {
   /* background: $yellow; */ }
   @media (max-width: 760px) {
     #fbox1 {
-      width: 100px;
-      height: 100px;
-      border-radius: 20px;
-      background: rgba(239, 220, 5, 0.5); } }
+      display: none; } }
 
 #fbox2 {
   position: absolute;
@@ -1973,8 +1987,7 @@ footer {
       transition: all 0.3s cubic-bezier(0.4, 0.7, 0.4, 1.1);
       padding: 15px 20px;
       z-index: 999999;
-      /*       box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4);
-       */ }
+      box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4); }
       #section-split-contacts .goto-contact button:hover {
         color: #1d72f7;
         background: white; }
@@ -2054,6 +2067,9 @@ footer {
         background: #1d72f7; }
   #section-getintouch.blue {
     background-color: #1d72f7; }
+
+section#blog .container {
+  padding: 100px 10% 0 10%; }
 
 .posts {
   text-align: center; }
@@ -2138,8 +2154,9 @@ footer {
 */
 .post-thumbnail img {
   width: 100%;
-  height: 400px;
-  object-fit: cover; }
+  height: auto;
+  object-fit: cover;
+  max-height: 450px; }
 
 .container-blog {
   padding: 10px;
@@ -2152,7 +2169,7 @@ footer {
     flex: 1 210px;
     margin: 10px; }
     #related-posts .container-blog .related-posts .related-post .related-post-thumb > a img {
-      height: 400px;
+      height: 250px;
       width: 100%;
       object-fit: cover; }
 
@@ -2160,14 +2177,26 @@ h1.entry-title {
   margin: 100px auto 10px auto;
   width: 75%;
   font-size: 3.2rem; }
+  @media (max-width: 760px) {
+    h1.entry-title {
+      margin: 50px auto 0 auto;
+      width: 90%;
+      font-size: 2.5rem; } }
 
 .entry-meta {
   width: 75%;
   margin: 0 auto 20px auto; }
+  @media (max-width: 760px) {
+    .entry-meta {
+      margin: 10px auto;
+      width: 90%; } }
 
 .entry-content {
   width: 75%;
   margin: 10px auto; }
+  @media (max-width: 760px) {
+    .entry-content {
+      width: 90%; } }
   .entry-content p {
     font-size: 1.05rem; }
 
@@ -2256,12 +2285,16 @@ div.entry-content p:first-child:first-letter {
     min-height: 500px;
     width: 90%;
     margin: 40px auto; }
+    @media (max-width: 760px) {
+      #portfolio .project {
+        width: 100%;
+        margin: 0; } }
     #portfolio .project .mobile-project-title {
       display: none; }
       @media (max-width: 760px) {
         #portfolio .project .mobile-project-title {
           display: block;
-          margin: 10px auto;
+          margin: 50px auto 0 auto;
           text-align: center; } }
     #portfolio .project .portfolio-slider {
       background-size: cover;
@@ -2273,13 +2306,11 @@ div.entry-content p:first-child:first-letter {
         #portfolio .project .portfolio-slider {
           position: static;
           width: 100%;
-          height: 500px;
           margin-bottom: -10%; } }
       @media (max-width: 760px) {
         #portfolio .project .portfolio-slider {
           position: static;
           width: 100%;
-          height: 300px;
           margin-bottom: 10px;
           box-shadow: none !important; } }
       #portfolio .project .portfolio-slider img.portfolio-image {
@@ -2289,10 +2320,16 @@ div.entry-content p:first-child:first-letter {
       left: 30%; }
       #portfolio .project.left .portfolio-slider .owl-stage-outer {
         box-shadow: 15px 15px 30px -10px rgba(0, 0, 0, 0.4); }
+        @media (max-width: 760px) {
+          #portfolio .project.left .portfolio-slider .owl-stage-outer {
+            box-shadow: none; } }
     #portfolio .project.right .portfolio-slider {
       right: 30%; }
       #portfolio .project.right .portfolio-slider .owl-stage-outer {
         box-shadow: -15px 15px 30px -10px rgba(0, 0, 0, 0.4); }
+        @media (max-width: 760px) {
+          #portfolio .project.right .portfolio-slider .owl-stage-outer {
+            box-shadow: none; } }
     #portfolio .project .short-description {
       background: white;
       border: 10px solid #212121;
@@ -2311,7 +2348,8 @@ div.entry-content p:first-child:first-letter {
           position: static;
           width: 100%;
           margin: 0 auto;
-          border-width: 0; }
+          border-width: 0;
+          padding: 0; }
           #portfolio .project .short-description h2 {
             display: none; } }
     #portfolio .project.left .short-description {
@@ -2424,15 +2462,18 @@ hr {
   min-width: 300px; }
 
 section#contact-form {
-  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
-  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 80px, 100% 0, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 80px, 100% 0, 100% 100%, 0 100%);
   padding-top: 50px;
   background: #1d72f7;
   color: white; }
   @media (max-width: 760px) {
     section#contact-form {
-      clip-path: polygon(0 3.3333333333%, 100% 0, 100% 100%, 0 100%);
-      -webkit-clip-path: polygon(0 3.3333333333%, 100% 0, 100% 100%, 0 100%); } }
+      clip-path: polygon(0 26.6666666667px, 100% 0, 100% 100%, 0 100%);
+      -webkit-clip-path: polygon(0 26.6666666667px, 100% 0, 100% 100%, 0 100%); } }
+  section#contact-form h2 {
+    color: white;
+    text-align: center; }
   section#contact-form h3 {
     color: white;
     text-align: center; }
@@ -2448,9 +2489,17 @@ section#contact-form {
     outline: none;
     background: white;
     border: 3px solid white; }
+@media (max-width: 760px) {
+  .wpcf7 input[type='text'] {
+    width: 250px; } }
 .wpcf7 i {
-  width: 30px;
-  padding: 0;
+  width: 38px;
+  height: 38px;
+  color: #1d72f7 !important;
+  border-radius: 20px;
+  background: white;
+  padding: 10px;
+  text-align: center;
   margin: 0; }
 
 textarea {
@@ -2483,14 +2532,24 @@ input[type="submit"] {
 
 select {
   border: 3px solid white;
+  background: white;
   border-radius: 50px;
   margin: 7px;
   color: black;
   padding: 10px 30px;
   box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4); }
+  select:focus {
+    outline: none; }
 
 span.wpcf7-not-valid-tip {
   color: white; }
+
+.form-text {
+  margin: 10px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center; }
 
 .contact-form-part-1 {
   display: flex;
@@ -2533,3 +2592,19 @@ span.wpcf7-not-valid-tip {
 
 .contact-form-part-6 {
   text-align: center; }
+
+#advanced-options {
+  padding: 40px 0;
+  margin: 20px 0 30px 0;
+  opacity: 1;
+  transition: all 0.2s linear;
+  border: 2px solid white;
+  border-radius: 25px;
+  box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4); }
+  #advanced-options.wpcf7cf-hidden {
+    opacity: 0; }
+
+@media (max-width: 760px) {
+  #livechat-compact-container {
+    transform: scale(0.75) translate(15%, 15%);
+    -webkit-transform: scale(0.75) translate(15%, 15%); } }

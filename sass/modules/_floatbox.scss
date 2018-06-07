@@ -20,9 +20,7 @@
 	/* border-radius: 50px; */
 	/* background: $yellow; */
 	@include mobile {
-		@include box(100px, 100px);
-		border-radius: 20px;
-		background: transparentize($yellow, 0.5);
+		display: none;
 	}
 }
 
