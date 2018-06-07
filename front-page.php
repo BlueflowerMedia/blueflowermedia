@@ -175,7 +175,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'services-cloud-hosting' ));
       <div class="image-1">
         <img src="<?php echo get_template_directory_uri(); ?>/images/bfm-new-small-business-icon.svg" alt="Image-1">
       </div>
-      <p class="white">Looking to grow your business online?<br> BlueFlower Media helps small business owners all across Canada achieve their digital goals.</p>
+      <p class="white">Looking to grow your business online?<br> We work closely with small business owners to understand their business goals, problems that keep them up at night, and then create custom solutions to help them.</p>
       <!-- <button class="agency-business" type="button" name="button">Small Business</button> -->
     </div>
 
@@ -185,7 +185,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'services-cloud-hosting' ));
       <div class="image-2">
         <img src="<?php echo get_template_directory_uri(); ?>/images/bfm-new-agency-icon.svg" alt="Image-2">
       </div>
-      <p class="white">Does your agency need a helping hand with its development and design work? BlueFlower Media helps toronto agencies manage client expectations with our special agency rates.</p>
+      <p class="white">Does your agency need a helping hand with its development and design work? BlueFlower Media helps toronto agencies exceed client expectations with our white labeled services.</p>
       <!-- <button class="agency-business" type="button" name="button">Agency</button> -->
     </div>
   </div>
