@@ -185,7 +185,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'services-cloud-hosting' ));
       <div class="image-2">
         <img src="<?php echo get_template_directory_uri(); ?>/images/bfm-new-agency-icon.svg" alt="Image-2">
       </div>
-      <p class="white">Does your agency need a helping hand with its development/design work?<br> We partner with agencies worldwide to help them exceed client expectations with our white labeled services.</p>
+      <p class="white">Does your agency need a helping hand with its development/design work? We partner with agencies worldwide to help them exceed client expectations with our white labeled services.</p>
       <!-- <button class="agency-business" type="button" name="button">Agency</button> -->
     </div>
   </div>
