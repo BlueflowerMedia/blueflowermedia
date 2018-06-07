@@ -1211,7 +1211,7 @@ html {
   font-size: 16px; }
   @media (min-width: 760px) and (max-width: 1023px) {
     html {
-      font-size: 13px; } }
+      font-size: 14px; } }
   @media (max-width: 760px) {
     html {
       font-size: 10px; } }
@@ -1228,6 +1228,11 @@ p {
   color: rgba(0, 0, 0, 0.9);
   line-height: 1.6rem;
   text-decoration: none; }
+  @media (max-width: 760px) {
+    a,
+    p {
+      font-size: 1.5rem;
+      line-height: 1.8rem; } }
 
 button {
   font-family: "Source Sans Pro", sans-serif; }
@@ -1529,7 +1534,7 @@ nav#site-navigation {
 /* Hamburger */
 #hamburger-bfm {
   position: relative;
-  top: 3px;
+  top: 10px;
   right: -20px;
   transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -1570,7 +1575,8 @@ nav#site-navigation {
   left: 0;
   z-index: 99;
   padding: 70px 5px;
-  height: 100vh;
+  min-height: 100vh;
+  overflow: hidden;
   width: 100vw;
   background: white;
   text-align: center;
@@ -1594,7 +1600,7 @@ nav#site-navigation {
       #nav-mobile ul#mobile-menu li h2 {
         margin-top: 3vh; }
       #nav-mobile ul#mobile-menu li a {
-        padding: 10px 5px;
+        padding: 5px 5px;
         font-size: 1.3rem; }
         #nav-mobile ul#mobile-menu li a button {
           font-size: 1.6rem;
@@ -1700,7 +1706,7 @@ ul#primary-menu ul {
           width: 90%; }
 
 img#logo-header {
-  height: 90%;
+  height: 43px;
   margin: 5px 15px; }
 
 img#logo-footer {
@@ -2145,8 +2151,13 @@ footer {
       object-fit: cover; }
 
 h1.entry-title {
-  margin-top: 100px 0 10px 0;
+  margin: 100px auto 10px auto;
+  width: 75%;
   font-size: 3.2rem; }
+
+.entry-meta {
+  width: 75%;
+  margin: 0 auto 20px auto; }
 
 .entry-content {
   width: 75%;
@@ -2406,82 +2417,113 @@ hr {
 #contact-map .container .contact-map {
   min-width: 300px; }
 
-.contactus-container {
-  padding: 20px 10%;
-  background-color: lightgrey; }
-  .contactus-container form input {
-    border: 3px solid #1d72f7;
-    width: 100%; }
-  .contactus-container .wpcf7-submit {
-    background-color: #1d72f7;
-    font-size: 1.5rem;
+section#contact-form {
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  padding-top: 50px;
+  background: #1d72f7;
+  color: white; }
+  @media (max-width: 760px) {
+    section#contact-form {
+      clip-path: polygon(0 3.3333333333%, 100% 0, 100% 100%, 0 100%);
+      -webkit-clip-path: polygon(0 3.3333333333%, 100% 0, 100% 100%, 0 100%); } }
+  section#contact-form h3 {
     color: white;
-    border-radius: 8px;
-    width: 120px; }
+    text-align: center; }
 
-.one-half {
-  position: relative;
-  margin-right: 4%;
-  float: left;
-  margin-bottom: 20px;
-  width: 48%; }
+.wpcf7 input {
+  border: 3px solid white;
+  border-radius: 50px;
+  margin: 7px;
+  color: black;
+  padding: 10px 30px;
+  box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4); }
+  .wpcf7 input:focus {
+    outline: none;
+    background: white;
+    border: 3px solid white; }
+.wpcf7 i {
+  width: 30px;
+  padding: 0;
+  margin: 0; }
 
-.last {
-  margin-right: 0 !important;
-  clear: right; }
+textarea {
+  border: 3px solid white;
+  border-radius: 50px;
+  box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4);
+  padding: 30px 40px;
+  height: 170px;
+  max-width: 900px; }
+  textarea:focus {
+    outline: none; }
 
-@media only screen and (max-width: 767px) {
-  .one-half {
-    width: 100%;
-    margin-right: 0; }
+input[type="submit"] {
+  background: none;
+  border: 3px solid white;
+  border-radius: 20px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 12px 40px;
+  margin: 10px auto;
+  text-align: center;
+  box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s linear;
+  cursor: pointer; }
+  input[type="submit"]:hover, input[type="submit"]:active {
+    color: #1d72f7;
+    background: white;
+    border-color: white; }
 
-  .contactus-container .wpcf7-submit {
-    width: 80px; } }
+select {
+  border: 3px solid white;
+  border-radius: 50px;
+  margin: 7px;
+  color: black;
+  padding: 10px 30px;
+  box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4); }
+
+span.wpcf7-not-valid-tip {
+  color: white; }
+
 .contact-form-part-1 {
   display: flex;
+  flex-flow: row wrap;
   padding: 15px;
-  width: 100%;
-  background-color: red; }
+  justify-content: center; }
 
 .contact-form-part-1 input {
   flex: 1; }
-
-.your-name input {
-  border: none;
-  border-bottom: 2px solid darkgrey;
-  border-radius: 0;
-  margin: 7px; }
-
-.your-email input {
-  border: none;
-  border-bottom: 2px solid darkgrey;
-  border-radius: 0;
-  margin: 7px; }
-
-.your-phone input {
-  border: none;
-  border-bottom: 2px solid darkgrey;
-  border-radius: 0;
-  margin: 7px; }
 
 .contact-form-part-2 {
   justify-content: center;
   display: flex; }
 
-.advanced-group-inner-container {
-  background-color: #f9f9f9;
-  padding: 15px; }
-
 .contact-form-part-3 {
-  display: flex; }
+  text-align: center; }
+  .contact-form-part-3 label {
+    color: white;
+    margin: 10px 0; }
 
-.contact-form-part-3 input {
-  flex: 1;
-  margin: 7px; }
+.contact-form-part-4-5 {
+  margin-left: 15%;
+  display: flex; }
+  @media (max-width: 760px) {
+    .contact-form-part-4-5 {
+      flex-flow: column; } }
 
 .contact-form-part-4 {
-  width: 100%; }
+  flex: 1; }
+  .contact-form-part-4 label {
+    color: white; }
 
-.contact-form-part-5 select {
-  display: block;
-  margin: auto; }
+.contact-form-part-5 {
+  flex: 1; }
+  .contact-form-part-5 label {
+    color: white; }
+
+.contact-form-part-4 .wpcf7-list-item {
+  display: block; }
+
+.contact-form-part-6 {
+  text-align: center; }

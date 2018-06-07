@@ -13,7 +13,7 @@ $font-logo: 'Josefin Sans', serif;
 html {
   font-size: 16px;
   @include tablet {
-    font-size: 13px;
+    font-size: 14px;
   }
   @include mobile {
     font-size: 10px;
@@ -33,6 +33,10 @@ p {
   color: rgba(#000000, 0.9);
   line-height: 1.6rem;
   text-decoration: none;
+  @include mobile {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
 }
 
 button {

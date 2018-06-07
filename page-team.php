@@ -35,13 +35,13 @@
         <div class="member sr">
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/team/team-noman.jpg" alt="Noman Hossain">
           <h3>Noman Hossain</h3>
-          <p>[ Lead Designer<br>Project Manager ]</p>
+          <p>[ Lead Designer ]<br>[ Project Manager ]</p>
           <p>I am the guy who talks to you on phone.</p>
         </div>
         <div class="member sr">
           <img id="pic2" src="<?php echo get_template_directory_uri(); ?>/images/team/team-fahim.jpg" alt="Fahim Shahreer">
           <h3>Fahim Shahreer</h3>
-          <p>[ Lead Developer<br>Project Manager ]</p>
+          <p>[ Lead Developer ]<br>[ Project Manager ]</p>
           <p>Office never has enough coffee for me.</p>
         </div>
       </div>
@@ -50,20 +50,20 @@
         <div class="member sr">
           <img id="pic3" src="<?php echo get_template_directory_uri(); ?>/images/team/team-altab.jpg" alt="Altab Hossain">
           <h3>Altab Hossain</h3>
-          <p>[ Backend Developer ]</p>
+          <p>[ Full-Stack Developer ]</p>
           <p>I have my PHD in Computer Science. I like using my technical knowledge to practically solve real world client problems.</p>
         </div>
         <div class="member sr">
           <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/team/team-ali.jpg" alt="Ali Akbar Sarkarati">
           <h3>Ali Akbar Sarkarati</h3>
-          <p>[ Full-stack Developer ]</p>
+          <p>[ Full-Stack Developer ]</p>
           <p>I have a passion for the subjective arts. This surprisingly lead me to a career in web design. I also love making Music.</p>
         </div>
         <div class="member sr">
           <img id="pic5" src="<?php echo get_template_directory_uri(); ?>/images/team/team-zulfiqur.jpg" alt="Zulfiqur Rahman">
           <h3>Zulfiqur Rahman</h3>
-          <p>[ Junior Developer ]</p>
-          <p>People say I am the funniest person in the office and I agree. I also received my masters in Computer Engineering.</p>
+          <p>[ Front-End Developer ]</p>
+          <p>People say I am the funniest person in the office and I agree.</p>
         </div>
       </div>
 

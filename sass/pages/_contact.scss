@@ -35,8 +35,6 @@
 .contact-map {
   min-width: 250px;
 }
-
-
 // part contact and map
 
 #contact-map .container {
@@ -45,84 +43,92 @@
     min-width: 300px;
   }
 }
-//Contact us Section
-.contactus-container {
-  padding: 20px 10%;
-  background-color: lightgrey;
 
-  form input {
-    border: 3px solid #1d72f7;
-    width: 100%;
-  }
-  .wpcf7-submit {
-    background-color: #1d72f7;
-    font-size: 1.5rem;
+section#contact-form {
+  @include slanted-edge(top-left, 0, 10%);
+  padding-top: 50px;
+  background: $blue;
+  color: white;
+  h3 {
     color: white;
-    border-radius: 8px;
-    width: 120px;
+    text-align: center;
   }
 }
-.one-half {
-    position: relative;
-    margin-right: 4%;
-    float: left;
-    margin-bottom: 20px;
-    width: 48%;
-}
 
-.last {
-    margin-right: 0 !important;
-    clear: right;
-}
-
-@media only screen and (max-width: 767px) {
-    .one-half {
-        width: 100%;
-        margin-right: 0;
+.wpcf7 {
+  input {
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 7px;
+    color: black;
+    padding: 10px 30px;
+    box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4);
+    &:focus {
+      outline: none;
+      background: white;
+      border: 3px solid white;
     }
-    .contactus-container {
-      .wpcf7-submit {
-        width: 80px;
-      }
-    }
-
+  }
+  i {
+    width: 30px;
+    padding: 0;
+    margin: 0;
+  }
 }
+textarea {
+  border: 3px solid white;
+  border-radius: 50px;
+  box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4);
+  padding: 30px 40px;
+  height: 170px;
+  max-width: 900px;
+  &:focus {
+    outline: none;
+  }
+}
+
+input[type="submit"] {
+  background: none;
+  border: 3px solid white;
+  border-radius: 20px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 12px 40px;
+  margin: 10px auto;
+  text-align: center;
+  box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s linear;
+  cursor: pointer;
+  &:hover, &:active {
+    color: $blue;
+    background: white;
+    border-color: white;
+  }
+}
+
+select {
+  border: 3px solid white;
+  border-radius: 50px;
+  margin: 7px;
+  color: black;
+  padding: 10px 30px;
+  box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4);
+}
+
+span.wpcf7-not-valid-tip {
+  color: white;
+}
+
 .contact-form-part-1 {
   display: flex;
+  flex-flow: row wrap;
   padding: 15px;
-  width: 100%;
-  background-color: red;
+  justify-content: center;
 }
 
 .contact-form-part-1 input {
   flex: 1;
-}
-.your-name{
-
-  input {
-    border: none;
-    border-bottom: 2px solid darkgrey;
-    border-radius: 0;
-    margin: 7px;
-  }
-}
-
-.your-email {
-  input {
-    border: none;
-    border-bottom: 2px solid darkgrey;
-    border-radius: 0;
-    margin: 7px;
-  }
-}
-
-.your-phone {
-  input {
-    border: none;
-    border-bottom: 2px solid darkgrey;
-    border-radius: 0;
-    margin: 7px;
-  }
 }
 
 .contact-form-part-2 {
@@ -130,32 +136,42 @@
   display: flex;
 }
 
-.advanced-group-inner-container {
-  background-color: #f9f9f9;
-  padding: 15px;
-
-}
-
-
 
 .contact-form-part-3 {
-  display: flex;
+  text-align: center;
+  label {
+    color: white;
+    margin: 10px 0;
+  }
 }
 
-.contact-form-part-3 input {
+.contact-form-part-4-5 {
+  margin-left: 15%;
+  display: flex;
+  @include mobile {
+    flex-flow: column;
+  }
+}
+.contact-form-part-4 {
+  label {
+    color: white;
+  }
   flex: 1;
-  margin: 7px;
+}
+.contact-form-part-5 {
+  label {
+    color: white;
+  }
+  flex: 1;
 }
 
 .contact-form-part-4 {
-  width: 100%;
+  .wpcf7-list-item {
+    display: block;
+  }
 }
 
-.contact-form-part-5 {
 
-}
-
-.contact-form-part-5 select {
-  display: block;
-  margin: auto;
+.contact-form-part-6 {
+  text-align: center;
 }
