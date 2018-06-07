@@ -1,4 +1,11 @@
-<?php get_header(); ?>
+<?php get_header();
+$webdesign = get_permalink(get_page_by_path( 'services-web-design' ));
+$graphicdesign = get_permalink(get_page_by_path( 'services-graphic-design' ));
+$digitalmarketing = get_permalink(get_page_by_path( 'services-digital-marketing' ));
+$socialmediamanagement = get_permalink(get_page_by_path( 'services-social-media-management' ));
+$mediapublishingmanagement = get_permalink(get_page_by_path( 'services-media-and-publishing-marketing' ));
+$cloudhosting = get_permalink(get_page_by_path( 'services-cloud-hosting' ));
+?>
 
 <!-- section header -->
 <section id="section-header" class="sr">
@@ -38,7 +45,7 @@
       <!-- service names begin --->
       <!-- service 1 --->
       <div class="service">
-        <a class="service-anchor" href="<?php echo get_the_title(get_page_by_path( 'services-web-design' )); ?>">
+        <a class="service-anchor" href="<?php echo $webdesign; ?>">
           <div class="logo">
             <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-web-design-icon.svg" alt="bfm-web-design-icon">
             <h3 class="underline blue-underline">Web Design</h3>
@@ -59,7 +66,7 @@
 
       <!-- service 2 --->
       <div class="service ">
-        <a class="service-anchor" href="<?php echo get_the_title(get_page_by_path( 'services-graphic-design' )); ?>">
+        <a class="service-anchor" href="<?php echo $graphicdesign; ?>">
           <div class="logo">
             <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-graphic-design-icon.svg" alt="bfm-graphic-design-icon">
             <h3 class="underline blue-underline">Graphic Design</h3>
@@ -78,7 +85,7 @@
 
       <!-- service 3 --->
       <div class="service ">
-        <a class="service-anchor" href="<?php echo get_the_title(get_page_by_path( 'services-digital-marketing' )); ?>">
+        <a class="service-anchor" href="<?php echo $digitalmarketing; ?>">
           <div class="logo">
             <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-digital-marketing-icon.svg" alt="bfm-digital-marketing-icon">
             <h3 class="underline blue-underline">Digital Marketing</h3>
@@ -98,7 +105,7 @@
 
       <!-- service 4 --->
       <div class="service">
-        <a class="service-anchor" href="<?php echo get_the_title(get_page_by_path( 'services-social-media-management' )); ?>">
+        <a class="service-anchor" href="<?php echo $socialmediamanagement; ?>">
           <div class="logo">
             <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-social-icon.svg" alt="bfm-social-icon">
             <h3 class="underline blue-underline">Social Media Management</h3>
@@ -118,7 +125,7 @@
 
       <!-- service 5 --->
       <div class="service ">
-        <a class="service-anchor" href="<?php echo get_the_title(get_page_by_path( 'services-media-management' )); ?>">
+        <a class="service-anchor" href="<?php echo $mediapublishingmanagement; ?>">
           <div class="logo">
             <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-media-icon.svg" alt="bfm-media-icon">
             <h3 class="underline blue-underline">Media & Publishing Marketing</h3>
@@ -137,7 +144,7 @@
 
       <!-- service 6 --->
       <div class="service ">
-        <a class="service-anchor" href="<?php echo get_the_title(get_page_by_path( 'services-cloud-hosting' )); ?>">
+        <a class="service-anchor" href="<?php echo $cloudhosting; ?>">
           <div class="logo">
             <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-hosting-icon.svg" alt="bfm-hosting-icon">
             <h3 class="underline blue-underline">Cloud Hosting</h3>
