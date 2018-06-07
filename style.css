@@ -2376,16 +2376,18 @@ hr {
 #rd {
   background-color: #1d72f7; }
 
-#section-contact .container form input {
-  margin: 5px 0;
-  padding: 8px 10px;
-  border-radius: 0;
-  border: none;
-  border-bottom: 2px solid #696969;
-  transition: border 0.5s cubic-bezier(0.7, 0.7, 0.7, 1); }
-  #section-contact .container form input:focus {
-    border-bottom-color: #1d72f7;
-    outline: none; }
+#section-contact .container {
+  background-color: img; }
+  #section-contact .container form input {
+    margin: 5px 0;
+    padding: 8px 10px;
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid #696969;
+    transition: border 0.5s cubic-bezier(0.7, 0.7, 0.7, 1); }
+    #section-contact .container form input:focus {
+      border-bottom-color: #1d72f7;
+      outline: none; }
 
 .contact-type {
   margin: 25px 0; }
