@@ -5,7 +5,9 @@
     <div class="head">
       <h1>About Us<span class="big-dot blue">.</span></h1>
       <p>Doing What we love to do!</p>
-      <p>We are a Toronto Development & Marketing Business helping small businesses from all industries. We help clients all over Canada with their design and development needs. Contact us to learn more.</p>
+      <p>We are a Toronto Development & Marketing Agency helping small businesses from all industries.
+        With a combined 50+ years of experience solving digital problems for clients, we are confident in our ability to improve performance and increase results.<br>
+      Our Toronto base is convenient for our local clients to have in person meetings to discuss projects and get to know us better.</p>
     </div>
     <div class="slide">
       <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts1.jpg" alt="" class="image active">
