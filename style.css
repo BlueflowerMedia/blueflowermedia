@@ -2065,12 +2065,18 @@ footer {
       color: #8f8e8e; }
     .posts .post .sharedaddy {
       display: none; }
+    @media (max-width: 760px) {
+      .posts .post {
+        width: 100%; } }
     .posts .post .post-image {
       position: relative; }
       .posts .post .post-image img {
         width: 100%;
         height: 400px;
         object-fit: cover; }
+        @media (max-width: 760px) {
+          .posts .post .post-image img {
+            height: 200px; } }
       .posts .post .post-image .post-info {
         position: absolute;
         top: 80%;
