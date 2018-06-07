@@ -7,7 +7,7 @@
     </div>
     <div class="txtservice flex2">
       <h1>Web Design<span class="big-dot blue">.</span></h1>
-      <p>Web-development is an integral part to growth of the modern business. Our team of experts understand this and create websites with an uncompromising high standard for intuitive and accessible designs.</p>
+      <p> The website is an integral part to growth of the modern business. As the number of people online increases, having a results oriented website is absolutely essential in todays business climate.</p>
     </div>
   </div>
 </section>
@@ -18,7 +18,7 @@
     <div class="prz">
       <!-- <img src="https://placeimg.com/150/100/arch" alt=""> -->
       <h3 class="prz-message ">Single Page</h3>
-      <h2 class="price">$1,300</h2>
+      <h2 class="price">$900</h2>
       <hr>
       <p>Customized Wordpress Theme</p>
       <hr>
@@ -39,7 +39,7 @@
     <div class="prz">
       <!-- <img src="https://placeimg.com/150/100/arch" alt=""> -->
       <h3 class="prz-message ">Standard 5 page</h3>
-      <h2 class="price">$2,200</h2>
+      <h2 class="price">$1,700</h2>
       <hr>
       <p>Customized Wordpress Theme</p>
       <hr>
@@ -66,7 +66,7 @@
     <div class="prz">
       <!-- <img src="https://placeimg.com/150/100/arch" alt=""> -->
       <h3 class="prz-message ">Ecommerce</h3>
-      <h2 class="price">$3,600</h2>
+      <h2 class="price">$3,200</h2>
       <hr>
       <p>Customized Wordpress Theme</p>
       <hr>
