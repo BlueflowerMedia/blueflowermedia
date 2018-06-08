@@ -7,13 +7,15 @@
     </div>
     <div class="txtservice flex2">
       <h1>Media & Publishing Marketing<span class="big-dot blue">.</span></h1>
-      <p>We help media and publishing companies with print design and resource management for online advertising.</p>
+      <p>Our experience in helping media companies has lead us to organize a set of services for the industry. On the print side, we provide newspaper/magazine design. On the digital side, we provide UI design, digital marketing,
+      publisher advertising tools, custom advertiser portal plugin development, and more! </p>
     </div>
   </div>
 </section>
 <section id="rd">
   <div class="container">
-    <p class="white">Standard practise in the marketing world are through newspapers and magazines. Our team is very experienced in this type of media but also well-versed in more innovative approaches such as Adsense, DoubleClick for Publishers, and other Media Advertiser Tools. Please do ask us to explore the vast possibilities for your needs.</p>
+    <p class="white">Media & Publishing Marketing consists of a wide array of services and needs to be catered to your specific business needs. We do not currently have any packages. Please contact
+    us with your project details so we can assist you further.</p>
   </div>
 </section>
 <!--  Digital Marketing design ------------------------------------------------------------------------------>
