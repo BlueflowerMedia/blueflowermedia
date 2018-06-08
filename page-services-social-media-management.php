@@ -6,8 +6,9 @@
       <img src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-social-icon.svg" alt="" class="image">
     </div>
     <div class="txtservice flex2">
-      <h1>Social Media Management<span class="big-dot blue">.</span></h1>
-      <p>We have dedicated content producers to engage with the public professionally,effectively, and consistently. We have a deep understanding of public relationships and ability to foster a positive public image.</p>
+      <h1>Social Media Marketing<span class="big-dot blue">.</span></h1>
+      <p>Social Media Marketing allows your business to reach billions of users around the world. This creates the perfect opportunity for you to develop a brand personality and presence people can easily access on platforms they are already on.
+      We help business raise awareness, increase engagement, create effective advertising campaigns, generate leads and much more!</p>
     </div>
   </div>
 </section>
