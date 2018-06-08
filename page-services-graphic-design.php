@@ -7,7 +7,9 @@
     </div>
     <div class="txtservice flex2">
       <h1>Graphic Design<span class="big-dot blue">.</span></h1>
-      <p>First-impressions can only be made once. The first look must make both an immediate as well as a long lasting impression. Creating such logos, posters, and signs requires the deft hand and intuitive eye our agency recruits specifically for.</p>
+      <p>First-impressions can only be made once. Design affects how your audience views your brand along with the emotions they associate with your brand. We love working with clients that have a strong vision in how they want to be remembered. <br><br>
+We work with clients from the very early stages, from brainstorming branding to creating consistent digital and print materials that will leave a lasting impression on the customer.
+      </p>
     </div>
   </div>
 </section>
