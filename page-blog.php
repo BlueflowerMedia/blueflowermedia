@@ -4,7 +4,7 @@
 <section id="blog">
   <div class="container flex-column">
     <h1>Our Blog<span class="big-dot blue">.</span></h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>We talk about our services, what goes on at work & what we learn along the way.</p>
   </div>
 </section>
 
