@@ -2579,7 +2579,7 @@ span.wpcf7-not-valid-tip {
 
 .contact-form-part-4 {
   flex: 1; }
-  .contact-form-part-4 span {
+  .contact-form-part-4 p, .contact-form-part-4 span {
     color: white; }
 
 .contact-form-part-5 {
