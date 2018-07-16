@@ -6,7 +6,7 @@
       <img src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-media-icon.svg" alt="" class="image">
     </div>
     <div class="txtservice flex2">
-      <h1>Media & Publishing Marketing<span class="big-dot blue">.</span></h1>
+      <h1>Media & Publishing Management<span class="big-dot blue">.</span></h1>
       <p>Our experience in helping media companies has lead us to organize a set of services for the industry. On the print side, we provide newspaper/magazine design. On the digital side, we provide UI design, digital marketing,
       publisher advertising tools, custom advertiser portal plugin development, and more! </p>
     </div>
