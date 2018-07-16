@@ -1,10 +1,10 @@
 <?php get_header();
-$webdesign = get_permalink(get_page_by_path( 'services-web-design' ));
-$graphicdesign = get_permalink(get_page_by_path( 'services-graphic-design' ));
-$digitalmarketing = get_permalink(get_page_by_path( 'services-digital-marketing' ));
-$socialmediamanagement = get_permalink(get_page_by_path( 'services-social-media-management' ));
-$mediapublishingmanagement = get_permalink(get_page_by_path( 'services-media-and-publishing-marketing' ));
-$cloudhosting = get_permalink(get_page_by_path( 'services-cloud-hosting' ));
+$webdesign = get_permalink(get_page_by_path( 'web-design' ));
+$graphicdesign = get_permalink(get_page_by_path( 'graphic-design' ));
+$digitalmarketing = get_permalink(get_page_by_path( 'digital-marketing' ));
+$socialmediamanagement = get_permalink(get_page_by_path( 'social-media-management' ));
+$mediapublishingmanagement = get_permalink(get_page_by_path( 'media-and-publishing-marketing' ));
+$cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
 ?>
 
 <!-- section header -->
