@@ -2,7 +2,7 @@
 $webdesign = get_permalink(get_page_by_path( 'web-design' ));
 $graphicdesign = get_permalink(get_page_by_path( 'graphic-design' ));
 $digitalmarketing = get_permalink(get_page_by_path( 'digital-marketing' ));
-$socialmediamanagement = get_permalink(get_page_by_path( 'social-media-management' ));
+$socialmediamarketing = get_permalink(get_page_by_path( 'social-media-marketing' ));
 $mediapublishingmanagement = get_permalink(get_page_by_path( 'media-and-publishing-marketing' ));
 $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
 ?>
@@ -105,10 +105,10 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
 
       <!-- service 4 --->
       <div class="service">
-        <a class="service-anchor" href="<?php echo $socialmediamanagement; ?>">
+        <a class="service-anchor" href="<?php echo $socialmediamarketing; ?>">
           <div class="logo">
             <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-social-icon.svg" alt="bfm-social-icon">
-            <h3 class="underline blue-underline">Social Media Management</h3>
+            <h3 class="underline blue-underline">Social Media Marketing</h3>
           </div>
         </a>
         <div class="service-content">

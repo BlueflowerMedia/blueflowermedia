@@ -17,7 +17,7 @@ $portfolio = get_permalink(get_page_by_path( 'Portfolio' ));
 $webdesign = get_permalink(get_page_by_path( 'services-web-design' ));
 $graphicdesign = get_permalink(get_page_by_path( 'services-graphic-design' ));
 $digitalmarketing = get_permalink(get_page_by_path( 'services-digital-marketing' ));
-$socialmediamanagement = get_permalink(get_page_by_path( 'services-social-media-management' ));
+$socialmediamarketing = get_permalink(get_page_by_path( 'services-social-media-management' ));
 $mediapublishingmanagement = get_permalink(get_page_by_path( 'services-media-and-publishing-marketing' ));
 $cloudhosting = get_permalink(get_page_by_path( 'services-cloud-hosting' ));
 
@@ -85,7 +85,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'services-cloud-hosting' ));
           <li><a href="<?php echo $webdesign; ?>">Web Design</a></li>
           <li><a href="<?php echo $graphicdesign; ?>">Graphic Design</a></li>
           <li><a href="<?php echo $digitalmarketing; ?>">Digital Marketing</a></li>
-          <li><a href="<?php echo $socialmediamanagement; ?>">Social Media Management</a></li>
+          <li><a href="<?php echo $socialmediamarketing; ?>">Social Media Management</a></li>
           <li><a href="<?php echo $mediapublishingmanagement; ?>">Media and Publishing management</a></li>
           <li><a href="<?php echo $cloudhosting; ?>">Cloud Hosting</a></li>
           <li><a href="<?php echo $contact; ?>"><button class="nav-contact" type="button" name="button">Contact Us</button></a></li>
