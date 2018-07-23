@@ -36,6 +36,56 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
   </div>
 </section>
 
+<!-- section-ourprocess ---------------------------------------------------->
+
+<section id="section-ourprocess">
+  <div class="container flex-column">
+    <h2>BlueFlowerMedia Workflow Process<span class="big-dot blue">.</span></h2>
+
+    <!-- 1nd -->
+    <div class="process flex-row">
+      <div class="process-pic flex1">
+        <a href="https://www.youtube.com/watch?v=NUf2ak3p4BE" target="_blank">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/ourprocess/1.png" alt="" class="image"></a>
+      </div>
+
+      <div class="process-title flex1">
+        <h2>Remember Everything</h2>
+        <p>Organize your work and declutter your life. Collect everything that matters in one place and find it when you need it, fast.
+        </p>
+      </div>
+    </div>
+    <!-- 2th -->
+    <div class="process flex-row">
+      <div class="process-title flex1">
+        <h2>Work Smarter</h2>
+        <p>Enhance your notes with links, checklists, tables, attachments, and audio recordings. Even handwritten notes are searchable.
+        </p>
+      </div>
+      <div class="process-pic flex1">
+        <a href="https://www.youtube.com/watch?v=09q57zoPIOw" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/ourprocess/2.png" alt="" class="image"></a>
+      </div>
+    </div>
+    <!-- 3th -->
+    <div class="process flex-row">
+      <div class="process-pic flex1">
+        <a href="https://www.youtube.com/watch?v=JudfZZ6aQMY" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/ourprocess/3.png" alt="" class="image"></a>
+      </div>
+
+      <div class="process-title flex1">
+        <h2>Bring It All Together</h2>
+        <p>Organized teams get more done. From initial brainstorm to finished project, make Evernote your team hub and find productivity bliss.
+        </p>
+      </div>
+    </div>
+    <!-- end  -->
+  </div>
+
+</section>
+
+
+
+
 <!-- section-services -------------------------------------------------->
 <section id="section-services">
   <div class="container">

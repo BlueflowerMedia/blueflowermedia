@@ -14,8 +14,8 @@
     padding-top: 150px;
   }
 }
-// section-aboutus
 
+// section-aboutus
 #section-aboutus {
   background: $blue;
   @include slanted-edge(top-left, 0, 15%);
@@ -28,8 +28,23 @@
     }
   }
 }
-// section-services
 
+// section-ourprocess
+#section-ourprocess {
+  .container {
+    h2 {
+      text-align: center;
+    }
+    .process-pic img {
+      //width: 100%;
+    }
+
+  }
+}
+
+
+
+// section-services
 #section-services {
   background-color: white;
   // @include slanted-edge(top-right, 100%, 15%);
