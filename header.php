@@ -22,11 +22,6 @@ $mediapublishingmanagement = get_permalink(get_page_by_path( 'services-media-and
 $cloudhosting = get_permalink(get_page_by_path( 'services-cloud-hosting' ));
 
 
-
-
-
-
-
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -75,8 +70,25 @@ $cloudhosting = get_permalink(get_page_by_path( 'services-cloud-hosting' ));
         <a href="<?php echo $contact; ?>"><button class="nav-contact" type="button" name="button">Contact Us</button></a>
       </div>
 			<!-- Navbar mobile -->
+
 			<div id="nav-mobile">
-        <ul id="mobile-menu">
+				<?php
+					wp_nav_menu( array(
+						'theme_location' => 'menu-1',
+						'menu_id'        => 'primary-menu-mobile',
+						'container_class' => 'mobile-menu-list',
+					) );
+				?>
+				<h2>Our Services<span class="big-dot blue">.</span></h2>
+				<?php
+					wp_nav_menu( array(
+						'theme_location' => 'menu-2',
+						'menu_id'        => 'secondary-menu-mobile',
+						'container_class' => 'mobile-menu-list',
+					) );
+				?>
+
+        <!-- <ul id="mobile-menu">
           <li><a class="main-items" href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
           <li><a class="main-items" href="<?php echo $team; ?>">Team</a></li>
           <li><a class="main-items" href="<?php echo $portfolio; ?>">Portfolio</a></li>
@@ -87,9 +99,11 @@ $cloudhosting = get_permalink(get_page_by_path( 'services-cloud-hosting' ));
           <li><a href="<?php echo $digitalmarketing; ?>">Digital Marketing</a></li>
           <li><a href="<?php echo $socialmediamarketing; ?>">Social Media Management</a></li>
           <li><a href="<?php echo $mediapublishingmanagement; ?>">Media and Publishing management</a></li>
-          <li><a href="<?php echo $cloudhosting; ?>">Cloud Hosting</a></li>
+          <li><a href="<?php echo $cloudhosting; ?>">Web Hosting & Maintenance</a></li>
           <li><a href="<?php echo $contact; ?>"><button class="nav-contact" type="button" name="button">Contact Us</button></a></li>
+        				</ul> -->
       </div>
+
       <!-- hamburger div -->
 			<div class="hamburger" id="hamburger-bfm">
 				<span class="line"></span>

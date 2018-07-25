@@ -1,28 +1,58 @@
 #services {
   margin-top: 40px;
   background-color: white;
-  // @include slanted-edge(bottom-right, 100%, 85%);
   .services-logo {
     display: flex;
     justify-content: center;
     align-items: center;
-
     img {
       width: 200px;
     }
   }
+  .container {
+    @include mobile {
+      display: block;
+    }
+  }
+
 }
 
+// section-video part
+#section-video .container {
+  background-color: $blue;
+  @include mobile {
+    display: block;
+  }
+  .txt-explain {
+    p, h2 {
+      color: white;
+    }
+  }
+  .video-web {
+    margin-left: 30px;
+    @include mobile {
+      margin-left: 0;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      margin-top: 20px;
+    }
+  }
+}
+
+// our prices
 #section-prz {
   position: relative;
-  background-color: $blue;
+  background-color: white;
 
   &:after {
     content: "";
     @include position(absolute, $top:-2px, $left:0);
-    background: white;
+    background: $blue;
     @include slanted-edge(bottom-right, 100%, 70%);
     @include box(100%, 25%);
+    z-index: -999;
   }
 
   .container {
@@ -31,7 +61,16 @@
     width: 100%;
   }
 }
-
+.prices-title {
+  h2 {
+    color: white;
+    text-align: center;
+    margin: 0 0 25px 0;
+  }
+}
+.prices-type {
+  justify-content: center;
+}
 .prz {
   box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
@@ -39,7 +78,6 @@
   margin: 10px;
   padding: 40px 20px;
   text-align: center;
-  justify-content: space-between;
   background: white;
 
   img {
