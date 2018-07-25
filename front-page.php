@@ -52,16 +52,16 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       </div>
 
       <div class="process-title flex1 flex-column">
-        <h2>Conceptualize</h2>
-        <p>Organize your work and declutter your life. Collect everything that matters in one place and find it when you need it, fast.
+        <h2>Conceptualization</h2>
+        <p>Identify your markets, conceptualize your brand personality & create a growth plan.
         </p>
       </div>
     </div>
     <!-- 2th -->
     <div class="process flex-row">
       <div class="process-title flex1 flex-column">
-        <h2>Develop</h2>
-        <p>Enhance your notes with links, checklists, tables, attachments, and audio recordings. Even handwritten notes are searchable.
+        <h2>Design & Develop</h2>
+        <p>Design a brand that moves your customers & develop websites/applications that allow for maximum results.
         </p>
       </div>
       <div class="process-pic flex1">
@@ -75,8 +75,8 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       </div>
 
       <div class="process-title flex1 flex-column">
-        <h2>Grow</h2>
-        <p>Organized teams get more done. From initial brainstorm to finished project, make Evernote your team hub and find productivity bliss.
+        <h2>Market your Business</h2>
+        <p>Create short term and long term marketing strategies that value your investment.
         </p>
       </div>
     </div>

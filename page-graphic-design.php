@@ -32,34 +32,34 @@
 </section>
 
 <!--- section 3 part ---------->
-
 <section id="threecolumn">
-
   <div class="container">
 
     <div class="row center">
       <h2>Graphic Design Second Div<span class="big-dot blue">.</span></h2>
     </div>
 
-      <div class="row">
-
-        <div id="member-row-1" class="flex-row member-row">
-          <div class="member sr">
-            <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/team/team-noman.jpg" alt="Noman Hossain">
-            <h3>Noman Hossain</h3>
-            <p>[ Account Manager ]<br>[ Graphic Designer ]</p>
-            <p>I help clients communicate their business problems well, and work with them closely throughout projects. </p>
-          </div>
-          <div class="member sr">
-            <img id="pic2" src="<?php echo get_template_directory_uri(); ?>/images/team/team-fahim.jpg" alt="Fahim Shahreer">
-            <h3>Fahim Shahreer</h3>
-            <p>[ Lead Developer ]<br>[ Project Manager ]</p>
-            <p>The office never has enough coffee for me.</p>
-          </div>
-        </div>
-
+    <div id="member-row-1" class="flex-row member-row">
+      <div class="member sr">
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/ourprocess-detail/1.jpg" alt="">
+        <h3>Design Brief</h3>
+        <p>Clarify brand vision, goals & values. Identify Target markets & appropriate business personality. Give us as many details as possible along with touchpoints that will be required for your brand.
+        </p>
+      </div>
+      <div class="member sr">
+        <img id="pic2" src="<?php echo get_template_directory_uri(); ?>/images/ourprocess-detail/2.jpg" alt="">
+        <h3>Design Research & Strategy</h3>
+        <p>We research industry, target demographic, competitors & their design approaches. Doing research helps us identify the best way to give you a competitive edge in the market.
+        </p>
+      </div>
+      <div class="member sr">
+        <img id="pic2" src="<?php echo get_template_directory_uri(); ?>/images/ourprocess-detail/3.jpg" alt="">
+        <h3>Design & Guidelines</h3>
+        <p>At this stage, we design all required content for all required mediums. This includes logos, icons, graphic images, print materials, etc. We give all of the original source files along with guidelines for future use.
+        </p>
       </div>
     </div>
+
   </div>
 </section>
 
