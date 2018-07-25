@@ -34,7 +34,7 @@
   <div class="container flex-row">
 
     <div class="process-title">
-      <h1>Social Media Marketing Second Div<span class="big-dot blue">.</span></h1>
+      <h1>Second Div<span class="big-dot blue">.</span></h1>
     </div>
 
     <div id="process-rows" class="flex-row">
@@ -129,8 +129,8 @@
 </section>
 <!-- end Social  Media  Management ------------------------------------------>
 
-<!-- section-getintouch-->
-<section id="section-getintouch" class="blue">
+<!-- section-getintouch ---------------------------------------------------->
+<section id="section-getintouch">
   <div class="container">
     <a href="<?php echo get_the_title(get_page_by_path( 'contact' )); ?>"><button type="button" name="button">Let's Get Started!</button></a>
   </div>

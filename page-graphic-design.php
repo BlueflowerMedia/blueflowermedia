@@ -36,7 +36,7 @@
   <div class="container flex-row">
 
     <div class="process-title">
-      <h1>Graphic Design Second Div<span class="big-dot blue">.</span></h1>
+      <h2>Graphic Design Second Div<span class="big-dot blue">.</span></h2>
     </div>
 
     <div id="process-rows" class="flex-row">
@@ -71,7 +71,7 @@
 <section id="section-prz">
   <div class="container">
     <div class="prices-title">
-      <h2>Our Prices<span class="big-dot yellow">.</span></h2>
+      <h2>Our Prices<span class="big-dot blue">.</span></h2>
     </div>
 
     <div class="prices-type flex-row">
@@ -119,10 +119,9 @@
 
   </div>
 </section>
-<!-- end graphic design -------------------------------------------------->
 
-<!-- section-getintouch-->
-<section id="section-getintouch" class="blue">
+<!-- section-getintouch ---------------------------------------------------->
+<section id="section-getintouch">
   <div class="container">
     <a href="<?php echo get_the_title(get_page_by_path( 'contact' )); ?>"><button type="button" name="button">Let's Get Started!</button></a>
   </div>

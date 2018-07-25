@@ -76,11 +76,14 @@
 
 // section-services
 #section-services {
-  background-color: $yellow;
+  background-color: white;
   position: relative;
   .container {
-    padding: 10%;
-
+    background-color: $yellow;
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 5%;
+    border-radius: 50px;
     h1 {
       text-align: center;
       //color: white;
@@ -91,6 +94,22 @@
   background-color: white;
   border-radius: 20px;
   box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.4);
+  .service-anchor {
+    .logo {
+      text-align: center;
+      width: 100%;
+      margin-top: 20px;
+      img {
+        height: 100px;
+        border-radius: 10%;
+        margin: 0 auto;
+        display: block;
+        @include mobile {
+          margin: 0 auto;
+        }
+      }
+    }
+  }
   @include mobile {
     min-height: auto;
   }
@@ -109,35 +128,23 @@
 
   a.service-anchor {
     display: block;
-
     h3::before {
-      transition: width 0.2s cubic-bezier(0.13, 0.59, 0.63, 1.07);
+      width: 25%;
+      transition: all 0.2s cubic-bezier(0.13, 0.59, 0.63, 1.07);
+      left: 37.5%;
     }
 
     &:hover h3::before {
-      width: 100px;
+      width: 50%;
+      left: 25%;
     }
   }
-
   .logo {
-    width: 100%;
 
-    img {
-      height: 100px;
-      border-radius: 10%;
-      margin: 10px 0 18px 0;
-      display: block;
-      text-align: center;
-      @include mobile {
-        margin: 0 auto;
-      }
-    }
   }
 }
-
 .service-content {
   margin: 20px 0;
-
   ul {
     li {
       text-align: left;
