@@ -135,7 +135,9 @@ transition: all 0.3s ease-in-out;
 
 // Responsive
 #nav-mobile {
-	display: none;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
 	@include position(absolute, $top: 0, $left: 0);
 	z-index: 99;
 	padding: 70px 5px;
@@ -146,53 +148,50 @@ transition: all 0.3s ease-in-out;
 	text-align: center;
 	transform: translateY(-100%);
 	transition: transform 0.5s cubic-bezier(0.59, 1.08, 0.86, 0.96);
+	h2 {
+		margin-top: 30px;
+	}
 	&.open {
 		transform: translateY(0);
 	}
-	ul#mobile-menu {
+	ul#primary-menu-mobile {
 		position: relative;
 		text-decoration: none;
 		text-transform: uppercase;
 		font-weight: 700;
-		margin-top: 20px;
+		margin-top: -30px;
 		padding: 0 5px;
 		display: flex;
 		flex-flow: column;
 		align-items: center;
 
 		li {
-			margin: 0 10px;
+			margin: 3px auto;
 			display: block;
 			h2 {
 				margin-top: 3vh;
 			}
 			a {
 				padding: 5px 5px;
-				font-size: 1.3rem;
+				font-size: 1.4rem;
+				font-weight: 700;
+				&:after {
+					content: "";
+					@include position(absolute, $bottom: 0, $left: 0);
+					height: 10%;
+					width: 100%;
+					background: $yellow;
+					/* box-shadow: 2px 2px 0 #000000; */
+					z-index: -1;
+					transition: transform 0.3s cubic-bezier(0.11, 0.7, 1, 1.2);
+				}
 				button {
 					font-size: 1.6rem;
 					margin: 20px 0;
 				}
-				&.main-items {
-					font-size: 1.8rem;
-					font-weight: 700;
-					&:after {
-						content: "";
-						@include position(absolute, $bottom: 0, $left: 0);
-						height: 10%;
-						width: 100%;
-						background: $yellow;
-						/* box-shadow: 2px 2px 0 #000000; */
-						z-index: -1;
-						transition: transform 0.3s cubic-bezier(0.11, 0.7, 1, 1.2);
-					}
-				}
 			}
 		}
 
-	}
-	@include mobile {
-		display: block;
 	}
 	&.active {
 		transform: translateY(0);
@@ -248,7 +247,7 @@ ul#primary-menu > li:hover > ul.sub-menu {
 }
 
 // services submenu
-ul#primary-menu ul {
+#primary-menu ul {
 	background: $yellow;
 	/* position: relative; */
 	box-shadow: none;
@@ -295,6 +294,114 @@ ul#primary-menu ul {
 		}
 	}
 }
+
+/////// primary-menu-mobile
+ul#primary-menu-mobile {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	height: 100%;
+
+	li {
+		margin: 0 10px;
+	}
+}
+
+ul#secondary-menu-mobile {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	height: 100%;
+
+	li {
+		margin: 3px auto;
+		a {
+			font-size: 1.2rem;
+			font-weight: 700;
+
+		}
+	}
+}
+
+// menu item
+ul#primary-menu-mobile > li > a {
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 0;
+	padding: 0 5px;
+	cursor: pointer;
+
+	&:after {
+		content: "";
+		height: 50%;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 10px;
+		//background: $yellow;
+		/* box-shadow: 2px 2px 0 #000000; */
+		z-index: -1;
+		transition: transform 0.3s cubic-bezier(0.11, 0.7, 1, 1.2);
+	}
+
+}
+
+ul#primary-menu-mobile > li:hover > ul.sub-menu {
+	left: -70%;
+	opacity: 1;
+}
+
+// services submenu
+ul#primary-menu-mobile ul {
+	//background: $yellow;
+	/* position: relative; */
+	box-shadow: none;
+	margin-top: 0px;
+	padding: 30px 0 15px 0;
+	text-align: center;
+	transition: opacity 0.4s cubic-bezier(0.11, 0.7, 1, 1);
+	opacity: 0;
+	&:after {
+		content: "";
+		@include position(absolute, $top: 0, $left: 0);
+		height: 22px;
+		width: 100%;
+		background: white;
+	}
+	li {
+		/* background: $blue; */
+		border-radius: 10px;
+		margin: 5px 0 !important;
+		/* box-shadow: 2px 2px 5px -1px #818181; */
+		a {
+			font-size: 0.9rem;
+			padding: 5px 10px;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: black;
+			width: 200px;
+			&:after {
+				content: "";
+				height: 85%;
+				width: 0;
+				@include position(absolute, $bottom: 10%, $left: 10px);
+				background: white;
+				z-index: -1;
+				transition: all 0.2s cubic-bezier(0.11, 0.7, 1, 1);
+			}
+			&:hover {
+				/* color: white; */
+				&:after {
+					width: 90%;
+				}
+			}
+
+		}
+	}
+}
+
 
 
 // logo

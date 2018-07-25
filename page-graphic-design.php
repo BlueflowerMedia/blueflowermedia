@@ -8,8 +8,8 @@
     <div class="txtservice flex2">
       <h1>Graphic Design<span class="big-dot blue">.</span></h1>
       <p>First-impressions can only be made once. Design affects how your audience views your brand along with the emotions they associate with your brand. We love working with clients that have a strong vision in how they want to be remembered. <br><br>
-We work with clients from the very early stages, from brainstorming branding to creating consistent digital and print materials that will leave a lasting impression on the customer.
-      </p>
+      We work with clients from the very early stages, from brainstorming branding to creating consistent digital and print materials that will leave a lasting impression on the customer.
+     </p>
     </div>
   </div>
 </section>
@@ -30,6 +30,42 @@ We work with clients from the very early stages, from brainstorming branding to 
 
   </div>
 </section>
+
+<!--- section 3 part ---------->
+
+<section id="threecolumn">
+
+  <div class="container">
+
+    <div class="row center">
+      <h2>Graphic Design Second Div<span class="big-dot blue">.</span></h2>
+    </div>
+
+      <div class="row">
+
+        <div id="member-row-1" class="flex-row member-row">
+          <div class="member sr">
+            <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/team/team-noman.jpg" alt="Noman Hossain">
+            <h3>Noman Hossain</h3>
+            <p>[ Account Manager ]<br>[ Graphic Designer ]</p>
+            <p>I help clients communicate their business problems well, and work with them closely throughout projects. </p>
+          </div>
+          <div class="member sr">
+            <img id="pic2" src="<?php echo get_template_directory_uri(); ?>/images/team/team-fahim.jpg" alt="Fahim Shahreer">
+            <h3>Fahim Shahreer</h3>
+            <p>[ Lead Developer ]<br>[ Project Manager ]</p>
+            <p>The office never has enough coffee for me.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
 
 <!-- section prices -->
 <section id="section-prz">

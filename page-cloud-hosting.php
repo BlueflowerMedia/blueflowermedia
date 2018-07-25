@@ -6,7 +6,7 @@
       <img src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-hosting-icon.svg" alt="">
     </div>
     <div class="txtservice flex2">
-      <h1>Cloud Hosting<span class="big-dot blue">.</span></h1>
+      <h1>Web Hosting & Maintenance<span class="big-dot blue">.</span></h1>
       <p></p>
     </div>
   </div>

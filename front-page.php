@@ -39,41 +39,43 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
 <!-- section-ourprocess ---------------------------------------------------->
 
 <section id="section-ourprocess">
+  <div id="particles"></div>
+
   <div class="container flex-column">
-    <h2>BlueFlowerMedia Workflow Process<span class="big-dot blue">.</span></h2>
+    <h1>Our Workflow<span class="big-dot blue">.</span></h1>
 
     <!-- 1nd -->
     <div class="process flex-row">
       <div class="process-pic flex1">
-        <a href="https://www.youtube.com/watch?v=NUf2ak3p4BE" target="_blank">
+        <a href="https://www.youtube.com/watch?v=09q57zoPIOw" target="_blank">
           <img src="<?php echo get_template_directory_uri(); ?>/images/ourprocess/1.png" alt="" class="image"></a>
       </div>
 
-      <div class="process-title flex1">
-        <h2>Remember Everything</h2>
+      <div class="process-title flex1 flex-column">
+        <h2>Conceptualize</h2>
         <p>Organize your work and declutter your life. Collect everything that matters in one place and find it when you need it, fast.
         </p>
       </div>
     </div>
     <!-- 2th -->
     <div class="process flex-row">
-      <div class="process-title flex1">
-        <h2>Work Smarter</h2>
+      <div class="process-title flex1 flex-column">
+        <h2>Develop</h2>
         <p>Enhance your notes with links, checklists, tables, attachments, and audio recordings. Even handwritten notes are searchable.
         </p>
       </div>
       <div class="process-pic flex1">
-        <a href="https://www.youtube.com/watch?v=09q57zoPIOw" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/ourprocess/2.png" alt="" class="image"></a>
+        <a href="https://www.youtube.com/watch?v=NUf2ak3p4BE" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/ourprocess/2.png" alt="" class="image"></a>
       </div>
     </div>
     <!-- 3th -->
     <div class="process flex-row">
       <div class="process-pic flex1">
-        <a href="https://www.youtube.com/watch?v=JudfZZ6aQMY" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/ourprocess/3.png" alt="" class="image"></a>
+        <a href="https://www.youtube.com/watch?v=fWDYwY2rHx8" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/ourprocess/3.png" alt="" class="image"></a>
       </div>
 
-      <div class="process-title flex1">
-        <h2>Bring It All Together</h2>
+      <div class="process-title flex1 flex-column">
+        <h2>Grow</h2>
         <p>Organized teams get more done. From initial brainstorm to finished project, make Evernote your team hub and find productivity bliss.
         </p>
       </div>
@@ -83,21 +85,18 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
 
 </section>
 
-
-
-
 <!-- section-services -------------------------------------------------->
 <section id="section-services">
   <div class="container">
-    <h1>Services<span class="big-dot blue">.</span></h1>
-    <p>Our in house services are flexible and tailored to each of our clients' unique needs. Here are our general services we provide, simply contact us to tailor a customized plan for your vision!</p>
+    <h1 class="">Services<span class="big-dot blue">.</span></h1>
+    <p class="">Our in house services are flexible and tailored to each of our clients' unique needs. Here are our general services we provide, simply contact us to tailor a customized plan for your vision!</p>
     <div class="services flex-row">
       <!-- service names begin --->
       <!-- service 1 --->
       <div class="service">
         <a class="service-anchor" href="<?php echo $webdesign; ?>">
           <div class="logo">
-            <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-web-design-icon.svg" alt="bfm-web-design-icon">
+            <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-web-design-icon.svg" alt="bfm-web-design-icon">
             <h3 class="underline blue-underline">Web Design</h3>
           </div>
         </a>
@@ -118,7 +117,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       <div class="service ">
         <a class="service-anchor" href="<?php echo $graphicdesign; ?>">
           <div class="logo">
-            <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-graphic-design-icon.svg" alt="bfm-graphic-design-icon">
+            <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-graphic-design-icon.svg" alt="bfm-graphic-design-icon">
             <h3 class="underline blue-underline">Graphic Design</h3>
           </div>
         </a>
@@ -137,7 +136,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       <div class="service ">
         <a class="service-anchor" href="<?php echo $digitalmarketing; ?>">
           <div class="logo">
-            <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-digital-marketing-icon.svg" alt="bfm-digital-marketing-icon">
+            <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-digital-marketing-icon.svg" alt="bfm-digital-marketing-icon">
             <h3 class="underline blue-underline">Digital Marketing</h3>
           </div>
         </a>
@@ -157,7 +156,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       <div class="service">
         <a class="service-anchor" href="<?php echo $socialmediamarketing; ?>">
           <div class="logo">
-            <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-social-icon.svg" alt="bfm-social-icon">
+            <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-social-icon.svg" alt="bfm-social-icon">
             <h3 class="underline blue-underline">Social Media Marketing</h3>
           </div>
         </a>
@@ -177,7 +176,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       <div class="service ">
         <a class="service-anchor" href="<?php echo $mediapublishingmanagement; ?>">
           <div class="logo">
-            <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-media-icon.svg" alt="bfm-media-icon">
+            <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-media-icon.svg" alt="bfm-media-icon">
             <h3 class="underline blue-underline">Media & Publishing Management</h3>
           </div>
         </a>
@@ -196,8 +195,8 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       <div class="service ">
         <a class="service-anchor" href="<?php echo $cloudhosting; ?>">
           <div class="logo">
-            <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-hosting-icon.svg" alt="bfm-hosting-icon">
-            <h3 class="underline blue-underline">Cloud Hosting</h3>
+            <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-hosting-icon.svg" alt="bfm-hosting-icon">
+            <h3 class="underline blue-underline">Web Hosting & Maintenance</h3>
           </div>
         </a>
         <div class="service-content">
@@ -215,7 +214,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
   </div>
 </section>
 
-<!-- section-split-contacts ---------------------------------------------------->
+<!-- section-split-contacts
 <section id="section-split-contacts">
   <div class="container">
     <div class="row flex-row">
@@ -226,7 +225,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
         <img src="<?php echo get_template_directory_uri(); ?>/images/bfm-new-small-business-icon.svg" alt="Image-1">
       </div>
       <p class="white">Looking to grow your business online?<br> We work closely with small business owners to understand their business goals & the problems that keep them up at night. This helps us create custom tailored solutions for the.</p>
-      <!-- <button class="agency-business" type="button" name="button">Small Business</button> -->
+      <button class="agency-business" type="button" name="button">Small Business</button>
     </div>
 
 
@@ -236,7 +235,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
         <img src="<?php echo get_template_directory_uri(); ?>/images/bfm-new-agency-icon.svg" alt="Image-2">
       </div>
       <p class="white">Does your agency need a helping hand with its development/design work? We partner with agencies worldwide to help them exceed client expectations with our white labeled services.</p>
-      <!-- <button class="agency-business" type="button" name="button">Agency</button> -->
+      <button class="agency-business" type="button" name="button">Agency</button>
     </div>
   </div>
   <div class="goto-contact">
@@ -245,7 +244,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
 
   </div>
 
-</section>
+</section>   -->
 
 <!-- section-client-slider ---------------------------------------------------->
 <section id="section-client-slider">
