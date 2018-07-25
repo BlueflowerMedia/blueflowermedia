@@ -20,7 +20,7 @@
 
     <div class="txt-explain flex1">
       <h2>Our Process<span class="big-dot yellow">.</span></h2>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p> Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process </p>
     </div>
 
     <div class="video-web flex1">
@@ -31,29 +31,29 @@
   </div>
 </section>
 
-<!--- section 3 part ---------->
-<section id="threecolumn">
-  <div class="container">
+<!--- section-process-detail part ---------->
+<section id="section-process-detail">
+  <div class="container flex-row">
 
-    <div class="row center">
-      <h2>Graphic Design Second Div<span class="big-dot blue">.</span></h2>
+    <div class="process-title">
+      <h1>Graphic Design Second Div<span class="big-dot blue">.</span></h1>
     </div>
 
-    <div id="member-row-1" class="flex-row member-row">
-      <div class="member sr">
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/ourprocess-detail/1.jpg" alt="">
+    <div id="process-rows" class="flex-row">
+      <div class="process-row flex1">
+        <img id="pic-datail-1" src="<?php echo get_template_directory_uri(); ?>/images/ourprocess-detail/1.jpg" alt="">
         <h3>Design Brief</h3>
         <p>Clarify brand vision, goals & values. Identify Target markets & appropriate business personality. Give us as many details as possible along with touchpoints that will be required for your brand.
         </p>
       </div>
-      <div class="member sr">
-        <img id="pic2" src="<?php echo get_template_directory_uri(); ?>/images/ourprocess-detail/2.jpg" alt="">
+      <div class="process-row flex1">
+        <img id="pic-datail-3" src="<?php echo get_template_directory_uri(); ?>/images/ourprocess-detail/2.jpg" alt="">
         <h3>Design Research & Strategy</h3>
         <p>We research industry, target demographic, competitors & their design approaches. Doing research helps us identify the best way to give you a competitive edge in the market.
         </p>
       </div>
-      <div class="member sr">
-        <img id="pic2" src="<?php echo get_template_directory_uri(); ?>/images/ourprocess-detail/3.jpg" alt="">
+      <div class="process-row flex1">
+        <img id="pic-datail-3" src="<?php echo get_template_directory_uri(); ?>/images/ourprocess-detail/3.jpg" alt="">
         <h3>Design & Guidelines</h3>
         <p>At this stage, we design all required content for all required mediums. This includes logos, icons, graphic images, print materials, etc. We give all of the original source files along with guidelines for future use.
         </p>

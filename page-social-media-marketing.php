@@ -7,8 +7,7 @@
     </div>
     <div class="txtservice flex2">
       <h1>Social Media Marketing<span class="big-dot blue">.</span></h1>
-      <p>Social Media Marketing allows your business to reach billions of users around the world. This creates the perfect opportunity for you to develop a brand personality and presence people can easily access on platforms they are already on.
-      We help business raise awareness, increase engagement, create effective advertising campaigns, generate leads and much more!</p>
+      <p>Social Media Marketing allows your business to reach billions of users around the world. This creates the perfect opportunity for you to develop a brand personality and presence people can easily access on platforms they are already on. We help business raise awareness, increase engagement, create effective advertising campaigns, generate leads and much more!</p>
     </div>
   </div>
 </section>
@@ -19,7 +18,7 @@
 
     <div class="txt-explain flex1">
       <h2>Our Process<span class="big-dot yellow">.</span></h2>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p> Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process</p>
     </div>
 
     <div class="video-web flex1">
@@ -29,6 +28,42 @@
 
   </div>
 </section>
+
+<!--- section-process-detail part ---------->
+<section id="section-process-detail">
+  <div class="container flex-row">
+
+    <div class="process-title">
+      <h1>Social Media Marketing Second Div<span class="big-dot blue">.</span></h1>
+    </div>
+
+    <div id="process-rows" class="flex-row">
+      <div class="process-row flex1">
+        <img id="pic-datail-1" src="<?php echo get_template_directory_uri(); ?>/images/ourprocess-detail/6.jpg" alt="">
+        <h3>Social Media Strategy</h3>
+        <p>Your Social Media Presence online is absolutely essential to your overall presence on the web. Having a social media strategy is an crucial in having an effective social presence. With our clients we brainstorm target demographics, the use of different platforms, tone, and much more.
+        <br>Once we establish a strategy, it will be much easier to create content consistently.
+        </p>
+      </div>
+      <div class="process-row flex1">
+        <img id="pic-datail-3" src="<?php echo get_template_directory_uri(); ?>/images/ourprocess-detail/7.jpg" alt="">
+        <h3>Selecting Appropriate Key Performance Indicators (KPI’s)</h3>
+        <p>Measurable KPI’s let you know how well your social media marketing is doing. They can be the number of fans, followers, likes, reach, generated leads, inbound links, reviews, etc.
+        </p>
+      </div>
+      <div class="process-row flex1">
+        <img id="pic-datail-3" src="<?php echo get_template_directory_uri(); ?>/images/ourprocess-detail/8.jpg" alt="">
+        <h3>Social Media Reports</h3>
+        <p>We analyze your social media profiles on a monthly basis to determine what is and isn’t working. This helps us make improvements for the coming months.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
 
 <!-- section prices -->
 <section id="section-prz">

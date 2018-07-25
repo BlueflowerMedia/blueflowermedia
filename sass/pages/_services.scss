@@ -41,6 +41,46 @@
   }
 }
 
+// section-process-detail
+#section-process-detail {
+  .container {
+    .process-title h1 {
+      text-align: center;
+    }
+    .process-row {
+      text-align: center;
+      min-width: 250px;
+      width: 450px;
+      min-height: 450px;
+      margin: 20px;
+      padding: 50px;
+      background: $yellow;
+      text-align: center;
+      border-radius: 20px;
+      box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.4);
+      @include mobile {
+        min-height: auto;
+      }
+
+      h3 {
+        text-align: center;
+      }
+      img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+    }
+  }
+}
+
+
+
+
 // our prices
 #section-prz {
   position: relative;
