@@ -2518,6 +2518,7 @@ div.entry-content p:first-child:first-letter {
       margin-top: 20px; }
 
 #section-process-detail .container {
+  padding-bottom: 10px;
   justify-content: center; }
   @media (max-width: 760px) {
     #section-process-detail .container #process-rows {
