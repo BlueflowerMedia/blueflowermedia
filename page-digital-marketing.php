@@ -36,8 +36,9 @@
   <div class="container flex-row">
 
     <div class="process-title">
-      <h1>Digital marketing Third Div<span class="big-dot blue">.</span></h1>
+      <h2>Digital marketing Third Div<span class="big-dot blue">.</span></h2>
     </div>
+    <h4>For most businesses, we recommend a strategies that combine organic and paid marketing.</h4>
 
     <div id="process-rows" class="flex-row row">
       <div class="process-row flex1">
@@ -64,8 +65,6 @@
           <li>Display Advertising</li>
           <li>Print Advertising</li>
         </ul>
-        <p>For most businesses, we recommend a strategies that combine organic and paid marketing.
-        </p>
       </div>
     </div>
 

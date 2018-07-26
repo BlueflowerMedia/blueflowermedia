@@ -18,7 +18,7 @@
 
     <div class="txt-explain flex1">
       <h2>Our Process<span class="big-dot yellow">.</span></h2>
-      <p> Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process</p>
+      <!-- <p> Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process</p> -->
     </div>
 
     <div class="video-web flex1">
@@ -34,7 +34,7 @@
   <div class="container flex-row">
 
     <div class="process-title">
-      <h1>Second Div<span class="big-dot blue">.</span></h1>
+      <h2>Second Div<span class="big-dot blue">.</span></h2>
     </div>
 
     <div id="process-rows" class="flex-row">
@@ -47,7 +47,7 @@
       </div>
       <div class="process-row flex1">
         <img id="pic-datail-3" src="<?php echo get_template_directory_uri(); ?>/images/ourprocess-detail/7.jpg" alt="">
-        <h3>Selecting Appropriate Key Performance Indicators (KPI’s)</h3>
+        <h3>Key Performance Indicators (KPI’s)</h3>
         <p>Measurable KPI’s let you know how well your social media marketing is doing. They can be the number of fans, followers, likes, reach, generated leads, inbound links, reviews, etc.
         </p>
       </div>
@@ -61,9 +61,6 @@
 
   </div>
 </section>
-
-
-
 
 <!-- section prices -->
 <section id="section-prz">
