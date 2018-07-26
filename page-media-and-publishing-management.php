@@ -19,7 +19,7 @@
 
     <div class="txt-explain flex1">
       <h2>Our Process<span class="big-dot yellow">.</span></h2>
-      <p> Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Pr</p>
+      <!-- <p> Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Pr</p> -->
     </div>
 
     <div class="video-web flex1">

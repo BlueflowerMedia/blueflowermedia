@@ -27,7 +27,7 @@
 <section id="contact-form">
   <div class="container">
     <h2>Get in touch!</h2>
-    <?php echo do_shortcode( '[contact-form-7 id="95" title="Small Business"]' ) ?>
+    <?php echo do_shortcode( '[contact-form-7 id="42" title="Contact Form"]' ) ?>
   </div>
 </section>
 
