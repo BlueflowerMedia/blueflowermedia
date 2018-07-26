@@ -13,13 +13,13 @@
 </section>
 
 <!--- section video ---------->
-<section id="section-video">
+<!-- <section id="section-video">
   <div class="container flex-row">
 
     <div class="txt-explain flex1">
       <h2>Our Process<span class="big-dot yellow">.</span></h2>
-      <!-- <p>Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Pro</p>
-           --></div>
+       <p>Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Pro</p>
+    </div>
 
     <div class="video-web flex1">
       <iframe src="https://www.youtube.com/embed/J4pUEBdKqIo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
@@ -28,7 +28,7 @@
 
   </div>
 </section>
-
+ -->
 <!-- section prices -->
 <section id="section-prz">
   <div class="container">
