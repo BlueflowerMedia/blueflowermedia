@@ -181,11 +181,11 @@ a.url {
   }
 
   &.left:before {
-    left: 35%;
+    left: 0;
   }
 
   &.right:before {
-    left: 0;
+    right: 0;
   }
 
   &.middle:before {

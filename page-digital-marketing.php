@@ -7,9 +7,7 @@
     </div>
     <div class="txtservice flex2">
       <h1>Digital Marketing<span class="big-dot blue">.</span></h1>
-      <p>In a multi-device world, its very important to attract and retain users on as many touchpoints as possible. For us, the first step is to have a great presence on as many relavant platforms as possible in a practical integrated way.
-      The next step is find appropriate advertising opportunities that will attract the right customers to your platforms/landing pages. The need for amazing user experience will be very objous here in this stage of your digital marketing process, because
-    great design just converts so much more than bland design! We then work towards improving your conversion rate & your customer return rate.  </p>
+      <p>In a multi-device world, its very important to attract and retain users on as many touch points as possible. For us, the first step is to have a great presence on as many relevant platforms as possible in a way that makes the most of each platforms. The next step is find appropriate advertising opportunities that will attract the right customers to your platforms/landing pages. The need for amazing user experience will be very obvious here in this stage of your digital marketing process, because great design just converts so much more than bland design! We then work towards improving your conversion rate & your customer return rate.</p>
     </div>
   </div>
 </section>
@@ -19,8 +17,10 @@
   <div class="container flex-row">
 
     <div class="txt-explain flex1">
-      <h2>Our Process<span class="big-dot yellow">.</span></h2>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h2>3.5 billion people online. Countless marketing options. What to do now?<span class="big-dot yellow">.</span>
+      </h2>
+      <p>We help small business owners navigate through the clutter of online marketing. With so many seemingly attractive options, we help you create a plan that understands your business & values your investment. Your different business goals will require multiple campaigns/initiatives to achieve them and we manage everything in an organized fashion giving you insightful feedback on a consistent basis. The first step is to create a plan!
+      </p>
     </div>
 
     <div class="video-web flex1">
@@ -31,13 +31,46 @@
   </div>
 </section>
 
-<section id="rd">
-  <div class="container">
-    <p class="white">Digital Marketing consists of a wide array of services and needs to be catered to your specific business needs. We do not currently have any digital marketing packages. Please contact
-    us with your project details so we can assist you further.</p>
+<!--- section-process-detail part ---------->
+<section id="section-process-detail">
+  <div class="container flex-row">
+
+    <div class="process-title">
+      <h1>Digital marketing Third Div<span class="big-dot blue">.</span></h1>
+    </div>
+
+    <div id="process-rows" class="flex-row row">
+      <div class="process-row flex1">
+        <img id="pic-datail-1" src="<?php echo get_template_directory_uri(); ?>/images/ourprocess-detail/4.jpg" alt="">
+        <h3>Organic Marketing</h3>
+        <p>Build your brand awareness for long term business growth.
+        </p>
+        <ul class="process-list">
+          <li>Search Engine Optimization (SEO)</li>
+          <li>Content Creation</li>
+          <li>Social Media Management</li>
+          <li>Google MyBusiness Optimization</li>
+          <li>Online Business Directories</li>
+        </ul>
+      </div>
+      <div class="process-row flex1">
+        <img id="pic-datail-3" src="<?php echo get_template_directory_uri(); ?>/images/ourprocess-detail/5.jpg" alt="">
+        <h3>Paid Marketing</h3>
+        <p>Scale your business as fast as possible - generate instant leads and traffic.
+        </p>
+        <ul class="process-list">
+          <li>Search Engine Marketing (SEM)</li>
+          <li>Display Media Marketing</li>
+          <li>Display Advertising</li>
+          <li>Print Advertising</li>
+        </ul>
+        <p>For most businesses, we recommend a strategies that combine organic and paid marketing.
+        </p>
+      </div>
+    </div>
+
   </div>
 </section>
-<!--  Digital Marketing design --------------------------------------------->
 
 <!-- section-getintouch-->
 <section id="section-getintouch" class="blue">
