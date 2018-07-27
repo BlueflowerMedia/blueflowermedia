@@ -2011,15 +2011,18 @@ footer {
 
 #section-services {
   background-color: white;
-  position: relative; }
+  position: relative;
+  justify-content: space-between; }
   #section-services .container {
     background-color: #EFDC05;
     margin: 0 auto;
     max-width: 1300px;
-    padding: 5%;
+    padding: 3%;
     border-radius: 50px; }
     #section-services .container h1 {
       text-align: center; }
+    #section-services .container .services {
+      justify-content: space-between; }
 
 .service {
   background-color: white;

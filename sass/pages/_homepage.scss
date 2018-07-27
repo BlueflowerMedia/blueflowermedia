@@ -72,21 +72,24 @@
   }
 }
 
-
-
 // section-services
 #section-services {
   background-color: white;
   position: relative;
+  justify-content: space-between;
+
   .container {
     background-color: $yellow;
     margin: 0 auto;
     max-width: 1300px;
-    padding: 5%;
+    padding: 3%;
     border-radius: 50px;
     h1 {
       text-align: center;
       //color: white;
+    }
+    .services {
+      justify-content: space-between;
     }
   }
 }
