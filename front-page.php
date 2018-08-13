@@ -88,7 +88,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
 <section id="section-services">
   <div class="container">
     <h1 class="">Services<span class="big-dot blue">.</span></h1>
-    <p class="">Our in house services are flexible and tailored to each of our clients' unique needs. Here are our general services we provide, simply contact us to tailor a customized plan for your vision!</p>
+    <h5 class="center">Our in house services are flexible and tailored to each of our clients' unique needs. <br>Here are our general services we provide, simply contact us to tailor a customized plan for your vision!</h5>
     <div class="services flex-row">
       <!-- service names begin --->
       <!-- service 1 --->
