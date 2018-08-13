@@ -30,15 +30,14 @@ $cloudhosting = get_permalink(get_page_by_path( 'services-cloud-hosting' ));
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89123504-2"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89123504-3"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
 
-	  gtag('config', 'UA-89123504-2');
-	</script>
-
+ gtag('config', 'UA-89123504-3');
+</script>
 	<?php wp_head(); ?>
 </head>
 
