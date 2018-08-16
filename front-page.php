@@ -47,7 +47,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
     <div class="process flex-row">
       <div class="process-pic flex1">
         <a href="https://www.youtube.com/watch?v=09q57zoPIOw" target="_blank">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/ourprocess/conceptualization.svg" alt="" class="image"></a>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/ourprocess/concept.svg" alt="" class="image"></a>
       </div>
 
       <div class="process-title flex1 flex-column">
