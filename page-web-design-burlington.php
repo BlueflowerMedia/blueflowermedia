@@ -8,7 +8,7 @@
            <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/Mississauga/miss.jpg" alt="" class="image-Mississauga"></a> -->
     </div>
     <div class="banner-text">
-      <h2>Mississauga Web Design</h2>
+      <h2>Burlington Web Design</h2>
     </div>
   </div>
 </section>
@@ -17,10 +17,10 @@
 <section id="business-details">
   <div class="image-text-1">
     <div class="banner-text-1">
-      <h2>Are you a X based business owner looking to
+      <h2>Are you a Burlington based business owner looking to
       launch a dashing website to grow your business?</h2>
 
-      <p class="text">We help X clients with exactly that. BlueFlower Media has a team of expert developers & designers
+      <p class="text">We help Burlington clients with exactly that. BlueFlower Media has a team of expert developers & designers
       that dedicate their time to make sure your business has a memorable, captivating & results-oriented
       online presence. Let us know what your business is, & what results you would like to achieve with
       your website. We work with our clients to identify Key Performance Indicators (KPIs) to best track
@@ -84,9 +84,10 @@
       <h1>VS.</h1>
     </div>
 
+
     <div class="right-1">
       <div class="right-top">
-        <h1>How many agencies approach web design</h1>
+        <h1>How BlueFlower Media apporaches web design</h1>
       </div>
       <div class="right-bottom">
         <ul>
@@ -94,7 +95,8 @@
             success. We look out for your best interest</li>
           <li>Client communication should be consistent and fruitful. It is absolutely vital in your business’
             success. We look out for your best interest</li>
-          <li>Client communication should be consistent and fruitful. It is absolutely vital in your business’
+          <li>Client communication should be consistent and fruitful. It is absolutely vital in yo
+            ur business’
             success. We look out for your best interest</li>
           <li>Client communication should be consistent and fruitful. It is absolutely vital in your business’
             success. We look out for your best interest</li>
@@ -106,13 +108,11 @@
   </div>
 </section>
 
-
 <!-- section-getintouch ---------------------------------------------------->
 <section id="section-getintouch">
   <div class="container">
     <a href="<?php echo get_the_title(get_page_by_path( 'contact' )); ?>"><button type="button" name="button">Let's Get Started!</button></a>
   </div>
 </section>
-
 
 <?php get_footer() ?>
