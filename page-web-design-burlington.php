@@ -17,7 +17,7 @@
 <section id="business-details">
   <div class="image-text-1">
     <div class="banner-text-1">
-      <h2>Are you a Mississauga based business owner looking to
+      <h2>Are you a X based business owner looking to
       launch a dashing website to grow your business?</h2>
 
       <p class="text">We help X clients with exactly that. BlueFlower Media has a team of expert developers & designers
@@ -84,10 +84,9 @@
       <h1>VS.</h1>
     </div>
 
-
     <div class="right-1">
       <div class="right-top">
-        <h1>How BlueFlower Media apporaches web design</h1>
+        <h1>How many agencies approach web design</h1>
       </div>
       <div class="right-bottom">
         <ul>
@@ -95,8 +94,7 @@
             success. We look out for your best interest</li>
           <li>Client communication should be consistent and fruitful. It is absolutely vital in your business’
             success. We look out for your best interest</li>
-          <li>Client communication should be consistent and fruitful. It is absolutely vital in yo
-            ur business’
+          <li>Client communication should be consistent and fruitful. It is absolutely vital in your business’
             success. We look out for your best interest</li>
           <li>Client communication should be consistent and fruitful. It is absolutely vital in your business’
             success. We look out for your best interest</li>
@@ -108,11 +106,13 @@
   </div>
 </section>
 
+
 <!-- section-getintouch ---------------------------------------------------->
 <section id="section-getintouch">
   <div class="container">
     <a href="<?php echo get_the_title(get_page_by_path( 'contact' )); ?>"><button type="button" name="button">Let's Get Started!</button></a>
   </div>
 </section>
+
 
 <?php get_footer() ?>
