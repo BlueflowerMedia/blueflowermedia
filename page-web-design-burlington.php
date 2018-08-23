@@ -4,11 +4,11 @@
 <!-- section header -->
 <section id="section-header-1">
   <div class="image-text">
-    <div class="banner-image mississauga">
+    <div class="banner-image burlington">
 
     </div>
     <div class="banner-text">
-      <h2>Mississauga Web Design</h2>
+      <h2>Burlington Web Design</h2>
     </div>
   </div>
 </section>
@@ -17,10 +17,10 @@
 <section id="business-details">
   <div class="image-text-1">
     <div class="banner-text-1">
-      <h2>Are you a Mississauga based business owner looking to
+      <h2>Are you a Burlington based business owner looking to
       launch a dashing website to grow your business?</h2>
 
-      <p class="text">We help Mississauga clients with exactly that. BlueFlower Media has a team of expert developers & designers
+      <p class="text">We help Burlington clients with exactly that. BlueFlower Media has a team of expert developers & designers
       that dedicate their time to make sure your business has a memorable, captivating & results-oriented
       online presence. Let us know what your business is, & what results you would like to achieve with
       your website. We work with our clients to identify Key Performance Indicators (KPIs) to best track
