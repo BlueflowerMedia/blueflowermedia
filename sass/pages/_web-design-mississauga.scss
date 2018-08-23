@@ -1,8 +1,8 @@
 .image-text{
   margin-top: 70px;
-  height: 300px;
+  height: 400px;
   @media(max-width: 425px){
-    height: 600px;
+    height: 700px;
   }
   @media (min-width: 765px){
     display: flex;
@@ -10,21 +10,49 @@
 
   .banner-image{
     flex: 1;
-    background-image: url("images/mississauga/miss.jpg");
     background-position: center;
-    height: 300px;
+    background-repeat: no-repeat;
+    height: 400px;
   }
+
+  .mississauga{
+    background-image: url("images/cities/miss.jpg");
+  }
+
+  .brampton{
+    background-image: url("images/cities/brampton.jpg");
+  }
+
+  .markham{
+    background-image: url("images/cities/markham.jpg");
+  }
+
+  .burlington{
+    background-image: url("images/cities/burlington.jpg");
+  }
+
+  .oakville{
+    background-image: url("images/cities/oakville.jpg");
+  }
+
+  .scarborough{
+    background-image: url("images/cities/scarborough.jpg");
+  }
+
   .banner-text{
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #3F6EB6;
+    background-color: #1D72F7;
     text-align: center;
-    height: 300px;
+    height: 400px;
     h2{
       max-width: 300px;
       color: white;
+    }
+    @media(max-width: 425px){
+      height: 300px;
     }
   }
 }
@@ -57,7 +85,7 @@
         list-style-position: inside;
         font-size: 16px;
         font-family: $font-secondary;
-        background: url("images/mississauga/black-circle.png") no-repeat;
+        background: url("images/cities/black-circle.png") no-repeat;
         background-size: 3%;
         padding-left: 40px;
       }
@@ -65,7 +93,7 @@
   }
     .banner-image-1{
       flex: 1;
-      background-image: url("images/Mississauga/machines");
+      background-image: url("images/cities/machines");
     }
 
     @media(max-width: 1025px){
@@ -140,7 +168,6 @@
     .right-bottom,.left-bottom{
       ul{
         li{
-          background: url("images/mississauga/red.png") no-repeat;
           float: left;
           font-family: $font-primary;
           font-size: 19px;
@@ -156,6 +183,24 @@
         }
       }
     }
+
+    .right-bottom{
+      ul{
+        li{
+          background: url("images/cities/red.png") no-repeat;
+        }
+      }
+    }
+
+    .left-bottom{
+      ul{
+        li{
+          background: url("images/cities/blue.png") no-repeat;
+        }
+      }
+    }
+
+
   }
   .center-1{
     @media (min-width: 765px){

@@ -4,8 +4,8 @@
 <!-- section header -->
 <section id="section-header-1">
   <div class="image-text">
-    <div class="banner-image">
-           <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/Mississauga/miss.jpg" alt="" class="image-Mississauga"></a> -->
+    <div class="banner-image burlington">
+
     </div>
     <div class="banner-text">
       <h2>Burlington Web Design</h2>

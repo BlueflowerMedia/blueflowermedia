@@ -2,9 +2,9 @@
 
 
 <!-- section header -->
-<section id="section-header-1">
+<section id="section-header-brampton">
   <div class="image-text">
-    <div class="banner-image">
+    <div class="banner-image brampton">
 
     </div>
     <div class="banner-text">
