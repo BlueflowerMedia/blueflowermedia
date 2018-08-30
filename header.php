@@ -65,7 +65,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'services-cloud-hosting' ));
 
         <!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'blueflowermedia' ); ?></button> -->
       </div>
-      <div class="nav-right flex1 flex-row">
+      <div class="nav-right flex1 flex-row no-mobile">
         <a href="<?php echo $contact; ?>"><button class="nav-contact" type="button" name="button">Contact Us</button></a>
       </div>
 			<!-- Navbar mobile -->
@@ -78,6 +78,9 @@ $cloudhosting = get_permalink(get_page_by_path( 'services-cloud-hosting' ));
 						'container_class' => 'mobile-menu-list',
 					) );
 				?>
+				<div class="nav-right flex1 flex-row">
+					<a href="<?php echo $contact; ?>"><button class="nav-contact" type="button" name="button">Contact Us</button></a>
+				</div>
 				<h2>Our Services<span class="big-dot blue">.</span></h2>
 				<?php
 					wp_nav_menu( array(
