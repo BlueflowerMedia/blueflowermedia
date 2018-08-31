@@ -88,6 +88,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'services-cloud-hosting' ));
 					) );
 				?>
 
+        <a href="<?php echo $contact; ?>"><button class="nav-contact" type="button" name="button">Contact Us</button></a>
         <!-- <ul id="mobile-menu">
           <li><a class="main-items" href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
           <li><a class="main-items" href="<?php echo $team; ?>">Team</a></li>
