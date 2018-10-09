@@ -7,7 +7,7 @@
     <div class="item-row">
       <!-- 1st -->
       <div class="item">
-        <a href="<?php echo get_the_title(get_page_by_path( 'portfolio-india-journal' )); ?>">  <img src="<?php echo get_template_directory_uri(); ?>/images/portfolios/1.png" alt="" class="image"></a>
+        <a href="<?php echo get_the_title(get_page_by_path( 'portfolio-india-journal' )); ?>">  <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/india-journal-portfolio-photo-1.png" alt="" class="image"></a>
         <h4>India Journal</h4>
         <div class="project-tags">
           <button class="tag web" disabled>Web design</button>
@@ -17,7 +17,7 @@
       </div>
       <!-- 2nd -->
       <div class="item">
-        <a href="<?php echo get_the_title(get_page_by_path( 'portfolio-reginos-pizza' )); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/portfolios/2.gif" alt="" class="image"></a>
+        <a href="<?php echo get_the_title(get_page_by_path( 'portfolio-reginos-pizza' )); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/reginos-pizzia-portfolio-photo-1.png" alt="reginos-pizzia-portfolio-photo" class="image"></a>
         <h4>Reginos Pizza</h4>
         <div class="project-tags">
           <button class="tag web" disabled>Flyer Design</button>
@@ -30,7 +30,7 @@
     <div class="item-row">
       <!-- 1st -->
       <div class="item">
-        <a href="<?php echo get_the_title(get_page_by_path( 'portfolio-master-pizzeria' )); ?>">  <img src="<?php echo get_template_directory_uri(); ?>/images/portfolios/1.png" alt="" class="image"></a>
+        <a href="<?php echo get_the_title(get_page_by_path( 'portfolio-master-pizzeria' )); ?>">  <img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/master-pizzeria-portfolio-photo-3.png" alt="" class="image"></a>
         <h4>Master Pizzeria</h4>
         <div class="project-tags">
           <button class="tag web" disabled>Web design</button>
@@ -40,7 +40,7 @@
       </div>
       <!-- 2nd -->
       <div class="item">
-        <a href="<?php echo get_the_title(get_page_by_path( 'portfolio-mobilekare' )); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/portfolios/2.gif" alt="" class="image"></a>
+        <a href="<?php echo get_the_title(get_page_by_path( 'portfolio-mobilekare' )); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/mobile-kare-portfolio-photo-1.png" alt="" class="image"></a>
         <h4>Mobicare</h4>
         <div class="project-tags">
           <!-- <button class="tag web" disabled>Web Desisergn</button> -->

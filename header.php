@@ -75,7 +75,9 @@ $cloudhosting = get_permalink(get_page_by_path( 'services-cloud-hosting' ));
 					wp_nav_menu( array(
 						'theme_location' => 'menu-1',
 						'menu_id'        => 'primary-menu-mobile',
+						'exclude' => '66',
 						'container_class' => 'mobile-menu-list',
+
 					) );
 				?>
 				<a href="<?php echo $contact; ?>"><button class="nav-contact" type="button" name="button">Contact Us</button></a>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 238" style="enable-background:new 0 0 300 238;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1F8ECB;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#010101;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:#FFFFFF;stroke:#010101;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{fill:#EF6F8A;stroke:#010101;stroke-width:4;stroke-miterlimit:10;}
+	.st5{fill:#ECCE1E;stroke:#010101;stroke-width:4;stroke-miterlimit:10;}
+	.st6{fill:#FFFFFF;}
+</style>
+<g>
+	<g>
+		
+			<rect x="61" y="98" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 172.2691 308.3697)" class="st0" width="178.1" height="41"/>
+		<g>
+			<line class="st1" x1="143.8" y1="137.3" x2="154.2" y2="126.8"/>
+			<line class="st1" x1="132.6" y1="126.1" x2="150.2" y2="108.5"/>
+			<line class="st1" x1="154.9" y1="148.4" x2="172.5" y2="130.8"/>
+			<line class="st1" x1="166.1" y1="159.6" x2="176.5" y2="149.1"/>
+			<line class="st1" x1="188.3" y1="181.8" x2="198.8" y2="171.4"/>
+			<line class="st1" x1="177.2" y1="170.7" x2="194.8" y2="153.1"/>
+			<line class="st1" x1="121.5" y1="115" x2="132" y2="104.5"/>
+			<line class="st1" x1="110.4" y1="103.9" x2="128" y2="86.2"/>
+			<line class="st1" x1="88.1" y1="81.6" x2="105.7" y2="64"/>
+			<line class="st1" x1="99.2" y1="92.7" x2="109.7" y2="82.2"/>
+		</g>
+		
+			<rect x="61" y="98" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 172.2691 308.3697)" class="st2" width="178.1" height="41"/>
+	</g>
+	<g>
+		<polygon class="st3" points="76.7,196.9 85.8,162.9 91.4,157.1 116.2,181.2 110.5,187 		"/>
+		<path class="st4" d="M184,97.4l-10.4-10.2c-3.9-3.8-4-10.2-0.2-14.1l24.7-25.3c3.8-3.9,10.2-4,14.1-0.2l10.4,10.2
+			c3.9,3.8,4,10.2,0.2,14.1l-24.7,25.3C194.3,101.2,187.9,101.2,184,97.4z"/>
+		
+			<rect x="133.5" y="53" transform="matrix(0.7158 0.6984 -0.6984 0.7158 127.3714 -70.8781)" class="st5" width="34.6" height="136.1"/>
+		<line class="st1" x1="151.6" y1="109.8" x2="178" y2="82.4"/>
+		<circle class="st6" cx="183" cy="77.2" r="2"/>
+	</g>
+</g>
+</svg>
