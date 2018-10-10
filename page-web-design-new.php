@@ -37,59 +37,64 @@
   <div class="figure-and-text">
     <div class="figure">
       <div class="circle">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/Discovery.svg" alt="" class="image">
       </div>
-      <div class="arrow1">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/blue-arrow.png" alt="" class="image">
-      </div>
-      <div class="circle">
-      </div>
-      <div class="arrow1">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/blue-arrow.png" alt="" class="image">
-      </div>
-      <div class="circle">
-      </div>
-      <div class="arrow1">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/blue-arrow.png" alt="" class="image">
-      </div>
-      <div class="circle">
-      </div>
-      <div class="arrow1">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/blue-arrow.png" alt="" class="image">
-      </div>
-      <div class="circle">
-      </div>
-    </div>
-    <div class="text-below">
-      <div class="text-one">
+      <div class="text">
         <p><strong>Discovery</strong><br><br></p>
-        <p>Small business owners can have a hard time
-    navigating through the clutter.</p>
       </div>
-      <div class="text-one">
-        <p><strong>UI/UX  Research<br>and  Design</strong></p>
-        <p>Small business owners can have a hard time
-    navigating through the clutter .</p>
-      </div>
-      <div class="text-one">
-        <p><strong>Coding  and  Development</strong></p>
-        <p>Small business owners can have a hard time
-    navigating through the clutter .</p>
-      </div>
-      <div class="text-one">
-        <p><strong>Launch</strong><br><br></p>
-        <p>Small business owners can have a hard time
-    navigating through the clutter .</p>
-      </div>
-      <div class="text-one">
-        <p><strong>Maintenance  and  Optimization</strong></p>
-        <p>Small business owners can have a hard time
-    navigating through the clutter .</p>
-      </div>
-
     </div>
+      <div class="arrow1">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/arrow.svg" alt="" class="image">
+      </div>
+      <div class="figure">
+        <div class="circle">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/ui-ux-research-and-design-icon.svg" alt="" class="image">
+        </div>
+        <div class="text">
+          <p><strong>UI/UX  Research<br>and  Design</strong></p>
+        </div>
+      </div>
+
+      <div class="arrow1">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/arrow.svg" alt="" class="image">
+      </div>
+
+      <div class="figure">
+        <div class="circle">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/coding-and-development-icon.svg" alt="" class="image">
+        </div>
+        <div class="text">
+          <p><strong>Coding  and  Development</strong></p>
+        </div>
+      </div>
+
+      <div class="arrow1">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/arrow.svg" alt="" class="image">
+      </div>
+
+      <div class="figure">
+        <div class="circle">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/launch-icon.svg" alt="" class="image">
+        </div>
+        <div class="text">
+          <p><strong>Launch</strong><br><br></p>
+        </div>
+      </div>
+
+
+      <div class="arrow1">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/arrow.svg" alt="" class="image">
+      </div>
+
+      <div class="figure">
+        <div class="circle">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/web-maintenance-icon.svg" alt="" class="image">
+        </div>
+        <div class="text">
+          <p><strong>Maintenance  and  Optimization</strong></p>
+        </div>
+      </div>
   </div>
-
-
 </div>
 </section>
 
@@ -165,7 +170,7 @@
         <p>If  you  want  to  be  a  leader  in  your  business,  it  is  crucial  that  your  website  is  updated  and  maintained  regularly.  At  BlueFlower  Media,  we  like  to  build  long  lasting  relationships  with  our  clients  by  providing  reliable  maintenance  services  so  that  you  don't  have  to  worry  about  it.  Some  of  these  services  in-clude  software  updates,  e-commerce  updates  and  content  management.</p>
       </div>
     <div class="hosting-images">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/circle.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/hosting.svg" alt="" class="image">
   </div>
 
 </section>

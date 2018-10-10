@@ -14,85 +14,147 @@
   </div>
 </section>
 
-<!-- the process -->
-<section id="section-process" class="process">
-
-    <div class="txtservice1 flex-row">
-      <h1>The Process<span class="big-dot blue">.</span></h1>
+<!-- section banner -->
+<section id="banner1">
+  <div class="container">
+    <div class="text-left">
+      <h2>"Good Design is <br>Good Business."</h2>
+      <p>-Thomas Watson Jr.</p>
     </div>
 
-  <div class="container-process">
-    <div class="figures">
-      <div class="step">
-        <img class="step-number" src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/1.png" alt="" class="image">
-        <img class="step-image" src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/order.png" alt="" class="image">
-
-      </div>
-
-      <div class="arrow">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/arrow.png" alt="" class="image">
-      </div>
-
-      <div class="step">
-        <img class="step-number" src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/2.png" alt="" class="image">
-        <img class="step-image" src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/research.png" alt="" class="image">
-      </div>
-
-      <div class="arrow">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/arrow.png" alt="" class="image">
-      </div>
-
-      <div class="step">
-        <img class="step-number" src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/3.png" alt="" class="image">
-
-        <img class="step-image" src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/web.png" alt="" class="image">
-      </div>
-
-      <div class="arrow">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/arrow.png" alt="" class="image">
-      </div>
-
-      <div class="step">
-        <img class="step-number" src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/4.png" alt="" class="image">
-        <img class="step-image" src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/design.png" alt="" class="image">
-      </div>
+    <div class="text-right">
+      <p><strong>Want to make the most of your branding experience?</strong></p>
+      <p>Tell us about your target audience, brand personality, company values, how you want your business to be remembered, previous design inspirations, etc. The more we know about your company, the easier it is for us to design a brand that represents your company accurately.</p>
     </div>
-    <div class="texts">
-      <div class="texts-one">
-        <p>Brief</p>
-      </div>
-      <div class="texts-one">
-        <p>Research</p>
-      </div>
-      <div class="texts-one">
-        <p>Design</p>
-      </div>
-      <div class="texts-one">
-        <p>Revise</p>
-      </div>
-    </div>
+
+
   </div>
 
 </section>
 
+<!-- the process -->
+
+<section id="graphic-design-process" class="graphic-process">
+  <div class="txtservice1 flex-row">
+    <h1>The Process<span class="big-dot blue">.</span></h1>
+  </div>
+<div class="process-container">
+
+  <div class="figure-and-text">
+    <div class="figure">
+      <div class="circle">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/Discovery.svg" alt="" class="image">
+      </div>
+      <div class="text">
+        <p><strong>Discovery</strong><br><br></p>
+      </div>
+    </div>
+      <div class="arrow1">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/arrow.svg" alt="" class="image">
+      </div>
+      <div class="figure">
+        <div class="circle">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/DesignResearch.svg" alt="" class="image">
+        </div>
+        <div class="text">
+          <p><strong>Research</strong></p>
+        </div>
+      </div>
+
+      <div class="arrow1">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/arrow.svg" alt="" class="image">
+      </div>
+
+      <div class="figure">
+        <div class="circle">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/coding-and-development-icon.svg" alt="" class="image">
+        </div>
+        <div class="text">
+          <p><strong>Design</strong></p>
+        </div>
+      </div>
+
+      <div class="arrow1">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/arrow.svg" alt="" class="image">
+      </div>
+
+      <div class="figure">
+        <div class="circle">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/Revise.svg" alt="" class="image">
+        </div>
+        <div class="text">
+          <p><strong>Launch</strong><br><br></p>
+        </div>
+      </div>
+  </div>
+</div>
+</section>
 <!-- what we design section -->
 <section id="section-whatwedesign">
   <div class="container">
-    <div class="whatwedesign">
-      <div class="whatwedesign-logo flex1">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-graphic-design-icon.svg" alt="" class="image">
+    <h2>What We Design</h2>
+    <div class="whatwedesign-row">
+      <div class="whatwedesign-item">
+        <div class="item-image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/logo.svg" alt="" class="image">
+        </div>
+        <div class="item-header-text">
+          <p><strong>LOGO</strong></p>
+        </div>
+        <div class="item-text">
+          <p>A logo is a symbol that represents your brand. Great brands have great logos!</p>
+        </div>
       </div>
-      <div class="whatwedesign-text flex1">
-        <h4>Logo</h4>
-        <p>In a multi-device world, its very important to attract and retain users on as many touch points as </p>
-        <h4>Brand Style Guide</h4>
-        <p>i-device world, its very important to attract ani-device world, its very important to attract an</p>
-        <h4>Website Illustrations & Icons</h4>
-        <p>In a multi-device world, its very important to attract and retain users on as many touch points as </p>
-        <h4>Print Materials</h4>
-        <p>In a multi-device world, its very important to attract and retain users on as many touch points as </p>
-        <h4>Outdoor Signs</h4>
-        <p>In a multi-device world, its very important to attract and retain users on as many touch points as </p>
+      <div class="whatwedesign-item">
+        <div class="item-image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/BrandStyleGuide.svg" alt="" class="image">
+        </div>
+        <div class="item-header-text">
+          <p><strong>BRAND STYLE GUIDE</strong></p>
+        </div>
+        <div class="item-text">
+          <p>A Brand style guide is a booklet that contains design guidelines to follow for your business. It includes rules for color palettes, typography hierarchy, imagery, iconography, and more.
+</p>
+        </div>
+      </div>
+      <div class="whatwedesign-item">
+        <div class="item-image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/WebIcons.svg" alt="" class="image">
+
+        </div>
+        <div class="item-header-text">
+          <p><strong>WEBSITE ILLUSTRATIONS AND ICONS</strong></p>
+        </div>
+        <div class="item-text">
+          <p>Custom website illustrations & icons will appeal to your target audience and improve brand recognition a lot more that stock illustrations & icons. </p>
+        </div>
+      </div>
+
+    </div>
+    <div class="whatwedesign-row1">
+      <div class="whatwedesign-item">
+        <div class="item-image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/Brochures.svg" alt="" class="image">
+
+        </div>
+        <div class="item-header-text">
+          <p><strong>PRINT MATERIALS</strong></p>
+        </div>
+        <div class="item-text">
+          <p>Design amazing business cards, posters, brochures, flyers, etc.</p>
+        </div>
+      </div>
+      <div class="whatwedesign-item">
+        <div class="item-image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/OutdoorSigns.svg" alt="" class="image">
+
+        </div>
+        <div class="item-header-text">
+          <p><strong>OUTDOOR SIGNS</strong></p>
+        </div>
+        <div class="item-text">
+          <p>Looking design a billboard, store sign, ground sign, pylon sign? Give us the dimensions and we are good to go!</p>
+        </div>
       </div>
     </div>
   </div>

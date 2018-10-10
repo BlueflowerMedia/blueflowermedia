@@ -67,83 +67,73 @@
     .digital-marketing{
       h2{
           padding:  100px 50px;
+          @media(max-width: 500px){
+            padding: 50px;
+          }
       }
       text-align: center;
-  }
+    }
     .figure-and-text{
+      max-width: 1200px;
+      margin: 0 auto;
       padding: 10px;
+      display: flex;
+      align-items: flex-start;
       @media(max-width: 500px){
-        display: flex;
+        flex-direction: column;
+        align-items:center;
       }
       .figure{
-        max-width: 1200px;
+        max-width: 200px;
         margin: 0 auto;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
         @media(min-width: 500px){
               display: flex;
         }
-
         .circle{
           height: 160px;
           width: 160px;
           border-radius: 50%;
-          border: 3px solid #1D72F7;
           display: inline-block;
           position: relative;
+          background-color: #ECCD1A;
           @media(min-width: 500px){
                 display: flex;
           }
           @media(max-width: 1080px){
             height: 120px;
             width: 120px;
-            p{
-              font-size: 18px !important;
-              font-weight: 800;
-            }
           }
           justify-content: center; /* align horizontal */
           align-items: center;
-          p{
-            font-size: 30px;
-            font-weight: 600;
-            position: absolute;
-            top: 25%;
-            left: 25%;
-          }
         }
-        .arrow1{
-          display: flex;
-          justify-content: center; /* align horizontal */
-          align-items: center;
-          img{
-            width: 100px;
-            height: 20px;
-            @media(max-width: 500px){
-              transform: rotate(90deg);
-              width: 40px !important;
-              margin: 10px;
-            }
-            @media(max-width: 1080px){
-              width: 70px;
-            }
 
-          }
+        .text{
+          margin-top: 20px;
         }
+
       }
-      .text-below{
+      .arrow1{
         display: flex;
-        max-width: 1200px;
         margin: 0 auto;
-        @media(max-width: 500px){
-          flex-direction: column;
-        }
-        @media (max-width: 1080px){
-          max-width: 900px;
-        }
+        margin-top: 75px;
+        margin-left: 10px;
+        margin-right: 10px;
+        img{
+          height: 20px;
+          @media(max-width: 500px){
+            transform: rotate(90deg);
+            width: 40px !important;
+            // margin-bottom: 30px;
+            margin:0 auto;
+          }
+          @media(max-width: 1080px){
+            width: 70px;
+          }
 
-        .text-one{
-          padding: 20px 35px;
+        }
+        @media(max-width: 500px){
+            margin: 0 0 20px 0;
         }
       }
     }
