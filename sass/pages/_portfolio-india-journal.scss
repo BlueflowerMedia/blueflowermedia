@@ -1,0 +1,19 @@
+.item-column{
+  width: 100%;
+  @media(min-width: 767px){
+      display: flex;
+  }
+  justify-content: space-between;
+
+  .item-column-inner{
+    flex-basis: 48%;
+    .item1{
+        flex-direction: column;
+        margin: 4% auto;
+    }
+  }
+}
+
+#remove-margin{
+  margin-bottom: 0;
+}

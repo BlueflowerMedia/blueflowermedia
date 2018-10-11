@@ -5,15 +5,15 @@
     <h1>Contact Us<span class="big-dot blue">.</span></h1>
     <div class="row flex-row">
       <div class="contact-type flex1">
-        <i class="fas fa-map-marker-alt"></i>
-        <h4>Location</h4>
-        <p>3214 Danforth Ave,<br>Toronto, ON M1L 1C1</p>
         <i class="fas fa-mobile-alt"></i>
         <h4>Phone Number</h4>
         <p>647-712-6119</p>
         <i class="fas fa-envelope-open"></i>
         <h4>E-mail</h4>
         <p>contact@blueflowermedia.com</p>
+        <i class="fas fa-map-marker-alt"></i>
+        <h4>Location</h4>
+        <p>3214 Danforth Ave,<br>Toronto, ON M1L 1C1</p>
       </div>
 
       <div class="contact-map flex2">

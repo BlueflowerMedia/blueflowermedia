@@ -1,0 +1,102 @@
+#portfolio {
+  background: white;
+
+  .project {
+    position: relative;
+    min-height: 500px;
+    width: 90%;
+    margin: 40px auto;
+    @include mobile {
+      width: 100%;
+      margin: 0;
+    }
+    .mobile-project-title {
+      display: none;
+      @include mobile {
+        display: block;
+        margin: 50px auto 0 auto;
+        text-align: center;
+      }
+    }
+
+    .portfolio-slider {
+      background-size: cover;
+      position: absolute;
+      height: 100%;
+      width: 70%;
+      top: 0;
+      @include tablet {
+        position: static;
+        width: 100%;
+        margin-bottom: -10%;
+      }
+      @include mobile {
+        position: static;
+        width: 100%;
+        margin-bottom: 10px;
+        box-shadow: none !important;
+      }
+
+      img.portfolio-image {
+        object-fit: cover;
+        height: 100%;
+      }
+    }
+
+    &.left .portfolio-slider {
+      left: 30%;
+
+      .owl-stage-outer {
+        box-shadow: 15px 15px 30px -10px rgba(0, 0, 0, 0.4);
+        @include mobile {
+          box-shadow: none;
+        }
+      }
+    }
+
+    &.right .portfolio-slider {
+      right: 30%;
+
+      .owl-stage-outer {
+        box-shadow: -15px 15px 30px -10px rgba(0, 0, 0, 0.4);
+        @include mobile {
+          box-shadow: none;
+        }
+      }
+    }
+
+    .short-description {
+      background: white;
+      border: 10px solid rgb(33, 33, 33);
+      padding: 20px;
+      position: absolute;
+      width: 40%;
+      top: 10%;
+      text-align: left;
+      @include tablet {
+        position: static;
+        width: 90%;
+        margin: 0 auto;
+      }
+      @include mobile {
+        position: static;
+        width: 100%;
+        margin: 0 auto;
+        border-width: 0;
+        padding: 0;
+
+        h2 {
+          display: none;
+        }
+      }
+    }
+
+    &.left .short-description {
+      left: 0;
+    }
+
+    &.right .short-description {
+      right: 0;
+    }
+  }
+}

@@ -12,73 +12,134 @@
   </div>
 </section>
 
-<!--- section video ---------->
-<!-- <section id="section-video">
-  <div class="container flex-row">
-
-    <div class="txt-explain flex1">
-      <h2>3.5 billion people online. Countless marketing options. What to do now?<span class="big-dot yellow">.</span>
-      </h2>
-      <p>We help small business owners navigate through the clutter of online marketing. With so many seemingly attractive options, we help you create a plan that understands your business & values your investment. Your different business goals will require multiple campaigns/initiatives to achieve them and we manage everything in an organized fashion giving you insightful feedback on a consistent basis. The first step is to create a plan!
-      </p>
+<section id="section-header-people">
+  <div class="section-baner">
+    <div class="text-banner">
+      <h3>3.5 billio people online.</h3>
+      <h3>Countless marketing options.</h3>
+      <h3>What now?</h3>
+      <p>In a multi-device world, its very important to attract and retain users on as many touch points as In a multi-device world, its very important to attract and retain users on as many touch points as </p>
     </div>
+    <div class="image-banner people">
+    </div>
+  </div>
+</section>
 
-    <div class="video-web flex1">
-      <iframe src="https://www.youtube.com/embed/J4pUEBdKqIo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-      </iframe>
+<!-- section process -->
+<section id="digital-marketing-process">
+<div class="process-container">
+  <div class="digital-marketing">
+    <h2>The Digital Marketing Process</h2>
+  </div>
+  <div class="figure-and-text">
+    <div class="figure">
+      <div class="circle">
+        <p>Discovery</p>
+      </div>
+      <div class="arrow1">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/blue-arrow.png" alt="" class="image">
+      </div>
+      <div class="circle">
+        <p>Strategy</p>
+      </div>
+      <div class="arrow1">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/blue-arrow.png" alt="" class="image">
+      </div>
+      <div class="circle">
+        <p>Execute</p>
+      </div>
+      <div class="arrow1">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/blue-arrow.png" alt="" class="image">
+      </div>
+      <div class="circle">
+        <p>Revise</p>
+      </div>
+    </div>
+    <div class="text-below">
+      <div class="text-one">
+        <p>Small business owners can have a hard time
+    navigating through the clutter.</p>
+      </div>
+      <div class="text-one">
+        <p>Small business owners can have a hard time
+    navigating through the clutter .</p>
+      </div>
+      <div class="text-one">
+        <p>Small business owners can have a hard time
+    navigating through the clutter .</p>
+      </div>
+      <div class="text-one">
+        <p>Small business owners can have a hard time
+    navigating through the clutter .</p>
+      </div>
+
+    </div>
+  </div>
+
+
+</div>
+</section>
+
+<!-- section digital marketing services -->
+<section id="digital-marketing-services">
+  <div class="services-container">
+    <h2>Our Digital Marketing Services</h2>
+<div class="services-blocks">
+  <div class="service-block">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/gears.png" alt="" class="image">
+    <h3>Search Engine Optimization</h3>
+    <p>Small business owners can have a hard time
+navigating through the clutter of the digital
+marketing world.</p>
+  </div>
+  <div class="service-block">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/gears.png" alt="" class="image">
+    <h3>Social Media Management</h3>
+    <p>Small business owners can have a hard time
+navigating through the clutter of the digital
+marketing world.</p>
+  </div>
+  <div class="service-block">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/gears.png" alt="" class="image">
+    <h3>Digital Advertising</h3>
+    <p>Small business owners can have a hard time
+navigating through the clutter of the digital
+marketing world.</p>
+  </div>
+</div>
+
+  </div>
+</section>
+
+
+
+
+<section id="section-header-people">
+  <div class="section-baner">
+    <div class="image-banner city">
+    </div>
+    <div class="text-banner">
+      <h3>Your business is unique. Your marketing strategy should be the same.</h3>
+      <p>In a multi-device world, its very important to attract and retain users on as many touch points as In a multi-device world, its very important to attract and retain users on as many touch points as </p>
     </div>
 
   </div>
 </section>
 
-- section-process-detail part --------
-<section id="section-process-detail">
-  <div class="container flex-row">
-
-    <div class="process-title">
-      <h2>Digital marketing Third Div<span class="big-dot blue">.</span></h2>
-    </div>
-    <h4>For most businesses, we recommend a strategies that combine organic and paid marketing.</h4>
-
-    <div id="process-rows" class="flex-row row">
-      <div class="process-row flex1">
-        <img id="pic-datail-1" src="<?php echo get_template_directory_uri(); ?>/images/ourprocess-detail/4.jpg" alt="">
-        <h3>Organic Marketing</h3>
-        <p>Build your brand awareness for long term business growth.
-        </p>
-        <ul class="process-list">
-          <li>Search Engine Optimization (SEO)</li>
-          <li>Content Creation</li>
-          <li>Social Media Management</li>
-          <li>Google MyBusiness Optimization</li>
-          <li>Online Business Directories</li>
-        </ul>
-      </div>
-      <div class="process-row flex1">
-        <img id="pic-datail-3" src="<?php echo get_template_directory_uri(); ?>/images/ourprocess-detail/5.jpg" alt="">
-        <h3>Paid Marketing</h3>
-        <p>Scale your business as fast as possible - generate instant leads and traffic.
-        </p>
-        <ul class="process-list">
-          <li>Search Engine Marketing (SEM)</li>
-          <li>Display Media Marketing</li>
-          <li>Display Advertising</li>
-          <li>Print Advertising</li>
-        </ul>
-      </div>
-    </div>
-
-  </div>
-</section>
- -->
-<!-- section-getintouch-->
-<section id="section-getintouch" class="blue">
+<!-- section-iamready-->
+<section id-"section-iamready">
   <div class="container">
-    <a href="<?php echo get_the_title(get_page_by_path( 'contact' )); ?>"><button type="button" name="button">Let's Get Started!</button></a>
+    <div class="iamready">
+      <div class="iamreadyleft">
+        <h3>Want to get started?</h3>
+        <h5>BlueFlower Media offers phone, email, and in person support for all of our clients.</h5>
+      </div>
+      <div class="iamreadyright">
+        <a href="<?php echo get_the_title(get_page_by_path( 'contact' )); ?>"><button type="button" name="button">I'm Ready!</button></a>
+      </div>
+    </div>
+
   </div>
 </section>
-
-
-
 
 <?php get_footer(); ?>

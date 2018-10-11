@@ -36,20 +36,20 @@
     }
   }
 
-  &:after {
-    content: "Team.";
-    position: absolute;
-    top: 10%;
-    right: -20%;
-    font-size: 35rem;
-    color: #f9f9f9;
-    font-family: $font-primary;
-    font-weight: 800;
-    z-index: 10;
-    @include mobile {
-      display: none;
-    }
-  }
+  // &:after {
+  //   content: "Team.";
+  //   position: absolute;
+  //   top: 10%;
+  //   right: -20%;
+  //   font-size: 35rem;
+  //   color: #f9f9f9;
+  //   font-family: $font-primary;
+  //   font-weight: 800;
+  //   z-index: 10;
+  //   @include mobile {
+  //     display: none;
+  //   }
+  // }
 }
 //team teammember
 #our-team {
