@@ -3,7 +3,7 @@
 <section id="services">
   <div class="container flex-row">
     <div class="services-logo flex1">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-graphic-design-icon.svg" alt="" class="image">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-2.0-graphic-design-page-main-icon.svg" alt="" class="image">
     </div>
     <div class="txtservice flex2">
       <h1>Graphic Design<span class="big-dot blue">.</span></h1>
@@ -14,117 +14,174 @@
   </div>
 </section>
 
-<!--- section video ---------->
-<!-- <section id="section-video">
-  <div class="container flex-row">
-
-    <div class="txt-explain flex1">
-      <h2>Our Process<span class="big-dot yellow">.</span></h2>
-      <p> Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process Our Process </p>
-    </div>
-
-    <div class="video-web flex1">
-      <iframe src="https://www.youtube.com/embed/J4pUEBdKqIo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-      </iframe>
-    </div>
-
-  </div>
-</section>
- -->
-<!--- section-process-detail part ---------->
-<!-- <section id="section-process-detail">
-  <div class="container flex-row">
-
-    <div class="process-title">
-      <h2>Graphic Design Second Div<span class="big-dot blue">.</span></h2>
-    </div>
-
-    <div id="process-rows" class="flex-row">
-      <div class="process-row flex1">
-        <img id="pic-datail-1" src="<?php echo get_template_directory_uri(); ?>/images/ourprocess-detail/1.jpg" alt="">
-        <h3>Design Brief</h3>
-        <p>Clarify brand vision, goals & values. Identify Target markets & appropriate business personality. Give us as many details as possible along with touchpoints that will be required for your brand.
-        </p>
-      </div>
-      <div class="process-row flex1">
-        <img id="pic-datail-3" src="<?php echo get_template_directory_uri(); ?>/images/ourprocess-detail/2.jpg" alt="">
-        <h3>Design Research & Strategy</h3>
-        <p>We research industry, target demographic, competitors & their design approaches. Doing research helps us identify the best way to give you a competitive edge in the market.
-        </p>
-      </div>
-      <div class="process-row flex1">
-        <img id="pic-datail-3" src="<?php echo get_template_directory_uri(); ?>/images/ourprocess-detail/3.jpg" alt="">
-        <h3>Design & Guidelines</h3>
-        <p>At this stage, we design all required content for all required mediums. This includes logos, icons, graphic images, print materials, etc. We give all of the original source files along with guidelines for future use.
-        </p>
-      </div>
-    </div>
-
-  </div>
-</section>
-
- -->
-
-
-
-<!-- section prices -->
-<section id="section-prz">
+<!-- section banner -->
+<section id="banner1">
   <div class="container">
-    <div class="prices-title">
-      <h2>Our Prices<span class="big-dot blue">.</span></h2>
+    <div class="text-left">
+      <h2>"Good Design is <br>Good Business."</h2>
+      <p>-Thomas Watson Jr.</p>
     </div>
 
-    <div class="prices-type flex-row">
-      <!--   price 1 begin -->
-      <div class="prz">
-        <!-- <img src="https://placeimg.com/150/100/arch" alt=""> -->
-        <h3 class="prz-message ">Essential Logo</h3>
-        <h2 class="price">$600</h2>
-        <hr>
-        <p>RGB/CMYK</p>
-        <hr>
-        <p>Source files</p>
-        <hr>
-        <p>Client copyright ownership</p>
-        <hr>
-        <p>2 concepts</p>
-        <hr>
-        <p>3 rounds of revisions</p>
-        <hr>
-        <p>Complimentary variations</p>
-        <hr>
-      </div>
-      <!--   price 2 begin -->
-      <div class="prz">
-        <!-- <img src="https://placeimg.com/150/100/arch" alt=""> -->
-        <h3 class="prz-message ">Premium Logo + Brand Style Guide</h3>
-        <h2 class="price">$1,800</h2>
-        <hr>
-        <p>RGB/CMYK</p>
-        <hr>
-        <p>Source files</p>
-        <hr>
-        <p>Client copyright ownership</p>
-        <hr>
-        <p>3 concepts</p>
-        <hr>
-        <p>5 rounds of revisions</p>
-        <hr>
-        <p>Complimentary variations</p>
-        <hr>
-        <p>Brand style guide</p>
-        <hr>
-      </div>
+    <div class="text-right">
+      <p><strong>Want to make the most of your branding experience?</strong></p>
+      <p>Tell us about your target audience, brand personality, company values, how you want your business to be remembered, previous design inspirations, etc. The more we know about your company, the easier it is for us to design a brand that represents your company accurately.</p>
     </div>
+
 
   </div>
+
 </section>
 
-<!-- section-getintouch ---------------------------------------------------->
-<section id="section-getintouch">
+<!-- the process -->
+
+<section id="graphic-design-process" class="graphic-process">
+  <div class="txtservice1 flex-row">
+    <h1>The Process<span class="big-dot blue">.</span></h1>
+  </div>
+<div class="process-container">
+
+  <div class="figure-and-text">
+    <div class="figure">
+      <div class="circle">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/Discovery.svg" alt="" class="image">
+      </div>
+      <div class="text">
+        <p><strong>Discovery</strong><br><br></p>
+      </div>
+    </div>
+      <div class="arrow1">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/arrow.svg" alt="" class="image">
+      </div>
+      <div class="figure">
+        <div class="circle">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/DesignResearch.svg" alt="" class="image">
+        </div>
+        <div class="text">
+          <p><strong>Research</strong></p>
+        </div>
+      </div>
+
+      <div class="arrow1">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/arrow.svg" alt="" class="image">
+      </div>
+
+      <div class="figure">
+        <div class="circle">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/coding-and-development-icon.svg" alt="" class="image">
+        </div>
+        <div class="text">
+          <p><strong>Design</strong></p>
+        </div>
+      </div>
+
+      <div class="arrow1">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/arrow.svg" alt="" class="image">
+      </div>
+
+      <div class="figure">
+        <div class="circle">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/Revise.svg" alt="" class="image">
+        </div>
+        <div class="text">
+          <p><strong>Launch</strong><br><br></p>
+        </div>
+      </div>
+  </div>
+</div>
+</section>
+<!-- what we design section -->
+<section id="section-whatwedesign">
+  <div class="txtservice1 flex-row">
+    <h1>What We Design<span class="big-dot blue">.</span></h1>
+  </div>
   <div class="container">
-    <a href="<?php echo get_the_title(get_page_by_path( 'contact' )); ?>"><button type="button" name="button">Let's Get Started!</button></a>
+
+    <!-- <h2>What We Design</h2> -->
+    <div class="whatwedesign-row">
+      <div class="whatwedesign-item">
+        <div class="item-image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/logo.svg" alt="" class="image">
+        </div>
+        <div class="item-header-text">
+          <p><strong>LOGO</strong></p>
+        </div>
+        <div class="item-text">
+          <p>A logo is a symbol that represents your brand. Great brands have great logos!</p>
+        </div>
+      </div>
+      <div class="whatwedesign-item">
+        <div class="item-image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/BrandStyleGuide.svg" alt="" class="image">
+        </div>
+        <div class="item-header-text">
+          <p><strong>BRAND STYLE GUIDE</strong></p>
+        </div>
+        <div class="item-text">
+          <p>A Brand style guide is a booklet that contains design guidelines to follow for your business. It includes rules for color palettes, typography hierarchy, imagery, iconography, and more.
+</p>
+        </div>
+      </div>
+      <div class="whatwedesign-item">
+        <div class="item-image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/WebIcons.svg" alt="" class="image">
+
+        </div>
+        <div class="item-header-text">
+          <p><strong>WEBSITE ILLUSTRATIONS AND ICONS</strong></p>
+        </div>
+        <div class="item-text">
+          <p>Custom website illustrations & icons will appeal to your target audience and improve brand recognition a lot more that stock illustrations & icons. </p>
+        </div>
+      </div>
+
+    </div>
+    <div class="whatwedesign-row1">
+      <div class="whatwedesign-item">
+        <div class="item-image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/Brochures.svg" alt="" class="image">
+
+        </div>
+        <div class="item-header-text">
+          <p><strong>PRINT MATERIALS</strong></p>
+        </div>
+        <div class="item-text">
+          <p>Design amazing business cards, posters, brochures, flyers, etc.</p>
+        </div>
+      </div>
+      <div class="whatwedesign-item">
+        <div class="item-image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/OutdoorSigns.svg" alt="" class="image">
+
+        </div>
+        <div class="item-header-text">
+          <p><strong>OUTDOOR SIGNS</strong></p>
+        </div>
+        <div class="item-text">
+          <p>Looking design a billboard, store sign, ground sign, pylon sign? Give us the dimensions and we are good to go!</p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
+
+
+<!-- section i-am-ready-->
+
+<section id-"section-iamready">
+  <div class="container">
+    <div class="iamready">
+      <div class="iamreadyleft">
+        <h2>Want to get started?</h2>
+        <h5>BlueFlower Media offers phone, email, and in person support for all of our clients.</h5>
+      </div>
+      <div class="iamreadyright">
+        <a href="<?php echo get_the_title(get_page_by_path( 'contact' )); ?>"><button type="button" name="button">I'm Ready!</button></a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
 
 <?php get_footer(); ?>
