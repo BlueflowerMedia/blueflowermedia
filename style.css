@@ -1972,7 +1972,8 @@ footer {
     display: flex; }
     @media (max-width: 450px) {
       #section-header .container {
-        flex-direction: column; } }
+        flex-direction: column;
+        padding-top: 100px; } }
     #section-header .container .header-text {
       flex: 1;
       order: 1;
@@ -2065,7 +2066,7 @@ footer {
       order: 2; }
 
 #section-aboutus {
-  background: #1B8DCB;
+  background: #2A3275;
   clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
   -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%); }
   @media (max-width: 760px) {

@@ -50,7 +50,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
 <!-- section-ourprocess ---------------------------------------------------->
 
 <section id="section-ourprocess">
-  <div id="particles"></div>
+  <!-- <div id="particles"></div> -->
 
   <div class="container flex-column">
     <h1>Our Workflow<span class="big-dot blue-n">.</span></h1>
