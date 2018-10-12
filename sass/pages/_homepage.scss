@@ -8,6 +8,7 @@
     @media(max-width: 450px){
       // display: flex;
       flex-direction: column;
+      padding-top: 100px;
 
     }
 
@@ -119,7 +120,7 @@
 
 // section-aboutus
 #section-aboutus {
-  background: $blue-new;
+  background:#2A3275;
   @include slanted-edge(top-left, 0, 15%);
 
   .container {
