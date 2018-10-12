@@ -12,22 +12,31 @@
 
   .container {
     padding-top: 150px;
-    @media(max-width: 500px){
-      padding-top: 80px !important;
+    @media(min-width: 450px){
+      display: flex;
     }
+
     .header-text{
-      h1{
-        @media(max-width: 1025px){
-          font-size: 3.9rem;
-        }
+      flex: 1;
+      @media (min-width: 450px){
+        padding-top: 45px;
       }
+      // h1{
+      //   font-size: 60px;
+      // }
+      h3{
+        font-size: 1.2rem;
+      }
+    }
+    .header-image{
+      flex: 1;
     }
   }
 }
 
 // section-aboutus
 #section-aboutus {
-  background: $blue;
+  background: $blue-new;
   @include slanted-edge(top-left, 0, 15%);
 
   .container {
@@ -55,6 +64,7 @@
       text-align: center;
     }
     .process {
+      padding: 20px !important;
       @include mobile {
         flex-flow: column;
       }
@@ -71,7 +81,7 @@
       text-align: center;
     }
     .process-pic img {
-      width: 50%;
+      width: 75%;
     }
     .process-title {
       justify-content: center;
@@ -84,26 +94,21 @@
 
 // section-services
 #section-services {
-  background-color: white;
+  background-color: $blue-new;
   position: relative;
   justify-content: space-between;
 
   .container {
-    background-color: $yellow;
+    background-color: $blue-new;
     margin: 0 auto;
     max-width: 1300px;
-    padding: 3%;
-    border-radius: 50px;
+    padding: 3% 3% 7% 3%;
     h1 {
       text-align: center;
-      //color: white;
+      color: white;
     }
     .services {
       justify-content: space-between;
-      @include tablet{
-        flex-direction: column;
-        align-items: center;
-      }
     }
   }
 }
@@ -115,15 +120,25 @@
     .logo {
       text-align: center;
       width: 100%;
-      margin-top: 20px;
+      margin-top: 10px;
+      background-color: $blue-new;
+      border-radius: 10px;
+      padding: 25px;
       img {
-        height: 100px;
+        height: 180px;
         border-radius: 10%;
         margin: 0 auto;
         display: block;
         @include mobile {
           margin: 0 auto;
         }
+      }
+      h3{
+        color: white;
+      }
+      p{
+        color: white;
+        font-size: 15px;
       }
     }
   }
@@ -133,10 +148,10 @@
   flex-flow: row;
   width: calc(100% * (1/3) - 50px);
   text-align: left;
-  padding: 0 20px;
+  padding: 0 10px;
   margin: 20px;
   @include tablet {
-    width: calc(100% * (1/2) + 10px) !important;
+    width: calc(100% * (1/2) - 40px);
   }
   @include mobile {
     width: calc(100% - 20px);
@@ -162,9 +177,13 @@
 }
 .service-content {
   margin: 20px 0;
+
   ul {
     li {
+      font-size: 13px;
       text-align: left;
+      font-weight: 600;
+      color: $black;
       @include mobile {
         text-align: center;
       }
@@ -175,6 +194,7 @@
 .service-list {
   color: #6b6b6b;
   list-style-image: url("images/bfm-arrow-icon.svg");
+  padding: 15px 25px;
   @include mobile {
     list-style: none;
   }
@@ -255,7 +275,7 @@
 // section-testomonials
 
 #section-testomonials {
-  background-color: $blue;
+  background-color:$blue-new;
 
   h2 {
     text-align: center;
