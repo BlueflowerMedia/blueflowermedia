@@ -2,34 +2,117 @@
   min-height: 65vh;
   position: relative;
 
-  #particles {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-
   .container {
     padding-top: 150px;
-    @media(min-width: 450px){
-      display: flex;
+    display: flex;
+    @media(max-width: 450px){
+      // display: flex;
+      flex-direction: column;
+
     }
 
     .header-text{
       flex: 1;
+      order: 1;
+      padding-right: 80px;
       @media (min-width: 450px){
         padding-top: 45px;
       }
-      // h1{
-      //   font-size: 60px;
-      // }
-      h3{
-        font-size: 1.2rem;
+      @include mobile{
+        padding-right: 0;
+        order: 3;
+      }
+      h2{
+        font-size: 56px;
+        padding: 0 40px;
+        @include mobile{
+          padding: 0;
+          font-size: 35px;
+          text-align: center;
+
+        }
+      }
+      .sa{
+        font-size: 61px;
+        padding: 0 40px;
+        @include mobile{
+          padding: 0;
+          font-size: 38px;
+          text-align: center;
+        }
+      }
+      h4{
+        margin-top: 20px;
+        font-family:$font-primary;
+        display: flex;
+        align-items: center;
+        font-weight:500;
+        font-size: 19px;
+        padding: 0 40px;
+        @include mobile{
+          padding: 0;
+          font-size: 11px;
+          text-align: center;
+          justify-content: center;
+        }
+        .line-left{
+          background-color:$blue-new;
+          width: 10%;
+          height: 5px;
+          margin-left: 3px;
+          margin-right: 15px;
+        }
+        .line-right{
+          background-color:$blue-new;
+          width: 10%;
+          height: 5px;
+          margin-left: 15px;
+          margin-right: 0px;
+        }
+      }
+      .schedule-now{
+        display: flex;
+        background-color: #D8E0E8;
+        padding: 10px 40px;
+        border-radius: 60px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        line-height: 1.3rem !important;
+        @include mobile{
+          flex-direction: column;
+          text-align: center;
+          margin-top: 15px;
+          padding: 0px 10px 10px;;
+        }
+        p{
+          font-size: 14px;
+          color: #000;
+          font-weight: 600;
+          @include mobile{
+            font-size: 13px;
+
+          }
+        }
+          button{
+            color: white;
+            font-size: 15px;
+            background-color: #2A3275;
+            padding: 15px 25px;
+            border-radius: 10px;
+            margin-left: 50px;
+            @include mobile{
+              font-size: 13px;
+              margin-left:0;
+              padding: 10px 15px;
+
+            }
+          }
       }
     }
     .header-image{
       flex: 1;
+      order: 2
     }
   }
 }

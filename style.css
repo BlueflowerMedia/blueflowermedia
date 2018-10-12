@@ -1967,26 +1967,102 @@ footer {
 #section-header {
   min-height: 65vh;
   position: relative; }
-  #section-header #particles {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
   #section-header .container {
-    padding-top: 150px; }
-    @media (min-width: 450px) {
+    padding-top: 150px;
+    display: flex; }
+    @media (max-width: 450px) {
       #section-header .container {
-        display: flex; } }
+        flex-direction: column; } }
     #section-header .container .header-text {
-      flex: 1; }
+      flex: 1;
+      order: 1;
+      padding-right: 80px; }
       @media (min-width: 450px) {
         #section-header .container .header-text {
           padding-top: 45px; } }
-      #section-header .container .header-text h3 {
-        font-size: 1.2rem; }
+      @media (max-width: 760px) {
+        #section-header .container .header-text {
+          padding-right: 0;
+          order: 3; } }
+      #section-header .container .header-text h2 {
+        font-size: 56px;
+        padding: 0 40px; }
+        @media (max-width: 760px) {
+          #section-header .container .header-text h2 {
+            padding: 0;
+            font-size: 35px;
+            text-align: center; } }
+      #section-header .container .header-text .sa {
+        font-size: 61px;
+        padding: 0 40px; }
+        @media (max-width: 760px) {
+          #section-header .container .header-text .sa {
+            padding: 0;
+            font-size: 38px;
+            text-align: center; } }
+      #section-header .container .header-text h4 {
+        margin-top: 20px;
+        font-family: "Source Sans Pro", sans-serif;
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        font-size: 19px;
+        padding: 0 40px; }
+        @media (max-width: 760px) {
+          #section-header .container .header-text h4 {
+            padding: 0;
+            font-size: 11px;
+            text-align: center;
+            justify-content: center; } }
+        #section-header .container .header-text h4 .line-left {
+          background-color: #1B8DCB;
+          width: 10%;
+          height: 5px;
+          margin-left: 3px;
+          margin-right: 15px; }
+        #section-header .container .header-text h4 .line-right {
+          background-color: #1B8DCB;
+          width: 10%;
+          height: 5px;
+          margin-left: 15px;
+          margin-right: 0px; }
+      #section-header .container .header-text .schedule-now {
+        display: flex;
+        background-color: #D8E0E8;
+        padding: 10px 40px;
+        border-radius: 60px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        line-height: 1.3rem !important; }
+        @media (max-width: 760px) {
+          #section-header .container .header-text .schedule-now {
+            flex-direction: column;
+            text-align: center;
+            margin-top: 15px;
+            padding: 0px 10px 10px; } }
+        #section-header .container .header-text .schedule-now p {
+          font-size: 14px;
+          color: #000;
+          font-weight: 600; }
+          @media (max-width: 760px) {
+            #section-header .container .header-text .schedule-now p {
+              font-size: 13px; } }
+        #section-header .container .header-text .schedule-now button {
+          color: white;
+          font-size: 15px;
+          background-color: #2A3275;
+          padding: 15px 25px;
+          border-radius: 10px;
+          margin-left: 50px; }
+          @media (max-width: 760px) {
+            #section-header .container .header-text .schedule-now button {
+              font-size: 13px;
+              margin-left: 0;
+              padding: 10px 15px; } }
     #section-header .container .header-image {
-      flex: 1; }
+      flex: 1;
+      order: 2; }
 
 #section-aboutus {
   background: #1B8DCB;

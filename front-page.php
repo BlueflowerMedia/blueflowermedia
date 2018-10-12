@@ -9,11 +9,18 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
 
 <!-- section header -->
 <section id="section-header" class="sr">
-  <div id="particles"></div>
+  <!-- <div id="particles"></div> -->
   <div class="container">
     <div class="header-text">
-      <h1 class="sr">Let's make your business <span class="blue-new">bloom!</span></h1>
-      <h3>The Digital World is vast and ever-changing. <br> We keep your business at the Digital Frontier.</h3>
+      <h2 class="sr">Digital Success For</h2>
+      <h2 class="sa">Small Businesses</h2>
+      <h4><hr class="line-left">Branding | Web Design | Digital Marketing<hr class="line-right"></h4>
+      <div class="schedule-now">
+        <p>Ready to start discussing your business goals?<br>Schedule your free consultation now!</p>
+          <a href="<?php echo get_the_title(get_page_by_path( 'book-an-appointment' )); ?>"><button type="button" name="button">SCHEDULE NOW</button></a>
+
+
+      </div>
     </div>
     <div class="header-image">
       <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-2.0-buildings.svg" alt="">
