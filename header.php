@@ -38,6 +38,32 @@ $cloudhosting = get_permalink(get_page_by_path( 'services-cloud-hosting' ));
 
  gtag('config', 'UA-89123504-3');
 </script>
+<script type='text/javascript' data-cfasync='false'>
+    window.purechatApi = {
+        l: [],
+        t: [],
+        on: function() {
+            this.l.push(arguments);
+        }
+    };
+    (function() {
+        var done = false;
+        var script = document.createElement('script');
+        script.async = true;
+        script.type = 'text/javascript';
+        script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript';
+        document.getElementsByTagName('HEAD').item(0).appendChild(script);
+        script.onreadystatechange = script.onload = function(e) {
+            if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {
+                var w = new PCWidget({
+                    c: 'acad1d45-fde0-46b9-bab7-4e23bf9c37be',
+                    f: true
+                });
+                done = true;
+            }
+        };
+    })();
+</script>
 	<?php wp_head(); ?>
 </head>
 
