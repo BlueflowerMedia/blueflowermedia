@@ -153,7 +153,7 @@ marketing world.</p>
         <h5>BlueFlower Media offers phone, email, and in person support for all of our clients.</h5>
       </div>
       <div class="iamreadyright">
-        <a href="<?php echo get_the_title(get_page_by_path( 'contact' )); ?>"><button type="button" name="button">I'm Ready!</button></a>
+        <a href="<?php echo get_permalink(get_page_by_path( 'contact' )); ?>"><button type="button" name="button">I'm Ready!</button></a>
       </div>
     </div>
 
