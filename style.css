@@ -1965,7 +1965,7 @@ footer {
       background: rgba(239, 220, 5, 0.5); } }
 
 #section-header {
-  min-height: 65vh;
+  min-height: 45vh;
   position: relative; }
   #section-header .container {
     padding-top: 150px;
@@ -1974,6 +1974,9 @@ footer {
       #section-header .container {
         flex-direction: column;
         padding-top: 100px; } }
+    @media (max-width: 1025px) {
+      #section-header .container {
+        padding: 100px 4%; } }
     #section-header .container .header-text {
       flex: 1;
       order: 1;
@@ -1985,22 +1988,32 @@ footer {
         #section-header .container .header-text {
           padding-right: 0;
           order: 3; } }
+      @media (max-width: 1025px) {
+        #section-header .container .header-text {
+          padding-right: 10px;
+          text-align: center; } }
       #section-header .container .header-text h2 {
-        font-size: 56px;
+        font-size: 55px;
         padding: 0 40px; }
         @media (max-width: 760px) {
           #section-header .container .header-text h2 {
             padding: 0;
-            font-size: 35px;
             text-align: center; } }
+        @media (max-width: 1025px) {
+          #section-header .container .header-text h2 {
+            font-size: 34px;
+            padding: 0 10px; } }
       #section-header .container .header-text .sa {
-        font-size: 61px;
+        font-size: 60px;
         padding: 0 40px; }
         @media (max-width: 760px) {
           #section-header .container .header-text .sa {
             padding: 0;
-            font-size: 38px;
             text-align: center; } }
+        @media (max-width: 1025px) {
+          #section-header .container .header-text .sa {
+            font-size: 36px;
+            padding: 0 10px; } }
       #section-header .container .header-text h4 {
         margin-top: 20px;
         font-family: "Source Sans Pro", sans-serif;
@@ -2015,6 +2028,11 @@ footer {
             font-size: 11px;
             text-align: center;
             justify-content: center; } }
+        @media (max-width: 1025px) {
+          #section-header .container .header-text h4 {
+            font-size: 12px;
+            padding: 0 10px;
+            justify-content: center; } }
         #section-header .container .header-text h4 .line-left {
           background-color: #1B8DCB;
           width: 10%;
@@ -2028,22 +2046,24 @@ footer {
           margin-left: 15px;
           margin-right: 0px; }
       #section-header .container .header-text .schedule-now {
-        display: flex;
         background-color: #D8E0E8;
         padding: 10px 40px;
         border-radius: 60px;
         justify-content: center;
         align-items: center;
-        margin-top: 50px;
+        margin-top: 40px;
         line-height: 1.3rem !important; }
+        @media (min-width: 1024px) {
+          #section-header .container .header-text .schedule-now {
+            display: flex; } }
         @media (max-width: 760px) {
           #section-header .container .header-text .schedule-now {
             flex-direction: column;
             text-align: center;
             margin-top: 15px;
-            padding: 0px 10px 10px; } }
+            padding: 10px 0px 20px; } }
         #section-header .container .header-text .schedule-now p {
-          font-size: 14px;
+          font-size: 13px;
           color: #000;
           font-weight: 600; }
           @media (max-width: 760px) {
@@ -2055,12 +2075,15 @@ footer {
           background-color: #2A3275;
           padding: 15px 25px;
           border-radius: 10px;
-          margin-left: 50px; }
+          margin-left: 35px; }
           @media (max-width: 760px) {
             #section-header .container .header-text .schedule-now button {
               font-size: 13px;
               margin-left: 0;
               padding: 10px 15px; } }
+          @media (max-width: 1024px) {
+            #section-header .container .header-text .schedule-now button {
+              margin-left: 0px; } }
     #section-header .container .header-image {
       flex: 1;
       order: 2; }
@@ -2101,9 +2124,11 @@ footer {
   width: 75%; }
 #section-ourprocess .container .process-title {
   justify-content: center;
-  text-align: center;
   max-width: 500px;
   margin: 1rem auto; }
+  @media (max-width: 450px) {
+    #section-ourprocess .container .process-title {
+      text-align: center; } }
 
 #section-services {
   background-color: #1B8DCB;
