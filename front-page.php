@@ -196,42 +196,22 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       </div>
       <div class="testimonials-slider">
         <h2>What They Say</h2>
-        <div class="testimonials1">
-          <blockquote>
-            <p>
-              Blueflower Media created my e-commerce website for my artwork from scratch. In a short period of time the website was up and working
-               with great visuals and smooth functionality for visitors. Staff are friendly, flexible and the project was completed on budget. I recommend them :)
-            </p>
-            <cite>
-              Christian
-              CT Paintings
-            </cite>
-          </blockquote>
-          <blockquote>
-            <p>
-              What a talented group of next-gen creative minds can do for your business. They put it in the spotlight with an exciting website with eye-captivating
-              visuals and contents and give you the tools that can conquer the world of your business - these nerds are creative, neat, very intimidating, cool and always evolving.
-            </p>
-            <cite>
-              Shail
-              India Journal
-            </cite>
-          </blockquote>
-          <blockquote>
-            <p>
+        <div class="slider-items">
+          <div>
+            Blueflower Media created my e-commerce website for my artwork from scratch. In a short period of time the website was up and working with great visuals and smooth functionality for visitors. Staff are friendly, flexible and the project was completed on budget. I recommend them :)
 
-            </p>
-            <cite>
+            Christian CT Paintings
+          </div>
+          <div >
+            What a talented group of next-gen creative minds can do for your business. They put it in the spotlight with an exciting website with eye-captivating visuals and contents and give you the tools that can conquer the world of your business - these nerds are creative, neat, very intimidating, cool and always evolving.
 
-            </cite>
-          </blockquote>
-
+            Shail India Journal
+          </div>
         </div>
       </div>
     </div>
 
   </div>
-
 </section>
 
 
