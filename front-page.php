@@ -169,6 +169,27 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
   </div>
 </section>
 
+<!-- section clients and testimonials -->
+<section id="clients-testimonials">
+  <div class="container">
+    <div class="row">
+      <div class="clients-images">
+        <h2>Our Clients</h2>
+        <div class="row1">
+          <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-india-journal-logo.png" alt="India journal logo">
+
+        </div>
+      </div>
+      <div class="testimonials">
+        <h2>What They Say</h2>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
 
 <!-- section-client-slider ---------------------------------------------------->
 <section id="section-client-slider">
