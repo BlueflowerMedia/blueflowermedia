@@ -1980,7 +1980,7 @@ footer {
     #section-header .container .header-text {
       flex: 1;
       order: 1;
-      padding-right: 80px; }
+      padding-right: 50px; }
       @media (min-width: 450px) {
         #section-header .container .header-text {
           padding-top: 45px; } }
@@ -1993,19 +1993,17 @@ footer {
           padding-right: 10px;
           text-align: center; } }
       #section-header .container .header-text h2 {
-        font-size: 55px;
-        padding: 0 40px; }
+        font-size: 3em;
+        text-align: center; }
         @media (max-width: 760px) {
           #section-header .container .header-text h2 {
             padding: 0;
             text-align: center; } }
         @media (max-width: 1025px) {
           #section-header .container .header-text h2 {
-            font-size: 34px;
-            padding: 0 10px; } }
+            font-size: 34px; } }
       #section-header .container .header-text .sa {
-        font-size: 60px;
-        padding: 0 40px; }
+        font-size: 3.25em; }
         @media (max-width: 760px) {
           #section-header .container .header-text .sa {
             padding: 0;
@@ -2021,7 +2019,7 @@ footer {
         align-items: center;
         font-weight: 500;
         font-size: 19px;
-        padding: 0 40px; }
+        justify-content: center; }
         @media (max-width: 760px) {
           #section-header .container .header-text h4 {
             padding: 0;
@@ -2260,6 +2258,19 @@ footer {
         #section-client-slider .container .owl-carousel img {
           width: 150px;
           margin: 0 auto; } }
+
+@media (min-width: 450px) {
+  #section-clients-testimonials .container .row {
+    display: flex; } }
+#section-clients-testimonials .container .row .clients-images {
+  flex: 1; }
+  #section-clients-testimonials .container .row .clients-images .row1 img {
+    width: 29%;
+    max-width: 180px;
+    padding: 10px;
+    margin: 5px; }
+#section-clients-testimonials .container .row .testimonials {
+  flex: 1; }
 
 #section-testomonials {
   background-color: #1B8DCB; }
@@ -3046,7 +3057,7 @@ span.wpcf7-not-valid-tip {
   margin-bottom: 0; }
 
 #banner1 {
-  background-image: url("./images/webdesign/image-we-design");
+  background-image: url("./images/webdesign/image-we-design.png");
   height: 692px; }
   @media (max-width: 1024px) {
     #banner1 {

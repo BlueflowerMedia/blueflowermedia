@@ -101,7 +101,7 @@
     <div class="whatwedesign-row">
       <div class="whatwedesign-item">
         <div class="item-image">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/logo.svg" alt="" class="image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/Logo.svg" alt="" class="image">
         </div>
         <div class="item-header-text">
           <p><strong>LOGO</strong></p>
