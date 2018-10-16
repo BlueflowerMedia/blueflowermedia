@@ -17,7 +17,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       <h4><hr class="line-left">Branding | Web Design | Digital Marketing<hr class="line-right"></h4>
       <div class="schedule-now">
         <p>Ready to start discussing your business goals?<br>Schedule your free consultation now!</p>
-          <a href="<?php echo site_url()."/".get_the_title(get_page_by_path( 'book-an-appointment' )); ?>"><button type="button" name="button">SCHEDULE NOW</button></a>
+          <a href="<?php echo get_permalink(get_page_by_path( 'book-an-appointment' )); ?>"><button type="button" name="button">SCHEDULE NOW</button></a>
 
 
       </div>
