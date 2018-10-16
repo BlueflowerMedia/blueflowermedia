@@ -283,8 +283,8 @@ if (isMobile == false) {
 sr.reveal($('h1'));
 
 if (pageName == "") {
-	runParticles();
-	runCarouselClientLogo();
+	// runParticles();
+	// runCarouselClientLogo();
 	runRellax();
 	runRellaxVert();
 } else if (pageName == "team") {
