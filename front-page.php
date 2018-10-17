@@ -61,6 +61,12 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
         <a href="https://www.youtube.com/watch?v=09q57zoPIOw" target="_blank">
           <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-2.0-conceptualize.svg" alt="" class="image"></a>
       </div>
+      <div class="circle1">
+        <div class="middle">
+          <div class="vertical-line">
+          </div>
+        </div>
+      </div>
 
       <div class="process-title flex1 flex-column">
         <h2>Conceptualization</h2>
@@ -75,6 +81,9 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
         <p>Design a brand that moves your customers & develop websites/applications that allow for maximum results.
         </p>
       </div>
+      <div class="circle1">
+
+      </div>
       <div class="process-pic flex1">
         <a href="https://www.youtube.com/watch?v=NUf2ak3p4BE" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-2.0-design-develop.svg" alt="" class="image"></a>
       </div>
@@ -84,7 +93,9 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       <div class="process-pic flex1">
         <a href="https://www.youtube.com/watch?v=fWDYwY2rHx8" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-2.0-market-your-business.svg" alt="" class="image"></a>
       </div>
+      <div class="circle1">
 
+      </div>
       <div class="process-title flex1 flex-column">
         <h2>Market your Business</h2>
         <p>Create short term and long term marketing strategies that value your investment.
@@ -179,34 +190,29 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-bedessee-logo.svg" alt="Bedessee logo">
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-canada-foundation-logo.svg" alt="Canada Foundation logo">
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-india-journal-logo.svg" alt="bfm-india-journal-logo logo">
-  </div>
+        </div>
         <div class="row1">
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-luxmark-logo.svg" alt="bfm-luxmark-logo logo">
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-mobilinq-logo.svg" alt="bfm-mobilinq-logo">
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-oak-park-logo.svg" alt="bfm-oak-park-logo">
-
         </div>
         <div class="row1">
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-playcation-logo.svg" alt="bfm-playcation-logo">
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-reginos-logo.svg" alt="bfm-reginos-logo">
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-tdot-canna-logo.svg" alt="bfm-tdot-canna-logo">
-
-
         </div>
       </div>
       <div class="testimonials-slider">
         <h2>What They Say</h2>
-        <div class="slider-items">
+        <div class="row owl-carousel slider-items">
           <div>
-            Blueflower Media created my e-commerce website for my artwork from scratch. In a short period of time the website was up and working with great visuals and smooth functionality for visitors. Staff are friendly, flexible and the project was completed on budget. I recommend them :)
-
-            Christian CT Paintings
+            <p><i class="fas fa-quote-left"></i><br>Blueflower Media created my e-commerce website for my artwork from scratch. In a short period of time the website was up and working with great visuals and smooth functionality for visitors. Staff are friendly, flexible and the project was completed on budget. I recommend them.<br><i class="fas fa-quote-right"></i></p>
+            <p>Christian <br>CT Paintings</p>
           </div>
-          <div >
-            What a talented group of next-gen creative minds can do for your business. They put it in the spotlight with an exciting website with eye-captivating visuals and contents and give you the tools that can conquer the world of your business - these nerds are creative, neat, very intimidating, cool and always evolving.
-
-            Shail India Journal
-          </div>
+          <!-- <div >
+            <p><i class="fas fa-quote-left"></i>What a talented group of next-gen creative minds can do for your business. They put it in the spotlight with an exciting website with eye-captivating visuals and contents and give you the tools that can conquer the world of your business - these nerds are creative, neat, very intimidating, cool and always evolving.<i class="fas fa-quote-right"></i></p>
+            <p>Shail India Journal</p>
+          </div> -->
         </div>
       </div>
     </div>
@@ -217,12 +223,12 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
 
 
 <!-- section-client-slider ---------------------------------------------------->
-<section id="section-client-slider">
+<!-- <section id="section-client-slider">
   <div class="container">
     <div class="row">
       <h2>Our Clients<span class="big-dot blue">.</span></h2>
     </div>
-    <div class="row owl-carousel client-logo-slider">
+    <div class="owl-carousel client-logo-slider">
       <div>
         <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-india-journal-logo.png" alt="India journal logo">
       </div>
@@ -243,33 +249,33 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- section-testomonials ---------------------------------------------------->
-<section id="section-testomonials">
+<!-- <section id="section-testomonials">
   <div class="container">
     <div class="row">
       <h2>Testimonials<span class="big-dot yellow">.</span></h2>
     </div>
-    <div class="row flex-row testimonials">
+    <div class="row flex-row testimonials"> -->
 
       <!--   Testimonial 1 begin -->
-      <div class="test">
+      <!-- <div class="test">
         <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/testimonial/Christian Turner_2531-300x200.jpg" alt="">
         <p class="test-message">Blueflower Media created my e-commerce website for my artwork from scratch. In a short period of time the website was up and working with great visuals and smooth functionality for visitors. Staff are friendly, flexible and the project was completed
           on budget. I recommend them :)</p>
         <p class="author">Christian</p>
         <p class="company">CT Paintings</p>
-      </div>
+      </div> -->
       <!--   Testimonia 1 end -->
       <!--   Testimonial 2 begin -->
-      <div class="test">
+      <!-- <div class="test">
         <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-india-journal-logo.png" alt="">
         <p class="test-message">What a talented group of next-gen creative minds can do for your business. They put it in the spotlight with an exciting website with eye-captivating visuals and contents and give you the tools that can conquer the world of your business - these
           nerds are creative, neat, very intimidating, cool and always evolving.</p>
         <p class="author">Shail</p>
         <p class="company">India Journal</p>
-      </div>
+      </div> -->
       <!--   Testimonia 2 end -->
 
 
