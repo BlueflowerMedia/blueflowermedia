@@ -7,7 +7,7 @@
     </div>
     <div class="txtservice flex1">
       <h1>Web Design<span class="big-dot blue">.</span></h1>
-      <p> The website is an integral part to growth of the modern business. As the number of people online increases, having a results oriented website is absolutely essential in todays business climate.</p>
+      <p>It is no longer impressive to have a website that simply looks pretty. That's why our websites don't only look great, they also drive results. To help achieve your core business goals, we developed a holistic web design process that brings together design, technology, content, and marketing to create the best web experience.</p>
     </div>
   </div>
 </section>

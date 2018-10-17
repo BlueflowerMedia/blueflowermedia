@@ -2306,7 +2306,8 @@ footer {
     margin: 0 auto;
     text-align: center; }
     #section-clients-testimonials .container .row .testimonials-slider .owl-carousel p i {
-      font-size: 60px; }
+      font-size: 60px;
+      color: #D8E0E8 !important; }
 
 #section-testomonials {
   background-color: #1B8DCB; }
@@ -3127,7 +3128,8 @@ span.wpcf7-not-valid-tip {
             font-size: 37px; } }
       #banner1 .container .text-left p {
         color: white;
-        text-align: center; }
+        text-align: right;
+        margin-right: 15%; }
     #banner1 .container .text-right {
       flex: 1;
       display: flex;
