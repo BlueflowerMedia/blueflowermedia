@@ -2115,6 +2115,8 @@ footer {
   @media (max-width: 760px) {
     #section-ourprocess .container .process {
       flex-flow: column; } }
+#section-ourprocess .container .process:hover .circle1 {
+  border: 3px solid #ECCE1E; }
 @media (max-width: 760px) {
   #section-ourprocess .container .process-pic {
     order: 1; }
