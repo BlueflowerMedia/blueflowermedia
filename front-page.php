@@ -41,7 +41,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
     </div>
     <div class="fbox" id="fbox2" style="transform: rotate(45deg);" data-rellax-speed="5">
     </div>
-    <div class="fbox" id="fbox3" style="transform: rotate(45deg);" data-rellax-speed="10">
+    <div class="fbox" id="fbox2" style="transform: rotate(45deg);" data-rellax-speed="10">
       <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/about-icons/target.svg" alt="" style="transform: rotate(-45deg);"> -->
     </div>
   </div>

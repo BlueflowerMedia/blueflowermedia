@@ -178,6 +178,11 @@
         flex-flow: column;
       }
     }
+    .process:hover{
+      .circle1{
+        border: 3px solid #ECCE1E;
+      }
+    }
     @include mobile {
       .process-pic {
         order: 1;
