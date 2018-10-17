@@ -113,21 +113,21 @@
         <i class="fab fa-sass"></i>
         <i class="fab fa-js"></i> -->
 
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/html.png" alt="" class="image">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/css.png" alt="" class="image">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/js.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/angular.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/django.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/google_analytics.png" alt="" class="image">
 
       </div>
       <div class="images-row">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/wordpress.png" alt="" class="image">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/sass.png" alt="" class="image">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/nodejs.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/wordpress.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/JavaScript.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/mysql.png" alt="" class="image">
 
       </div>
       <div class="images-row">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/angular.png" alt="" class="image">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/react.png" alt="" class="image">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/django.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/nodejs.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/reactjs.png" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/php.png" alt="" class="image">
 
       </div>
 
