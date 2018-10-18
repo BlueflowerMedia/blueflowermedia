@@ -3697,7 +3697,7 @@ span.wpcf7-not-valid-tip {
         display: flex; }
         #tools .container-tools .tools-images .images-row img {
           width: 140px;
-          height: 90px;
+          height: 100%;
           margin: 20px; }
           @media (max-width: 760px) {
             #tools .container-tools .tools-images .images-row img {
