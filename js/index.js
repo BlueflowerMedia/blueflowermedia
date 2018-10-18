@@ -59,6 +59,17 @@ window.sr = ScrollReveal({
 	duration: 1000,
 })
 
+window.ss = ScrollReveal({
+	reset: false,
+	origin: 'top',
+	distance: '10%',
+	opacity: 0,
+	scale: 1,
+	delay: 400,
+	easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+	duration: 1000,
+})
+
 
 // client logo slider
 function runCarouselClientLogo() {
@@ -279,9 +290,14 @@ navbar();
 navbarMobile();
 if (isMobile == false) {
 	sr.reveal($('.sr'));
+
+}
+if (isMobile == false) {
+	ss.reveal($('.ss'));
+
 }
 sr.reveal($('h1'));
-
+ss.reveal($('.ss'));
 if (pageName == "") {
 	// runParticles();
 	// runCarouselClientLogo();

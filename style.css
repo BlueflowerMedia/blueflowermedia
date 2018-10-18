@@ -2054,7 +2054,8 @@ footer {
         line-height: 1.3rem !important; }
         @media (min-width: 1024px) {
           #section-header .container .header-text .schedule-now {
-            display: flex; } }
+            display: flex;
+            justify-content: space-around; } }
         @media (max-width: 760px) {
           #section-header .container .header-text .schedule-now {
             flex-direction: column;
@@ -2074,8 +2075,9 @@ footer {
           background-color: #2A3275;
           padding: 15px 25px;
           border-radius: 10px;
-          margin-left: 35px;
-          transition: transform .3s ease-in-out; }
+          margin-left: 6px;
+          border: 0px solid #2A3275;
+          transition: border-width .3s ease-in-out; }
           @media (max-width: 760px) {
             #section-header .container .header-text .schedule-now button {
               font-size: 13px;
@@ -2085,7 +2087,7 @@ footer {
             #section-header .container .header-text .schedule-now button {
               margin-left: 0px; } }
         #section-header .container .header-text .schedule-now button:hover {
-          transform: scale(1.06); }
+          border-width: 2px 3px; }
     #section-header .container .header-image {
       flex: 1;
       order: 2; }
@@ -2117,7 +2119,7 @@ footer {
     #section-ourprocess .container .process {
       flex-flow: column; } }
 #section-ourprocess .container .process:hover .circle1 {
-  border: 3px solid #ECCE1E; }
+  background-color: #ECCE1E; }
 @media (max-width: 760px) {
   #section-ourprocess .container .process-pic {
     order: 1; }
@@ -2160,6 +2162,8 @@ footer {
   @media (max-width: 1200px) {
     #section-ourprocess .container .process-title h2 {
       font-size: 2.2rem; } }
+#section-ourprocess .container .right {
+  text-align: right; }
 
 #section-services {
   background-color: #1B8DCB;
@@ -2228,7 +2232,7 @@ footer {
 .service-content {
   margin: 20px 0; }
   .service-content ul li {
-    font-size: 13px;
+    font-size: 16px;
     text-align: left;
     font-weight: 600;
     color: #00193c; }
@@ -2372,6 +2376,9 @@ footer {
         background: #1d72f7; }
   #section-getintouch.blue {
     background-color: #1d72f7; }
+
+body > div.branding {
+  display: none !important; }
 
 section#blog .container {
   padding: 100px 10% 0 10%; }
