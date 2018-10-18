@@ -8,22 +8,20 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
 ?>
 
 <!-- section header -->
-<section id="section-header" class="sr">
+<section id="section-header">
   <!-- <div id="particles"></div> -->
   <div class="container">
     <div class="header-text">
-      <h2 class="sr">Digital Success For</h2>
+      <h2>Digital Success For</h2>
       <h2 class="sa">Small Businesses</h2>
       <h4><hr class="line-left">Branding | Web Design | Digital Marketing<hr class="line-right"></h4>
-      <div class="schedule-now">
+      <div class="schedule-now sr">
         <p>Ready to start discussing your business goals?<br>Schedule your free consultation now!</p>
           <a href="<?php echo get_permalink(get_page_by_path( 'book-an-appointment' )); ?>"><button type="button" name="button">SCHEDULE NOW</button></a>
-
-
       </div>
     </div>
     <div class="header-image">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-2.0-buildings.svg" alt="">
+      <img class="sr" src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-2.0-buildings.svg" alt="">
     </div>
   </div>
 </section>
@@ -76,7 +74,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
     </div>
     <!-- 2th -->
     <div class="process flex-row">
-      <div class="process-title flex1 flex-column">
+      <div class="process-title right flex1 flex-column">
         <h2>Design & Develop</h2>
         <p>Design a brand that moves your customers & develop websites/applications that allow for maximum results.
         </p>
@@ -119,7 +117,6 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
           <div class="logo">
             <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons\bfm-2.0-web-design-icon.svg" alt="bfm-web-design-icon">
             <h3>Web Design</h3>
-              <p>We build result- oriented intuitive websites guaranteed to leave a lasting impression.</p>
           </div>
         </a>
         <div class="service-content">
@@ -141,7 +138,6 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
           <div class="logo">
             <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-2.0-graphic-design-icon.svg" alt="bfm-graphic-design-icon">
             <h3 >Graphic Design</h3>
-            <p>“Good design is good business” <br>- Thomas J. Watson Jr.</p>
           </div>
         </a>
         <div class="service-content">
@@ -161,7 +157,6 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
           <div class="logo">
             <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-2.0-digital-marketing-icon.svg" alt="bfm-digital-marketing-icon">
             <h3>Digital Marketing</h3>
-              <p>“The only thing left to do after you build your business, is to grow your business!”</p>
           </div>
         </a>
         <div class="service-content">
