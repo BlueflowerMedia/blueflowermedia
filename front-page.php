@@ -183,7 +183,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
         <h2>Our Clients</h2>
         <div class="row1">
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-bedessee-logo.svg" alt="Bedessee logo">
-          <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-canada-foundation-logo.svg" alt="Canada Foundation logo">
+          <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-reginos-logo.svg" alt="bfm-reginos-logo">
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-india-journal-logo.svg" alt="bfm-india-journal-logo logo">
         </div>
         <div class="row1">
@@ -193,16 +193,25 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
         </div>
         <div class="row1">
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-playcation-logo.svg" alt="bfm-playcation-logo">
-          <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-reginos-logo.svg" alt="bfm-reginos-logo">
+          <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-canada-foundation-logo.svg" alt="Canada Foundation logo">
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-tdot-canna-logo.svg" alt="bfm-tdot-canna-logo">
         </div>
       </div>
       <div class="testimonials-slider">
         <h2>What They Say</h2>
         <div class="row owl-carousel slider-items">
-          <div>
-            <p><i class="fas fa-quote-left"></i><br>Blueflower Media created my e-commerce website for my artwork from scratch. In a short period of time the website was up and working with great visuals and smooth functionality for visitors. Staff are friendly, flexible and the project was completed on budget. I recommend them.<br><i class="fas fa-quote-right"></i></p>
-            <p>Christian <br>CT Paintings</p>
+          <div class="quotation-open" >
+            <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-quotations.svg" alt="quotation-marks">
+          </div>
+          <div class="center-text">
+            <p>  Blueflower Media created my e-commerce website for my artwork from scratch. In a short period of time the website was up and working with
+               great visuals and smooth functionality for visitors. Staff are friendly, flexible and the project was completed on budget. I recommend them.  </p>
+            <p class="name-company">Christian <br>CT Paintings</p>
+          </div>
+          <div class="quotation-close">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-quotations.svg" alt="quotation-marks">
+          </div>
+
           </div>
           <!-- <div >
             <p><i class="fas fa-quote-left"></i>What a talented group of next-gen creative minds can do for your business. They put it in the spotlight with an exciting website with eye-captivating visuals and contents and give you the tools that can conquer the world of your business - these nerds are creative, neat, very intimidating, cool and always evolving.<i class="fas fa-quote-right"></i></p>

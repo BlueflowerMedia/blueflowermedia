@@ -109,26 +109,19 @@
     </div>
     <div class="tools-images">
       <div class="images-row">
-        <!-- <i class="fab fa-html5"></i>
-        <i class="fab fa-sass"></i>
-        <i class="fab fa-js"></i> -->
-
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/angular.png" alt="" class="image">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/django.png" alt="" class="image">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/google_analytics.png" alt="" class="image">
-
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/angular.png" alt="angular-logo" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/django.png" alt="django-logo" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/php.png" alt="php-logo" class="image">
       </div>
       <div class="images-row">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/wordpress.png" alt="" class="image">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/JavaScript.png" alt="" class="image">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/mysql.png" alt="" class="image">
-
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/wordpress.png" alt="wordpress-logo" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/reactjs.png" alt="reactjs-logo" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/mysql.png" alt="mysql-logo" class="image">
       </div>
       <div class="images-row">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/nodejs.png" alt="" class="image">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/reactjs.png" alt="" class="image">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/php.png" alt="" class="image">
-
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/nodejs.png" alt="nodejs-logo" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/JavaScript.png" alt="javascript-logo" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/logos/google_analytics.png" alt="google analytics-logo" class="image">
       </div>
 
     </div>
