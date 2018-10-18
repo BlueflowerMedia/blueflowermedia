@@ -449,10 +449,13 @@
         display: flex;
       }
       .clients-images{
-        flex: 1;
+        flex: 3;
         .row1{
+          display: flex;
+          justify-content: space-around;
           img{
-            width: 29%;
+            width: 33%;
+            height: 100%;
             max-width: 180px;
             padding: 10px;
             margin: 5px;
@@ -460,21 +463,38 @@
         }
       }
       .testimonials-slider{
-        flex: 1;
+        flex: 2;
+        padding: 0px 50px;
         .owl-carousel {
+
+          padding-top: 50px;
           max-width: 800px;
           margin: 0 auto;
-          text-align: center;
-          p{
-            i{
-              font-size: 60px;
-              color: #D8E0E8 !important;
+          text-align: justify;
+          .quotation-open{
+            width: 50%;
+            transform: scaleX(-1);
+          }
+          .center-text{
+            font-family: $font-primary !important;
+            font-size: 0.9rem;
+            padding: 0 10px;
+            // text-align:end;
+            .name-company{
+              text-align: right;
+              font-weight: 700;
             }
           }
+          .quotation-close{
+            width: 50%;
+            padding-top: 50px;
+            display: flex;
+            justify-content:flex-end;
+          }
+        }
       }
     }
   }
-}
 }
 // section-testomonials
 
@@ -568,11 +588,4 @@
   &.blue {
     background-color: $blue;
   }
-}
-//background-color: #af2546;
-
-
-
-body > div.branding{
-  display: none !important;
 }

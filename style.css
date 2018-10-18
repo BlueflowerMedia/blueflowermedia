@@ -2300,21 +2300,39 @@ footer {
   #section-clients-testimonials .container .row {
     display: flex; } }
 #section-clients-testimonials .container .row .clients-images {
-  flex: 1; }
-  #section-clients-testimonials .container .row .clients-images .row1 img {
-    width: 29%;
-    max-width: 180px;
-    padding: 10px;
-    margin: 5px; }
+  flex: 3; }
+  #section-clients-testimonials .container .row .clients-images .row1 {
+    display: flex;
+    justify-content: space-around; }
+    #section-clients-testimonials .container .row .clients-images .row1 img {
+      width: 33%;
+      height: 100%;
+      max-width: 180px;
+      padding: 10px;
+      margin: 5px; }
 #section-clients-testimonials .container .row .testimonials-slider {
-  flex: 1; }
+  flex: 2;
+  padding: 0px 50px; }
   #section-clients-testimonials .container .row .testimonials-slider .owl-carousel {
+    padding-top: 50px;
     max-width: 800px;
     margin: 0 auto;
-    text-align: center; }
-    #section-clients-testimonials .container .row .testimonials-slider .owl-carousel p i {
-      font-size: 60px;
-      color: #D8E0E8 !important; }
+    text-align: justify; }
+    #section-clients-testimonials .container .row .testimonials-slider .owl-carousel .quotation-open {
+      width: 50%;
+      transform: scaleX(-1); }
+    #section-clients-testimonials .container .row .testimonials-slider .owl-carousel .center-text {
+      font-family: "Source Sans Pro", sans-serif !important;
+      font-size: 0.9rem;
+      padding: 0 10px; }
+      #section-clients-testimonials .container .row .testimonials-slider .owl-carousel .center-text .name-company {
+        text-align: right;
+        font-weight: 700; }
+    #section-clients-testimonials .container .row .testimonials-slider .owl-carousel .quotation-close {
+      width: 50%;
+      padding-top: 50px;
+      display: flex;
+      justify-content: flex-end; }
 
 #section-testomonials {
   background-color: #1B8DCB; }
@@ -2376,9 +2394,6 @@ footer {
         background: #1d72f7; }
   #section-getintouch.blue {
     background-color: #1d72f7; }
-
-body > div.branding {
-  display: none !important; }
 
 section#blog .container {
   padding: 100px 10% 0 10%; }
