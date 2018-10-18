@@ -12,8 +12,22 @@ get_header();
 
 <!-- section-aboutus -->
 <section id="section-404">
-  <h1>404</h1>
-	<p>Oops! Looks like we couldn't find the page that you are looking for.</p>
+  <div class="text5 container">
+    <h1>Oops!</h1>
+    <p>ERROR 404</p><br>
+    <p>The page you are looking for can't be found.</p>
+    <p>Here are some pages that might help;</p><br>
+    <a href="http://localhost/blueflowermedia">Home</a>
+    <a href="<?php echo get_permalink(get_page_by_path( 'about-us' )); ?>">About</a><br>
+    <a href="<?php echo get_permalink(get_page_by_path( 'web-design' )); ?>">Web Design</a><br>
+    <a href="<?php echo get_permalink(get_page_by_path( 'graphic-design' )); ?>">Graphic Design</a><br>
+    <a href="<?php echo get_permalink(get_page_by_path( 'digital-marketing' )); ?>">Digital Marketing</a><br>
+    <a href="<?php echo get_permalink(get_page_by_path( 'portfolio' )); ?>">Our Work</a><br>
+    <a href="<?php echo get_permalink(get_page_by_path( 'blog' )); ?>">Blog</a><br>
+    <a href="<?php echo get_permalink(get_page_by_path( 'book-an-appointment' )); ?>">Book Consultation</a><br>
+    <a href="<?php echo get_permalink(get_page_by_path( 'contact' )); ?>">Contact Us</a>
+  </div>
+
 </section>
 
 
