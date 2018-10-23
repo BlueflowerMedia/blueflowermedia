@@ -3758,5 +3758,40 @@ span.wpcf7-not-valid-tip {
   background-size: 15%;
   background-position: bottom;
   margin-bottom: -10px; }
+  @media (max-width: 450px) {
+    #section-404 {
+      height: 90vh;
+      background-size: 30%;
+      margin-bottom: -5px; } }
+  @media (max-width: 350px) {
+    #section-404 {
+      height: 100vh; } }
   #section-404 .text5 {
-    font-weight: 700; }
+    max-width: 1600px;
+    font-weight: 600;
+    background-image: url("./images/404/bfm-2.0-404-graphic.svg");
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: right; }
+    @media (min-width: 450px) {
+      #section-404 .text5 {
+        width: 70%; } }
+    @media (max-width: 450px) {
+      #section-404 .text5 {
+        background-size: 70%; } }
+    #section-404 .text5 h1 {
+      font-size: 7rem; }
+    @media (min-width: 450px) {
+      #section-404 .text5 .texts {
+        display: flex; } }
+    #section-404 .text5 .texts .left {
+      flex: 1; }
+      #section-404 .text5 .texts .left a:hover {
+        color: white;
+        text-shadow: 2px 2px 4px #000000; }
+    #section-404 .text5 .texts .right {
+      flex: 1;
+      text-align: left; }
+      #section-404 .text5 .texts .right a:hover {
+        color: white;
+        text-shadow: 2px 2px 4px #000000; }

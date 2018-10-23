@@ -16,16 +16,26 @@ get_header();
     <h1>Oops!</h1>
     <p>ERROR 404</p><br>
     <p>The page you are looking for can't be found.</p>
-    <p>Here are some pages that might help;</p><br>
-    <a href="http://localhost/blueflowermedia">Home</a>
-    <a href="<?php echo get_permalink(get_page_by_path( 'about-us' )); ?>">About</a><br>
-    <a href="<?php echo get_permalink(get_page_by_path( 'web-design' )); ?>">Web Design</a><br>
-    <a href="<?php echo get_permalink(get_page_by_path( 'graphic-design' )); ?>">Graphic Design</a><br>
-    <a href="<?php echo get_permalink(get_page_by_path( 'digital-marketing' )); ?>">Digital Marketing</a><br>
-    <a href="<?php echo get_permalink(get_page_by_path( 'portfolio' )); ?>">Our Work</a><br>
-    <a href="<?php echo get_permalink(get_page_by_path( 'blog' )); ?>">Blog</a><br>
-    <a href="<?php echo get_permalink(get_page_by_path( 'book-an-appointment' )); ?>">Book Consultation</a><br>
-    <a href="<?php echo get_permalink(get_page_by_path( 'contact' )); ?>">Contact Us</a>
+    <p>Here are some pages that might help.</p><br>
+    <div class="texts">
+      <div class="left">
+        <a href="http://localhost/blueflowermedia">Home</a><br>
+        <a href="<?php echo get_permalink(get_page_by_path( 'about-us' )); ?>">About</a><br>
+        <a href="<?php echo get_permalink(get_page_by_path( 'book-an-appointment' )); ?>">Book Consultation</a><br>
+        <a href="<?php echo get_permalink(get_page_by_path( 'contact' )); ?>">Contact Us</a><br>
+        <a href="<?php echo get_permalink(get_page_by_path( 'blog' )); ?>">Blog</a><br>
+      </div>
+      <div class="right">
+        <a href="<?php echo get_permalink(get_page_by_path( 'portfolio' )); ?>">Our Work</a><br>
+        <a href="<?php echo get_permalink(get_page_by_path( 'web-design' )); ?>">Web Design</a><br>
+        <a href="<?php echo get_permalink(get_page_by_path( 'graphic-design' )); ?>">Graphic Design</a><br>
+        <a href="<?php echo get_permalink(get_page_by_path( 'digital-marketing' )); ?>">Digital Marketing</a><br>
+      </div>
+
+    </div>
+
+
+
   </div>
 
 </section>
