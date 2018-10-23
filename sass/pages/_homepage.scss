@@ -210,9 +210,9 @@
       @include mobile {
         display: none;
       }
-      height: 50px;
-      width: 50px;
-      border:3px solid #D9DFE6;
+      height: 40px;
+      width: 40px;
+      border:5px solid #D9DFE6;
       border-radius: 25px;
       justify-content: center;
       display: flex;
@@ -221,9 +221,9 @@
       .middle{
         width: 3px;
         .vertical-line{
-          border: 1.5px solid #D9DFE6;
+          border: 2.5px solid #D9DFE6;
           height: 510px;
-          margin-top: 47px;
+          margin-top: 35px;
           // @media(max-width: 768px){
           //   height: 450px;
           // }
