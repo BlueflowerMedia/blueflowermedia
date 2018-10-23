@@ -14,7 +14,7 @@
 </section>
 
 <!-- section banner -->
-<section id="banner1">
+<section id="graphic-design-banner1">
   <div class="container">
     <div class="text-left">
       <h2>"Good Design is <br>Good Business."</h2>
@@ -29,6 +29,7 @@
   </div>
 
 </section>
+
 
 <!-- the process -->
 
@@ -161,7 +162,25 @@
     </div>
   </div>
 </section> -->
+<!-- section banner -->
+<section id="graphic-design-banner2">
+  <div class="container">
+    <div class="text-left">
+      <h2>Consistency makes<br> your brand memorable. </h2>
+      <p>Your want your customers to remember their experience with you. It’s a great way to improve how often they return to your business. If our goal is to make sure your business is as memorable as possible, it’s crucial to design every online and offline touchpoint following the same design styles. This will include your website, social profiles, business cards, promotional materials, advertising content, signs, etc. </p>
+    </div>
 
+    <div class="text-right">
+      <p>I lost my original logo file, can I recreate it?<br>If you have lost your original logo file and would like to recreate your original logo file and keep the scalable vector file for future use, that is perfectly fine. Send us whatever files you have and we will make it for you!</p>
+      <p>I want to print a flyer or sign but I dont know the dimensions, what can I do?<br>Look for printing companies that print what you are looking for. They will usually have the dimensions on their website. You can also let us know what you are looking for and we can contact your printers for you.</p>
+      <p>How do I make sure our design in the future is consistent with our current design?<br>With a brand style guide, you will have a full booklet of guidelines demonstrating how to exactly to create design for all of your future projects.</p>
+        <hr>
+    </div>
+  </div>
+
+</section>
+
+<!-- section we-Design -->
 <section id="we-design">
   <!-- <div class="txtservice1 flex-row">
     <h1>We Design:</h1>
