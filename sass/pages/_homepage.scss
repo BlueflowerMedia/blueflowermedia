@@ -150,7 +150,9 @@
 
 // section-aboutus
 #section-aboutus {
-  background:#2A3275;
+  // background:#2A3275;
+  background-image:url("./images/homepage1/homepage-about-background.png");
+  background-position:center;
   @include slanted-edge(top-left, 0, 15%);
 
   .container {

@@ -15,10 +15,10 @@
 
 
 #fbox1 {
-	@include position(absolute, $bottom: 10%, $right: 20%);
+	@include position(absolute, $bottom: 10%, $right: 25%);
 	@include box(200px, 200px);
-	/* border-radius: 50px; */
-	/* background: $yellow; */
+	border-radius: 50px;
+	background: $yellow;
 	@include mobile {
 		display: none;
 	}
@@ -32,10 +32,10 @@
 }
 
 #fbox3 {
-	@include position(absolute, $bottom: -10%, $right: 13%);
+	@include position(absolute, $bottom: -10%, $right: 10%);
 	@include box(120px, 120px);
 	border-radius: 20px;
-		background: darken($blue-new, 5);
+		background: darken($blue, 5);
 	@include mobile {
 		display: none;
 	}
