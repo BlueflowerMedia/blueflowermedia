@@ -27,8 +27,6 @@
       <p>Tell us about your target audience, brand personality, company values, how you want your business to be remembered, previous design inspirations, etc. The more we know about your company, the easier it is for us to design a brand that represents your company accurately.</p>
       <hr>
     </div>
-
-
   </div>
 
 </section>
