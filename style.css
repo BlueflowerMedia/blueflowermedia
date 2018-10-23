@@ -2614,7 +2614,7 @@ div.entry-content p:first-child:first-letter {
     display: flex;
     justify-content: center; }
     #services .services-logo img {
-      width: 300px; }
+      width: 400px; }
       @media (max-width: 760px) {
         #services .services-logo img {
           width: 130px;
@@ -3575,6 +3575,125 @@ span.wpcf7-not-valid-tip {
     @media (max-width: 425px) {
       #section-header-2 .image-text-2 .banner-text-2 {
         height: 500px; } }
+
+#banner1-webdesign {
+  background-image: url("./images/webdesign/bfm-2.0-web-design-banner.png");
+  background-position: top;
+  background-size: cover;
+  height: 692px; }
+  @media (max-width: 1024px) {
+    #banner1-webdesign {
+      height: 630px; } }
+  #banner1-webdesign .container {
+    height: 692px; }
+    @media (min-width: 500px) {
+      #banner1-webdesign .container {
+        display: flex; } }
+    @media (max-width: 1024px) {
+      #banner1-webdesign .container {
+        height: 630px; } }
+    #banner1-webdesign .container .text-left {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      justify-content: center;
+      padding: 30px 0; }
+      @media (max-width: 500px) {
+        #banner1-webdesign .container .text-left {
+          text-align: center; } }
+      #banner1-webdesign .container .text-left h2 {
+        font-size: 60px;
+        color: #fff;
+        font-weight: 400; }
+        @media (max-width: 1025px) {
+          #banner1-webdesign .container .text-left h2 {
+            font-size: 42px; } }
+        @media (max-width: 500px) {
+          #banner1-webdesign .container .text-left h2 {
+            font-size: 37px; } }
+      #banner1-webdesign .container .text-left h3 {
+        color: #fff;
+        font-weight: 400;
+        font-size: 1.4rem; }
+    #banner1-webdesign .container .text-right {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      justify-content: center;
+      padding: 30px 0; }
+      @media (min-width: 500px) {
+        #banner1-webdesign .container .text-right {
+          padding-left: 70px; } }
+      #banner1-webdesign .container .text-right p {
+        color: white;
+        font-size: 17px; }
+      #banner1-webdesign .container .text-right hr {
+        background-color: #EBCC36;
+        width: 50%;
+        height: 3px;
+        margin: 10px 0;
+        border-top: none; }
+
+#banner2-webdesign {
+  background-image: url("./images/webdesign/bfm-2.0-ecommerce-image-complete.png");
+  background-position: top;
+  background-size: cover;
+  height: 692px; }
+  @media (max-width: 1024px) {
+    #banner2-webdesign {
+      height: 1000px; } }
+  #banner2-webdesign .container {
+    height: 692px; }
+    @media (min-width: 500px) {
+      #banner2-webdesign .container {
+        display: flex; } }
+    @media (max-width: 1024px) {
+      #banner2-webdesign .container {
+        height: 630px; } }
+    #banner2-webdesign .container .text-left {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      justify-content: center;
+      padding: 30px 0; }
+      @media (max-width: 500px) {
+        #banner2-webdesign .container .text-left {
+          text-align: center; } }
+      #banner2-webdesign .container .text-left h2 {
+        font-size: 60px;
+        color: #fff;
+        font-weight: 400; }
+        @media (max-width: 1025px) {
+          #banner2-webdesign .container .text-left h2 {
+            font-size: 42px; } }
+        @media (max-width: 500px) {
+          #banner2-webdesign .container .text-left h2 {
+            font-size: 37px; } }
+      #banner2-webdesign .container .text-left p {
+        color: #fff;
+        font-weight: 400; }
+    #banner2-webdesign .container .text-right {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      justify-content: center;
+      padding: 30px 0; }
+      @media (min-width: 500px) {
+        #banner2-webdesign .container .text-right {
+          padding-left: 70px; } }
+      #banner2-webdesign .container .text-right p {
+        color: white;
+        font-size: 17px; }
+      #banner2-webdesign .container .text-right hr {
+        background-color: #EBCC36;
+        width: 50%;
+        height: 3px;
+        margin: 10px 0;
+        border-top: none; }
 
 #section-header-3 {
   height: 1000px;
