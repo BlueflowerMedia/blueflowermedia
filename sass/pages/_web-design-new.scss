@@ -1,54 +1,3 @@
-#section-header-2{
-  // margin-top: 70px;
-  height: 900px;
-  background-color:$blue-new;
-
-  @media(max-width: 425px){
-    height: 1000px;
-  }
-
-  .image-text-2{
-    @media(max-width: 425px){
-      // height: 1000px;
-    }
-    @media (min-width: 765px){
-      display: flex;
-    }
-
-    .banner-image-2{
-      flex: 1;
-      background-position: center;
-      background-repeat: no-repeat;
-      height: 900px;
-      background-image: url("images/webdesign/adult.jpg");
-      @media(max-width: 425px){
-        // background-size: contain;
-        height: 500px;
-      }
-    }
-    .banner-text-2{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      flex: 1;
-      text-align: left;
-      padding: 60px 10px;
-
-      h2,h5,p{
-        color: white;
-        padding: 0 15%;
-        margin: 8px 0;
-        @media(max-width: 425px){
-          padding: 0;
-        }
-      }
-      @media(max-width: 425px){
-        height: 500px;
-      }
-    }
-  }
-}
-
 // section banner1
 #banner1-webdesign{
   background-image: url("./images/webdesign/bfm-2.0-web-design-banner.png");
@@ -83,7 +32,7 @@
       h2{
         font-size: 60px;
         color:$white;
-        font-weight: 400;
+        // font-weight: 400;
         @media(max-width: 1025px){
           font-size: 42px;
         }
@@ -286,6 +235,9 @@
           display: inline-block;
           position: relative;
           background-color: #ECCD1A;
+          img{
+            max-width: 70%;
+          }
           @media(min-width: 500px){
                 display: flex;
           }
