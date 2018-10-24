@@ -103,31 +103,48 @@
 <!-- section digital marketing services -->
 <section id="digital-marketing-services">
   <div class="services-container">
-    <h2>Our Digital Marketing Services</h2>
-<div class="services-blocks">
-  <div class="service-block">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/SEO.svg" alt="" class="image">
-    <h3>Search Engine Optimization</h3>
-    <p>Small business owners can have a hard time
-navigating through the clutter of the digital
-marketing world.</p>
-  </div>
-  <div class="service-block">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/SocialMedia.svg" alt="" class="image">
-    <h3>Social Media Management</h3>
-    <p>Small business owners can have a hard time
-navigating through the clutter of the digital
-marketing world.</p>
-  </div>
-  <div class="service-block">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/DigitalMarket.svg" alt="" class="image">
-    <h3>Digital Advertising</h3>
-    <p>Small business owners can have a hard time
-navigating through the clutter of the digital
-marketing world.</p>
-  </div>
-</div>
-
+    <h2>Our Marketing Services:</h2>
+    <div class="services-blocks">
+      <div class="service-block">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/SEO.svg" alt="" class="image">
+        <div class="text">
+          <h3>Search Engine Optimization</h3>
+          <p>Small business owners can have a hard time
+            navigating through the clutter of the digital
+            marketing world.Small business owners can have a hard time
+               navigating through the clutter of the digital
+               marketing world.Small business owners can have a hard time
+                  navigating through the clutter of the digital
+                  marketing world.</p>
+        </div>
+      </div>
+      <div class="service-block">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/SocialMedia.svg" alt="" class="image">
+        <div class="text">
+        <h3>Social Media Management</h3>
+          <p>Small business owners can have a hard time
+            navigating through the clutter of the digital
+            marketing world.Small business owners can have a hard time
+               navigating through the clutter of the digital
+               marketing world.Small business owners can have a hard time
+                  navigating through the clutter of the digital
+                  marketing world.</p>
+        </div>
+      </div>
+      <div class="service-block">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/DigitalMarket.svg" alt="" class="image">
+        <div class="text">
+        <h3>Digital Advertising</h3>
+         <p>Small business owners can have a hard time
+            navigating through the clutter of the digital
+            marketing world.Small business owners can have a hard time
+               navigating through the clutter of the digital
+               marketing world.Small business owners can have a hard time
+                  navigating through the clutter of the digital
+                  marketing world.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 

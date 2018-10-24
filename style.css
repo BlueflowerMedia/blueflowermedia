@@ -3555,10 +3555,8 @@ span.wpcf7-not-valid-tip {
         padding: 20px 35px; }
 
 .services-container {
-  background-color: #2B2B2B;
   text-align: center; }
   .services-container h2 {
-    color: #fff;
     padding: 50px; }
   .services-container .services-blocks {
     max-width: 1200px;
@@ -3566,20 +3564,29 @@ span.wpcf7-not-valid-tip {
     justify-content: center;
     align-items: center;
     padding-bottom: 100px; }
-    @media (min-width: 500px) {
-      .services-container .services-blocks {
-        display: flex; } }
     .services-container .services-blocks .service-block {
       flex: 1;
       text-align: center;
       flex-basis: 33%;
-      padding: 10px; }
+      padding: 30px 60px;
+      box-shadow: 1px 1px 10px -5px rgba(0, 0, 0, 0.4);
+      margin: 10px; }
+      @media (max-width: 450px) {
+        .services-container .services-blocks .service-block {
+          padding: 10px; } }
+      @media (min-width: 450px) {
+        .services-container .services-blocks .service-block {
+          display: flex; } }
       .services-container .services-blocks .service-block img {
         width: 150px;
         background-color: #fff; }
-      .services-container .services-blocks .service-block h3, .services-container .services-blocks .service-block p {
-        padding: 10px 40px;
-        color: #fff; }
+      .services-container .services-blocks .service-block .text {
+        text-align: left; }
+        @media (max-width: 450px) {
+          .services-container .services-blocks .service-block .text h3 {
+            text-align: center; } }
+        .services-container .services-blocks .service-block .text h3, .services-container .services-blocks .service-block .text p {
+          padding: 10px 40px; }
 
 #banner1-webdesign {
   background-image: url("./images/webdesign/bfm-2.0-web-design-banner.png");
