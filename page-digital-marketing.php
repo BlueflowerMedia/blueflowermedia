@@ -50,43 +50,47 @@
   <div class="figure-and-text">
     <div class="figure">
       <div class="circle">
-        <p>Discovery</p>
+
+        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/Discovery.svg" alt="" class="image">
+
       </div>
       <div class="arrow1">
         <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/blue-arrow.png" alt="" class="image">
       </div>
       <div class="circle">
-        <p>Strategy</p>
+
+        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/Strategy.svg" alt="" class="image">
+
       </div>
       <div class="arrow1">
         <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/blue-arrow.png" alt="" class="image">
       </div>
       <div class="circle">
-        <p>Execute</p>
+        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/Execute.svg" alt="" class="image">
+
+
       </div>
       <div class="arrow1">
         <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/blue-arrow.png" alt="" class="image">
       </div>
       <div class="circle">
-        <p>Revise</p>
+
+        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/Optimize.svg" alt="" class="image">
+
       </div>
     </div>
     <div class="text-below">
       <div class="text-one">
-        <p>Small business owners can have a hard time
-    navigating through the clutter.</p>
+        <p>Discovery</p>
       </div>
       <div class="text-one">
-        <p>Small business owners can have a hard time
-    navigating through the clutter .</p>
+    <p>Strategy</p>
       </div>
       <div class="text-one">
-        <p>Small business owners can have a hard time
-    navigating through the clutter .</p>
+        <p>Execute</p>
       </div>
       <div class="text-one">
-        <p>Small business owners can have a hard time
-    navigating through the clutter .</p>
+        <p>Revise</p>
       </div>
 
     </div>
@@ -102,21 +106,21 @@
     <h2>Our Digital Marketing Services</h2>
 <div class="services-blocks">
   <div class="service-block">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/gears.png" alt="" class="image">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/SEO.svg" alt="" class="image">
     <h3>Search Engine Optimization</h3>
     <p>Small business owners can have a hard time
 navigating through the clutter of the digital
 marketing world.</p>
   </div>
   <div class="service-block">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/gears.png" alt="" class="image">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/SocialMedia.svg" alt="" class="image">
     <h3>Social Media Management</h3>
     <p>Small business owners can have a hard time
 navigating through the clutter of the digital
 marketing world.</p>
   </div>
   <div class="service-block">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/gears.png" alt="" class="image">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/DigitalMarket.svg" alt="" class="image">
     <h3>Digital Advertising</h3>
     <p>Small business owners can have a hard time
 navigating through the clutter of the digital

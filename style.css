@@ -3424,7 +3424,8 @@ span.wpcf7-not-valid-tip {
       #banner2 .container .text-right hr {
         background-color: #EBCC36;
         width: 50%;
-        height: 3px; }
+        height: 3px;
+        margin: 10px 0; }
 
 #banner3 {
   background-image: url("./images/digital-marketing/bfm-2.0-digital-marketing-image-2-complete.png");
@@ -3476,7 +3477,8 @@ span.wpcf7-not-valid-tip {
       #banner3 .container .text-right hr {
         background-color: #EBCC36;
         width: 50%;
-        height: 3px; }
+        height: 3px;
+        margin: 10px 0; }
 
 .process-container {
   text-align: center;
