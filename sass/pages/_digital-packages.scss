@@ -1,0 +1,112 @@
+#section-packages {
+  // background-color: $blue-new;
+  position: relative;
+  justify-content: space-between;
+
+  .container {
+    // background-color: $blue-new;
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 3% 3% 7% 3%;
+    h1 {
+      text-align: center;
+      color: #000;
+    }
+    .services {
+      justify-content: space-between;
+    }
+  }
+}
+.package {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 30px -5px rgba(0, 0, 0, 0.4);
+  .service-anchor {
+    .logo {
+      text-align: center;
+      width: 100%;
+      // margin-top: 10px;
+      background-image: linear-gradient($blue-new,#2A3671);
+      border-radius: 10px 10px 0 0;
+      padding: 25px;
+      img {
+        height: 180px;
+        border-radius: 10%;
+        margin: 0 auto;
+        display: block;
+        @include mobile {
+          margin: 0 auto;
+        }
+      }
+      h3{
+        color: white;
+      }
+      p{
+        color: white;
+        font-size: 15px;
+      }
+    }
+  }
+  @include mobile {
+    min-height: auto;
+  }
+  flex-flow: row;
+  width: calc(100% * (1/3) - 50px);
+  text-align: left;
+  // padding: 0 10px;
+  margin: 20px;
+  @include tablet {
+    width: calc(100% * (1/2) - 40px);
+  }
+  @include mobile {
+    width: calc(100% - 20px);
+    text-align: center;
+  }
+
+  a.service-anchor {
+    display: block;
+    h3::before {
+      width: 25%;
+      transition: all 0.2s cubic-bezier(0.13, 0.59, 0.63, 1.07);
+      left: 37.5%;
+    }
+
+    &:hover h3::before {
+      width: 50%;
+      left: 25%;
+    }
+  }
+  .logo {
+
+  }
+}
+.package-content {
+  margin: 20px 0;
+  p{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  ul {
+    li {
+      font-size: 16px;
+      text-align: left;
+      font-weight: 600;
+      color: $black;
+      @include mobile {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.package-list {
+  color: #6b6b6b;
+  // list-style-image: url("images/bfm-arrow-icon.svg");
+  padding: 15px 25px;
+  @include mobile {
+    list-style: none;
+  }
+  // margin-left: 15px;
+}
