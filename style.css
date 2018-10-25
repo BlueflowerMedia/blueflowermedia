@@ -3480,79 +3480,78 @@ span.wpcf7-not-valid-tip {
         height: 3px;
         margin: 10px 0; }
 
-.process-container {
+#digital-marketing-process .process-container {
   text-align: center;
   padding-bottom: 50px; }
-  .process-container .digital-marketing {
+  #digital-marketing-process .process-container .digital-marketing {
     text-align: center; }
-    .process-container .digital-marketing h2 {
-      padding: 50px; }
-  .process-container .figure-and-text {
-    padding: 10px; }
+    #digital-marketing-process .process-container .digital-marketing h2 {
+      padding: 100px 50px; }
+      @media (max-width: 500px) {
+        #digital-marketing-process .process-container .digital-marketing h2 {
+          padding: 50px; } }
+  #digital-marketing-process .process-container .figure-and-text {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start; }
     @media (max-width: 500px) {
-      .process-container .figure-and-text {
-        display: flex; } }
-    .process-container .figure-and-text .figure {
-      max-width: 1200px;
+      #digital-marketing-process .process-container .figure-and-text {
+        flex-direction: column;
+        align-items: center; } }
+    #digital-marketing-process .process-container .figure-and-text .figure {
+      max-width: 200px;
       margin: 0 auto;
-      justify-content: center;
-      align-items: center; }
+      flex-direction: column; }
       @media (min-width: 500px) {
-        .process-container .figure-and-text .figure {
+        #digital-marketing-process .process-container .figure-and-text .figure {
           display: flex; } }
-      .process-container .figure-and-text .figure .circle {
-        height: 200px;
-        width: 200px;
+      #digital-marketing-process .process-container .figure-and-text .figure .circle {
+        height: 160px;
+        width: 160px;
         border-radius: 50%;
         display: inline-block;
         position: relative;
         justify-content: center;
         /* align horizontal */
         align-items: center; }
+        #digital-marketing-process .process-container .figure-and-text .figure .circle img {
+          max-width: 70%; }
         @media (min-width: 500px) {
-          .process-container .figure-and-text .figure .circle {
+          #digital-marketing-process .process-container .figure-and-text .figure .circle {
             display: flex; } }
         @media (max-width: 1080px) {
-          .process-container .figure-and-text .figure .circle {
+          #digital-marketing-process .process-container .figure-and-text .figure .circle {
             height: 120px;
-            width: 120px; }
-            .process-container .figure-and-text .figure .circle p {
-              font-size: 18px !important;
-              font-weight: 800; } }
-        .process-container .figure-and-text .figure .circle p {
-          font-size: 30px;
-          font-weight: 600;
-          position: absolute;
-          top: 25%;
-          left: 25%; }
-      .process-container .figure-and-text .figure .arrow1 {
-        display: flex;
-        justify-content: center;
-        /* align horizontal */
-        align-items: center; }
-        .process-container .figure-and-text .figure .arrow1 img {
-          width: 100px;
-          height: 20px; }
-          @media (max-width: 500px) {
-            .process-container .figure-and-text .figure .arrow1 img {
-              transform: rotate(90deg);
-              width: 40px !important;
-              margin: 10px; } }
-          @media (max-width: 1080px) {
-            .process-container .figure-and-text .figure .arrow1 img {
-              width: 70px; } }
-    .process-container .figure-and-text .text-below {
+            width: 120px; } }
+      #digital-marketing-process .process-container .figure-and-text .figure .text {
+        margin-top: 20px; }
+    #digital-marketing-process .process-container .figure-and-text .arrow1 {
       display: flex;
-      max-width: 1200px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      margin-top: 75px;
+      margin-left: 10px;
+      margin-right: 10px; }
+      @media (max-width: 1024px) {
+        #digital-marketing-process .process-container .figure-and-text .arrow1 {
+          margin-top: 55px; } }
+      @media (min-width: 760px) and (max-width: 1023px) {
+        #digital-marketing-process .process-container .figure-and-text .arrow1 {
+          margin-top: 55px; } }
+      #digital-marketing-process .process-container .figure-and-text .arrow1 img {
+        height: 20px; }
+        @media (max-width: 500px) {
+          #digital-marketing-process .process-container .figure-and-text .arrow1 img {
+            transform: rotate(90deg);
+            width: 40px !important;
+            margin: 0 auto; } }
+        @media (max-width: 1080px) {
+          #digital-marketing-process .process-container .figure-and-text .arrow1 img {
+            width: 70px; } }
       @media (max-width: 500px) {
-        .process-container .figure-and-text .text-below {
-          flex-direction: column; } }
-      @media (max-width: 1080px) {
-        .process-container .figure-and-text .text-below {
-          max-width: 900px; } }
-      .process-container .figure-and-text .text-below .text-one {
-        padding: 20px 35px; }
+        #digital-marketing-process .process-container .figure-and-text .arrow1 {
+          margin: 0 0 20px 0; } }
 
 .services-container {
   text-align: center; }
@@ -3585,8 +3584,9 @@ span.wpcf7-not-valid-tip {
         @media (max-width: 450px) {
           .services-container .services-blocks .service-block .text h3 {
             text-align: center; } }
-        .services-container .services-blocks .service-block .text h3, .services-container .services-blocks .service-block .text p {
-          padding: 10px 40px; }
+        @media (min-width: 450px) {
+          .services-container .services-blocks .service-block .text h3, .services-container .services-blocks .service-block .text p {
+            padding: 10px 40px; } }
 
 #banner1-webdesign {
   background-image: url("./images/webdesign/bfm-2.0-web-design-banner.png");
