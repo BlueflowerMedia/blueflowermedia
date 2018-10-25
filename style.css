@@ -1894,7 +1894,9 @@ footer {
   width: 200px;
   height: 200px;
   border-radius: 50px;
-  background: #EFDC05; }
+  background: #EFDC05;
+  z-index: 99 !important;
+}
   @media (max-width: 760px) {
     #fbox1 {
       display: none; } }
@@ -2011,7 +2013,7 @@ footer {
             text-align: center; } }
         @media (max-width: 1025px) {
           #section-header .container .header-text .sa {
-            font-size: 36px;
+            font-size: 35px;
             padding: 0 10px; } }
       #section-header .container .header-text h4 {
         margin-top: 20px;
@@ -2146,7 +2148,7 @@ footer {
     width: 3px; }
     #section-ourprocess .container .circle1 .middle .vertical-line {
       border: 2.5px solid #D9DFE6;
-      height: 510px;
+      height: 525px;
       margin-top: 35px; }
       @media (max-width: 1024px) {
         #section-ourprocess .container .circle1 .middle .vertical-line {
@@ -2154,12 +2156,15 @@ footer {
       @media (min-width: 1800px) {
         #section-ourprocess .container .circle1 .middle .vertical-line {
           height: 550px; } }
+      @media (min-width: 2500px) {
+        #section-ourprocess .container .circle1 .middle .vertical-line {
+          height: 525px; } }
 #section-ourprocess .container .process-title {
   justify-content: center;
   margin: 1rem auto; }
   @media (max-width: 450px) {
     #section-ourprocess .container .process-title {
-      text-align: center; } }
+      text-align: center !important; } }
   @media (max-width: 1200px) {
     #section-ourprocess .container .process-title h2 {
       font-size: 2.2rem; } }
