@@ -2,12 +2,12 @@
 
 <section id="services">
   <div class="container flex-row">
-    <div class="services-logo flex1">
+    <div class="services-logo flex2">
       <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/bfm-2.0-digital-marketing-page-main-icon.svg" alt="" class="image">
     </div>
-    <div class="txtservice flex2">
+    <div class="txtservice flex3">
       <h1>Digital Marketing<span class="big-dot blue">.</span></h1>
-      <p>In a multi-device world, its very important to attract and retain users on as many touch points as possible. For us, the first step is to have a great presence on as many relevant platforms as possible in a way that makes the most of each platforms. The next step is find appropriate advertising opportunities that will attract the right customers to your platforms/landing pages. The need for amazing user experience will be very obvious here in this stage of your digital marketing process, because great design just converts so much more than bland design! We then work towards improving your conversion rate & your customer return rate.</p>
+      <p>In a multi-device world, its very important to attract and retain users on as many touch points as possible. For us, the first step is to have a great presence on as many relevant platforms as possible in a way that makes the most of each platforms. The next step is find appropriate advertising opportunities that will attract the right customers to your platforms/landing pages.</p>
     </div>
   </div>
 </section>
@@ -33,73 +33,70 @@
       <h3>Countless marketing options.</h3>
       <h3>What now?</h3>
     </div>
-
     <div class="text-right">
       <p>In a multi-device world, its very important to attract and retain users on as many touch points as In a multi-device world, its very important to attract and retain users on as many touch points as </p>
-<hr>
+      <hr>
     </div>
   </div>
 </section>
 
-<!-- section process -->
+
+
+<!-- section igital marketing-process -->
 <section id="digital-marketing-process">
 <div class="process-container">
   <div class="digital-marketing">
-    <h2>The Digital Marketing Process</h2>
+    <h2>The Digital Marketing Process.</h2>
   </div>
   <div class="figure-and-text">
     <div class="figure">
       <div class="circle">
-
         <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/Discovery.svg" alt="" class="image">
-
       </div>
-      <div class="arrow1">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/blue-arrow.png" alt="" class="image">
-      </div>
-      <div class="circle">
-
-        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/Strategy.svg" alt="" class="image">
-
-      </div>
-      <div class="arrow1">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/blue-arrow.png" alt="" class="image">
-      </div>
-      <div class="circle">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/Execute.svg" alt="" class="image">
-
-
-      </div>
-      <div class="arrow1">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/blue-arrow.png" alt="" class="image">
-      </div>
-      <div class="circle">
-
-        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/Optimize.svg" alt="" class="image">
-
+      <div class="text">
+        <p><strong>Discovery</strong><br><br></p>
       </div>
     </div>
-    <div class="text-below">
-      <div class="text-one">
-        <p>Discovery</p>
+      <div class="arrow1">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/arrow.svg" alt="" class="image">
       </div>
-      <div class="text-one">
-    <p>Strategy</p>
-      </div>
-      <div class="text-one">
-        <p>Execute</p>
-      </div>
-      <div class="text-one">
-        <p>Revise</p>
+      <div class="figure">
+        <div class="circle">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/Strategy.svg" alt="" class="image">
+        </div>
+        <div class="text">
+          <p>Strategy</p>
+        </div>
       </div>
 
-    </div>
+      <div class="arrow1">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/arrow.svg" alt="" class="image">
+      </div>
+
+      <div class="figure">
+        <div class="circle">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/Execute.svg" alt="" class="image">
+        </div>
+        <div class="text">
+          <p>Execute</p>
+        </div>
+      </div>
+
+      <div class="arrow1">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/arrow.svg" alt="" class="image">
+      </div>
+
+      <div class="figure">
+        <div class="circle">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/Optimize.svg" alt="" class="image">
+        </div>
+        <div class="text">
+          <p>Revise</p>
+        </div>
+      </div>
   </div>
-
-
 </div>
 </section>
-
 <!-- section digital marketing services -->
 <section id="digital-marketing-services">
   <div class="services-container">
@@ -112,23 +109,23 @@
           <p>Small business owners can have a hard time
             navigating through the clutter of the digital
             marketing world.Small business owners can have a hard time
-               navigating through the clutter of the digital
-               marketing world.Small business owners can have a hard time
-                  navigating through the clutter of the digital
-                  marketing world.</p>
+            navigating through the clutter of the digital
+            marketing world.Small business owners can have a hard time
+            navigating through the clutter of the digital
+            marketing world.</p>
         </div>
       </div>
       <div class="service-block">
         <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/SocialMedia.svg" alt="" class="image">
         <div class="text">
         <h3>Social Media Management</h3>
-          <p>Small business owners can have a hard time
-            navigating through the clutter of the digital
-            marketing world.Small business owners can have a hard time
-               navigating through the clutter of the digital
-               marketing world.Small business owners can have a hard time
-                  navigating through the clutter of the digital
-                  marketing world.</p>
+        <p>Small business owners can have a hard time
+          navigating through the clutter of the digital
+          marketing world.Small business owners can have a hard time
+          navigating through the clutter of the digital
+          marketing world.Small business owners can have a hard time
+          navigating through the clutter of the digital
+          marketing world.</p>
         </div>
       </div>
       <div class="service-block">
