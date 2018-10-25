@@ -4004,6 +4004,7 @@ span.wpcf7-not-valid-tip {
 
 .package-list {
   color: #6b6b6b;
+  list-style-image: url("images/bfm-arrow-icon.svg");
   padding: 15px 25px; }
   @media (max-width: 760px) {
     .package-list {
