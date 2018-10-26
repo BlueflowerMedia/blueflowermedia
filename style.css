@@ -1435,21 +1435,21 @@ button.tag {
     background: #e43838; }
 
 button.nav-contact {
-  background: #1B8DCB;
+  background-size: 200% auto;
+  background-image: linear-gradient(to right, #EF6F8A 0%, #ec7e7a 51%, #EF6F8A 100%);
   color: white;
   text-transform: uppercase;
-  padding: 10px 15px;
+  padding: 14px 15px;
   font-weight: 700;
   font-size: 0.9rem;
-  border: 3px solid #1B8DCB;
   border-radius: 5px;
-  transition: all 0.3s cubic-bezier(0.16, 0.91, 0.56, 1);
+  transition: all 0.3s ease;
   white-space: nowrap;
   box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
   margin-left: 15px; }
   button.nav-contact:hover {
-    background: rgba(255, 255, 255, 0);
-    color: #1B8DCB; }
+    background-position: right center;
+    box-shadow: 0 7px 20px -5px rgba(0, 0, 0, 0.4); }
 
 button.agency-business {
   background: #ECCE1E;
