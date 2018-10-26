@@ -17,7 +17,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       <h4><hr class="line-left">Branding | Web Design | Digital Marketing<hr class="line-right"></h4>
       <div class="schedule-now sr">
         <p>Ready to start discussing your business goals?<br>Schedule your free consultation now!</p>
-          <a href="<?php echo get_permalink(get_page_by_path( 'book-an-appointment' )); ?>"><button type="button" name="button">SCHEDULE NOW</button></a>
+        <a href="<?php echo get_permalink(get_page_by_path( 'book-an-appointment' )); ?>"><button type="button" name="button">SCHEDULE NOW</button></a>
       </div>
     </div>
     <div class="header-image">
@@ -32,7 +32,8 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
   <div class="container flex-row">
     <div class="left">
       <h1 class="white">About Us<span class="big-dot yellow">.</span></h1>
-      <p class="white">We are a <b>Toronto based digital agency</b> specializing in creating, improving, and managing your digital footprints. We work with clients from the ground up - from brainstorming branding concepts to developing and launching projects for mass market use. With an emphasis on user experience, we make your website/app intuitive and accessible to all your clients. We do all of our work in house with our team of experts.</p>
+      <p class="white">We are a <b>Toronto based digital agency</b> specializing in creating, improving, and managing your digital footprints. We work with clients from the ground up - from brainstorming branding concepts to developing and launching projects for mass
+        market use. With an emphasis on user experience, we make your website/app intuitive and accessible to all your clients. We do all of our work in house with our team of experts.</p>
     </div>
     <div class="fbox" id="fbox1" style="transform: rotate(45deg);" data-rellax-speed="4">
       <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/about-icons/rocket.svg" alt="" style="transform: rotate(-45deg);"> -->
@@ -59,9 +60,11 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
         <a href="https://www.youtube.com/watch?v=09q57zoPIOw" target="_blank">
           <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-2.0-conceptualize.svg" alt="" class="image"></a>
       </div>
-      <div class="circle1">
+      <div class="circle1" id="circle1">
         <div class="middle">
           <div class="vertical-line">
+            <div class="progress-vertical-line">
+            </div>
           </div>
         </div>
       </div>
@@ -79,7 +82,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
         <p>Design a brand that moves your customers & develop websites/applications that allow for maximum results.
         </p>
       </div>
-      <div class="circle1">
+      <div class="circle1" id="circle2">
 
       </div>
       <div class="process-pic flex1">
@@ -91,7 +94,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       <div class="process-pic flex1">
         <a href="https://www.youtube.com/watch?v=fWDYwY2rHx8" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-2.0-market-your-business.svg" alt="" class="image"></a>
       </div>
-      <div class="circle1">
+      <div class="circle1" id="circle3">
 
       </div>
       <div class="process-title flex1 flex-column">
@@ -137,7 +140,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
         <a class="service-anchor" href="<?php echo $graphicdesign; ?>">
           <div class="logo">
             <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-2.0-graphic-design-icon.svg" alt="bfm-graphic-design-icon">
-            <h3 >Graphic Design</h3>
+            <h3>Graphic Design</h3>
           </div>
         </a>
         <div class="service-content">
@@ -200,26 +203,26 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       <div class="testimonials-slider">
         <h2>What They Say</h2>
         <div class="row owl-carousel slider-items">
-          <div class="quotation-open" >
+          <div class="quotation-open">
             <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-quotations.svg" alt="quotation-marks">
           </div>
           <div class="center-text">
-            <p>  Blueflower Media created my e-commerce website for my artwork from scratch. In a short period of time the website was up and working with
-               great visuals and smooth functionality for visitors. Staff are friendly, flexible and the project was completed on budget. I recommend them.  </p>
+            <p> Blueflower Media created my e-commerce website for my artwork from scratch. In a short period of time the website was up and working with great visuals and smooth functionality for visitors. Staff are friendly, flexible and the project was
+              completed on budget. I recommend them. </p>
             <p class="name-company">Christian <br>CT Paintings</p>
           </div>
           <div class="quotation-close">
             <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-quotations.svg" alt="quotation-marks">
           </div>
 
-          </div>
-          <!-- <div >
+        </div>
+        <!-- <div >
             <p><i class="fas fa-quote-left"></i>What a talented group of next-gen creative minds can do for your business. They put it in the spotlight with an exciting website with eye-captivating visuals and contents and give you the tools that can conquer the world of your business - these nerds are creative, neat, very intimidating, cool and always evolving.<i class="fas fa-quote-right"></i></p>
             <p>Shail India Journal</p>
           </div> -->
-        </div>
       </div>
     </div>
+  </div>
 
   </div>
 </section>
@@ -263,28 +266,28 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
     </div>
     <div class="row flex-row testimonials"> -->
 
-      <!--   Testimonial 1 begin -->
-      <!-- <div class="test">
+<!--   Testimonial 1 begin -->
+<!-- <div class="test">
         <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/testimonial/Christian Turner_2531-300x200.jpg" alt="">
         <p class="test-message">Blueflower Media created my e-commerce website for my artwork from scratch. In a short period of time the website was up and working with great visuals and smooth functionality for visitors. Staff are friendly, flexible and the project was completed
           on budget. I recommend them :)</p>
         <p class="author">Christian</p>
         <p class="company">CT Paintings</p>
       </div> -->
-      <!--   Testimonia 1 end -->
-      <!--   Testimonial 2 begin -->
-      <!-- <div class="test">
+<!--   Testimonia 1 end -->
+<!--   Testimonial 2 begin -->
+<!-- <div class="test">
         <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-india-journal-logo.png" alt="">
         <p class="test-message">What a talented group of next-gen creative minds can do for your business. They put it in the spotlight with an exciting website with eye-captivating visuals and contents and give you the tools that can conquer the world of your business - these
           nerds are creative, neat, very intimidating, cool and always evolving.</p>
         <p class="author">Shail</p>
         <p class="company">India Journal</p>
       </div> -->
-      <!--   Testimonia 2 end -->
+<!--   Testimonia 2 end -->
 
 
-    </div>
-  </div>
+</div>
+</div>
 </section>
 
 <!-- section-getintouch ---------------------------------------------------->
