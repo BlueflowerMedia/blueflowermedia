@@ -2144,9 +2144,15 @@ footer {
   #section-ourprocess .container .process-title {
     order: 2; } }
 #section-ourprocess .container .process-pic {
-  text-align: center; }
-#section-ourprocess .container .process-pic img {
-  width: 75%; }
+  text-align: center;
+  transition: all 0.6s ease; }
+  #section-ourprocess .container .process-pic img {
+    width: 75%;
+    opacity: 0.5; }
+  #section-ourprocess .container .process-pic.bigger {
+    transform: scale(1.2); }
+    #section-ourprocess .container .process-pic.bigger img {
+      opacity: 1; }
 #section-ourprocess .container .circle1 {
   height: 40px;
   width: 40px;

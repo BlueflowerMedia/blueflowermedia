@@ -2,7 +2,7 @@
 
 <section id="portfolio">
   <div class="container flex-column">
-    <h1>Our Portfolio<span class="big-dot blue">.</span></h1>
+    <h1>Our Work<span class="big-dot blue">.</span></h1>
 
     <div class="item-row">
       <!-- 1st -->

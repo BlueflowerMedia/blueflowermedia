@@ -196,9 +196,17 @@
     }
     .process-pic {
       text-align: center;
-    }
-    .process-pic img {
-      width: 75%;
+      transition: all 0.6s ease;
+      img {
+        width: 75%;
+        opacity: 0.5;
+      }
+      &.bigger {
+        transform: scale(1.2);
+        img {
+          opacity: 1;
+        }
+      }
     }
     .circle1{
       @include mobile {

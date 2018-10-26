@@ -301,6 +301,7 @@ function progressVerticalLine() {
 		var scrollHeight = $(window).scrollTop();
 		var progressHeight = scrollHeight - verticalTop + screenBuffer;
 
+		// line animations
 		if (progressHeight < 0 ) {
 			progressLineElement.css("height", 0);
 		}
@@ -311,6 +312,7 @@ function progressVerticalLine() {
 			progressLineElement.css("height", verticalLineHeight);
 		}
 
+		// circle animations
 		if (progressHeight < 0) {
 			circle1.removeClass("full-circle");
 		}
@@ -328,6 +330,27 @@ function progressVerticalLine() {
 		}
 		if (progressHeight > verticalLineHeight) {
 			circle3.addClass("full-circle");
+		}
+
+		// animating icons
+		if (progressHeight < 0 ){
+			$("#process-pic-1").removeClass("bigger");
+		}
+		else if (progressHeight > 0 && progressHeight < verticalLineHeight*0.35){
+			$("#process-pic-1").addClass("bigger");
+			$("#process-pic-2").removeClass("bigger");
+		}
+		else if (progressHeight > verticalLineHeight*0.35 && progressHeight < verticalLineHeight*0.80){
+			$("#process-pic-1").removeClass("bigger");
+			$("#process-pic-2").addClass("bigger");
+			$("#process-pic-3").removeClass("bigger");
+		}
+		else if (progressHeight > verticalLineHeight*0.80 && progressHeight < verticalLineHeight){
+			$("#process-pic-2").removeClass("bigger");
+			$("#process-pic-3").addClass("bigger");
+		}
+		else if (progressHeight > verticalLineHeight*1.4){
+			$("#process-pic-3").removeClass("bigger");
 		}
 	})
 }
@@ -347,7 +370,7 @@ sr.reveal($('h1'));
 ss.reveal($('.ss'));
 
 // Page specific functions
-if (pageName == "") {
+if (pageName == "blueflowermedia" || pageName == "") {
 	progressVerticalLine();
 	// runParticles();
 	// runCarouselClientLogo();
