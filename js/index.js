@@ -285,6 +285,59 @@ function postHeight() {
 	}
 }
 
+function progressVerticalLine() {
+	// Getting vertical line and values
+	var lineElement = $(".vertical-line");
+	var verticalTop = lineElement.offset().top;
+	var verticalLineHeight = parseInt($(".vertical-line").css("height"), 10);
+
+	// Getting progress line and values
+	var progressLineElement = $(".progress-vertical-line");
+
+	// at what point in the scroll does the animation start = 3/5
+	var screenBuffer = $(window).height() / 5 * 3;
+
+	// Getting the circles
+	var circle1 = $("#circle1");
+	var circle2 = $("#circle2");
+	var circle3 = $("#circle3");
+
+	$(window).scroll(function(){
+		var scrollHeight = $(window).scrollTop();
+		var progressHeight = scrollHeight - verticalTop + screenBuffer;
+
+		if (progressHeight < 0 ) {
+			progressLineElement.css("height", 0);
+		}
+		else if ((progressHeight > 0) && (progressHeight < verticalLineHeight)) {
+			progressLineElement.css("height", progressHeight);
+		}
+		else if (progressHeight > verticalLineHeight) {
+			progressLineElement.css("height", verticalLineHeight);
+		}
+
+		if (progressHeight < 0) {
+			circle1.removeClass("full-circle");
+		}
+		if (progressHeight > 0) {
+			circle1.addClass("full-circle");
+		}
+		if (progressHeight < verticalLineHeight/2) {
+			circle2.removeClass("full-circle");
+		}
+		if (progressHeight > verticalLineHeight/2) {
+			circle2.addClass("full-circle");
+		}
+		if (progressHeight < verticalLineHeight) {
+			circle3.removeClass("full-circle");
+		}
+		if (progressHeight > verticalLineHeight) {
+			circle3.addClass("full-circle");
+		}
+	});
+
+}
+
 // global functions
 navbar();
 navbarMobile();
@@ -298,7 +351,8 @@ if (isMobile == false) {
 }
 sr.reveal($('h1'));
 ss.reveal($('.ss'));
-if (pageName == "") {
+if (pageName == "blueflowermedia") {
+	progressVerticalLine();
 	// runParticles();
 	// runCarouselClientLogo();
 	runRellax();
