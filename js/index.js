@@ -12,12 +12,6 @@ function runRellax() {
 	var rellax = new Rellax('.fbox');
 }
 
-function runRellaxVert() {
-	var rellax = new Rellax('.fboxv', {
-		horizontal: true,
-		speed: 10,
-	});
-}
 
 // navbar
 function navbar() {
