@@ -2154,7 +2154,7 @@ footer {
   display: flex;
   background-color: #fff;
   margin: 0 50px;
-  transition: background-color 0.2s ease; }
+  transition: background-color 0.3s ease; }
   @media (max-width: 760px) {
     #section-ourprocess .container .circle1 {
       display: none; } }
