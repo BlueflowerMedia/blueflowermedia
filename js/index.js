@@ -314,19 +314,19 @@ function progressVerticalLine() {
 		if (progressHeight < 0) {
 			circle1.removeClass("full-circle");
 		}
-		else if (progressHeight > 0) {
+		if (progressHeight > 0) {
 			circle1.addClass("full-circle");
 		}
-		else if (progressHeight < verticalLineHeight/2) {
+		if (progressHeight < verticalLineHeight/2) {
 			circle2.removeClass("full-circle");
 		}
-		else if (progressHeight > verticalLineHeight/2) {
+		if (progressHeight > verticalLineHeight/2) {
 			circle2.addClass("full-circle");
 		}
-		else if (progressHeight < verticalLineHeight) {
+		if (progressHeight < verticalLineHeight) {
 			circle3.removeClass("full-circle");
 		}
-		else if (progressHeight > verticalLineHeight) {
+		if (progressHeight > verticalLineHeight) {
 			circle3.addClass("full-circle");
 		}
 	})
