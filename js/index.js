@@ -347,7 +347,7 @@ sr.reveal($('h1'));
 ss.reveal($('.ss'));
 
 // Page specific functions
-if (pageName == "blueflowermedia") {
+if (pageName == "") {
 	progressVerticalLine();
 	// runParticles();
 	// runCarouselClientLogo();
