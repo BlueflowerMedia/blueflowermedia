@@ -2153,12 +2153,13 @@ footer {
   justify-content: center;
   display: flex;
   background-color: #fff;
-  margin: 0 50px; }
+  margin: 0 50px;
+  transition: background-color 0.2s ease; }
   @media (max-width: 760px) {
     #section-ourprocess .container .circle1 {
       display: none; } }
   #section-ourprocess .container .circle1.full-circle {
-    background: #ECCE1E; }
+    background-color: #ECCE1E; }
   #section-ourprocess .container .circle1 .middle {
     width: 5px; }
     #section-ourprocess .container .circle1 .middle .vertical-line {
