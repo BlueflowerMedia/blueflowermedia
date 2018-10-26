@@ -1704,7 +1704,7 @@ ul#primary-menu > li:hover > ul.sub-menu {
   background: #DADFE5; }
 
 #primary-menu ul {
-  background: #ECCE1E;
+  background: white;
   /* position: relative; */
   box-shadow: none;
   margin-top: 0px;
@@ -1717,7 +1717,7 @@ ul#primary-menu > li:hover > ul.sub-menu {
     position: absolute;
     top: 0;
     left: 0;
-    height: 22px;
+    height: 17px;
     width: 100%;
     background: white; }
   #primary-menu ul li {
@@ -1787,6 +1787,7 @@ ul#primary-menu-mobile > li > a {
 
 ul#primary-menu-mobile ul {
   /* position: relative; */
+  background: white;
   box-shadow: none;
   margin-top: 0px;
   padding: 30px 0 15px 0;
@@ -2154,7 +2155,7 @@ footer {
   display: flex;
   background-color: #fff;
   margin: 0 50px;
-  transition: background-color 0.2s ease; }
+  transition: background-color 0.3s ease; }
   @media (max-width: 760px) {
     #section-ourprocess .container .circle1 {
       display: none; } }

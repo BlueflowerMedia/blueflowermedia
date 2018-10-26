@@ -307,7 +307,7 @@ ul#primary-menu > li:hover > ul.sub-menu {
 
 // services submenu
 #primary-menu ul {
-	background: $yellow;
+	background: white;
 	/* position: relative; */
 	box-shadow: none;
 	margin-top: 0px;
@@ -318,7 +318,7 @@ ul#primary-menu > li:hover > ul.sub-menu {
 	&:after {
 		content: "";
 		@include position(absolute, $top: 0, $left: 0);
-		height: 22px;
+		height: 17px;
 		width: 100%;
 		background: white;
 	}
@@ -411,6 +411,7 @@ ul#primary-menu-mobile > li > a {
 ul#primary-menu-mobile ul {
 	//background: $yellow;
 	/* position: relative; */
+	background: white;
 	box-shadow: none;
 	margin-top: 0px;
 	padding: 30px 0 15px 0;
