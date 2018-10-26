@@ -351,7 +351,7 @@ if (isMobile == false) {
 }
 sr.reveal($('h1'));
 ss.reveal($('.ss'));
-if (pageName == "blueflowermedia") {
+if (pageName == "") {
 	progressVerticalLine();
 	// runParticles();
 	// runCarouselClientLogo();
