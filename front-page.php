@@ -60,9 +60,11 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
         <a href="https://www.youtube.com/watch?v=09q57zoPIOw" target="_blank">
           <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-2.0-conceptualize.svg" alt="" class="image"></a>
       </div>
-      <div class="circle1">
+      <div class="circle1" id="circle1">
         <div class="middle">
           <div class="vertical-line">
+            <div class="progress-vertical-line">
+            </div>
           </div>
         </div>
       </div>
@@ -80,7 +82,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
         <p>Design a brand that moves your customers & develop websites/applications that allow for maximum results.
         </p>
       </div>
-      <div class="circle1">
+      <div class="circle1" id="circle1">
 
       </div>
       <div class="process-pic flex1">
@@ -92,7 +94,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       <div class="process-pic flex1">
         <a href="https://www.youtube.com/watch?v=fWDYwY2rHx8" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-2.0-market-your-business.svg" alt="" class="image"></a>
       </div>
-      <div class="circle1">
+      <div class="circle1" id="circle1">
 
       </div>
       <div class="process-title flex1 flex-column">

@@ -297,6 +297,7 @@ function progressVerticalLine() {
 	var circle3 = $("#circle3");
 
 	$(window).scroll(function(){
+
 		var scrollHeight = $(window).scrollTop();
 		var progressHeight = scrollHeight - verticalTop + screenBuffer;
 
@@ -313,23 +314,22 @@ function progressVerticalLine() {
 		if (progressHeight < 0) {
 			circle1.removeClass("full-circle");
 		}
-		if (progressHeight > 0) {
+		else if (progressHeight > 0) {
 			circle1.addClass("full-circle");
 		}
-		if (progressHeight < verticalLineHeight/2) {
+		else if (progressHeight < verticalLineHeight/2) {
 			circle2.removeClass("full-circle");
 		}
-		if (progressHeight > verticalLineHeight/2) {
+		else if (progressHeight > verticalLineHeight/2) {
 			circle2.addClass("full-circle");
 		}
-		if (progressHeight < verticalLineHeight) {
+		else if (progressHeight < verticalLineHeight) {
 			circle3.removeClass("full-circle");
 		}
-		if (progressHeight > verticalLineHeight) {
+		else if (progressHeight > verticalLineHeight) {
 			circle3.addClass("full-circle");
 		}
-	});
-
+	})
 }
 
 // global functions
@@ -345,7 +345,9 @@ if (isMobile == false) {
 }
 sr.reveal($('h1'));
 ss.reveal($('.ss'));
-if (pageName == "") {
+
+// Page specific functions
+if (pageName == "blueflowermedia") {
 	progressVerticalLine();
 	// runParticles();
 	// runCarouselClientLogo();

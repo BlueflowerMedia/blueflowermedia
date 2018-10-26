@@ -106,12 +106,8 @@ $cloudhosting = get_permalink(get_page_by_path( 'services-cloud-hosting' ));
 
 					) );
 				?>
-<<<<<<< HEAD
-        			<a href="<?php echo $contact; ?>"><button class="nav-contact" type="button" name="button">Contact Us</button></a>
-=======
 				<a href="tel:647-712-6119"><button class="nav-contact" type="button" name="button">Call 647-712-6119</button></a>
 				<!-- <a href="<?php echo $contact; ?>"><button class="nav-contact" type="button" name="button">Contact Us</button></a> -->
->>>>>>> a13dd82c2790ee04879676763f3e777f861a9dd3
 				<h2>Our Services<span class="big-dot blue">.</span></h2>
 				<?php
 					wp_nav_menu( array(
@@ -121,10 +117,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'services-cloud-hosting' ));
 					) );
 				?>
 
-<<<<<<< HEAD
-=======
         <a href="tel:647-712-6119"><button class="nav-contact" type="button" name="button">Contact Us</button></a>
->>>>>>> a13dd82c2790ee04879676763f3e777f861a9dd3
         <!-- <ul id="mobile-menu">
           <li><a class="main-items" href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
           <li><a class="main-items" href="<?php echo $team; ?>">Team</a></li>
