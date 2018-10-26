@@ -350,7 +350,6 @@ if (pageName == "") {
 	// runParticles();
 	// runCarouselClientLogo();
 	runRellax();
-	runRellaxVert();
 } else if (pageName == "team") {
 	teamImagePlayer();
 } else if (pageName == "Contact") {
