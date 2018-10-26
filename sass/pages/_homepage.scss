@@ -212,8 +212,9 @@
       display: flex;
       background-color: #fff;
       margin: 0 50px;
+      transition: background-color 0.2s ease;
       &.full-circle {
-        background: $yellow;
+        background-color: $yellow;
       }
       .middle{
         width: 5px;
