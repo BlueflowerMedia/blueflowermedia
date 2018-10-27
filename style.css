@@ -1436,7 +1436,7 @@ button.tag {
 
 button.nav-contact {
   background-size: 200% auto;
-  background-image: linear-gradient(to right, #EF6F8A 0%, #ec7e7a 51%, #EF6F8A 100%);
+  background-image: linear-gradient(to right, #ed467b 0%, #ec7e7a 51%, #ed467b 100%);
   color: white;
   text-transform: uppercase;
   padding: 14px 15px;
@@ -1662,8 +1662,7 @@ ul#primary-menu > li > a {
   font-weight: 700;
   margin: 0;
   padding: 5px 5px;
-  cursor: pointer;
-  background: white; }
+  cursor: pointer; }
   ul#primary-menu > li > a:after {
     content: "";
     position: absolute;
@@ -1678,7 +1677,7 @@ ul#primary-menu > li > a {
   ul#primary-menu > li > a:before {
     content: "";
     position: absolute;
-    background: #EF6F8A;
+    background: #ed467b;
     z-index: -1;
     transition: all 0.2s ease;
     border-radius: 3px;
