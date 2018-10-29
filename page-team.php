@@ -78,12 +78,6 @@
           <p>I love visiting new places to get inspiration for our design work.</p>
         </div>
         <div class="member sr">
-          <img id="pic7" src="<?php echo get_template_directory_uri(); ?>/images/team/team-rif.jpg" alt="Zulfiqur Rahman">
-          <h3>Rifaquat Nabi</h3>
-          <p>[ Digital Marketing Manager ]</p>
-          <p>I am the one who knocks.</p>
-        </div>
-        <div class="member sr">
           <img id="pic8" src="<?php echo get_template_directory_uri(); ?>/images/team/team-chandra.jpg" alt="Zulfiqur Rahman">
           <h3>Chandra Shrestha</h3>
           <p>[ Front-End Developer ]</p>
