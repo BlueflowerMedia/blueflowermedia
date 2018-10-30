@@ -1912,11 +1912,7 @@ footer {
   width: 200px;
   height: 200px;
   border-radius: 50px;
-<<<<<<< HEAD
-  background: #EFDC05; }
-=======
   background: #ECCE1E; }
->>>>>>> f92afc707d49cc6383160db5ccbd4c6da11488c9
   @media (max-width: 760px) {
     #fbox1 {
       display: none; } }
@@ -3224,7 +3220,7 @@ span.wpcf7-not-valid-tip {
   height: 692px; }
   @media (max-width: 1024px) {
     #graphic-design-banner2 {
-      height: 630px; } }
+      height: auto; } }
   #graphic-design-banner2 .container {
     height: 692px; }
     @media (min-width: 500px) {
@@ -3232,7 +3228,7 @@ span.wpcf7-not-valid-tip {
         display: flex; } }
     @media (max-width: 1024px) {
       #graphic-design-banner2 .container {
-        height: 630px; } }
+        height: auto; } }
     #graphic-design-banner2 .container .text-left {
       flex: 1;
       display: flex;
@@ -3422,7 +3418,7 @@ span.wpcf7-not-valid-tip {
   height: 550px; }
   @media (max-width: 1024px) {
     #banner2 {
-      height: 630px; } }
+      height: auto; } }
   #banner2 .container {
     height: 550px; }
     @media (min-width: 500px) {
@@ -3430,7 +3426,7 @@ span.wpcf7-not-valid-tip {
         display: flex; } }
     @media (max-width: 1024px) {
       #banner2 .container {
-        height: 630px; } }
+        height: auto; } }
     #banner2 .container .text-left {
       flex: 1;
       display: flex;
@@ -3475,7 +3471,7 @@ span.wpcf7-not-valid-tip {
   height: 550px; }
   @media (max-width: 1024px) {
     #banner3 {
-      height: 630px; } }
+      height: auto; } }
   #banner3 .container {
     height: 550px; }
     @media (min-width: 500px) {
@@ -3483,7 +3479,7 @@ span.wpcf7-not-valid-tip {
         display: flex; } }
     @media (max-width: 1024px) {
       #banner3 .container {
-        height: 630px; } }
+        height: auto; } }
     #banner3 .container .text-left {
       flex: 1;
       display: flex;
@@ -3636,7 +3632,7 @@ span.wpcf7-not-valid-tip {
   height: 692px; }
   @media (max-width: 1024px) {
     #banner1-webdesign {
-      height: 630px; } }
+      height: auto; } }
   #banner1-webdesign .container {
     height: 692px; }
     @media (min-width: 500px) {
@@ -3644,7 +3640,7 @@ span.wpcf7-not-valid-tip {
         display: flex; } }
     @media (max-width: 1024px) {
       #banner1-webdesign .container {
-        height: 630px; } }
+        height: auto; } }
     #banner1-webdesign .container .text-left {
       flex: 1;
       display: flex;
@@ -3695,7 +3691,7 @@ span.wpcf7-not-valid-tip {
   height: 692px; }
   @media (max-width: 1024px) {
     #banner2-webdesign {
-      height: 1000px; } }
+      height: auto; } }
   #banner2-webdesign .container {
     height: 692px; }
     @media (min-width: 500px) {
@@ -3703,7 +3699,7 @@ span.wpcf7-not-valid-tip {
         display: flex; } }
     @media (max-width: 1024px) {
       #banner2-webdesign .container {
-        height: 630px; } }
+        height: auto; } }
     #banner2-webdesign .container .text-left {
       flex: 1;
       display: flex;
@@ -4050,5 +4046,3 @@ span.wpcf7-not-valid-tip {
   @media (max-width: 760px) {
     .package-list {
       list-style: none; } }
-
-/*# sourceMappingURL=style.css.map */

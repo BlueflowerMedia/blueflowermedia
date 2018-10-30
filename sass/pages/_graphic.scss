@@ -75,7 +75,7 @@
   background-position: top;
   height: 692px;
   @media(max-width: 1024px){
-    height: 630px;
+    height: auto;
   }
 
   .container{
@@ -85,7 +85,7 @@
 
     height: 692px;
     @media(max-width: 1024px){
-      height: 630px;
+      height: auto;
 
     }
 
