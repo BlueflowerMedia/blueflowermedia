@@ -103,7 +103,7 @@
 </section>
 
 <!-- section-getintouch-->
-<section id="section-getintouch" class="blue">
+<section id="section-getintouch">
   <div class="container">
     <a href="<?php echo get_the_title(get_page_by_path( 'contact' )); ?>"><button type="button" name="button">Let's Get Started!</button></a>
   </div>
