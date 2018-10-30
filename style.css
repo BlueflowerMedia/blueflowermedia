@@ -1894,9 +1894,7 @@ footer {
   width: 200px;
   height: 200px;
   border-radius: 50px;
-  background: #EFDC05;
-  z-index: 99 !important;
-}
+  background: #EFDC05; }
   @media (max-width: 760px) {
     #fbox1 {
       display: none; } }
