@@ -56,10 +56,10 @@
           <p>I have my PHD in Computer Science. I like using my technical knowledge to practically solve real world client problems.</p>
         </div>
         <div class="member sr">
-          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/team/team-ali.jpg" alt="Ali Akbar Sarkarati">
-          <h3>Ali Akbar Sarkarati</h3>
+          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/team/team-darren.jpg" alt="Darren Kelly">
+          <h3>Darren Kelly</h3>
           <p>[ Full-Stack Developer ]</p>
-          <p>I have a passion for the subjective arts. This surprisingly lead me to a career in web design. I also love making Music.</p>
+          <p>I'm definately funnier than Zulfiqur. I also love making Music.</p>
         </div>
         <div class="member sr">
           <img id="pic5" src="<?php echo get_template_directory_uri(); ?>/images/team/team-zulfiqur.jpg" alt="Zulfiqur Rahman">
