@@ -2020,7 +2020,7 @@ footer {
             text-align: center; } }
         @media (max-width: 1025px) {
           #section-header .container .header-text h2 {
-            font-size: 34px; } }
+            font-size: 2em; } }
       #section-header .container .header-text .sa {
         font-size: 3.25em; }
         @media (max-width: 760px) {
@@ -2029,7 +2029,7 @@ footer {
             text-align: center; } }
         @media (max-width: 1025px) {
           #section-header .container .header-text .sa {
-            font-size: 35px;
+            font-size: 2em;
             padding: 0 10px; } }
       #section-header .container .header-text #staticText {
         font-size: 2rem;
