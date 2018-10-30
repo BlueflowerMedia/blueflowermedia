@@ -1997,7 +1997,7 @@ footer {
       #section-header .container {
         padding: 100px 4%; } }
     #section-header .container .header-text {
-      flex: 1;
+      flex: 3;
       order: 1;
       padding-right: 50px; }
       @media (min-width: 450px) {
@@ -2012,8 +2012,8 @@ footer {
           padding-right: 10px;
           text-align: center; } }
       #section-header .container .header-text h2 {
-        font-size: 3em;
-        text-align: center; }
+        font-size: 2.2em;
+        text-align: left; }
         @media (max-width: 760px) {
           #section-header .container .header-text h2 {
             padding: 0;
@@ -2031,6 +2031,40 @@ footer {
           #section-header .container .header-text .sa {
             font-size: 35px;
             padding: 0 10px; } }
+      #section-header .container .header-text #staticText {
+        font-size: 2rem;
+        line-height: 1;
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 100;
+        postion: fixed;
+        margin-top: 10px; }
+      #section-header .container .header-text #typeline {
+        font-size: 2rem;
+        line-height: 1.2;
+        color: white;
+        background: #1da5c9;
+        /* Old browsers */
+        background: -moz-linear-gradient(left, #1da5c9 0%, #1d85db 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, #1da5c9 0%, #1d85db 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, #1da5c9 0%, #1d85db 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1da5c9', endColorstr='#1d85db',GradientType=1 );
+        /* IE6-9 */
+        padding: 10px;
+        margin-top: 10px; }
+@-webkit-keyframes blink-caret {
+  50% {
+    border-color: transparent; } }
+      #section-header .container .header-text em {
+        border-right: .1em solid white;
+        width: 20ch;
+        white-space: nowrap;
+        overflow: hidden;
+        margin-top: 0;
+        color: #3295dd;
+        -webkit-animation: typing 3s steps(21, end), blink-caret 0.5s step-end infinite alternate; }
       #section-header .container .header-text h4 {
         margin-top: 20px;
         font-family: "Source Sans Pro", sans-serif;
@@ -2062,18 +2096,20 @@ footer {
           height: 5px;
           margin-left: 15px;
           margin-right: 0px; }
+      #section-header .container .header-text .line1 {
+        margin: 30px 0 5px 0;
+        width: 100%;
+        border-width: 3px; }
       #section-header .container .header-text .schedule-now {
-        background-color: #D8E0E8;
-        padding: 10px 40px;
         border-radius: 60px;
         justify-content: center;
         align-items: center;
-        margin-top: 40px;
+        margin-top: 10px;
         line-height: 1.3rem !important; }
         @media (min-width: 1024px) {
           #section-header .container .header-text .schedule-now {
             display: flex;
-            justify-content: space-around; } }
+            justify-content: space-between; } }
         @media (max-width: 760px) {
           #section-header .container .header-text .schedule-now {
             flex-direction: column;
@@ -2081,7 +2117,7 @@ footer {
             margin-top: 15px;
             padding: 10px 0px 20px; } }
         #section-header .container .header-text .schedule-now p {
-          font-size: 13px;
+          font-size: 1em;
           color: #000;
           font-weight: 600; }
           @media (max-width: 760px) {
@@ -2090,11 +2126,16 @@ footer {
         #section-header .container .header-text .schedule-now button {
           color: white;
           font-size: 15px;
-          background-color: #2A3275;
+          background: -moz-linear-gradient(left, #1da5c9 0%, #1d85db 100%);
+          /* FF3.6-15 */
+          background: -webkit-linear-gradient(left, #1da5c9 0%, #1d85db 100%);
+          /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to right, #1da5c9 0%, #1d85db 100%);
+          /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
           padding: 15px 25px;
           border-radius: 10px;
           margin-left: 6px;
-          border: 0px solid #2A3275;
+          border: 0px solid linear-gradient(to right, #1da5c9 0%, #1d85db 100%);
           transition: border-width .3s ease-in-out; }
           @media (max-width: 760px) {
             #section-header .container .header-text .schedule-now button {
@@ -2107,7 +2148,7 @@ footer {
         #section-header .container .header-text .schedule-now button:hover {
           border-width: 2px 3px; }
     #section-header .container .header-image {
-      flex: 1;
+      flex: 4;
       order: 2; }
 
 #section-aboutus {

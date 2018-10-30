@@ -12,11 +12,12 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
   <!-- <div id="particles"></div> -->
   <div class="container">
     <div class="header-text">
-      <h2>Digital Success For</h2>
-      <h2 class="sa">Small Businesses</h2>
-      <h4><hr class="line-left">Branding | Web Design | Digital Marketing<hr class="line-right"></h4>
+      <h2>We provide small businesses:</h2><br>
+        <span id = "staticText" ><span id="typeline" ></span></span>
+      <!-- <h4><hr class="line-left">Branding | Web Design | Digital Marketing<hr class="line-right"></h4> -->
+      <hr class="line1">
       <div class="schedule-now sr">
-        <p>Ready to start discussing your business goals?<br>Schedule your free consultation now!</p>
+        <p>Want to discuss your business goals?<br>Schedule your free consultation now!</p>
         <a href="<?php echo get_permalink(get_page_by_path( 'book-an-appointment' )); ?>"><button type="button" name="button">SCHEDULE NOW</button></a>
       </div>
     </div>
@@ -114,6 +115,27 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
     <div class="services flex-row">
       <!-- service names begin --->
       <!-- service 1 --->
+      <div class="service ">
+        <a class="service-anchor" href="<?php echo $graphicdesign; ?>">
+          <div class="logo">
+            <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-2.0-graphic-design-icon.svg" alt="bfm-graphic-design-icon">
+            <h3>Branding</h3>
+          </div>
+        </a>
+        <div class="service-content">
+
+          <ul class="service-list">
+            <li>Logo Design</li>
+            <li>Branding/Style Guides</li>
+            <li>Posters/Signs</li>
+            <li>Print Materials</li>
+          </ul>
+        </div>
+      </div>
+
+
+      <!-- service 2 --->
+
       <div class="service">
         <a class="service-anchor" href="<?php echo $webdesign; ?>">
           <div class="logo">
@@ -134,24 +156,6 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
         </div>
       </div>
 
-      <!-- service 2 --->
-      <div class="service ">
-        <a class="service-anchor" href="<?php echo $graphicdesign; ?>">
-          <div class="logo">
-            <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-2.0-graphic-design-icon.svg" alt="bfm-graphic-design-icon">
-            <h3>Graphic Design</h3>
-          </div>
-        </a>
-        <div class="service-content">
-
-          <ul class="service-list">
-            <li>Logo Design</li>
-            <li>Branding/Style Guides</li>
-            <li>Posters/Signs</li>
-            <li>Print Materials</li>
-          </ul>
-        </div>
-      </div>
 
       <!-- service 3 --->
       <div class="service ">
