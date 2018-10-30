@@ -12,12 +12,6 @@ function runRellax() {
 	var rellax = new Rellax('.fbox');
 }
 
-function runRellaxVert() {
-	var rellax = new Rellax('.fboxv', {
-		horizontal: true,
-		speed: 10,
-	});
-}
 
 // navbar
 function navbar() {
@@ -285,6 +279,82 @@ function postHeight() {
 	}
 }
 
+function progressVerticalLine() {
+	// Getting vertical line and values
+	var lineElement = $(".vertical-line");
+	var verticalTop = lineElement.offset().top;
+	var verticalLineHeight = parseInt($(".vertical-line").css("height"), 10);
+
+	// Getting progress line and values
+	var progressLineElement = $(".progress-vertical-line");
+
+	// at what point in the scroll does the animation start = 3/5
+	var screenBuffer = $(window).height() / 5 * 3;
+
+	// Getting the circles
+	var circle1 = $("#circle1");
+	var circle2 = $("#circle2");
+	var circle3 = $("#circle3");
+
+	$(window).scroll(function(){
+
+		var scrollHeight = $(window).scrollTop();
+		var progressHeight = scrollHeight - verticalTop + screenBuffer;
+
+		// line animations
+		if (progressHeight < 0 ) {
+			progressLineElement.css("height", 0);
+		}
+		else if ((progressHeight > 0) && (progressHeight < verticalLineHeight)) {
+			progressLineElement.css("height", progressHeight);
+		}
+		else if (progressHeight > verticalLineHeight) {
+			progressLineElement.css("height", verticalLineHeight);
+		}
+
+		// circle animations
+		if (progressHeight < 0) {
+			circle1.removeClass("full-circle");
+		}
+		if (progressHeight > 0) {
+			circle1.addClass("full-circle");
+		}
+		if (progressHeight < verticalLineHeight/2) {
+			circle2.removeClass("full-circle");
+		}
+		if (progressHeight > verticalLineHeight/2) {
+			circle2.addClass("full-circle");
+		}
+		if (progressHeight < verticalLineHeight) {
+			circle3.removeClass("full-circle");
+		}
+		if (progressHeight > verticalLineHeight) {
+			circle3.addClass("full-circle");
+		}
+
+		// animating icons
+		if (progressHeight < 0 ){
+			$("#process-pic-1").removeClass("bigger");
+		}
+		else if (progressHeight > 0 && progressHeight < verticalLineHeight*0.35){
+			$("#process-pic-1").addClass("bigger");
+			$("#process-pic-2").removeClass("bigger");
+		}
+		else if (progressHeight > verticalLineHeight*0.35 && progressHeight < verticalLineHeight*0.80){
+			$("#process-pic-1").removeClass("bigger");
+			$("#process-pic-2").addClass("bigger");
+			$("#process-pic-3").removeClass("bigger");
+		}
+		else if (progressHeight > verticalLineHeight*0.80 && progressHeight < verticalLineHeight){
+			$("#process-pic-2").removeClass("bigger");
+			$("#process-pic-3").addClass("bigger");
+		}
+		else if (progressHeight > verticalLineHeight*1.4){
+			$("#process-pic-3").removeClass("bigger");
+		}
+	})
+}
+
 // global functions
 navbar();
 navbarMobile();
@@ -298,11 +368,13 @@ if (isMobile == false) {
 }
 sr.reveal($('h1'));
 ss.reveal($('.ss'));
-if (pageName == "") {
+
+// Page specific functions
+if (pageName == "blueflowermedia" || pageName == "") {
+	progressVerticalLine();
 	// runParticles();
 	// runCarouselClientLogo();
 	runRellax();
-	runRellaxVert();
 } else if (pageName == "team") {
 	teamImagePlayer();
 } else if (pageName == "Contact") {

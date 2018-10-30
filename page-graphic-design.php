@@ -188,14 +188,15 @@
   <div class="container">
     <h2>We design:</h2>
     <div class="design-item-row">
+      
       <div class="design-item">
         <div class="item-logo">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/OutdoorSigns.svg" alt="" class="image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/Logo.svg" alt="" class="image">
         </div>
         <div class="item-text">
-          <p><strong>OUTDOOR SIGNS</strong></p>
-          <p>Looking to design a billboard, store sign, ground sign, pylon sign? Give us the dimensions and we are good to go!</p>
-        </div>
+          <p><strong>LOGO</strong></p>
+          <p>A logo is a symbol that represents your brand. Great brands have great logos!</p>
+          </div>
       </div>
 
       <div class="design-item">
@@ -236,12 +237,12 @@
     <div class="design-item-row">
       <div class="design-item">
         <div class="item-logo">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/Logo.svg" alt="" class="image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/OutdoorSigns.svg" alt="" class="image">
         </div>
         <div class="item-text">
-          <p><strong>LOGO</strong></p>
-          <p>A logo is a symbol that represents your brand. Great brands have great logos!</p>
-          </div>
+          <p><strong>OUTDOOR SIGNS</strong></p>
+          <p>Looking to design a billboard, store sign, ground sign, pylon sign? Give us the dimensions and we are good to go!</p>
+        </div>
       </div>
 
       <div class="design-item">
