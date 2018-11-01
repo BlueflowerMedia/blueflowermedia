@@ -2148,13 +2148,7 @@ footer {
 #section-aboutus {
   background-image: url("./images/homepage1/bfm-2.0-new-home-page-image-1.jpg");
   background-position: center;
-  background-size: cover;
-  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
-  -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%); }
-  @media (max-width: 760px) {
-    #section-aboutus {
-      clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
-      -webkit-clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%); } }
+  background-size: cover; }
   #section-aboutus .container {
     position: relative; }
     #section-aboutus .container .left {

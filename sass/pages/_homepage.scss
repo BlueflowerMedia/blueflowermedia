@@ -193,11 +193,10 @@
 
 // section-aboutus
 #section-aboutus {
-  // background:#2A3275;
   background-image:url("./images/homepage1/bfm-2.0-new-home-page-image-1.jpg");
   background-position:center;
   background-size: cover;
-  @include slanted-edge(top-left, 0, 15%);
+  // @include slanted-edge(top-left, 0, 15%);
 
   .container {
     position: relative;
