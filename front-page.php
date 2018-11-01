@@ -209,32 +209,32 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
 
           <!-- testimonial 1 -->
           <div class="testimonial" id="testimonial-1">
-            <div class="quotation-open">
+            <!-- <div class="quotation-open">
               <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-quotations.svg" alt="quotation-marks">
-            </div>
+            </div> -->
             <div class="center-text">
               <p> Blueflower Media created my e-commerce website for my artwork from scratch. In a short period of time the website was up and working with great visuals and smooth functionality for visitors. Staff are friendly, flexible and the project was
                 completed on budget. I recommend them. </p>
               <p class="name-company">Christian <br>CT Paintings</p>
             </div>
-            <div class="quotation-close">
+            <!-- <div class="quotation-close">
               <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-quotations.svg" alt="quotation-marks">
-            </div>
+            </div> -->
           </div>
 
           <!-- testimonial 2 -->
           <div class="testimonial" id="testimonial-2">
-            <div class="quotation-open">
+            <!-- <div class="quotation-open">
               <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-quotations.svg" alt="quotation-marks">
-            </div>
+            </div> -->
             <div class="center-text">
-              <p> Blueflower Media created my business website for my artwork from scratch. In a short period of time the website was up and working with great visuals and smooth functionality for visitors. Staff are friendly, flexible and the project was
-                completed on budget. I recommend them. </p>
-              <p class="name-company">Christian <br>CT Paintings</p>
+              <p> What a talented group of next-gen creative minds can do for your business. They put it in the spotlight with an exciting website with eye-captivating visuals and contents and give you the tools that can conquer the world of your business - these
+                nerds are creative, neat, very intimidating, cool and always evolving.</p>
+              <p class="name-company">Sahil <br>India Journal</p>
             </div>
-            <div class="quotation-close">
+            <!-- <div class="quotation-close">
               <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-quotations.svg" alt="quotation-marks">
-            </div>
+            </div> -->
           </div>
 
         </div>
