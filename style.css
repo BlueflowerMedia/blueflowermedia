@@ -2036,19 +2036,15 @@ footer {
         line-height: 1;
         font-family: "Source Sans Pro", sans-serif;
         font-weight: 100;
-        postion: fixed; }
+        postion: fixed;
+        background: linear-gradient(to right, #1da5c9 0%, #1d85db 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        padding: 12px; }
       #section-header .container .header-text #typeline {
         font-size: 2rem;
         line-height: 1.2;
         color: white;
-        background: #1da5c9;
-        /* Old browsers */
-        background: -moz-linear-gradient(left, #1da5c9 0%, #1d85db 100%);
-        /* FF3.6-15 */
-        background: -webkit-linear-gradient(left, #1da5c9 0%, #1d85db 100%);
-        /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to right, #1da5c9 0%, #1d85db 100%);
-        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        font-weight: 600;
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1da5c9', endColorstr='#1d85db',GradientType=1 );
         /* IE6-9 */
         padding: 10px;
