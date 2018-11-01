@@ -241,7 +241,6 @@
       transition: all 0.6s ease;
       img {
         width: 75%;
-        opacity: 0.5;
       }
       &.bigger {
         transform: scale(1.2);
@@ -627,12 +626,24 @@
 // section-getintouch
 
 #section-getintouch {
-  background-image: url("images/bfm-tiled-background-blue.svg");
-  background-size: 35vw;
-
+  background: -moz-linear-gradient(left, #1da5c9 0%, #1d85db 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #1da5c9 0%,#1d85db 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #1da5c9 0%,#1d85db 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   .container {
     text-align: center;
+    display: flex;
+    .getintouch-left{
+      flex: 1;
+      .getintouch-left-top{
 
+      }
+      .getintouch-left-bottom{
+        display: flex;
+      }
+    }
+    .getintouch-right{
+      flex: 1;
+    }
     button {
       background-color: white;
       border: 5px solid $blue;

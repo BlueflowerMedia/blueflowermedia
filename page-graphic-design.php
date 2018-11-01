@@ -88,80 +88,6 @@
   </div>
 </div>
 </section>
-<!-- what we design section -->
-<!-- <section id="section-whatwedesign">
-  <div class="txtservice1 flex-row">
-    <h1>What We Design<span class="big-dot blue">.</span></h1>
-  </div>
-  <div class="container"> -->
-
-    <!-- <h2>What We Design</h2> -->
-    <!-- <div class="whatwedesign-row">
-      <div class="whatwedesign-item">
-        <div class="item-image">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/Logo.svg" alt="" class="image">
-        </div>
-        <div class="item-header-text">
-          <p><strong>LOGO</strong></p>
-        </div>
-        <div class="item-text">
-          <p>A logo is a symbol that represents your brand. Great brands have great logos!</p>
-        </div>
-      </div>
-      <div class="whatwedesign-item">
-        <div class="item-image">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/BrandStyleGuide.svg" alt="" class="image">
-        </div>
-        <div class="item-header-text">
-          <p><strong>BRAND STYLE GUIDE</strong></p>
-        </div>
-        <div class="item-text">
-          <p>A Brand style guide is a booklet that contains design guidelines to follow for your business. It includes rules for color palettes, typography hierarchy, imagery, iconography, and more.
-</p>
-        </div>
-      </div>
-      <div class="whatwedesign-item">
-        <div class="item-image">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/WebIcons.svg" alt="" class="image">
-
-        </div>
-        <div class="item-header-text">
-          <p><strong>WEBSITE ILLUSTRATIONS AND ICONS</strong></p>
-        </div>
-        <div class="item-text">
-          <p>Custom website illustrations & icons will appeal to your target audience and improve brand recognition a lot more that stock illustrations & icons. </p>
-        </div>
-      </div>
-
-    </div>
-    <div class="whatwedesign-row1">
-      <div class="whatwedesign-item">
-        <div class="item-image">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/Brochures.svg" alt="" class="image">
-
-        </div>
-        <div class="item-header-text">
-          <p><strong>PRINT MATERIALS</strong></p>
-        </div>
-        <div class="item-text">
-          <p>Design amazing business cards, posters, brochures, flyers, etc.</p>
-        </div>
-      </div>
-      <div class="whatwedesign-item">
-        <div class="item-image">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/OutdoorSigns.svg" alt="" class="image">
-
-        </div>
-        <div class="item-header-text">
-          <p><strong>OUTDOOR SIGNS</strong></p>
-        </div>
-        <div class="item-text">
-          <p>Looking design a billboard, store sign, ground sign, pylon sign? Give us the dimensions and we are good to go!</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
 <!-- section banner -->
 <section id="graphic-design-banner2">
   <div class="container">
@@ -188,7 +114,7 @@
   <div class="container">
     <h2>We design:</h2>
     <div class="design-item-row">
-      
+
       <div class="design-item">
         <div class="item-logo">
           <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/Logo.svg" alt="" class="image">
