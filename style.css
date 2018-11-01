@@ -2483,23 +2483,31 @@ footer {
     display: flex; }
     #section-getintouch .container .getintouch-left {
       flex: 1; }
+      #section-getintouch .container .getintouch-left .getintouch-left-top h2, #section-getintouch .container .getintouch-left .getintouch-left-top p {
+        color: white; }
+      #section-getintouch .container .getintouch-left .getintouch-left-top p {
+        font-size: 1em; }
       #section-getintouch .container .getintouch-left .getintouch-left-bottom {
-        display: flex; }
+        display: flex;
+        justify-content: center; }
     #section-getintouch .container .getintouch-right {
-      flex: 1; }
+      flex: 1;
+      background-image: url("./images/homepage1/CallToAction.svg");
+      background-repeat: no-repeat;
+      background-position: center; }
     #section-getintouch .container button {
-      background-color: white;
-      border: 5px solid #1B8DCB;
+      background-color: transparent;
+      border: 3px solid white;
       font-weight: 700;
-      font-size: 3rem;
+      font-size: 1.3rem;
       border-radius: 15px;
       transition: all 0.3s cubic-bezier(0.4, 0.7, 0.4, 1.1);
       padding: 18px 30px;
       z-index: 999999;
-      box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4); }
+      box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4);
+      margin: 0 .25em; }
       #section-getintouch .container button:hover {
-        color: white;
-        background: #1B8DCB; }
+        background: white; }
   #section-getintouch.blue {
     background-color: #1B8DCB; }
 
