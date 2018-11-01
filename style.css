@@ -2146,8 +2146,9 @@ footer {
       order: 2; }
 
 #section-aboutus {
-  background-image: url("./images/homepage1/homepage-about-background.png");
+  background-image: url("./images/homepage1/bfm-2.0-new-home-page-image-1.jpg");
   background-position: center;
+  background-size: cover;
   clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
   -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%); }
   @media (max-width: 760px) {
@@ -3192,8 +3193,10 @@ span.wpcf7-not-valid-tip {
   margin-bottom: 0; }
 
 #graphic-design-banner1 {
-  background-image: url("./images/graphic-new/image.png");
-  height: 692px; }
+  background-image: url("./images/graphic-new/bfm-2.0-new-graphic-design-image-1.jpg");
+  height: 692px;
+  background-position: center;
+  background-size: cover; }
   @media (max-width: 1024px) {
     #graphic-design-banner1 {
       height: 630px; } }
@@ -3249,8 +3252,8 @@ span.wpcf7-not-valid-tip {
         border-top: none; }
 
 #graphic-design-banner2 {
-  background-image: url("./images/graphic-new/bfm-2.0-graphic-design-image-2-complete.jpg");
-  background-size: contain;
+  background-image: url("./images/graphic-new/bfm-2.0-new-graphic-design-image-2.jpg");
+  background-size: cover;
   background-position: top;
   height: 692px; }
   @media (max-width: 1024px) {
@@ -3393,7 +3396,7 @@ span.wpcf7-not-valid-tip {
     #we-design .container .design-item-row {
       display: flex; } }
   #we-design .container .design-item-row .design-item {
-    background-color: #F9F9F9;
+    box-shadow: 1px 1px 10px -5px rgba(0, 0, 0, 0.4);
     padding: 50px 60px;
     align-items: center;
     margin: 10px;
@@ -3418,8 +3421,6 @@ span.wpcf7-not-valid-tip {
       @media (max-width: 450px) {
         #we-design .container .design-item-row .design-item .item-text {
           text-align: center; } }
-  #we-design .container .design-item-row .design-item:hover {
-    background-color: #EFEFEF; }
 
 .iamready {
   flex-flow: row;
@@ -3447,7 +3448,7 @@ span.wpcf7-not-valid-tip {
       background-color: #fff; }
 
 #banner2 {
-  background-image: url("./images/digital-marketing/bfm-2.0-digital-marketing-image-complete.png");
+  background-image: url("./images/digital-marketing/bfm-2.0-new-digital-marketing-image-1.jpg");
   background-position: top;
   background-size: cover;
   height: 550px; }
@@ -3500,7 +3501,7 @@ span.wpcf7-not-valid-tip {
         margin: 10px 0; }
 
 #banner3 {
-  background-image: url("./images/digital-marketing/bfm-2.0-digital-marketing-image-2-complete.png");
+  background-image: url("./images/digital-marketing/bfm-2.0-new-digital-marketing-image-2.jpg");
   background-position: center;
   background-size: cover;
   height: 550px; }
@@ -3661,7 +3662,7 @@ span.wpcf7-not-valid-tip {
             padding: 10px 40px; } }
 
 #banner1-webdesign {
-  background-image: url("./images/webdesign/bfm-2.0-web-design-banner.png");
+  background-image: url("./images/webdesign/bfm-2.0-new-web-design-image-1.jpg");
   background-position: top;
   background-size: cover;
   height: 692px; }
@@ -3720,7 +3721,7 @@ span.wpcf7-not-valid-tip {
         border-top: none; }
 
 #banner2-webdesign {
-  background-image: url("./images/webdesign/bfm-2.0-ecommerce-image-complete.png");
+  background-image: url("./images/webdesign/bfm-2.0-new-web-design-image-2.jpg");
   background-position: top;
   background-size: cover;
   height: 692px; }

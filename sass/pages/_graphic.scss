@@ -1,7 +1,9 @@
 // section banner1
 #graphic-design-banner1{
-  background-image: url("./images/graphic-new/image.png");
+  background-image: url("./images/graphic-new/bfm-2.0-new-graphic-design-image-1.jpg");
   height: 692px;
+  background-position: center;
+  background-size: cover;
   @media(max-width: 1024px){
     height: 630px;
   }
@@ -70,8 +72,8 @@
 
 // section banner1
 #graphic-design-banner2{
-  background-image: url("./images/graphic-new/bfm-2.0-graphic-design-image-2-complete.jpg");
-  background-size: contain;
+  background-image: url("./images/graphic-new/bfm-2.0-new-graphic-design-image-2.jpg");
+  background-size: cover;
   background-position: top;
   height: 692px;
   @media(max-width: 1024px){
@@ -337,7 +339,8 @@
         @media(min-width: 450px){
           display: flex;
         }
-        background-color: #F9F9F9;
+        // background-color: #F9F9F9;
+        box-shadow: 1px 1px 10px -5px rgba(0, 0, 0, 0.4);
         @media(max-width: 450px){
           padding: 30px 15px;
         }
@@ -364,9 +367,9 @@
           }
         }
       }
-      .design-item:hover{
-        background-color: #EFEFEF;
-      }
+      // .design-item:hover{
+      //   background-color: #EFEFEF;
+      // }
     }
   }
 }
