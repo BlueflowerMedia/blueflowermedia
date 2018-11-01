@@ -17,8 +17,11 @@
       flex: 3;
       order: 1;
       padding-right: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
       @media (min-width: 450px){
-        padding-top: 45px;
+        // padding-top: 45px;
       }
       @include mobile{
         padding-right: 0;
@@ -29,7 +32,7 @@
         text-align: center;
       }
       h2{
-        font-size: 2.2em;
+        font-size: 2.3em;
         text-align: left;
         @include mobile{
           padding: 0;
@@ -58,8 +61,7 @@
       font-family:$font-primary;
       font-weight: 100;
       postion: fixed;
-      margin-top: 10px;
-
+      // margin-top: 10px;
       }
 
 
@@ -137,7 +139,7 @@
         border-radius: 60px;
         justify-content: center;
         align-items: center;
-        margin-top: 10px;
+        // margin-top: 10px;
         line-height: 1.3rem !important;
         @include mobile{
           flex-direction: column;
@@ -157,15 +159,13 @@
         button{
           color: white;
           font-size: 15px;
-          // background-color: #2A3275;
           background: -moz-linear-gradient(left, #1da5c9 0%, #1d85db 100%); /* FF3.6-15 */
           background: -webkit-linear-gradient(left, #1da5c9 0%,#1d85db 100%); /* Chrome10-25,Safari5.1-6 */
           background: linear-gradient(to right, #1da5c9 0%,#1d85db 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
           padding: 15px 25px;
           border-radius: 10px;
-          margin-left: 6px;
-          border: 0px solid linear-gradient(to right, #1da5c9 0%, #1d85db 100%);
+          transition: all 0.3s ease;
+          box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           @include mobile{
             font-size: 13px;
             margin-left:0;
@@ -174,13 +174,10 @@
           @media(max-width:1024px){
             margin-left: 0px;
           }
-            transition: border-width .3s ease-in-out;
-            // transition: margin-left .3s ease-in-out;
-        }
-        button:hover{
-        border-width: 2px 3px;
-        // margin-left: 0px;
-
+          &:hover {
+            background-position: right center;
+            box-shadow: 0 7px 20px -5px rgba(0, 0, 0, 0.4);
+          }
         }
       }
     }

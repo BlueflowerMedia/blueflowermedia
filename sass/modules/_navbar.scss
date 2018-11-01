@@ -242,7 +242,7 @@ ul#primary-menu > li > a {
 	&:before {
 		content: "";
 		position: absolute;
-		background: $red;
+		background: $blue-new;
 		z-index: -1;
 		transition: all 0.2s ease;
 		border-radius: 3px;

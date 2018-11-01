@@ -1436,7 +1436,7 @@ button.tag {
 
 button.nav-contact {
   background-size: 200% auto;
-  background-image: linear-gradient(to right, #ed467b 0%, #ec7e7a 51%, #ed467b 100%);
+  background-image: linear-gradient(to right, #1da5c9 0%, #1d85db 100%);
   color: white;
   text-transform: uppercase;
   padding: 14px 15px;
@@ -1677,7 +1677,7 @@ ul#primary-menu > li > a {
   ul#primary-menu > li > a:before {
     content: "";
     position: absolute;
-    background: #ed467b;
+    background: #1B8DCB;
     z-index: -1;
     transition: all 0.2s ease;
     border-radius: 3px;
@@ -1999,10 +1999,10 @@ footer {
     #section-header .container .header-text {
       flex: 3;
       order: 1;
-      padding-right: 50px; }
-      @media (min-width: 450px) {
-        #section-header .container .header-text {
-          padding-top: 45px; } }
+      padding-right: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
       @media (max-width: 760px) {
         #section-header .container .header-text {
           padding-right: 0;
@@ -2012,7 +2012,7 @@ footer {
           padding-right: 10px;
           text-align: center; } }
       #section-header .container .header-text h2 {
-        font-size: 2.2em;
+        font-size: 2.3em;
         text-align: left; }
         @media (max-width: 760px) {
           #section-header .container .header-text h2 {
@@ -2036,8 +2036,7 @@ footer {
         line-height: 1;
         font-family: "Source Sans Pro", sans-serif;
         font-weight: 100;
-        postion: fixed;
-        margin-top: 10px; }
+        postion: fixed; }
       #section-header .container .header-text #typeline {
         font-size: 2rem;
         line-height: 1.2;
@@ -2104,7 +2103,6 @@ footer {
         border-radius: 60px;
         justify-content: center;
         align-items: center;
-        margin-top: 10px;
         line-height: 1.3rem !important; }
         @media (min-width: 1024px) {
           #section-header .container .header-text .schedule-now {
@@ -2134,9 +2132,8 @@ footer {
           /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
           padding: 15px 25px;
           border-radius: 10px;
-          margin-left: 6px;
-          border: 0px solid linear-gradient(to right, #1da5c9 0%, #1d85db 100%);
-          transition: border-width .3s ease-in-out; }
+          transition: all 0.3s ease;
+          box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4); }
           @media (max-width: 760px) {
             #section-header .container .header-text .schedule-now button {
               font-size: 13px;
@@ -2145,8 +2142,9 @@ footer {
           @media (max-width: 1024px) {
             #section-header .container .header-text .schedule-now button {
               margin-left: 0px; } }
-        #section-header .container .header-text .schedule-now button:hover {
-          border-width: 2px 3px; }
+          #section-header .container .header-text .schedule-now button:hover {
+            background-position: right center;
+            box-shadow: 0 7px 20px -5px rgba(0, 0, 0, 0.4); }
     #section-header .container .header-image {
       flex: 4;
       order: 2; }
