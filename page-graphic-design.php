@@ -190,7 +190,7 @@
 
 <!-- section i-am-ready-->
 
-<section id-"section-iamready">
+<!-- <section id-"section-iamready">
   <div class="container">
     <div class="iamready">
       <div class="iamreadyleft">
@@ -203,7 +203,9 @@
     </div>
 
   </div>
-</section>
+</section> -->
+
+<?php get_template_part('template-parts/getintouch'); ?>
 
 
 

@@ -163,19 +163,6 @@
 
 
 <!-- section-iamready-->
-<section id-"section-iamready">
-  <div class="container">
-    <div class="iamready">
-      <div class="iamreadyleft">
-        <h3>Want to get started?</h3>
-        <h5>BlueFlower Media offers phone, email, and in person support for all of our clients.</h5>
-      </div>
-      <div class="iamreadyright">
-        <a href="<?php echo get_permalink(get_page_by_path( 'contact' )); ?>"><button type="button" name="button">I'm Ready!</button></a>
-      </div>
-    </div>
-
-  </div>
-</section>
+<?php get_template_part('template-parts/getintouch'); ?>
 
 <?php get_footer(); ?>

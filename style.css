@@ -2494,7 +2494,8 @@ footer {
       flex: 1;
       background-image: url("./images/homepage1/CallToAction.svg");
       background-repeat: no-repeat;
-      background-position: center; }
+      background-position: center;
+      background-width: 50vw; }
     #section-getintouch .container button {
       background-color: transparent;
       border: 3px solid white;
@@ -4125,5 +4126,3 @@ span.wpcf7-not-valid-tip {
   @media (max-width: 760px) {
     .package-list {
       list-style: none; } }
-
-/*# sourceMappingURL=style.css.map */
