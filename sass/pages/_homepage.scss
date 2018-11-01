@@ -531,30 +531,32 @@
         flex: 2;
         padding: 0px 50px;
         .owl-carousel {
-
           padding-top: 50px;
-          max-width: 800px;
+          max-width: 400px;
           margin: 0 auto;
           text-align: justify;
-          .quotation-open{
-            width: 50%;
-            transform: scaleX(-1);
-          }
-          .center-text{
-            font-family: $font-primary !important;
-            font-size: 0.9rem;
-            padding: 0 10px;
-            // text-align:end;
-            .name-company{
-              text-align: right;
-              font-weight: 700;
+          .testimonial {
+            .quotation-open{
+              width: 50%;
+              transform: scaleX(-1);
             }
-          }
-          .quotation-close{
-            width: 50%;
-            padding-top: 50px;
-            display: flex;
-            justify-content:flex-end;
+            .center-text{
+              font-family: $font-primary !important;
+              font-size: 0.9rem;
+              padding: 0 10px;
+              // text-align:end;
+              .name-company{
+                text-align: right;
+                font-weight: 700;
+              }
+            }
+            .quotation-close{
+              width: 50%;
+              padding-top: 50px;
+              display: flex;
+              justify-content:flex-end;
+            }
+
           }
         }
       }
