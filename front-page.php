@@ -13,7 +13,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
   <div class="container">
     <div class="header-text">
       <h2>We provide small businesses:</h2><br>
-        <span id = "staticText" ><span id="typeline" ></span></span>
+      <span id="staticText"><span id="typeline" ></span></span>
       <!-- <h4><hr class="line-left">Branding | Web Design | Digital Marketing<hr class="line-right"></h4> -->
       <hr class="line1">
       <div class="schedule-now sr">
@@ -205,17 +205,36 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       </div>
       <div class="testimonials-slider">
         <h2>What They Say</h2>
-        <div class="row owl-carousel slider-items">
-          <div class="quotation-open">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-quotations.svg" alt="quotation-marks">
+        <div class="row testimonial-slider owl-carousel slider-items">
+
+          <!-- testimonial 1 -->
+          <div class="testimonial" id="testimonial-1">
+            <div class="quotation-open">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-quotations.svg" alt="quotation-marks">
+            </div>
+            <div class="center-text">
+              <p> Blueflower Media created my e-commerce website for my artwork from scratch. In a short period of time the website was up and working with great visuals and smooth functionality for visitors. Staff are friendly, flexible and the project was
+                completed on budget. I recommend them. </p>
+              <p class="name-company">Christian <br>CT Paintings</p>
+            </div>
+            <div class="quotation-close">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-quotations.svg" alt="quotation-marks">
+            </div>
           </div>
-          <div class="center-text">
-            <p> Blueflower Media created my e-commerce website for my artwork from scratch. In a short period of time the website was up and working with great visuals and smooth functionality for visitors. Staff are friendly, flexible and the project was
-              completed on budget. I recommend them. </p>
-            <p class="name-company">Christian <br>CT Paintings</p>
-          </div>
-          <div class="quotation-close">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-quotations.svg" alt="quotation-marks">
+
+          <!-- testimonial 2 -->
+          <div class="testimonial" id="testimonial-2">
+            <div class="quotation-open">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-quotations.svg" alt="quotation-marks">
+            </div>
+            <div class="center-text">
+              <p> Blueflower Media created my business website for my artwork from scratch. In a short period of time the website was up and working with great visuals and smooth functionality for visitors. Staff are friendly, flexible and the project was
+                completed on budget. I recommend them. </p>
+              <p class="name-company">Christian <br>CT Paintings</p>
+            </div>
+            <div class="quotation-close">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-quotations.svg" alt="quotation-marks">
+            </div>
           </div>
 
         </div>

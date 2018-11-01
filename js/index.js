@@ -66,12 +66,12 @@ window.ss = ScrollReveal({
 
 
 // client logo slider
-function runCarouselClientLogo() {
-	$(".client-logo-slider").owlCarousel({
+function testimonialSlider() {
+	$(".testimonial-slider").owlCarousel({
 		loop: true,
-		margin: 100,
 		autoplay: true,
-		autoplayTimeout: 2000,
+		autoplayTimeout: 3500,
+		smartSpeed: 500,
 		autoplayHoverPause: true,
 		nav: false,
 		responsiveClass: true,
@@ -88,18 +88,6 @@ function runCarouselClientLogo() {
 		}
 	})
 
-}
-// portfolio slider
-function runCarouselPortfolio() {
-	$(".portfolio-slider").owlCarousel({
-		items: 1,
-		loop: true,
-		autoplay: true,
-		autoplayTimeout: 4000,
-		autoplayHoverPause: true,
-		animateIn: 'fadeIn',
-		animateOut: 'fadeOut',
-	});
 }
 
 
@@ -372,6 +360,7 @@ ss.reveal($('.ss'));
 // Page specific functions
 if (pageName == "blueflowermedia" || pageName == "") {
 	progressVerticalLine();
+	testimonialSlider();
 	// runParticles();
 	// runCarouselClientLogo();
 	runRellax();
@@ -382,7 +371,6 @@ if (pageName == "blueflowermedia" || pageName == "") {
 } else if (pageName == "blog") {
 	postHeight();
 } else if (pageName == "portfolio") {
-	runCarouselPortfolio();
 }
 
 
