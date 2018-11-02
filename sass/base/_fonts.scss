@@ -55,7 +55,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: $font-primary;
+  font-family: $font-primary !important;
   margin: 0.4rem 0;
   font-weight: 700;
   line-height: 1.2;

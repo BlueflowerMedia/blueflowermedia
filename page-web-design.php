@@ -18,8 +18,8 @@
 <section id="banner1-webdesign">
   <div class="container">
     <div class="text-left">
-      <h2>Your website.<br>Your business.<br>Your Clients.</h2>
-      <h3><br>It only makes sense for our web<br>design process to start with you.</h3>
+      <h2><span class="yellow-text">Your</span> website.<br><span class="yellow-text">Your</span> business.<br><span class="yellow-text">Your</span> Clients.</h2>
+      <h3><br>It only makes sense for our web<br>design process to start with <span class="yellow-text">you</span>.</h3>
     </div>
 
     <div class="text-right">
@@ -138,7 +138,7 @@
 <section id="banner2-webdesign">
   <div class="container">
     <div class="text-left">
-      <h2>Build your dream<br>e-commerce website.</h2>
+      <h2>Build your dream<br><span class="yellow-text">e-commerce</span> website.</h2>
       <p>Convert your visitors into buyers with successful e-commerce business strategies that involve innovative marketing and a robust online platform. Our team of designers and developers work in synergy to create softwares that not only look amazing, but also utilize proven user-interaction ideologies to increase sales.
         With our result-driven strategies, growth is inevitable. So with BlueFlower Media, grow your commerce with reassurance as we build our platforms with scalability in mind and integrate industry-standard automation channels for product management.</p>
     </div>

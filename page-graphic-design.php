@@ -17,7 +17,7 @@
 <section id="graphic-design-banner1">
   <div class="container">
     <div class="text-left">
-      <h2>"Good Design is <br>Good Business."</h2>
+      <h2>"Good <span class="yellow-text">Design</span> is <br>Good<span class="yellow-text"> Business</span>."</h2>
       <p>-Thomas Watson Jr.</p>
     </div>
 
@@ -92,7 +92,7 @@
 <section id="graphic-design-banner2">
   <div class="container">
     <div class="text-left">
-      <h2>Consistency makes<br> your brand memorable. </h2>
+      <h2><span class="yellow-text">Consistency</span> makes<br> your brand <span class="yellow-text">memorable</span>. </h2>
       <p>Your want your customers to remember their experience with you. It’s a great way to improve how often they return to your business. If our goal is to make sure your business is as memorable as possible, it’s crucial to design every online and offline touchpoint following the same design styles. This will include your website, social profiles, business cards, promotional materials, advertising content, signs, etc. </p>
     </div>
 

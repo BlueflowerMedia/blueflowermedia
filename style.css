@@ -1247,7 +1247,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro", sans-serif !important;
   margin: 0.4rem 0;
   font-weight: 700;
   line-height: 1.2;
@@ -3297,8 +3297,7 @@ span.wpcf7-not-valid-tip {
         #graphic-design-banner1 .container .text-left {
           text-align: center; } }
       #graphic-design-banner1 .container .text-left h2 {
-        font-size: 60px;
-        color: #EE708B; }
+        color: #fff; }
         @media (max-width: 1025px) {
           #graphic-design-banner1 .container .text-left h2 {
             font-size: 42px; } }
@@ -3356,8 +3355,7 @@ span.wpcf7-not-valid-tip {
         #graphic-design-banner2 .container .text-left {
           text-align: center; } }
       #graphic-design-banner2 .container .text-left h2 {
-        font-size: 60px;
-        color: #EE708B; }
+        color: #fff; }
         @media (max-width: 1025px) {
           #graphic-design-banner2 .container .text-left h2 {
             font-size: 42px; } }
@@ -3425,9 +3423,9 @@ span.wpcf7-not-valid-tip {
           height: 160px;
           width: 160px;
           border-radius: 50%;
+          padding: 20px;
           display: inline-block;
           position: relative;
-          background-color: #ECCD1A;
           justify-content: center;
           /* align horizontal */
           align-items: center; }
@@ -3474,7 +3472,7 @@ span.wpcf7-not-valid-tip {
     #we-design .container .design-item-row {
       display: flex; } }
   #we-design .container .design-item-row .design-item {
-    box-shadow: 1px 1px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.4);
     padding: 50px 60px;
     align-items: center;
     margin: 10px;
@@ -3488,6 +3486,8 @@ span.wpcf7-not-valid-tip {
     #we-design .container .design-item-row .design-item .item-logo {
       width: 150px;
       margin: auto; }
+      #we-design .container .design-item-row .design-item .item-logo img {
+        max-width: 65%; }
       @media (max-width: 450px) {
         #we-design .container .design-item-row .design-item .item-logo {
           text-align: center; } }
@@ -3705,7 +3705,8 @@ span.wpcf7-not-valid-tip {
           margin: 0 0 20px 0; } }
 
 .services-container {
-  text-align: center; }
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif !important; }
   .services-container h2 {
     padding: 50px; }
   .services-container .services-blocks {
@@ -3715,11 +3716,9 @@ span.wpcf7-not-valid-tip {
     align-items: center;
     padding-bottom: 100px; }
     .services-container .services-blocks .service-block {
-      flex: 1;
-      text-align: center;
-      flex-basis: 33%;
+      align-items: center;
       padding: 30px 60px;
-      box-shadow: 1px 1px 10px -5px rgba(0, 0, 0, 0.4);
+      box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.4);
       margin: 10px; }
       @media (max-width: 450px) {
         .services-container .services-blocks .service-block {
@@ -3727,9 +3726,11 @@ span.wpcf7-not-valid-tip {
       @media (min-width: 450px) {
         .services-container .services-blocks .service-block {
           display: flex; } }
-      .services-container .services-blocks .service-block img {
-        width: 150px;
-        background-color: #fff; }
+      .services-container .services-blocks .service-block .service-image {
+        width: 300px; }
+        .services-container .services-blocks .service-block .service-image img {
+          width: 150px;
+          background-color: #fff; }
       .services-container .services-blocks .service-block .text {
         text-align: left; }
         @media (max-width: 450px) {
@@ -3738,6 +3739,22 @@ span.wpcf7-not-valid-tip {
         @media (min-width: 450px) {
           .services-container .services-blocks .service-block .text h3, .services-container .services-blocks .service-block .text p {
             padding: 10px 40px; } }
+        .services-container .services-blocks .service-block .text .text-top h3 {
+          font-family: "Source Sans Pro", sans-serif; }
+        .services-container .services-blocks .service-block .text .text-top p {
+          margin-top: 0;
+          padding-top: 0;
+          margin-bottom: 0;
+          font-family: "Source Sans Pro", sans-serif !important; }
+        .services-container .services-blocks .service-block .text .text-bottom h3 {
+          font-family: "Source Sans Pro", sans-serif; }
+        .services-container .services-blocks .service-block .text .text-bottom p {
+          margin-top: 0;
+          font-size: 1.1em;
+          font-family: "Source Sans Pro", sans-serif !important; }
+
+.yellow-text {
+  color: #ECCE1E; }
 
 #banner1-webdesign {
   background-image: url("./images/webdesign/bfm-2.0-new-web-design-image-1.jpg");
@@ -3766,7 +3783,6 @@ span.wpcf7-not-valid-tip {
         #banner1-webdesign .container .text-left {
           text-align: center; } }
       #banner1-webdesign .container .text-left h2 {
-        font-size: 60px;
         color: #fff; }
         @media (max-width: 1025px) {
           #banner1-webdesign .container .text-left h2 {
@@ -3825,9 +3841,7 @@ span.wpcf7-not-valid-tip {
         #banner2-webdesign .container .text-left {
           text-align: center; } }
       #banner2-webdesign .container .text-left h2 {
-        font-size: 60px;
-        color: #fff;
-        font-weight: 400; }
+        color: #fff; }
         @media (max-width: 1025px) {
           #banner2-webdesign .container .text-left h2 {
             font-size: 42px; } }
@@ -3928,7 +3942,7 @@ span.wpcf7-not-valid-tip {
         padding: 10px;
         display: inline-block;
         position: relative;
-        background-color: #ECCD1A;
+        background-color: #D8DFE6;
         justify-content: center;
         /* align horizontal */
         align-items: center; }
