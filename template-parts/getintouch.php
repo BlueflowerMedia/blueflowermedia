@@ -13,6 +13,7 @@
       </div>
     </div>
     <div class="getintouch-right">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/CallToAction.svg" alt="" class="image">
 
     </div>
   </div>

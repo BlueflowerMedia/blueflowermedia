@@ -40,8 +40,10 @@
 
         }
         @media(max-width: 1025px){
-          font-size: 2em;
-
+          font-size: 1.9em;
+        }
+        @include tablet{
+          font-size: 1.6em;
         }
       }
       .sa{
@@ -132,9 +134,9 @@
         border-width: 3px;
       }
       .schedule-now{
-        @media(min-width: 1024px){
+        @media(min-width: 1200px){
           display: flex;
-            justify-content: space-between;
+          justify-content: space-between;
         }
 
         // background-color: #D8E0E8;
@@ -161,7 +163,8 @@
         }
         button{
           color: white;
-          font-size: 15px;
+          font-size: 0.92em;
+          font-weight: 700;
           background: -moz-linear-gradient(left, #1da5c9 0%, #1d85db 100%); /* FF3.6-15 */
           background: -webkit-linear-gradient(left, #1da5c9 0%,#1d85db 100%); /* Chrome10-25,Safari5.1-6 */
           background: linear-gradient(to right, #1da5c9 0%,#1d85db 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -170,7 +173,7 @@
           transition: all 0.3s ease;
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           @include mobile{
-            font-size: 13px;
+            // font-size: 13px;
             margin-left:0;
             padding: 10px 15px;
           }
@@ -515,6 +518,11 @@
       }
       .clients-images{
         flex: 3;
+        h2{
+          @include mobile{
+            text-align: center;
+          }
+        }
         .row1{
           display: flex;
           justify-content: space-around;
@@ -529,12 +537,18 @@
       }
       .testimonials-slider{
         flex: 2;
-        padding: 0px 50px;
+        padding: 0px 40px;
+        @include mobile{
+          margin-top: 60px;
+        }
         .owl-carousel {
           padding-top: 50px;
           max-width: 400px;
           margin: 0 auto;
           text-align: justify;
+          @include mobile{
+            padding-top: 30px;
+          }
           .testimonial {
             .quotation-open{
               width: 50%;
@@ -633,32 +647,43 @@
   background: linear-gradient(to right, #1da5c9 0%,#1d85db 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   .container {
     text-align: center;
-    display: flex;
+    @media(min-width: 450px){
+      display: flex;
+    }
+
     .getintouch-left{
       flex: 1;
       .getintouch-left-top{
         h2,p{
           color: white;
+          text-align: left;
+
         }
         p{
           font-size: 1em;
           margin: 30px 0 80px 0;
+
         }
 
       }
       .getintouch-left-bottom{
         display: flex;
-        justify-content: center;
+        justify-content: left;
       }
     }
     .getintouch-right{
       flex: 1;
-      background-image: url("./images/homepage1/CallToAction.svg");
-      background-repeat: no-repeat;
-      background-position: center;
+      img{
+        @media (min-width: 1200px){
+          max-width: 70%;
+        }
+      }
+      @include mobile{
+        margin-top: 50px;
+      }
     }
     button {
-      background-color: transparent;
+      background:white;
       border: 3px solid white;
       font-weight: 700;
       font-size: 1.3rem;
@@ -670,12 +695,14 @@
       margin: 0 .25em;
 
       &:hover {
-        background: white;
+        background: transparent;
+        color: white;
       }
     }
   }
 
   &.blue {
     background-color: $blue;
+
   }
 }

@@ -2050,7 +2050,10 @@ footer {
             text-align: center; } }
         @media (max-width: 1025px) {
           #section-header .container .header-text h2 {
-            font-size: 2em; } }
+            font-size: 1.9em; } }
+        @media (min-width: 760px) and (max-width: 1023px) {
+          #section-header .container .header-text h2 {
+            font-size: 1.6em; } }
       #section-header .container .header-text .sa {
         font-size: 3.25em; }
         @media (max-width: 760px) {
@@ -2130,7 +2133,7 @@ footer {
         justify-content: center;
         align-items: center;
         line-height: 1.3rem !important; }
-        @media (min-width: 1024px) {
+        @media (min-width: 1200px) {
           #section-header .container .header-text .schedule-now {
             display: flex;
             justify-content: space-between; } }
@@ -2149,7 +2152,8 @@ footer {
               font-size: 13px; } }
         #section-header .container .header-text .schedule-now button {
           color: white;
-          font-size: 15px;
+          font-size: 0.92em;
+          font-weight: 700;
           background: -moz-linear-gradient(left, #1da5c9 0%, #1d85db 100%);
           /* FF3.6-15 */
           background: -webkit-linear-gradient(left, #1da5c9 0%, #1d85db 100%);
@@ -2162,7 +2166,6 @@ footer {
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4); }
           @media (max-width: 760px) {
             #section-header .container .header-text .schedule-now button {
-              font-size: 13px;
               margin-left: 0;
               padding: 10px 15px; } }
           @media (max-width: 1024px) {
@@ -2398,6 +2401,9 @@ footer {
     display: flex; } }
 #section-clients-testimonials .container .row .clients-images {
   flex: 3; }
+  @media (max-width: 760px) {
+    #section-clients-testimonials .container .row .clients-images h2 {
+      text-align: center; } }
   #section-clients-testimonials .container .row .clients-images .row1 {
     display: flex;
     justify-content: space-around; }
@@ -2409,12 +2415,18 @@ footer {
       margin: 5px; }
 #section-clients-testimonials .container .row .testimonials-slider {
   flex: 2;
-  padding: 0px 50px; }
+  padding: 0px 40px; }
+  @media (max-width: 760px) {
+    #section-clients-testimonials .container .row .testimonials-slider {
+      margin-top: 60px; } }
   #section-clients-testimonials .container .row .testimonials-slider .owl-carousel {
     padding-top: 50px;
     max-width: 400px;
     margin: 0 auto;
     text-align: justify; }
+    @media (max-width: 760px) {
+      #section-clients-testimonials .container .row .testimonials-slider .owl-carousel {
+        padding-top: 30px; } }
     #section-clients-testimonials .container .row .testimonials-slider .owl-carousel .testimonial .quotation-open {
       width: 50%;
       transform: scaleX(-1); }
@@ -2479,25 +2491,31 @@ footer {
   background: linear-gradient(to right, #1da5c9 0%, #1d85db 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
   #section-getintouch .container {
-    text-align: center;
-    display: flex; }
+    text-align: center; }
+    @media (min-width: 450px) {
+      #section-getintouch .container {
+        display: flex; } }
     #section-getintouch .container .getintouch-left {
       flex: 1; }
       #section-getintouch .container .getintouch-left .getintouch-left-top h2, #section-getintouch .container .getintouch-left .getintouch-left-top p {
-        color: white; }
+        color: white;
+        text-align: left; }
       #section-getintouch .container .getintouch-left .getintouch-left-top p {
         font-size: 1em;
         margin: 30px 0 80px 0; }
       #section-getintouch .container .getintouch-left .getintouch-left-bottom {
         display: flex;
-        justify-content: center; }
+        justify-content: left; }
     #section-getintouch .container .getintouch-right {
-      flex: 1;
-      background-image: url("./images/homepage1/CallToAction.svg");
-      background-repeat: no-repeat;
-      background-position: center; }
+      flex: 1; }
+      @media (min-width: 1200px) {
+        #section-getintouch .container .getintouch-right img {
+          max-width: 70%; } }
+      @media (max-width: 760px) {
+        #section-getintouch .container .getintouch-right {
+          margin-top: 50px; } }
     #section-getintouch .container button {
-      background-color: transparent;
+      background: white;
       border: 3px solid white;
       font-weight: 700;
       font-size: 1.3rem;
@@ -2508,7 +2526,8 @@ footer {
       box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4);
       margin: 0 .25em; }
       #section-getintouch .container button:hover {
-        background: white; }
+        background: transparent;
+        color: white; }
   #section-getintouch.blue {
     background-color: #1B8DCB; }
 
