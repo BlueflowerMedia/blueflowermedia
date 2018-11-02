@@ -3,7 +3,7 @@
 <section id="services">
   <div class="container flex-row">
     <div class="flex1 services-logo">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-2.0-web-design-page-main-icon.svg" alt="" class="image">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/digital-packages/Asset6.svg" alt="" class="image">
     </div>
     <div class="txtservice flex1">
       <h1>Digital Packages<span class="big-dot blue">.</span></h1>
@@ -25,7 +25,7 @@
       <div class="package">
         <a class="service-anchor" href="<?php echo $webdesign; ?>">
           <div class="logo">
-            <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons\bfm-2.0-web-design-icon.svg" alt="bfm-web-design-icon">
+            <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/digital-packages/Asset7.svg" alt="bfm-web-design-icon">
             <h3>Landing Page</h3>
           </div>
         </a>
@@ -50,7 +50,7 @@
       <div class="package">
         <a class="service-anchor" href="<?php echo $graphicdesign; ?>">
           <div class="logo">
-            <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-2.0-web-design-icon.svg" alt="bfm-graphic-design-icon">
+            <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/digital-packages/Asset8.svg" alt="bfm-graphic-design-icon">
             <h3 >Standard Website</h3>
           </div>
         </a>
@@ -78,7 +78,7 @@
       <div class="package">
         <a class="service-anchor" href="<?php echo $digitalmarketing; ?>">
           <div class="logo">
-            <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-2.0-web-design-icon.svg" alt="bfm-digital-marketing-icon">
+            <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/digital-packages/Asset9.svg" alt="bfm-digital-marketing-icon">
             <h3>E-Commerce</h3>
           </div>
         </a>
