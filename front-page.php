@@ -22,7 +22,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       </div>
     </div>
     <div class="header-image">
-      <img class="sr" src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-2.0-buildings.svg" alt="">
+      <img class="sr" src="<?php echo get_template_directory_uri(); ?>/images/homepage/gradient/BusinessesIllustration.svg" alt="">
     </div>
   </div>
 </section>
@@ -58,7 +58,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
     <!-- 1nd -->
     <div class="process flex-row">
       <div id="process-pic-1" class="process-pic flex1">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-2.0-conceptualize.svg" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/homepage/gradient/Conceptualize.svg" alt="" class="image">
       </div>
       <div class="circle1" id="circle1">
         <div class="middle">
@@ -86,13 +86,13 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
 
       </div>
       <div id="process-pic-2" class="process-pic flex1">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-2.0-design-develop.svg" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/homepage/gradient/Design&Develop.svg" alt="" class="image">
       </div>
     </div>
     <!-- 3th -->
     <div class="process flex-row">
       <div id="process-pic-3" class="process-pic flex1">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-2.0-market-your-business.svg" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/homepage/gradient/MarketYourBusiness.svg" alt="" class="image">
       </div>
       <div class="circle1" id="circle3">
 
@@ -118,7 +118,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       <div class="service ">
         <a class="service-anchor" href="<?php echo $graphicdesign; ?>">
           <div class="logo">
-            <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-2.0-graphic-design-icon.svg" alt="bfm-graphic-design-icon">
+            <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/homepage/gradient/GraphicDesign.svg" alt="bfm-graphic-design-icon">
             <h3>Branding</h3>
           </div>
         </a>
@@ -139,7 +139,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       <div class="service">
         <a class="service-anchor" href="<?php echo $webdesign; ?>">
           <div class="logo">
-            <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons\bfm-2.0-web-design-icon.svg" alt="bfm-web-design-icon">
+            <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/homepage/gradient/WebDesign.svg" alt="bfm-web-design-icon">
             <h3>Web Design</h3>
           </div>
         </a>
@@ -161,7 +161,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       <div class="service ">
         <a class="service-anchor" href="<?php echo $digitalmarketing; ?>">
           <div class="logo">
-            <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-2.0-digital-marketing-icon.svg" alt="bfm-digital-marketing-icon">
+            <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/homepage/gradient/DigitalMarketing.svg" alt="bfm-digital-marketing-icon">
             <h3>Digital Marketing</h3>
           </div>
         </a>
@@ -210,7 +210,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
           <!-- testimonial 1 -->
           <div class="testimonial" id="testimonial-1">
             <!-- <div class="quotation-open">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-quotations.svg" alt="quotation-marks">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/homepage/bfm-quotations.svg" alt="quotation-marks">
             </div> -->
             <div class="center-text">
               <p> Blueflower Media created my e-commerce website for my artwork from scratch. In a short period of time the website was up and working with great visuals and smooth functionality for visitors. Staff are friendly, flexible and the project was
@@ -218,14 +218,14 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
               <p class="name-company">Christian <br>CT Paintings</p>
             </div>
             <!-- <div class="quotation-close">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-quotations.svg" alt="quotation-marks">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/homepage/bfm-quotations.svg" alt="quotation-marks">
             </div> -->
           </div>
 
           <!-- testimonial 2 -->
           <div class="testimonial" id="testimonial-2">
             <!-- <div class="quotation-open">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-quotations.svg" alt="quotation-marks">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/homepage/bfm-quotations.svg" alt="quotation-marks">
             </div> -->
             <div class="center-text">
               <p> What a talented group of next-gen creative minds can do for your business. They put it in the spotlight with an exciting website with eye-captivating visuals and contents and give you the tools that can conquer the world of your business - these
@@ -233,7 +233,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
               <p class="name-company">Sahil <br>India Journal</p>
             </div>
             <!-- <div class="quotation-close">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/homepage1/bfm-quotations.svg" alt="quotation-marks">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/homepage/bfm-quotations.svg" alt="quotation-marks">
             </div> -->
           </div>
 
