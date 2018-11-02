@@ -1853,7 +1853,10 @@ footer {
     opacity: 1 !important; }
   @media (min-width: 770px) {
     footer .footer-center-left {
-      padding-left: 3em; } }
+      padding-left: 2em; } }
+  @media (max-width: 760px) {
+    footer .footer-center-left {
+      margin: 50px 0; } }
   footer .footer-center-left h3 {
     color: #fff;
     font-family: "Source Sans Pro", sans-serif;
@@ -1862,7 +1865,10 @@ footer {
     color: #fff; }
   @media (min-width: 770px) {
     footer .footer-center-right {
-      padding-left: 3em; } }
+      padding-left: 2em; } }
+  @media (max-width: 760px) {
+    footer .footer-center-right {
+      margin: 50px 0; } }
   footer .footer-center-right h3 {
     color: #fff;
     font-family: "Source Sans Pro", sans-serif;
@@ -1874,9 +1880,9 @@ footer {
     footer .footer-right h3 {
       color: #fff;
       font-family: "Source Sans Pro", sans-serif; }
-    @media (max-width: 760px) {
-      footer .footer-right {
-        justify-content: center; } }
+      @media (max-width: 760px) {
+        footer .footer-right h3 {
+          text-align: center; } }
     footer .footer-right .contact-items .contact {
       display: flex;
       align-items: center; }
@@ -2427,7 +2433,8 @@ footer {
   padding: 0px 40px; }
   @media (max-width: 760px) {
     #section-clients-testimonials .container .row .testimonials-slider {
-      margin-top: 60px; } }
+      margin-top: 60px;
+      text-align: center; } }
   #section-clients-testimonials .container .row .testimonials-slider .owl-carousel {
     padding-top: 50px;
     max-width: 400px;
@@ -2509,12 +2516,18 @@ footer {
       #section-getintouch .container .getintouch-left .getintouch-left-top h2, #section-getintouch .container .getintouch-left .getintouch-left-top p {
         color: white;
         text-align: left; }
+        @media (max-width: 760px) {
+          #section-getintouch .container .getintouch-left .getintouch-left-top h2, #section-getintouch .container .getintouch-left .getintouch-left-top p {
+            text-align: center; } }
       #section-getintouch .container .getintouch-left .getintouch-left-top p {
         font-size: 1em;
         margin: 30px 0 80px 0; }
       #section-getintouch .container .getintouch-left .getintouch-left-bottom {
         display: flex;
         justify-content: left; }
+        @media (max-width: 760px) {
+          #section-getintouch .container .getintouch-left .getintouch-left-bottom {
+            justify-content: center; } }
     #section-getintouch .container .getintouch-right {
       flex: 1; }
       @media (min-width: 1200px) {

@@ -540,6 +540,7 @@
         padding: 0px 40px;
         @include mobile{
           margin-top: 60px;
+          text-align: center;
         }
         .owl-carousel {
           padding-top: 50px;
@@ -657,6 +658,9 @@
         h2,p{
           color: white;
           text-align: left;
+          @include mobile{
+            text-align: center;
+          }
 
         }
         p{
@@ -669,6 +673,9 @@
       .getintouch-left-bottom{
         display: flex;
         justify-content: left;
+        @include mobile{
+          justify-content: center;
+        }
       }
     }
     .getintouch-right{
