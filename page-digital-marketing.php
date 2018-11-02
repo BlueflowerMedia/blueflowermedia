@@ -58,7 +58,7 @@
       </div>
     </div>
       <div class="arrow1">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/arrow.svg" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/arrow.svg" alt="" class="image">
       </div>
       <div class="figure">
         <div class="circle">
@@ -70,7 +70,7 @@
       </div>
 
       <div class="arrow1">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/arrow.svg" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/arrow.svg" alt="" class="image">
       </div>
 
       <div class="figure">
@@ -83,7 +83,7 @@
       </div>
 
       <div class="arrow1">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/arrow.svg" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/arrow.svg" alt="" class="image">
       </div>
 
       <div class="figure">
