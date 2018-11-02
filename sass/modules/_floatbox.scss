@@ -35,7 +35,7 @@
 	@include position(absolute, $bottom: -10%, $right: 10%);
 	@include box(120px, 120px);
 	border-radius: 20px;
-		background: darken($blue, 5);
+		background: darken($yellow, 5);
 	@include mobile {
 		display: none;
 	}

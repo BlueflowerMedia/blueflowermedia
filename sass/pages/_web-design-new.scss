@@ -294,7 +294,8 @@
     max-width: 1600px;
     margin: 0 auto;
 
-    padding: 100px 50px;
+    // padding: 100px 50px;
+    padding: 100px 5%;
     @media(min-width: 800px){
       display: flex;
     }
@@ -304,7 +305,7 @@
 
     .tools-text{
       flex: 1;
-      padding: 100px 50px;
+      padding: 100px 5%;
       @media (max-width: 1025px){
         padding: 0;
       }
@@ -346,13 +347,13 @@
     @media(min-width: 800px){
           display: flex;
     }
-    padding: 100px 50px;
+    padding: 100px 5%;
     @media (max-width: 425px){
       padding: 50px 20px;
     }
     .hosting-text{
       flex: 1;
-      padding: 100px 50px;
+      padding: 100px 5%;
       @media (max-width: 1025px){
         padding: 0;
       }

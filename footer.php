@@ -29,29 +29,51 @@
 				<a href="<?php echo get_permalink(get_page_by_path( 'book-an-appointment' )); ?>">Book Consultation</a><br>
 				<a href="<?php echo get_permalink(get_page_by_path( 'contact' )); ?>">Contact Us</a><br>
 				<a href="<?php echo get_permalink(get_page_by_path( 'blog' )); ?>">Blog</a><br>
+				<a href="<?php echo get_permalink(get_page_by_path( 'portfolio' )); ?>">Our Work</a><br>
 			</div>
 
 			<div class="footer-center-right flex1">
 				<h3>Packages</h3>
-				<a href="<?php echo get_permalink(get_page_by_path( 'portfolio' )); ?>">Our Work</a><br>
+				<a href="<?php echo get_permalink(get_page_by_path( 'graphic-design' )); ?>">Branding</a><br>
 				<a href="<?php echo get_permalink(get_page_by_path( 'web-design' )); ?>">Web Design</a><br>
-				<a href="<?php echo get_permalink(get_page_by_path( 'graphic-design' )); ?>">Graphic Design</a><br>
 				<a href="<?php echo get_permalink(get_page_by_path( 'digital-marketing' )); ?>">Digital Marketing</a><br>
 			</div>
 			<div class="footer-right flex1">
 				<h3>Get In Touch!</h3>
 				<div class="contact-items">
 					<div class="contact">
-						<i class="fas fa-mobile-alt"></i><p>(647) 712 6119</p>
+						<div class="contact-left">
+							<i class="fas fa-mobile-alt"></i>
+						</div>
+						<div class="contact-right">
+							<p>(647) 712 6119</p>
+						</div>
 					</div>
 					<div class="contact">
-						<i class="far fa-envelope"></i><p>contact@blueflowermedia.com</p>
+						<div class="contact-left">
+							<i class="far fa-envelope"></i>
+						</div>
+						<div class="contact-right">
+							<p>contact@blueflowermedia.com</p>
+						</div>
 					</div>
+
 					<div class="contact">
-						<i class="fas fa-map-marker-alt"></i><p>3214 Danforth Ave<br>Toronto, Ontario, Canada</p>
+						<div class="contact-left">
+							<i class="fas fa-map-marker-alt"></i>
+						</div>
+						<div class="contact-right">
+							<p>3214 Danforth Ave<br>Toronto, Ontario, Canada</p>
+						</div>
 					</div>
+
 					<div class="contact">
-						<i class="far fa-clock"></i><p>MON - FRI: 10:00 AM to 6:00 PM EST</p>
+						<div class="contact-left">
+							<i class="far fa-clock"></i>
+						</div>
+						<div class="contact-right">
+							<p>MON - FRI: 10:00 AM to 6:00 PM EST</p>
+						</div>
 					</div>
 				</div>
 				<div class="icons">
