@@ -3,7 +3,7 @@
 <section id="services">
   <div class="container flex-row">
     <div class="flex1 services-logo">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-2.0-web-design-page-main-icon.svg" alt="" class="image">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/gradient/bfm-2.0-web-design-page-main-icon.svg" alt="" class="image">
     </div>
     <div class="txtservice flex1">
       <h1>Web Design<span class="big-dot blue">.</span></h1>
@@ -40,7 +40,7 @@
   <div class="figure-and-text">
     <div class="figure">
       <div class="circle">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/Discovery.svg" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/gradient/Discovery.svg" alt="" class="image">
       </div>
       <div class="text">
         <p><strong>Discovery</strong><br><br></p>
@@ -51,7 +51,7 @@
       </div>
       <div class="figure">
         <div class="circle">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/UI&UX.svg" alt="" class="image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/gradient/UI&UX.svg" alt="" class="image">
         </div>
         <div class="text">
           <p><strong>UI/UX  Research<br>and  Design</strong></p>
@@ -64,7 +64,7 @@
 
       <div class="figure">
         <div class="circle">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/Coding&Dev.svg" alt="" class="image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/gradient/Coding&Dev.svg" alt="" class="image">
         </div>
         <div class="text">
           <p><strong>Coding  and  Development</strong></p>
@@ -77,7 +77,7 @@
 
       <div class="figure">
         <div class="circle">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/Launch.svg" alt="" class="image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/gradient/Launch.svg" alt="" class="image">
         </div>
         <div class="text">
           <p><strong>Launch</strong><br><br></p>
@@ -91,7 +91,7 @@
 
       <div class="figure">
         <div class="circle">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/Maintenance&Opt.svg" alt="" class="image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/gradient/Maintenance&Opt.svg" alt="" class="image">
         </div>
         <div class="text">
           <p><strong>Maintenance  and  Optimization</strong></p>
@@ -158,7 +158,7 @@
 <section id="hosting">
   <div class="container-hosting">
     <div class="hosting-images">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/Server.svg" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/gradient/Server.svg" alt="" class="image">
   </div>
     <div class="hosting-text">
       <h2>Hosting & Maintenance<br>Without  Any  Fuss.</h2>
