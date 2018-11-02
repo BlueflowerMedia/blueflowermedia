@@ -2914,15 +2914,9 @@ hr {
   min-width: 300px; }
 
 section#contact-form {
-  clip-path: polygon(0 80px, 100% 0, 100% 100%, 0 100%);
-  -webkit-clip-path: polygon(0 80px, 100% 0, 100% 100%, 0 100%);
   padding-top: 50px;
   background: #1B8DCB;
   color: white; }
-  @media (max-width: 760px) {
-    section#contact-form {
-      clip-path: polygon(0 26.6666666667px, 100% 0, 100% 100%, 0 100%);
-      -webkit-clip-path: polygon(0 26.6666666667px, 100% 0, 100% 100%, 0 100%); } }
   section#contact-form h2 {
     color: white;
     text-align: center; }

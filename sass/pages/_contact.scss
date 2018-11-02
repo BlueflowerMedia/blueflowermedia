@@ -45,7 +45,7 @@
 }
 
 section#contact-form {
-  @include slanted-edge(top-left, 0, 80px);
+  // @include slanted-edge(top-left, 0, 80px);
   padding-top: 50px;
   background: $blue;
   color: white;
