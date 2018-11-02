@@ -3,7 +3,7 @@
 <section id="services">
   <div class="container flex-row">
     <div class="services-logo flex2">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/bfm-2.0-digital-marketing-page-main-icon.svg" alt="" class="image">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/gradient/bfm-2.0-digital-marketing-page-main-icon.svg" alt="" class="image">
     </div>
     <div class="txtservice flex3">
       <h1>Digital Marketing<span class="big-dot blue">.</span></h1>
@@ -51,7 +51,7 @@
   <div class="figure-and-text">
     <div class="figure">
       <div class="circle">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/Discovery.svg" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/gradient/Discovery.svg" alt="" class="image">
       </div>
       <div class="text">
         <p><strong>Discovery</strong><br><br></p>
@@ -62,7 +62,7 @@
       </div>
       <div class="figure">
         <div class="circle">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/Strategy.svg" alt="" class="image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/gradient/Strategy.svg" alt="" class="image">
         </div>
         <div class="text">
           <p>Strategy</p>
@@ -75,7 +75,7 @@
 
       <div class="figure">
         <div class="circle">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/Execute.svg" alt="" class="image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/gradient/Execute.svg" alt="" class="image">
         </div>
         <div class="text">
           <p>Execute</p>
@@ -88,7 +88,7 @@
 
       <div class="figure">
         <div class="circle">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/Optimize.svg" alt="" class="image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/gradient/Optimize.svg" alt="" class="image">
         </div>
         <div class="text">
           <p>Revise</p>
@@ -103,7 +103,7 @@
     <h2>Our Marketing Services:</h2>
     <div class="services-blocks">
       <div class="service-block">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/SEO.svg" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/gradient/SEO.svg" alt="" class="image">
         <div class="text">
           <h3>Search Engine Optimization</h3>
           <p>Small business owners can have a hard time
@@ -116,7 +116,7 @@
         </div>
       </div>
       <div class="service-block">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/SocialMedia.svg" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/gradient/SocialMedia.svg" alt="" class="image">
         <div class="text">
         <h3>Social Media Management</h3>
         <p>Small business owners can have a hard time
@@ -129,7 +129,7 @@
         </div>
       </div>
       <div class="service-block">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/DigitalMarket.svg" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/gradient/DigitalMarket.svg" alt="" class="image">
         <div class="text">
         <h3>Digital Advertising</h3>
          <p>Small business owners can have a hard time

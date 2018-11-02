@@ -3,10 +3,10 @@
 <section id="services">
   <div class="container flex-row">
     <div class="services-logo flex1">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/ServicesIcons/bfm-2.0-graphic-design-page-main-icon.svg" alt="" class="image">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/gradient/bfm-2.0-graphic-design-page-main-icon.svg" alt="" class="image">
     </div>
     <div class="txtservice flex1">
-      <h1>Graphic Design<span class="big-dot blue">.</span></h1>
+      <h1>Branding<span class="big-dot blue">.</span></h1>
       <p>First-impressions can only be made once. Design affects how your audience views your brand along with the emotions they associate with your brand. We love working with clients that have a strong vision in how they want to be remembered.
      </p>
     </div>
@@ -42,18 +42,18 @@
   <div class="figure-and-text">
     <div class="figure">
       <div class="circle">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/Discovery.svg" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/gradient/Discovery.svg" alt="" class="image">
       </div>
       <div class="text">
         <p><strong>Discovery</strong><br><br></p>
       </div>
     </div>
       <div class="arrow1">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/arrow.svg" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/arrow.svg" alt="" class="image">
       </div>
       <div class="figure">
         <div class="circle">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/DesignResearch.svg" alt="" class="image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/gradient/DesignResearch.svg" alt="" class="image">
         </div>
         <div class="text">
           <p><strong>Research</strong></p>
@@ -61,12 +61,12 @@
       </div>
 
       <div class="arrow1">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/arrow.svg" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/arrow.svg" alt="" class="image">
       </div>
 
       <div class="figure">
         <div class="circle">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/coding-and-development-icon.svg" alt="" class="image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/gradient/Sketch&Design.svg" alt="" class="image">
         </div>
         <div class="text">
           <p><strong>Design</strong></p>
@@ -74,12 +74,12 @@
       </div>
 
       <div class="arrow1">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/arrow.svg" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/arrow.svg" alt="" class="image">
       </div>
 
       <div class="figure">
         <div class="circle">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/Revise.svg" alt="" class="image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/gradient/Revise.svg" alt="" class="image">
         </div>
         <div class="text">
           <p><strong>Launch</strong><br><br></p>
@@ -117,7 +117,7 @@
 
       <div class="design-item">
         <div class="item-logo">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/Logo.svg" alt="" class="image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/gradient/Logo.svg" alt="" class="image">
         </div>
         <div class="item-text">
           <p><strong>LOGO</strong></p>
@@ -127,7 +127,7 @@
 
       <div class="design-item">
         <div class="item-logo">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/BrandStyleGuide.svg" alt="" class="image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/gradient/BrandStyleGuide.svg" alt="" class="image">
         </div>
         <div class="item-text">
           <p><strong>BRAND STYLE GUIDE</strong></p>
@@ -140,7 +140,7 @@
     <div class="design-item-row">
       <div class="design-item">
         <div class="item-logo">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/WebIcons.svg" alt="" class="image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/gradient/WebIcons.svg" alt="" class="image">
         </div>
         <div class="item-text">
           <p><strong>WEBSITE ILLUSTRATIONS & ICONS</strong></p>
@@ -150,7 +150,7 @@
 
       <div class="design-item">
         <div class="item-logo">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/Brochures.svg" alt="" class="image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/gradient/Brochures.svg" alt="" class="image">
         </div>
         <div class="item-text">
           <p><strong>PRINT MATERIALS</strong></p>
@@ -163,7 +163,7 @@
     <div class="design-item-row">
       <div class="design-item">
         <div class="item-logo">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/OutdoorSigns.svg" alt="" class="image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/gradient/OutdoorSigns.svg" alt="" class="image">
         </div>
         <div class="item-text">
           <p><strong>OUTDOOR SIGNS</strong></p>
@@ -173,7 +173,7 @@
 
       <div class="design-item">
         <div class="item-logo">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-new/Logo.svg" alt="" class="image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/gradient/Logo.svg" alt="" class="image">
         </div>
         <div class="item-text">
           <p><strong>Got Something Else?</strong></p>
