@@ -4093,6 +4093,51 @@ span.wpcf7-not-valid-tip {
       #section-404 .text5 .texts .right a:hover {
         color: #ECCE1E; }
 
+#popular-package {
+  background-color: #F6F7F7; }
+  @media (max-width: 770px) {
+    #popular-package .container {
+      flex-flow: column; } }
+  @media (min-width: 770px) {
+    #popular-package .container .package-left {
+      padding-right: 10%; } }
+  #popular-package .container .package-left .accordion1 .accordion {
+    background-color: #2A8CC8;
+    color: #fff;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    font-weight: 600;
+    border-radius: 0 !important; }
+  #popular-package .container .package-left .accordion1 .active, #popular-package .container .package-left .accordion1 .accordion:hover {
+    background: linear-gradient(to left, #1da5c9 0%, #1d85db 100%); }
+  #popular-package .container .package-left .accordion1 .panel {
+    padding: 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    border: 1px solid #1D88D9; }
+  #popular-package .container .package-left .accordion1 .accordion:after {
+    content: '\276c';
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    margin-left: 15px;
+    transform: rotate(90deg) scale(2); }
+  #popular-package .container .package-left .accordion1 .active:after {
+    content: '\276c';
+    color: #fff;
+    transform: rotate(-90deg) scale(2); }
+  #popular-package .container .package-right {
+    text-align: center; }
+    @media (max-width: 760px) {
+      #popular-package .container .package-right {
+        margin-top: 2em; } }
+
 #section-packages {
   position: relative;
   justify-content: space-between; }
@@ -4175,3 +4220,8 @@ span.wpcf7-not-valid-tip {
   @media (max-width: 760px) {
     .package-list {
       list-style: none; } }
+
+.yellow-background {
+  background-color: #ECCE1E;
+  padding: .5em .9em;
+  font-weight: 700; }

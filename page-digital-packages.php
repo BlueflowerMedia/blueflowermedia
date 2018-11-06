@@ -14,11 +14,65 @@
   </div>
 </section>
 
+<!-- section most popular package -->
+<section id="popular-package">
+  <div class="container flex-row">
+    <div class="package-left flex1">
+      <p><span class="yellow-background">Most Popular</span></p>
+      <h3>New Business Package</h3>
+      <p>Lorem ipsum dolor sit amet,Nunc Phasellus lobortis augue libero, id euismod enim pellentesque et. Nunc nec arcu vitae tellus lobortis hendrerit. Sed luctus purus turpis, et porttitor lacus accumsan id.</p>
 
+      <div class="accordion1">
+        <button class="accordion">LOGO DESIGN</button>
+      <div class="panel">
+        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+        <ul>
+          <li>1 hour Website Consultation</li>
+          <li>1 Year Domain, Hosting, SSL, Whols Protection</li>
+          <li>Custom Wordpress Theme</li>
+          <li>Responsive & Cross Browser Tested</li>
+          <li>Google Console Setup + Google Analytics Setup</li>
+        </ul>
+
+      </div>
+
+      <button class="accordion">LANDING PAGE WEBSITE</button>
+      <div class="panel">
+        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+        <ul>
+          <li>1 hour Website Consultation</li>
+          <li>1 Year Domain, Hosting, SSL, Whols Protection</li>
+          <li>Custom Wordpress Theme</li>
+          <li>Responsive & Cross Browser Tested</li>
+          <li>Google Console Setup + Google Analytics Setup</li>
+        </ul>
+      </div>
+
+      <button class="accordion">BUSINESS CARD DESIGN</button>
+      <div class="panel">
+        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+        <ul>
+          <li>1 hour Website Consultation</li>
+          <li>1 Year Domain, Hosting, SSL, Whols Protection</li>
+          <li>Custom Wordpress Theme</li>
+          <li>Responsive & Cross Browser Tested</li>
+          <li>Google Console Setup + Google Analytics Setup</li>
+        </ul>
+      </div>
+      </div>
+      <p style="text-align:right"><span class="yellow-background">$1400.00</span></p>
+    </div>
+    <div class="package-right flex1">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/digital-packages/Asset11.svg" alt="" class="image">
+
+    </div>
+
+  </div>
+</section>
 <!-- Packages -->
 <section id="section-packages">
   <div class="container">
-    <h1 class="">Packages<span class="big-dot yellow">.</span></h1>
+    <!-- <h1 class="">Packages<span class="big-dot yellow">.</span></h1> -->
     <div class="services flex-row">
 
 
