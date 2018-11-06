@@ -690,7 +690,7 @@
       }
     }
     button {
-      background:white;
+      // background:white;
       border: 3px solid white;
       font-weight: 700;
       font-size: 1.3rem;
@@ -705,6 +705,21 @@
         background: transparent;
         color: white;
       }
+
+    }
+    .one{
+      background: transparent;
+      color: $white;
+    }
+    .one:hover{
+      background: white;
+      color: $black;
+    }
+
+    .two{
+      background:white;
+
+
     }
   }
 

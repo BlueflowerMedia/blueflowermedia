@@ -2537,7 +2537,6 @@ footer {
         #section-getintouch .container .getintouch-right {
           margin-top: 50px; } }
     #section-getintouch .container button {
-      background: white;
       border: 3px solid white;
       font-weight: 700;
       font-size: 1.3rem;
@@ -2550,6 +2549,14 @@ footer {
       #section-getintouch .container button:hover {
         background: transparent;
         color: white; }
+    #section-getintouch .container .one {
+      background: transparent;
+      color: #fff; }
+    #section-getintouch .container .one:hover {
+      background: white;
+      color: #00193c; }
+    #section-getintouch .container .two {
+      background: white; }
   #section-getintouch.blue {
     background-color: #1B8DCB; }
 

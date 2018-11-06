@@ -7,9 +7,9 @@
         for you. We offer phone, video conference, and in person support for all of our clients.</p>
       </div>
       <div class="getintouch-left-bottom">
-        <a href="<?php echo get_permalink(get_page_by_path( 'book-an-appointment' )); ?>"><button type="button" name="button">Book Consultation</button></a>
+        <a href="<?php echo get_permalink(get_page_by_path( 'book-an-appointment' )); ?>"><button class="one" type="button" name="button">Book Consultation</button></a>
 
-        <a href="<?php echo get_permalink(get_page_by_path( 'contact' )); ?>"><button type="button" name="button">Contact Us</button></a>
+        <a href="<?php echo get_permalink(get_page_by_path( 'contact' )); ?>"><button class="two" type="button" name="button">Contact Us</button></a>
       </div>
     </div>
     <div class="getintouch-right">
