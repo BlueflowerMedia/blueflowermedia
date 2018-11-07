@@ -559,9 +559,11 @@
       .testimonials-slider{
         flex: 2;
         padding: 0px 40px;
+
         @include mobile{
           margin-top: 60px;
           text-align: center;
+          padding: 0 10px;
         }
         .owl-carousel {
           padding-top: 50px;
@@ -572,10 +574,6 @@
             padding-top: 30px;
           }
           .testimonial {
-            .quotation-open{
-              width: 50%;
-              transform: scaleX(-1);
-            }
             .center-text{
               font-family: $font-primary !important;
               font-size: 0.9rem;
@@ -586,13 +584,6 @@
                 font-weight: 700;
               }
             }
-            .quotation-close{
-              width: 50%;
-              padding-top: 50px;
-              display: flex;
-              justify-content:flex-end;
-            }
-
           }
         }
       }

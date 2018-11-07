@@ -2453,7 +2453,8 @@ footer {
   @media (max-width: 760px) {
     #section-clients-testimonials .container .row .testimonials-slider {
       margin-top: 60px;
-      text-align: center; } }
+      text-align: center;
+      padding: 0 10px; } }
   #section-clients-testimonials .container .row .testimonials-slider .owl-carousel {
     padding-top: 50px;
     max-width: 400px;
@@ -2462,9 +2463,6 @@ footer {
     @media (max-width: 760px) {
       #section-clients-testimonials .container .row .testimonials-slider .owl-carousel {
         padding-top: 30px; } }
-    #section-clients-testimonials .container .row .testimonials-slider .owl-carousel .testimonial .quotation-open {
-      width: 50%;
-      transform: scaleX(-1); }
     #section-clients-testimonials .container .row .testimonials-slider .owl-carousel .testimonial .center-text {
       font-family: "Source Sans Pro", sans-serif !important;
       font-size: 0.9rem;
@@ -2472,11 +2470,6 @@ footer {
       #section-clients-testimonials .container .row .testimonials-slider .owl-carousel .testimonial .center-text .name-company {
         text-align: right;
         font-weight: 700; }
-    #section-clients-testimonials .container .row .testimonials-slider .owl-carousel .testimonial .quotation-close {
-      width: 50%;
-      padding-top: 50px;
-      display: flex;
-      justify-content: flex-end; }
 
 #section-testomonials {
   background-color: #1B8DCB; }
@@ -3502,7 +3495,8 @@ span.wpcf7-not-valid-tip {
     padding: 50px 60px;
     align-items: center;
     margin: 10px;
-    flex: 1; }
+    flex: 1;
+    border-radius: 1rem; }
     @media (min-width: 450px) {
       #we-design .container .design-item-row .design-item {
         display: flex; } }
@@ -3743,17 +3737,19 @@ span.wpcf7-not-valid-tip {
     padding-bottom: 100px; }
     .services-container .services-blocks .service-block {
       align-items: center;
+      border-radius: 1rem;
       padding: 30px 60px;
       box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.4);
       margin: 10px; }
       @media (max-width: 450px) {
         .services-container .services-blocks .service-block {
-          padding: 10px; } }
+          padding: 30px; } }
       @media (min-width: 450px) {
         .services-container .services-blocks .service-block {
           display: flex; } }
       .services-container .services-blocks .service-block .service-image {
-        width: 300px; }
+        width: 300px;
+        margin: auto; }
         .services-container .services-blocks .service-block .service-image img {
           width: 150px;
           background-color: #fff; }
