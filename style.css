@@ -2040,7 +2040,7 @@ footer {
         padding-top: 100px; } }
     @media (max-width: 1025px) {
       #section-header .container {
-        padding: 100px 4%; } }
+        padding: 100px 4% 30px; } }
     #section-header .container .header-text {
       flex: 3;
       order: 1;
@@ -2057,18 +2057,25 @@ footer {
           padding-right: 10px;
           text-align: center; } }
       #section-header .container .header-text h2 {
-        font-size: 2.3em;
-        text-align: left; }
+        font-size: 2.5vw;
+        text-align: justify; }
         @media (max-width: 760px) {
           #section-header .container .header-text h2 {
             padding: 0;
-            text-align: center; } }
-        @media (max-width: 1025px) {
-          #section-header .container .header-text h2 {
-            font-size: 1.9em; } }
+            text-align: center;
+            font-size: 6.9vw !important; } }
         @media (min-width: 760px) and (max-width: 1023px) {
           #section-header .container .header-text h2 {
-            font-size: 1.6em; } }
+            font-size: 3vw !important; } }
+        @media (max-width: 1024px) {
+          #section-header .container .header-text h2 {
+            font-size: 3vw; } }
+        @media (max-width: 2200px) and (min-width: 1800px) {
+          #section-header .container .header-text h2 {
+            font-size: 2vw; } }
+        @media (max-width: 2600px) and (min-width: 2200px) {
+          #section-header .container .header-text h2 {
+            font-size: 1.35vw; } }
       #section-header .container .header-text .sa {
         font-size: 3.25em; }
         @media (max-width: 760px) {
