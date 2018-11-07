@@ -2096,7 +2096,7 @@ footer {
         /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         padding: 12px; }
       #section-header .container .header-text #typeline {
-        font-size: 2rem;
+        font-size: 2.3vw;
         line-height: 1.2;
         color: white;
         font-weight: 600;
@@ -2104,6 +2104,18 @@ footer {
         /* IE6-9 */
         padding: 10px;
         margin-top: 10px; }
+        @media (max-width: 760px) {
+          #section-header .container .header-text #typeline {
+            font-size: 6vw; } }
+        @media (min-width: 760px) and (max-width: 1023px) {
+          #section-header .container .header-text #typeline {
+            font-size: 2.7vw; } }
+        @media (max-width: 1930px) and (min-width: 1600px) {
+          #section-header .container .header-text #typeline {
+            font-size: 1.9vw; } }
+        @media (max-width: 2600px) and (min-width: 1930px) {
+          #section-header .container .header-text #typeline {
+            font-size: 1.2vw; } }
 @-webkit-keyframes blink-caret {
   50% {
     border-color: transparent; } }
