@@ -54,7 +54,7 @@
           <img src="<?php echo get_template_directory_uri(); ?>/images/webdesign/gradient/UI&UX.svg" alt="" class="image">
         </div>
         <div class="text">
-          <p><strong>UI/UX  Research<br>and  Design</strong></p>
+          <p><strong>UI/UX Research<br>and Design</strong></p>
         </div>
       </div>
 

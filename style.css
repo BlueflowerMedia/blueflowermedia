@@ -2284,9 +2284,9 @@ footer {
       @media (min-width: 1800px) {
         #section-ourprocess .container .circle1 .middle .vertical-line {
           height: 550px; } }
-      @media (min-width: 2500px) {
+      @media (min-width: 2500px) and (max-width: 2600px) {
         #section-ourprocess .container .circle1 .middle .vertical-line {
-          height: 525px; } }
+          height: 505px; } }
 #section-ourprocess .container .process-title {
   justify-content: center;
   margin: 1rem auto; }
@@ -3316,6 +3316,7 @@ span.wpcf7-not-valid-tip {
         #graphic-design-banner1 .container .text-left {
           text-align: center; } }
       #graphic-design-banner1 .container .text-left h2 {
+        font-size: 3.8rem;
         color: #fff; }
         @media (max-width: 1025px) {
           #graphic-design-banner1 .container .text-left h2 {
@@ -3572,6 +3573,7 @@ span.wpcf7-not-valid-tip {
         #banner2 .container .text-left {
           text-align: center; } }
       #banner2 .container .text-left h3 {
+        font-size: 2.2rem;
         color: white; }
         @media (max-width: 500px) {
           #banner2 .container .text-left h3 {
@@ -3625,6 +3627,7 @@ span.wpcf7-not-valid-tip {
         #banner3 .container .text-left {
           text-align: center; } }
       #banner3 .container .text-left h3 {
+        font-size: 2.4rem;
         color: white; }
         @media (max-width: 500px) {
           #banner3 .container .text-left h3 {
@@ -3760,7 +3763,7 @@ span.wpcf7-not-valid-tip {
             text-align: center; } }
         @media (min-width: 450px) {
           .services-container .services-blocks .service-block .text h3, .services-container .services-blocks .service-block .text p {
-            padding: 10px 40px; } }
+            padding: 10px  0 10px 40px; } }
         .services-container .services-blocks .service-block .text .text-top h3 {
           font-family: "Source Sans Pro", sans-serif; }
         .services-container .services-blocks .service-block .text .text-top p {
@@ -3805,6 +3808,7 @@ span.wpcf7-not-valid-tip {
         #banner1-webdesign .container .text-left {
           text-align: center; } }
       #banner1-webdesign .container .text-left h2 {
+        font-size: 3.8rem;
         color: #fff; }
         @media (max-width: 1025px) {
           #banner1-webdesign .container .text-left h2 {

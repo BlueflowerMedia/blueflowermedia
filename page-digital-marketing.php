@@ -2,10 +2,10 @@
 
 <section id="services">
   <div class="container flex-row">
-    <div class="services-logo flex1">
+    <div class="services-logo flex2">
       <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/gradient/bfm-2.0-digital-marketing-page-main-icon.svg" alt="" class="image">
     </div>
-    <div class="txtservice flex1">
+    <div class="txtservice flex3">
       <h1>Digital Marketing<span class="big-dot blue">.</span></h1>
       <p>In a multi-device world, its very important to attract and retain users on as many touch points as possible. For us, the first step is to have a great presence on as many relevant platforms as possible in a way that makes the most of each platforms. </p>
     </div>
