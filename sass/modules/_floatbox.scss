@@ -16,8 +16,8 @@
 
 #fbox1 {
 	@include position(absolute, $bottom: 10%, $right: 25%);
-	@include box(200px, 200px);
-	border-radius: 50px;
+	@include box(180px, 180px);
+	border-radius: 35px;
 	background: $yellow;
 	@include mobile {
 		display: none;

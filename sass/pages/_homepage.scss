@@ -304,9 +304,21 @@
             content: "";
             position: absolute;
             width: 5px;
-            height: 30%;
+            height: 28%;
             background: $yellow;
             top: -2px;
+            @media(max-width: 1024px){
+              height: 450px;
+            }
+            // @media(max-width: 1440px){
+            //   height: 540px;
+            // }
+            @media(min-width: 1800px){
+              height: 550px;
+            }
+            @media(min-width: 2500px) and (max-width: 2600px){
+              height: 505px;
+            }
           }
           @media(max-width: 1024px){
             height: 450px;
@@ -452,6 +464,7 @@
   padding: 15px 25px;
   @include mobile {
     list-style: none;
+    margin-left: 0;
   }
   margin-left: 15px;
 }
