@@ -3322,9 +3322,6 @@ span.wpcf7-not-valid-tip {
       text-align: left;
       justify-content: center;
       padding: 30px 0; }
-      @media (max-width: 500px) {
-        #graphic-design-banner1 .container .text-left {
-          text-align: center; } }
       #graphic-design-banner1 .container .text-left h2 {
         font-size: 3.8rem;
         color: #fff; }
@@ -3381,9 +3378,6 @@ span.wpcf7-not-valid-tip {
       text-align: left;
       justify-content: center;
       padding: 30px 0; }
-      @media (max-width: 500px) {
-        #graphic-design-banner2 .container .text-left {
-          text-align: center; } }
       #graphic-design-banner2 .container .text-left h2 {
         color: #fff; }
         @media (max-width: 1025px) {
@@ -3579,9 +3573,6 @@ span.wpcf7-not-valid-tip {
       text-align: left;
       justify-content: center;
       padding: 30px 0; }
-      @media (max-width: 500px) {
-        #banner2 .container .text-left {
-          text-align: center; } }
       #banner2 .container .text-left h3 {
         font-size: 2.2rem;
         color: white; }
@@ -3633,9 +3624,6 @@ span.wpcf7-not-valid-tip {
       text-align: left;
       justify-content: center;
       padding: 30px 0; }
-      @media (max-width: 500px) {
-        #banner3 .container .text-left {
-          text-align: center; } }
       #banner3 .container .text-left h3 {
         font-size: 2.4rem;
         color: white; }
@@ -3785,7 +3773,6 @@ span.wpcf7-not-valid-tip {
           font-family: "Source Sans Pro", sans-serif; }
         .services-container .services-blocks .service-block .text .text-bottom p {
           margin-top: 0;
-          font-size: .9em;
           font-family: "Source Sans Pro", sans-serif !important; }
 
 .yellow-text {
