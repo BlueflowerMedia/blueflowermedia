@@ -4166,11 +4166,11 @@ span.wpcf7-not-valid-tip {
     font-weight: bold;
     float: right;
     margin-right: 35px;
-    transform: rotate(90deg) scale(2.5); }
+    transform: rotate(-90deg) scale(2.5); }
   #popular-package .container .package-left .accordion1 .active:after {
     content: '\276c';
     color: #fff;
-    transform: rotate(-90deg) scale(2.5); }
+    transform: rotate(90deg) scale(2.5); }
   #popular-package .container .package-right {
     text-align: center; }
     @media (max-width: 800px) {
@@ -4247,17 +4247,11 @@ span.wpcf7-not-valid-tip {
     text-align: left;
     font-weight: 600;
     color: #00193c; }
-    @media (max-width: 760px) {
-      .package-content ul li {
-        text-align: center; } }
 
 .package-list {
   color: #6b6b6b;
   list-style-image: url("images/bfm-arrow-icon.svg");
-  padding: 15px 25px; }
-  @media (max-width: 760px) {
-    .package-list {
-      list-style: none; } }
+  padding: 15px 25px 15px 40px; }
 
 .yellow-background {
   background-color: #ECCE1E;

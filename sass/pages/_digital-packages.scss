@@ -44,14 +44,14 @@
             font-weight: bold;
             float: right;
             margin-right: 35px;
-            transform: rotate(90deg) scale(2.5);
+            transform: rotate(-90deg) scale(2.5);
             // transform: scale(3);
             // background-color: #000;
         }
         .active:after {
           content: '\276c';
             color: #fff;
-            transform: rotate(-90deg) scale(2.5);
+            transform: rotate(90deg) scale(2.5);
 
         }
       }
@@ -164,7 +164,7 @@
       font-weight: 600;
       color: $black;
       @include mobile {
-        text-align: center;
+        // text-align: center;
       }
     }
   }
@@ -173,9 +173,9 @@
 .package-list {
   color: #6b6b6b;
   list-style-image: url("images/bfm-arrow-icon.svg");
-  padding: 15px 25px;
+  padding: 15px 25px 15px 40px;
   @include mobile {
-    list-style: none;
+    // list-style: none;
   }
   // margin-left: 15px;
 }
