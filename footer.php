@@ -24,8 +24,8 @@
 
 			<div class="footer-center-left flex1">
 				<h3>Page Links</h3>
-				<a href="http://localhost/blueflowermedia">Home</a><br>
-				<a href="<?php echo get_permalink(get_page_by_path( 'about-us' )); ?>">About</a><br>
+				<a href="http://blueflowermedia.com">Home</a><br>
+				<a href="<?php echo get_permalink(get_page_by_path( 'team' )); ?>">About</a><br>
 				<a href="<?php echo get_permalink(get_page_by_path( 'book-an-appointment' )); ?>">Book Consultation</a><br>
 				<a href="<?php echo get_permalink(get_page_by_path( 'contact' )); ?>">Contact Us</a><br>
 				<a href="<?php echo get_permalink(get_page_by_path( 'blog' )); ?>">Blog</a><br>
