@@ -29,14 +29,16 @@
 				<a href="<?php echo get_permalink(get_page_by_path( 'book-an-appointment' )); ?>">Book Consultation</a><br>
 				<a href="<?php echo get_permalink(get_page_by_path( 'contact' )); ?>">Contact Us</a><br>
 				<a href="<?php echo get_permalink(get_page_by_path( 'blog' )); ?>">Blog</a><br>
-				<a href="<?php echo get_permalink(get_page_by_path( 'portfolio' )); ?>">Our Work</a><br>
+				<a href="<?php echo get_permalink(get_page_by_path( 'our-work' )); ?>">Our Work</a><br>
 			</div>
 
 			<div class="footer-center-right flex1">
-				<h3>Packages</h3>
+				<h3>Services</h3>
 				<a href="<?php echo get_permalink(get_page_by_path( 'graphic-design' )); ?>">Branding</a><br>
 				<a href="<?php echo get_permalink(get_page_by_path( 'web-design' )); ?>">Web Design</a><br>
 				<a href="<?php echo get_permalink(get_page_by_path( 'digital-marketing' )); ?>">Digital Marketing</a><br>
+				<a href="<?php echo get_permalink(get_page_by_path( 'digital-packages' )); ?>">Packages</a><br>
+
 			</div>
 			<div class="footer-right flex1">
 				<h3>Get In Touch!</h3>
