@@ -3505,6 +3505,10 @@ span.wpcf7-not-valid-tip {
     @media (min-width: 450px) {
       #we-design .container .design-item-row .design-item {
         display: flex; } }
+    @media (min-width: 760px) and (max-width: 1023px) {
+      #we-design .container .design-item-row .design-item {
+        flex-direction: column;
+        padding: 30px; } }
     @media (max-width: 450px) {
       #we-design .container .design-item-row .design-item {
         padding: 30px 15px; } }
@@ -3512,7 +3516,8 @@ span.wpcf7-not-valid-tip {
       width: 150px;
       margin: auto; }
       #we-design .container .design-item-row .design-item .item-logo img {
-        max-width: 65%; }
+        max-width: 65%;
+        max-height: 100px; }
       @media (max-width: 450px) {
         #we-design .container .design-item-row .design-item .item-logo {
           text-align: center; } }
