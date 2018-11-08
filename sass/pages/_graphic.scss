@@ -251,7 +251,7 @@
         @media(min-width: 450px){
           display: flex;
         }
-        @include tablet{
+        @media (max-width: 1400px){
           flex-direction: column;
           padding: 30px;
         }

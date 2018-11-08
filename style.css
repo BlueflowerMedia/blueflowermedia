@@ -2551,7 +2551,8 @@ footer {
           #section-getintouch .container .getintouch-left .getintouch-left-bottom {
             justify-content: center; } }
     #section-getintouch .container .getintouch-right {
-      flex: 1; }
+      flex: 1;
+      margin: auto; }
       @media (min-width: 1200px) {
         #section-getintouch .container .getintouch-right img {
           max-width: 70%; } }
@@ -3505,7 +3506,7 @@ span.wpcf7-not-valid-tip {
     @media (min-width: 450px) {
       #we-design .container .design-item-row .design-item {
         display: flex; } }
-    @media (min-width: 760px) and (max-width: 1023px) {
+    @media (max-width: 1400px) {
       #we-design .container .design-item-row .design-item {
         flex-direction: column;
         padding: 30px; } }
