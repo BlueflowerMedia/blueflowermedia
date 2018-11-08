@@ -1883,9 +1883,6 @@ footer {
     footer .footer-right h3 {
       color: #fff;
       font-family: "Source Sans Pro", sans-serif; }
-      @media (max-width: 760px) {
-        footer .footer-right h3 {
-          text-align: center; } }
     footer .footer-right .contact-items .contact {
       display: flex;
       align-items: center; }
@@ -3817,9 +3814,6 @@ span.wpcf7-not-valid-tip {
       text-align: left;
       justify-content: center;
       padding: 30px 0; }
-      @media (max-width: 500px) {
-        #banner1-webdesign .container .text-left {
-          text-align: center; } }
       #banner1-webdesign .container .text-left h2 {
         font-size: 3.8rem;
         color: #fff; }
@@ -3876,9 +3870,6 @@ span.wpcf7-not-valid-tip {
       text-align: left;
       justify-content: center;
       padding: 30px 0; }
-      @media (max-width: 500px) {
-        #banner2-webdesign .container .text-left {
-          text-align: center; } }
       #banner2-webdesign .container .text-left h2 {
         color: #fff; }
         @media (max-width: 1025px) {
@@ -4049,14 +4040,18 @@ span.wpcf7-not-valid-tip {
       #tools .container-tools .tools-images .images-row {
         display: flex; }
         #tools .container-tools .tools-images .images-row img {
-          width: 140px;
+          width: 10vw;
           height: 100%;
-          margin: 20px; }
+          margin: 20px;
+          max-width: 180px; }
           @media (max-width: 760px) {
             #tools .container-tools .tools-images .images-row img {
-              width: 70px;
-              height: 70px;
+              width: 21vw;
               margin: 15px; } }
+          @media (min-width: 760px) and (max-width: 1023px) {
+            #tools .container-tools .tools-images .images-row img {
+              width: 25vw;
+              height: 100%; } }
 
 #hosting {
   background-color: #F7F7F7; }
