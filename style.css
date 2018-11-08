@@ -4230,3 +4230,83 @@ span.wpcf7-not-valid-tip {
   @media (min-width: 800px) {
     .shown-in-mobile-only {
       display: none; } }
+
+#careers .container {
+  /* CONTACT FORM */ }
+  #careers .container .txtservice {
+    text-align: center; }
+  #careers .container #form-employee {
+    background: white;
+    margin: 10px auto;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0px 0px 10px 0px #DDDDDD; }
+    @media (max-width: 760px) {
+      #careers .container #form-employee {
+        padding: 0; } }
+    #careers .container #form-employee .submit {
+      text-align: center; }
+  #careers .container .form-row {
+    display: flex;
+    flex-flow: row wrap; }
+    #careers .container .form-row label {
+      flex: 1;
+      margin: 10px 10px;
+      min-width: 250px; }
+      @media (max-width: 760px) {
+        #careers .container .form-row label {
+          margin: 10px 0px; } }
+      #careers .container .form-row label.file {
+        padding: 20px 10px; }
+        #careers .container .form-row label.file input {
+          padding: 0;
+          box-shadow: none; }
+      #careers .container .form-row label input, #careers .container .form-row label textarea {
+        width: 95%;
+        border: 2px, solid black;
+        padding: 10px 15px;
+        border-radius: 0px;
+        box-shadow: none; }
+      #careers .container .form-row label textarea {
+        padding: 15px;
+        border: 2px solid black; }
+      #careers .container .form-row label text {
+        border: 2px solid black; }
+  #careers .container input[type="file"]:focus {
+    border: none;
+    box-shadow: none; }
+  #careers .container input:focus, #careers .container textarea:focus {
+    outline: none;
+    border: 2px solid;
+    border-image-source: linear-gradient(24deg, #3498db, #1abc9c);
+    border-image-slice: 1;
+    box-sizing: border-box; }
+  #careers .container input[type="submit"] {
+    font-size: 15px;
+    text-align: left;
+    border: 2px solid black;
+    color: white;
+    background: black;
+    padding: 10px 20px;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.37, 1.06, 0.6, 0.97); }
+  #careers .container input[type="submit"]:hover {
+    background: linear-gradient(24deg, #3498db, #1abc9c);
+    color: white;
+    border-image-source: linear-gradient(24deg, #3498db, #1abc9c);
+    border-image-slice: 1; }
+#careers hr {
+  border-width: 3px;
+  color: #00193c;
+  width: 70%;
+  align-items: flex-start; }
+
+#form-employee > div:nth-child(1) > label:nth-child(1) > span > input,
+#form-employee > div:nth-child(1) > label:nth-child(3) > span > input,
+#form-employee > div:nth-child(1) > label:nth-child(5) > span > input {
+  border: 2px solid black; }
+
+#form-employee > div.submit {
+  text-align: left !important;
+  padding-left: 10px; }
