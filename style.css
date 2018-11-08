@@ -3753,6 +3753,7 @@ span.wpcf7-not-valid-tip {
         margin: auto; }
         .services-container .services-blocks .service-block .service-image img {
           width: 150px;
+          height: 130px;
           background-color: #fff; }
       .services-container .services-blocks .service-block .text {
         text-align: left; }

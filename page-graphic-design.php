@@ -173,7 +173,7 @@
 
       <div class="design-item">
         <div class="item-logo">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/gradient/Logo.svg" alt="" class="image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/gradient/Other.svg" alt="" class="image">
         </div>
         <div class="item-text">
           <p><strong>Got Something Else?</strong></p>
