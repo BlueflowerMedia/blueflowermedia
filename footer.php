@@ -27,9 +27,9 @@
 				<a href="http://blueflowermedia.com">Home</a><br>
 				<a href="<?php echo get_permalink(get_page_by_path( 'team' )); ?>">About</a><br>
 				<a href="<?php echo get_permalink(get_page_by_path( 'book-an-appointment' )); ?>">Book Consultation</a><br>
-				<a href="<?php echo get_permalink(get_page_by_path( 'contact' )); ?>">Contact Us</a><br>
-				<a href="<?php echo get_permalink(get_page_by_path( 'blog' )); ?>">Blog</a><br>
+				<a href="<?php echo get_permalink(get_page_by_path( 'contact' )); ?>">Contact Us</a><br
 				<a href="<?php echo get_permalink(get_page_by_path( 'our-work' )); ?>">Our Work</a><br>
+				<a href="<?php echo get_permalink(get_page_by_path( 'blog' )); ?>">Blog</a><br>
 			</div>
 
 			<div class="footer-center-right flex1">
