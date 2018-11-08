@@ -452,7 +452,7 @@
       font-weight: 600;
       color: $black;
       @include mobile {
-        text-align: center;
+        // text-align: center;
       }
     }
   }
@@ -463,8 +463,8 @@
   list-style-image: url("images/bfm-arrow-icon.svg");
   padding: 15px 25px;
   @include mobile {
-    list-style: none;
-    margin-left: 0;
+    // list-style: none;
+    // margin-left: 0;
   }
   margin-left: 15px;
 }
@@ -516,30 +516,30 @@
 }
 // section-client-slider
 
-#section-client-slider {
-  background: white;
-
-  .container {
-    justify-content: center;
-
-    h2 {
-      text-align: center;
-    }
-
-    .owl-carousel {
-      max-width: 800px;
-      margin: 0 auto;
-      text-align: center;
-
-      img {
-        @include mobile {
-          width: 150px;
-          margin: 0 auto;
-        }
-      }
-    }
-  }
-}
+// #section-client-slider {
+//   background: white;
+//
+//   .container {
+//     justify-content: center;
+//
+//     h2 {
+//       text-align: center;
+//     }
+//
+//     .owl-carousel {
+//       max-width: 800px;
+//       margin: 0 auto;
+//       text-align: center;
+//
+//       img {
+//         @include mobile {
+//           width: 150px;
+//           margin: 0 auto;
+//         }
+//       }
+//     }
+//   }
+// }
 
 
 

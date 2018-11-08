@@ -2379,19 +2379,12 @@ footer {
     text-align: left;
     font-weight: 600;
     color: #00193c; }
-    @media (max-width: 760px) {
-      .service-content ul li {
-        text-align: center; } }
 
 .service-list {
   color: #6b6b6b;
   list-style-image: url("images/bfm-arrow-icon.svg");
   padding: 15px 25px;
   margin-left: 15px; }
-  @media (max-width: 760px) {
-    .service-list {
-      list-style: none;
-      margin-left: 0; } }
 
 #section-split-contacts {
   background-color: #1B8DCB; }
@@ -2424,21 +2417,6 @@ footer {
       #section-split-contacts .goto-contact button:hover {
         color: #1B8DCB;
         background: white; }
-
-#section-client-slider {
-  background: white; }
-  #section-client-slider .container {
-    justify-content: center; }
-    #section-client-slider .container h2 {
-      text-align: center; }
-    #section-client-slider .container .owl-carousel {
-      max-width: 800px;
-      margin: 0 auto;
-      text-align: center; }
-      @media (max-width: 760px) {
-        #section-client-slider .container .owl-carousel img {
-          width: 150px;
-          margin: 0 auto; } }
 
 @media (min-width: 450px) {
   #section-clients-testimonials .container .row {
