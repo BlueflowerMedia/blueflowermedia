@@ -3,12 +3,27 @@
     .txtservice{
       text-align: center;
     }
+
+
+    hr{
+      margin: unset;
+      border-top: 3px solid black;
+    }
+
+    ul{
+      color: #6b6b6b;
+      list-style-image: url("images/bfm-arrow-icon.svg");
+      padding: 15px 25px;
+      li{
+
+      }
+    }
         /* CONTACT FORM */
     $blue: #30A5EE;
     $grey: #DDDDDD;
      #form-employee {
       background: white;
-      margin: 10px auto;
+      margin: 40px auto;
       padding: 20px;
       text-align: left;
       @include mobile{
