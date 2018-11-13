@@ -1832,6 +1832,12 @@ img#logo-header {
 #primary-menu-mobile > li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-has-children.menu-item-41 {
   display: none; }
 
+#primary-menu-mobile > li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-has-children.menu-item-41 {
+  display: none; }
+
+#primary-menu-mobile > li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-has-children.menu-item-41 > a {
+  display: none; }
+
 img#logo-footer {
   height: 80%;
   margin: 0 35px 0 0; }
