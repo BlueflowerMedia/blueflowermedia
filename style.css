@@ -1441,12 +1441,14 @@ button.nav-contact {
   text-transform: uppercase;
   padding: 14px 15px;
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   border-radius: 5px;
   transition: all 0.3s ease;
   white-space: nowrap;
   box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-  margin-left: 15px; }
+  margin: 5vh auto;
+  display: flex;
+  border: 2px solid white; }
   button.nav-contact:hover {
     background-position: right center;
     box-shadow: 0 7px 20px -5px rgba(0, 0, 0, 0.4); }
@@ -1591,18 +1593,16 @@ nav#site-navigation {
 #nav-mobile {
   display: flex;
   flex-flow: column;
-  justify-content: center;
   position: absolute;
-  top: 0;
+  top: 70px;
   left: 0;
   z-index: 99;
-  padding: 70px 5px;
+  padding: 30px 5px;
   min-height: 100vh;
   overflow: hidden;
   width: 100vw;
-  background: white;
-  text-align: center;
-  transform: translateY(-100%);
+  background: #1B8DCB;
+  transform: translateX(-100%);
   transition: transform 0.5s cubic-bezier(0.59, 1.08, 0.86, 0.96); }
   #nav-mobile h2 {
     margin-top: 30px; }
@@ -1611,33 +1611,21 @@ nav#site-navigation {
   #nav-mobile ul#primary-menu-mobile {
     position: relative;
     text-decoration: none;
-    text-transform: uppercase;
     font-weight: 700;
     margin-top: -30px;
     padding: 0 5px;
     display: flex;
-    flex-flow: column;
-    align-items: center; }
+    flex-flow: column; }
     #nav-mobile ul#primary-menu-mobile li {
-      margin: 3px auto;
+      margin: 5px 0 5px 50px;
       display: block; }
       #nav-mobile ul#primary-menu-mobile li h2 {
         margin-top: 3vh; }
       #nav-mobile ul#primary-menu-mobile li a {
         padding: 5px 5px;
-        font-size: 1.4rem;
-        font-weight: 700; }
-        #nav-mobile ul#primary-menu-mobile li a:after {
-          content: "";
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          height: 10%;
-          width: 100%;
-          background: #ECCE1E;
-          /* box-shadow: 2px 2px 0 #000000; */
-          z-index: -1;
-          transition: transform 0.3s cubic-bezier(0.11, 0.7, 1, 1.2); }
+        font-size: 2rem;
+        font-weight: 700;
+        color: white; }
         #nav-mobile ul#primary-menu-mobile li a button {
           font-size: 1.6rem;
           margin: 20px 0; }
@@ -1654,7 +1642,7 @@ ul#primary-menu {
     margin: 0 10px; }
 
 ul#primary-menu > li > a {
-  font-size: 1.0rem;
+  font-size: 1rem;
   color: black;
   position: relative;
   text-decoration: none;
@@ -1703,13 +1691,17 @@ ul#primary-menu > li:hover > ul.sub-menu {
   opacity: 1;
   background: #DADFE5; }
 
+#services-mobile {
+  font-size: 2rem !important;
+  color: white !important;
+  margin: 5px 0 5px 50px; }
+
 #primary-menu ul {
   background: white;
   /* position: relative; */
   box-shadow: none;
   margin-top: 0px;
   padding: 30px 0 15px 0;
-  text-align: center;
   transition: opacity 0.4s cubic-bezier(0.11, 0.7, 1, 1);
   opacity: 0; }
   #primary-menu ul:after {
@@ -1750,7 +1742,6 @@ ul#primary-menu > li:hover > ul.sub-menu {
 ul#primary-menu-mobile {
   display: flex;
   flex-flow: column;
-  align-items: center;
   height: 100%; }
   ul#primary-menu-mobile li {
     margin: 0 10px; }
@@ -1758,18 +1749,21 @@ ul#primary-menu-mobile {
 ul#secondary-menu-mobile {
   display: flex;
   flex-flow: column;
-  align-items: center;
-  height: 100%; }
+  height: 100%;
+  margin-bottom: 30px;
+  background-color: #ECCE1E;
+  margin-left: 50px; }
   ul#secondary-menu-mobile li {
-    margin: 3px auto; }
+    margin: 5px 0 5px 0px; }
     ul#secondary-menu-mobile li a {
-      font-size: 1.2rem;
-      font-weight: 700; }
+      font-size: 2rem;
+      font-weight: 700;
+      color: black;
+      margin: 5px 0 5px 40px; }
 
 ul#primary-menu-mobile > li > a {
   position: relative;
   text-decoration: none;
-  text-transform: uppercase;
   font-weight: 700;
   margin: 0;
   padding: 0 5px;
@@ -1811,7 +1805,6 @@ ul#primary-menu-mobile ul {
       font-size: 0.9rem;
       padding: 5px 10px;
       font-weight: 700;
-      text-transform: uppercase;
       color: black;
       width: 200px; }
       ul#primary-menu-mobile ul li a:after {
@@ -1832,6 +1825,9 @@ ul#primary-menu-mobile ul {
 img#logo-header {
   height: 43px;
   margin: 5px 15px; }
+
+#primary-menu-mobile > li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children.menu-item-66 > a {
+  display: none; }
 
 img#logo-footer {
   height: 80%;
