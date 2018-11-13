@@ -1836,7 +1836,8 @@ img#logo-header {
   display: none; }
 
 #primary-menu-mobile > li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-has-children.menu-item-41 > a {
-  display: none; }
+  display: none;
+  margin: 0; }
 
 img#logo-footer {
   height: 80%;
