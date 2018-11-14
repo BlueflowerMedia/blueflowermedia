@@ -4,6 +4,9 @@
 
 #section-contact {
   background: linear-gradient(to right, #D7DFE6 0%,#D7DFE6 35%, #1da5c9 35%,#1d85db 100%); /* W3C */
+  @include mobile{
+    background: linear-gradient(to bottom, #D7DFE6 0%,#D7DFE6 48%, #1da5c9 48%,#1d85db 100%); /* W3C */
+  }
   .container {
     form {
       input {
@@ -26,9 +29,6 @@
       flex-direction: column;
       justify-content: center;
     }
-
-
-
   }
 }
 
@@ -83,6 +83,9 @@ section#contact-form {
     @media(min-width: 450px){
       max-width: 20vw;
     }
+    // @include mobile{
+    //   max-width: 80vw !important;
+    // }
 
     &:focus {
       outline: none;
@@ -92,7 +95,7 @@ section#contact-form {
   }
   input[type='text'] {
     @include mobile {
-      width: 250px;
+      width: 67vw;
     }
   }
   i {
@@ -115,6 +118,9 @@ textarea {
   padding: 30px 40px;
   height: 170px;
   max-width: 48vw;
+  @include mobile {
+    max-width: 80vw;
+  }
   &:focus {
     outline: none;
   }
