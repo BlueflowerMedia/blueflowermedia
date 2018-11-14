@@ -1639,7 +1639,8 @@ ul#primary-menu {
   align-items: center;
   height: 100%; }
   ul#primary-menu li {
-    margin: 0 10px; }
+    margin: 0 10px;
+    text-align: center; }
 
 ul#primary-menu > li > a {
   font-size: 1rem;
@@ -1650,7 +1651,8 @@ ul#primary-menu > li > a {
   font-weight: 700;
   margin: 0;
   padding: 5px 5px;
-  cursor: pointer; }
+  cursor: pointer;
+  text-align: center; }
   ul#primary-menu > li > a:after {
     content: "";
     position: absolute;
@@ -2917,8 +2919,9 @@ hr {
 #rd {
   background-color: #1B8DCB; }
 
-#section-contact .container {
-  background-color: img; }
+#section-contact {
+  background: linear-gradient(to right, #D7DFE6 0%, #D7DFE6 35%, #1da5c9 35%, #1d85db 100%);
+  /* W3C */ }
   #section-contact .container form input {
     margin: 5px 0;
     padding: 8px 10px;
@@ -2984,7 +2987,6 @@ section#contact-form {
 
 textarea {
   border: 3px solid white;
-  border-radius: 50px;
   box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4);
   padding: 30px 40px;
   height: 170px;

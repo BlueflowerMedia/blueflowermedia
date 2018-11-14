@@ -7,8 +7,7 @@
     </div>
     <div class="txtservice flex1">
       <h1>Branding<span class="big-dot blue">.</span></h1>
-      <p>First-impressions can only be made once. Design affects how your audience views your brand along with the emotions they associate with your brand. We love working with clients that have a strong vision in how they want to be remembered.
-     </p>
+      <p>First-impressions can only be made once. Design affects how your audience views your brand along with the emotions they associate with your brand. In today's world, with more platforms than ever, technology has allowed so many avenues for your business to gain exposure - making great branding and consistency in design more important than ever. Simply, good design will help you increase sales. </p>
     </div>
   </div>
 </section>
@@ -56,7 +55,7 @@
           <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/gradient/DesignResearch.svg" alt="" class="image">
         </div>
         <div class="text">
-          <p><strong>Research</strong></p>
+          <p><strong> Design Research</strong></p>
         </div>
       </div>
 
@@ -69,7 +68,7 @@
           <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/gradient/Sketch&Design.svg" alt="" class="image">
         </div>
         <div class="text">
-          <p><strong>Design</strong></p>
+          <p><strong>Sketch & Design</strong></p>
         </div>
       </div>
 
@@ -82,7 +81,7 @@
           <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/gradient/Revise.svg" alt="" class="image">
         </div>
         <div class="text">
-          <p><strong>Launch</strong><br><br></p>
+          <p><strong>Revise Chosen Concept</strong><br><br></p>
         </div>
       </div>
   </div>

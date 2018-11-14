@@ -202,6 +202,11 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-canada-foundation-logo.svg" alt="Canada Foundation logo">
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-tdot-canna-logo.svg" alt="bfm-tdot-canna-logo">
         </div>
+        <div class="row1">
+          <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-tech-beluga-logo" alt="bfm-tech-beluga-logo">
+          <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-nathaniel-logo.svg" alt="bfm-nathaniel-logo">
+          <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-supercleaners-logo.svg" alt="bfm-supercleaners-logo">
+        </div>
       </div>
       <div class="testimonials-slider">
         <h2>What They Say</h2>
@@ -215,7 +220,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
             <div class="center-text">
               <p> Blueflower Media created my e-commerce website for my artwork from scratch. In a short period of time the website was up and working with great visuals and smooth functionality for visitors. Staff are friendly, flexible and the project was
                 completed on budget. I recommend them. </p>
-              <p class="name-company">Christian <br>CT Paintings</p>
+              <p class="name-company">Christian Turner <br>CT Paintings</p>
             </div>
             <!-- <div class="quotation-close">
               <img src="<?php echo get_template_directory_uri(); ?>/images/homepage/bfm-quotations.svg" alt="quotation-marks">
@@ -230,7 +235,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
             <div class="center-text">
               <p> What a talented group of next-gen creative minds can do for your business. They put it in the spotlight with an exciting website with eye-captivating visuals and contents and give you the tools that can conquer the world of your business - these
                 nerds are creative, neat, very intimidating, cool and always evolving.</p>
-              <p class="name-company">Sahil <br>India Journal</p>
+              <p class="name-company">Shailendra Prasad <br>India Journal</p>
             </div>
             <!-- <div class="quotation-close">
               <img src="<?php echo get_template_directory_uri(); ?>/images/homepage/bfm-quotations.svg" alt="quotation-marks">
@@ -243,9 +248,8 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
               <img src="<?php echo get_template_directory_uri(); ?>/images/homepage/bfm-quotations.svg" alt="quotation-marks">
             </div> -->
             <div class="center-text">
-              <p> Blueflower Media created my e-commerce website for my artwork from scratch. In a short period of time the website was up and working with great visuals and smooth functionality for visitors. Staff are friendly, flexible and the project was
-                completed on budget. I recommend them. </p>
-              <p class="name-company">Christian <br>CT Paintings</p>
+              <p>"BlueFlower Media built our website and did a great job. Noman helped me through the process and made the whole process very easy for us!"</p>
+              <p class="name-company">Mika Doan<br>Playcation</p>
             </div>
             <!-- <div class="quotation-close">
               <img src="<?php echo get_template_directory_uri(); ?>/images/homepage/bfm-quotations.svg" alt="quotation-marks">

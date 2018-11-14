@@ -7,9 +7,7 @@
     </div>
     <div class="txtservice flex1">
       <h1>Web Design<span class="big-dot blue">.</span></h1>
-      <p>It is no longer impressive to have a website that simply looks pretty. That's why our websites don't only look great,
-         they also drive results. To help achieve your core business goals, we developed a holistic web design process that brings
-         together design, technology, content, and marketing to create the best web experience.</p>
+      <p>It is no longer impressive to have a website that simply looks pretty. That's why our websites don't only look great, they also drive results. To help achieve your core business goals, we developed a holistic web design process that brings together design, technology, content, and marketing to create the best website experience. </p>
     </div>
   </div>
 </section>
@@ -18,8 +16,8 @@
 <section id="banner1-webdesign">
   <div class="container">
     <div class="text-left">
-      <h2><span class="yellow-text">Your</span> website.<br><span class="yellow-text">Your</span> business.<br><span class="yellow-text">Your</span> Clients.</h2>
-      <h3><br>It only makes sense for our web<br>design process to start with <span class="yellow-text">you</span>.</h3>
+      <h2><span class="yellow-text">Your</span> business.<br><span class="yellow-text">Your</span> website.</h2>
+      <h3><br>So it only makes sense that our web design process starts with <span class="yellow-text">You</span>.</h3>
     </div>
 
     <div class="text-right">
@@ -105,10 +103,10 @@
   <div class="container-tools">
     <div class="tools-text">
       <h2>Developed  with  the  right  tools.</h2>
-      <p>Once  we  have  researched  and  prepared  the  perfect  content  design  for  your  website  or  web  application,  you  are  ready  to  move  to  the  next  stage  -devel-opment.  At  BlueFlower  Media,  we  proud  to  say  that  our  in-house  team  of  de-velopers  are  capable  of  developing  over  any  modern  platform  depending  on  what  you  need  -  whether  that  is  WordPress,  NodeJS,  Django,  you  name  it.</p>
-      <p>We  go  above  and  beyond  to  make  sure  once  the  website  is  launched,  it's  op-timized  to  start  bringing  you  leads  from  the  very  start.  All  our  websites  come  with  basic  packages  and  tools  for  Speed  Optimization  and  Organic  Search  Engine  Optimization  (SEO)  -  such  as  Google  Search  Console  and  Yoast</p>
+      <p>Once we have researched and prepared the perfect content design for your website or web application, you are ready to move to the next stage - development. At BlueFlower Media, we are proud to say that our in-house team of developers are capable of developing over any modern platform depending on what you need; whether that is WordPress, NodeJS, Django - you name it!</p>
+      <p>We go above and beyond to make sure once the website is launched, it's optimized to start bringing you leads from the very start. All our websites come with basic tools for Speed Optimization and Organic Search Engine Optimization (SEO) - such as Google Search Console and Yoast.</p>
       <p><strong>Don't  know  which  platform  or  tools  to  choose?</strong></p>
-      <p>Our  developers  and  consultants  will  help  you  choose  the  right  platform  for  your  business,  keeping  in  mind  the  complexity,  time  constraints  and  scal-ability.  We  will  also  discuss  with  you  the  best  up-to-date  packages,  frame-works  or  APIs  to  achieve  the  best  functionality  in  your  website  or  applica-tion.</p>
+      <p>Our Project Manager will help you choose the right platform for your business, keeping in mind the complexity, time constraints and scalability. We will also discuss with you the best up-to-date packages, frameworks or APIs to achieve the best functionality in your website or application.</p>
     </div>
     <div class="tools-images">
       <div class="images-row">
@@ -139,17 +137,14 @@
   <div class="container">
     <div class="text-left">
       <h2>Build your dream<br><span class="yellow-text">e-commerce</span> website.</h2>
-      <p>Convert your visitors into buyers with successful e-commerce business strategies that involve innovative marketing and a robust online platform. Our team of designers and developers work in synergy to create softwares that not only look amazing, but also utilize proven user-interaction ideologies to increase sales.
-        With our result-driven strategies, growth is inevitable. So with BlueFlower Media, grow your commerce with reassurance as we build our platforms with scalability in mind and integrate industry-standard automation channels for product management.</p>
+      <p>Convert your visitors into buyers with successful e-commerce business strategies that involve innovative marketing and a robust online platform. Our team of designers and developers work in synergy to create softwares that not only look amazing, but also utilize proven user-interaction ideologies to increase sales. With our result-driven strategies, growth is inevitable. Once your e-commerce website has the perfect design & website structure, we help with marketing your business as well! Generate cash flow for your e-commerce business as soon as possible with a digital marketing plan made specifically for you.</p>
     </div>
 
     <div class="text-right">
       <p><strong>Grow Smart.</strong></p>
-      <p>Growth  in  retail  doesn't  come  easy.  It  takes  significant  data  on  product  per-formance  indicators  and  require  regular  optimization  to  build  a  successful
-         e-commerce  business.  We  integrate  Retail  Performance  Analytics  tools  that  help  you  make  the  right  decision  at  every  step  of  growing  your  business.  </p>
-      <p><strong>So  how  do  I  brand  and  market  my  e-commerce?</strong></p>
-      <p>Our  team  of  marketers  and  designers  have  been  using  result-driven  branding  and  industry-proven  marketing  strategies  to  create  successful  e-commerce  platforms.
-        Visit  our  marketing  and  digital  branding  pages  for  more  technical  information  about  our  methods.  </p>
+      <p>Growth in e-commerce doesn't come easy. It takes significant data on product performance indicators that require regular optimization to build a successful e-commerce business. We integrate Retail Performance Analytics tools that help you make the right decision at every step of growing your business. </p>
+      <p><strong>So  how  do  I market my e-commerce?</strong></p>
+      <p>Every e-commerce niche is different. We first understand your brand, your products, your customers and where they are most likely to be online to create your marketing plan. We analyze the lifetime value of one of your customers and how much you can afford to pay to acquire a new customer. We then gather all the information and brainstorm a marketing plan that is right for you.</p>
       <hr>
     </div>
   </div>

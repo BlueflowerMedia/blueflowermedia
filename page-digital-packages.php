@@ -87,7 +87,7 @@
         <div class="package-content">
           <p>$ 750.00</p>
           <ul class="package-list">
-            <li>1 hour Website Consultation</li>
+            <!-- <li>1 hour Website Consultation</li>
             <li>1 Year Domain, Hosting, SSL, Whols Protection</li>
             <li>Custom Wordpress Theme</li>
             <li>Responsive and Cross Browser Tested</li>
@@ -96,7 +96,19 @@
             <li>1 Hour Website Coaching</li>
             <li>Social Media Integration</li>
             <li>1 Contact Form + Newsletter Form</li>
-            <li>5 Website Sections(e.g., Home,About, Services, Gallery, Contact)</li>
+            <li>5 Website Sections(e.g., Home,About, Services, Gallery, Contact)</li> -->
+
+            <li>1 hour consultation and strategizing (in-person/Video Conference)</li>
+            <li>Domain Setup / 1 Year Domain</li>
+            <li>1 Year Hosting</li>
+            <li>1 Year SSL Certificate + WhoIs Protection</li>
+            <li>Wordpress Theme Customization</li>
+            <li>5 Website Sections (e.g; Home, About, Services, Gallery, Contact)</li>
+            <li>1 Contact form + 1 newsletter form</li>
+            <li>Social Media Integration</li>
+            <li>Basic Google Console Setup + Google Analytics Setup</li>
+            <li>Basic SEO optimization (meta tags) + XML Sitemap</li>
+            <li>1 hour website coaching</li>
           </ul>
         </div>
       </div>
@@ -110,20 +122,23 @@
           </div>
         </a>
         <div class="package-content">
-          <p>$1,400.00</p>
+          <p>$1,500.00</p>
           <ul class="package-list">
-            <li>1 hour Website Consultation</li>
-            <li>1 Year Domain, Hosting, SSL, Whols Protection</li>
-            <li>Custom Wordpress Theme</li>
-            <li>Responsive and Cross Browser Tested</li>
-            <li>Google Console Setup + Google Analytics Setup</li>
-            <li>Basic SEO (meta tags) + (XML Sitemap)</li>
-            <li>1 Hour Website Coaching</li>
+
+            <li>1 hour consultation and strategizing (in-person/Video Conference)</li>
+            <li>Domain Setup / 1 Year Domain</li>
+            <li>1 Year Hosting</li>
+            <li>1 Year SSL Certificate + WhoIs Protection</li>
+            <li>Wordpress Theme Customization</li>
+            <li>5 Website Pages (e.g; Home, About, Services, Gallery, Contact)</li>
+            <li>1 Contact form + 1 newsletter form</li>
+            <li>3 Sections per Page</li>
             <li>Social Media Integration</li>
-            <li>Contact Form, Newsletter Form, Registration Form, Custom Form</li>
-            <li>5 Website Pages</li>
-            <li>3 Sections Per Page</li>
-            <li>5 Custom Icons</li>
+            <li>Search Console Setup + Google Analytics Setup</li>
+            <li>Basic SEO optimization (meta tags) + XML Sitemap</li>
+            <li>1 hour website coaching</li>
+
+            <!-- <li><strong>Extra Features</strong></li> -->
 
           </ul>
         </div>
