@@ -184,7 +184,6 @@
               <div class="package-content">
                 <p>$300.00/Month</p>
                 <ul class="package-list">
-
                   <li>Written Content Management: Add, Edit, Remove</li>
                   <li>Photo Management: Add, Edit, Remove, Photoshop</li>
                   <li>Video Management: Add, Edit, Remove</li>
@@ -193,7 +192,6 @@
                   <li>Forms: Creating, Customizing, Testing</li>
                   <li>Daily Malware Scans & Website Backup</li>
                   <li>Dedicated 5 hours/Month</li>
-
                 </ul>
               </div>
             </div>
