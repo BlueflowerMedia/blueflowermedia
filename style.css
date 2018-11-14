@@ -2919,6 +2919,9 @@ hr {
 #rd {
   background-color: #1B8DCB; }
 
+.no-bottom-padding {
+  padding-bottom: 0 !important; }
+
 #section-contact {
   background: linear-gradient(to right, #D7DFE6 0%, #D7DFE6 35%, #1da5c9 35%, #1d85db 100%);
   /* W3C */ }
@@ -2932,6 +2935,10 @@ hr {
     #section-contact .container form input:focus {
       border-bottom-color: #1B8DCB;
       outline: none; }
+  #section-contact .container .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
 
 .contact-type {
   margin: 25px 0; }
@@ -2968,6 +2975,9 @@ section#contact-form {
   color: black;
   padding: 10px 30px;
   box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4); }
+  @media (min-width: 450px) {
+    .wpcf7 input {
+      max-width: 20vw; } }
   .wpcf7 input:focus {
     outline: none;
     background: white;
@@ -2990,7 +3000,7 @@ textarea {
   box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4);
   padding: 30px 40px;
   height: 170px;
-  max-width: 900px; }
+  max-width: 48vw; }
   textarea:focus {
     outline: none; }
 

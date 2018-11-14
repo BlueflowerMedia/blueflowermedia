@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-<div class="container">
+<div class="container no-bottom-padding">
   <h1>Contact Us<span class="big-dot blue">.</span></h1>
 </div>
 <section id="section-contact">
@@ -29,7 +29,7 @@
       </div> -->
       <div class="contact-form flex3" >
         <!-- <h2>Get in touch!</h2> -->
-        <?php echo do_shortcode('[contact-form-7 id="42" title="Contact Form"]' ) ?>
+        <?php echo do_shortcode( '[contact-form-7 id="42" title="Contact Form"]' ) ?>
       </div>
     </div>
   </div>
