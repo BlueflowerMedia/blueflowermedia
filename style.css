@@ -3055,6 +3055,9 @@ span.wpcf7-not-valid-tip {
   flex-flow: row wrap;
   padding: 15px;
   justify-content: center; }
+  @media (max-width: 760px) {
+    .contact-form-part-1 {
+      margin-top: 70px; } }
 
 .contact-form-part-1 input {
   flex: 1; }

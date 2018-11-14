@@ -176,6 +176,9 @@ span.wpcf7-not-valid-tip {
   flex-flow: row wrap;
   padding: 15px;
   justify-content: center;
+  @include mobile{
+    margin-top: 70px;
+  }
 }
 
 .contact-form-part-1 input {
