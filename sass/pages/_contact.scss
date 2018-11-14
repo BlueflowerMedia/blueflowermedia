@@ -5,9 +5,10 @@
 #section-contact {
   background: linear-gradient(to right, #D7DFE6 0%,#D7DFE6 35%, #1da5c9 35%,#1d85db 100%); /* W3C */
   @include mobile{
-    background: linear-gradient(to bottom, #D7DFE6 0%,#D7DFE6 48%, #1da5c9 48%,#1d85db 100%); /* W3C */
+    background: linear-gradient(to bottom, #D7DFE6 0%,#D7DFE6 32%, #1da5c9 32%,#1d85db 100%); /* W3C */
   }
   .container {
+    padding: 40px 3%;
     form {
       input {
         margin: 5px 0;
@@ -23,7 +24,60 @@
         }
       }
     }
+    .footer-right{
+      h3{
+        color: #fff;
+        font-family: $font-primary;
+        @include mobile{
+          // text-align: center;
+        }
+      }
+      text-align: left;
+      // @include mobile{
+      // 	justify-content: center;
+      // }
+      .contact-items{
+        .contact{
+          display: flex;
+          align-items: center;
 
+          .contact-left{
+            text-align: center;
+            i{
+              padding:0 .3em;
+              font-size: 2.1em;
+              width: 1.5em;
+              color: $blue;
+            }
+
+          }
+          .contact-right{
+            p{
+              color: black;
+              // font-size: 1em;
+              padding-left: 1em;
+            }
+          }
+        }
+      }
+      .icons{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        @include mobile {
+          justify-content: center;
+        }
+        i{
+          display: inline-block;
+          background: white;
+          border-radius: 60px;
+          box-shadow: 0 0 2px #888;
+          padding: 0.5em;
+          margin: 5px;
+          transition: all 0.3s cubic-bezier(0.16, 0.91, 0.56, 1.0);
+        }
+      }
+    }
     .contact-form{
       display: flex;
       flex-direction: column;

@@ -2927,22 +2927,57 @@ hr {
   /* W3C */ }
   @media (max-width: 760px) {
     #section-contact {
-      background: linear-gradient(to bottom, #D7DFE6 0%, #D7DFE6 48%, #1da5c9 48%, #1d85db 100%);
+      background: linear-gradient(to bottom, #D7DFE6 0%, #D7DFE6 32%, #1da5c9 32%, #1d85db 100%);
       /* W3C */ } }
-  #section-contact .container form input {
-    margin: 5px 0;
-    padding: 8px 10px;
-    border-radius: 0;
-    border: none;
-    border-bottom: 2px solid #696969;
-    transition: border 0.5s cubic-bezier(0.7, 0.7, 0.7, 1); }
-    #section-contact .container form input:focus {
-      border-bottom-color: #1B8DCB;
-      outline: none; }
-  #section-contact .container .contact-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
+  #section-contact .container {
+    padding: 40px 3%; }
+    #section-contact .container form input {
+      margin: 5px 0;
+      padding: 8px 10px;
+      border-radius: 0;
+      border: none;
+      border-bottom: 2px solid #696969;
+      transition: border 0.5s cubic-bezier(0.7, 0.7, 0.7, 1); }
+      #section-contact .container form input:focus {
+        border-bottom-color: #1B8DCB;
+        outline: none; }
+    #section-contact .container .footer-right {
+      text-align: left; }
+      #section-contact .container .footer-right h3 {
+        color: #fff;
+        font-family: "Source Sans Pro", sans-serif; }
+      #section-contact .container .footer-right .contact-items .contact {
+        display: flex;
+        align-items: center; }
+        #section-contact .container .footer-right .contact-items .contact .contact-left {
+          text-align: center; }
+          #section-contact .container .footer-right .contact-items .contact .contact-left i {
+            padding: 0 .3em;
+            font-size: 2.1em;
+            width: 1.5em;
+            color: #1B8DCB; }
+        #section-contact .container .footer-right .contact-items .contact .contact-right p {
+          color: black;
+          padding-left: 1em; }
+      #section-contact .container .footer-right .icons {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+        @media (max-width: 760px) {
+          #section-contact .container .footer-right .icons {
+            justify-content: center; } }
+        #section-contact .container .footer-right .icons i {
+          display: inline-block;
+          background: white;
+          border-radius: 60px;
+          box-shadow: 0 0 2px #888;
+          padding: 0.5em;
+          margin: 5px;
+          transition: all 0.3s cubic-bezier(0.16, 0.91, 0.56, 1); }
+    #section-contact .container .contact-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
 
 .contact-type {
   margin: 25px 0; }
