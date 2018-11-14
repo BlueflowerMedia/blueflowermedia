@@ -203,7 +203,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-tdot-canna-logo.svg" alt="bfm-tdot-canna-logo">
         </div>
         <div class="row1">
-          <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-tech-beluga-logo" alt="bfm-tech-beluga-logo">
+          <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-tech-beluga-logo.svg" alt="bfm-tech-beluga-logo">
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-nathaniel-logo.svg" alt="bfm-nathaniel-logo">
           <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-supercleaners-logo.svg" alt="bfm-supercleaners-logo">
         </div>
