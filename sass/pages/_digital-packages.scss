@@ -34,6 +34,14 @@
             background-color: white;
             overflow: hidden;
             border: 1px solid #1D88D9;
+            ul{
+                              padding-left: 1vw;
+              li{
+                list-style-image: url("images/bfm-arrow-icon.svg");
+
+              }
+            }
+
         }
 
         .accordion:after {
@@ -190,4 +198,8 @@
   @media(min-width: 800px){
     display: none;
   }
+}
+
+.margin-left{
+  margin-left: 20px;
 }

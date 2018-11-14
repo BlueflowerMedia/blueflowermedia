@@ -5,7 +5,10 @@
 #section-contact {
   background: linear-gradient(to right, #D7DFE6 0%,#D7DFE6 35%, #1da5c9 35%,#1d85db 100%); /* W3C */
   @include mobile{
-    background: linear-gradient(to bottom, #D7DFE6 0%,#D7DFE6 32%, #1da5c9 32%,#1d85db 100%); /* W3C */
+    background: linear-gradient(to bottom, #D7DFE6 0%,#D7DFE6 32%, #1da5c9 32%,#1d85db 100%) !important; /* W3C */
+  }
+  @media (max-width: 1080px){
+    background: linear-gradient(to right, #D7DFE6 0%,#D7DFE6 41%, #1da5c9 41%,#1d85db 100%); /* W3C */
   }
   .container {
     padding: 40px 5%;
