@@ -2930,7 +2930,8 @@ hr {
       background: linear-gradient(to bottom, #D7DFE6 0%, #D7DFE6 32%, #1da5c9 32%, #1d85db 100%);
       /* W3C */ } }
   #section-contact .container {
-    padding: 40px 5%; }
+    padding: 40px 5%;
+    max-width: 1800px; }
     #section-contact .container form input {
       margin: 5px 0;
       padding: 8px 10px;
