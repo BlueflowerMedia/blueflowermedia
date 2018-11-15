@@ -2922,68 +2922,86 @@ hr {
 .no-bottom-padding {
   padding-bottom: 0 !important; }
 
-#section-contact {
-  background: linear-gradient(to right, #D7DFE6 0%, #D7DFE6 35%, #1da5c9 35%, #1d85db 100%);
-  /* W3C */ }
-  @media (max-width: 760px) {
-    #section-contact {
-      background: linear-gradient(to bottom, #D7DFE6 0%, #D7DFE6 32%, #1da5c9 32%, #1d85db 100%) !important;
-      /* W3C */ } }
-  @media (max-width: 1080px) {
-    #section-contact {
-      background: linear-gradient(to right, #D7DFE6 0%, #D7DFE6 41%, #1da5c9 41%, #1d85db 100%);
-      /* W3C */ } }
-  #section-contact .container {
-    padding: 40px 5%; }
-    #section-contact .container form input {
-      margin: 5px 0;
-      padding: 8px 10px;
-      border-radius: 0;
-      border: none;
-      border-bottom: 2px solid #696969;
-      transition: border 0.5s cubic-bezier(0.7, 0.7, 0.7, 1); }
-      #section-contact .container form input:focus {
-        border-bottom-color: #1B8DCB;
-        outline: none; }
-    #section-contact .container .footer-right {
-      display: flex;
-      align-items: center;
-      text-align: left; }
-      #section-contact .container .footer-right h3 {
-        color: #fff;
-        font-family: "Source Sans Pro", sans-serif; }
-      #section-contact .container .footer-right .contact-items .contact {
-        display: flex;
-        align-items: center; }
-        #section-contact .container .footer-right .contact-items .contact .contact-left {
-          text-align: center; }
-          #section-contact .container .footer-right .contact-items .contact .contact-left i {
-            padding: 0 .3em;
-            font-size: 2.1em;
-            width: 1.5em;
-            color: #1B8DCB; }
-        #section-contact .container .footer-right .contact-items .contact .contact-right p {
-          color: black;
-          padding-left: 1em; }
-      #section-contact .container .footer-right .icons {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center; }
-        @media (max-width: 760px) {
-          #section-contact .container .footer-right .icons {
-            justify-content: center; } }
-        #section-contact .container .footer-right .icons i {
-          display: inline-block;
-          background: white;
-          border-radius: 60px;
-          box-shadow: 0 0 2px #888;
-          padding: 0.5em;
-          margin: 5px;
-          transition: all 0.3s cubic-bezier(0.16, 0.91, 0.56, 1); }
-    #section-contact .container .contact-form {
-      display: flex;
-      flex-direction: column;
-      justify-content: center; }
+@media (max-width: 800px) {
+  #section-contact .contact-container {
+    display: flex; } }
+#section-contact .contact-container .contact-details-container {
+  width: 30vw;
+  padding: 50px 3vw;
+  background-color: #D7DFE6;
+  display: flex;
+  align-items: center;
+  text-align: left; }
+  @media (max-width: 800px) {
+    #section-contact .contact-container .contact-details-container {
+      width: 100vw; } }
+  #section-contact .contact-container .contact-details-container h3 {
+    color: #fff;
+    font-family: "Source Sans Pro", sans-serif; }
+  #section-contact .contact-container .contact-details-container .contact-items .contact {
+    display: flex;
+    align-items: center; }
+    @media (min-width: 760px) and (max-width: 1023px) {
+      #section-contact .contact-container .contact-details-container .contact-items .contact {
+        justify-content: center; } }
+    @media (max-width: 1300px) and (min-width: 768px) {
+      #section-contact .contact-container .contact-details-container .contact-items .contact {
+        flex-direction: column; } }
+    #section-contact .contact-container .contact-details-container .contact-items .contact .contact-left {
+      text-align: center; }
+      #section-contact .contact-container .contact-details-container .contact-items .contact .contact-left i {
+        padding: 0 .3em;
+        font-size: 2.1em;
+        width: 1.5em;
+        color: #1B8DCB; }
+    #section-contact .contact-container .contact-details-container .contact-items .contact .contact-right p {
+      color: black;
+      padding-left: 1em; }
+      @media (max-width: 1300px) and (min-width: 768px) {
+        #section-contact .contact-container .contact-details-container .contact-items .contact .contact-right p {
+          text-align: center; } }
+  #section-contact .contact-container .contact-details-container .icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+    @media (max-width: 760px) {
+      #section-contact .contact-container .contact-details-container .icons {
+        justify-content: center; } }
+    #section-contact .contact-container .contact-details-container .icons i {
+      display: inline-block;
+      background: white;
+      border-radius: 60px;
+      box-shadow: 0 0 2px #888;
+      padding: 0.5em;
+      margin: 5px;
+      transition: all 0.3s cubic-bezier(0.16, 0.91, 0.56, 1); }
+#section-contact .contact-container .contact-form-container {
+  width: 70vw;
+  padding: 50px 7vw;
+  background: linear-gradient(to right, #1da5c9 0%, #1d85db 100%); }
+  @media (max-width: 800px) {
+    #section-contact .contact-container .contact-form-container {
+      width: 100vw; } }
+  @media (max-width: 1200px) {
+    #section-contact .contact-container .contact-form-container {
+      padding: 50px 4vw; } }
+
+#section-contact .container {
+  padding: 40px 5%; }
+  #section-contact .container form input {
+    margin: 5px 0;
+    padding: 8px 10px;
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid #696969;
+    transition: border 0.5s cubic-bezier(0.7, 0.7, 0.7, 1); }
+    #section-contact .container form input:focus {
+      border-bottom-color: #1B8DCB;
+      outline: none; }
+  #section-contact .container .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
 
 .contact-type {
   margin: 25px 0; }
@@ -3096,9 +3114,6 @@ span.wpcf7-not-valid-tip {
   flex-flow: row wrap;
   padding: 15px;
   justify-content: center; }
-  @media (max-width: 760px) {
-    .contact-form-part-1 {
-      margin-top: 70px; } }
 
 .contact-form-part-1 input {
   flex: 1; }
@@ -3135,6 +3150,9 @@ span.wpcf7-not-valid-tip {
 
 .contact-form-part-6 {
   text-align: center; }
+
+.contact-form-part-7 {
+  color: white; }
 
 #advanced-options {
   padding: 40px 0;
