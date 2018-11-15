@@ -42,6 +42,7 @@
       </div>
       <div class="text">
         <p><strong>Discovery</strong><br><br></p>
+        <p class="small-text">Clarify business model and what the website is supposed to achieve. Brand Awareness? Sales? Subscriptions? Your business goals dictate the website structure.</p>
       </div>
     </div>
       <!-- <div class="arrow1">
@@ -53,6 +54,7 @@
         </div>
         <div class="text">
           <p><strong>UI/UX Research<br>and Design</strong></p>
+          <p class="small-text">Create website mockups based on previous branding. Wireframe website structure to achieve the desired results.</p>
         </div>
       </div>
 
@@ -66,6 +68,7 @@
         </div>
         <div class="text">
           <p><strong>Coding  and  Development</strong></p>
+          <p class="small-text">Hard code website appearance and functionalities based on previous website mockup. Make website responsive & tested for major browsers. Run quality assurance tests until website is perfected.</p>
         </div>
       </div>
 
@@ -79,6 +82,7 @@
         </div>
         <div class="text">
           <p><strong>Launch</strong><br><br></p>
+          <p class="small-text">Make the website live! Set up Google Analytics & make website indexed by Google.</p>
         </div>
       </div>
 
@@ -93,6 +97,7 @@
         </div>
         <div class="text">
           <p><strong>Maintenance  and  Optimization</strong></p>
+          <p class="small-text">Make adjustments to website based on response from visitors. Edit photos, videos, content, etc.</p>
         </div>
       </div>
   </div>

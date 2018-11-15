@@ -3533,6 +3533,8 @@ span.wpcf7-not-valid-tip {
               width: 120px; } }
         #graphic-design-process .process-container .figure-and-text .figure .text {
           margin-top: 20px; }
+          #graphic-design-process .process-container .figure-and-text .figure .text .small-text {
+            font-size: .8rem; }
       #graphic-design-process .process-container .figure-and-text .arrow1 {
         display: flex;
         margin: 0 auto;
@@ -4031,7 +4033,7 @@ span.wpcf7-not-valid-tip {
         flex-direction: column;
         align-items: center; } }
     #web-design-process .process-container .figure-and-text .figure {
-      max-width: 150px;
+      max-width: 180px;
       margin: 15px auto;
       flex-direction: column;
       text-align: -webkit-center; }
@@ -4061,6 +4063,8 @@ span.wpcf7-not-valid-tip {
             width: 120px; } }
       #web-design-process .process-container .figure-and-text .figure .text {
         margin-top: 20px; }
+        #web-design-process .process-container .figure-and-text .figure .text .small-text {
+          font-size: .8rem; }
     #web-design-process .process-container .figure-and-text .arrow1 {
       display: flex;
       margin: 0 auto;

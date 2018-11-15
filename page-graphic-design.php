@@ -44,7 +44,8 @@
         <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/gradient/Discovery.svg" alt="" class="image">
       </div>
       <div class="text">
-        <p><strong>Discovery</strong><br><br></p>
+        <p><strong>Discovery</strong><br></p>
+        <p class="small-text">Clarify brand vision, goals & values. Identify Target markets & appropriate business personality. Give us as many details as possible along with the touchpoints that will be required for your brand. </p>
       </div>
     </div>
       <!-- <div class="arrow1">
@@ -56,6 +57,7 @@
         </div>
         <div class="text">
           <p><strong> Design Research</strong></p>
+          <p class="small-text">We research your industry, target demographic, competitors & their design approaches. Doing research helps us identify the best way to differentiate you from the market.</p>
         </div>
       </div>
 
@@ -69,6 +71,7 @@
         </div>
         <div class="text">
           <p><strong>Sketch & Design</strong></p>
+          <p class="small-text">Sketch & Design multiple variations of your project. Different variations will come in different styles, colors, & personalities to help you choose the right design for your brand.</p>
         </div>
       </div>
 
@@ -81,7 +84,8 @@
           <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/gradient/Revise.svg" alt="" class="image">
         </div>
         <div class="text">
-          <p><strong>Revise Chosen Concept</strong><br><br></p>
+          <p><strong>Revise Chosen Concept</strong><br></p>
+          <p class="small-text">Once you pick the design variation you like the best, we make revisions to that design until it is perfect. Once the design is complete, we send over all of the original source files.</p>
         </div>
       </div>
   </div>
