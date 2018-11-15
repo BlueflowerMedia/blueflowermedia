@@ -1495,6 +1495,9 @@ nav#site-navigation .nav-left {
 nav#site-navigation .nav-middle {
   justify-content: flex-end;
   align-items: center; }
+  @media (max-width: 1200px) {
+    nav#site-navigation .nav-middle {
+      display: none; } }
 
 nav#site-navigation .nav-right {
   justify-content: flex-end;
@@ -1562,7 +1565,7 @@ nav#site-navigation {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   display: none; }
-  @media (max-width: 760px) {
+  @media (max-width: 1200px) {
     #hamburger-bfm {
       display: block; } }
 

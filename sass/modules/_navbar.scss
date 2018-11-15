@@ -14,6 +14,9 @@ nav#site-navigation .nav-left {
 nav#site-navigation .nav-middle {
 	justify-content: flex-end;
 	align-items: center;
+	@media(max-width: 1200px){
+		display: none;
+	}
 }
 nav#site-navigation .nav-right {
 	justify-content: flex-end;
@@ -100,7 +103,11 @@ transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 	display: none;
-	@include mobile {
+	// @include tablet {
+	// 	display: block;
+	// }
+
+	@media (max-width: 1200px){
 		display: block;
 	}
 }
