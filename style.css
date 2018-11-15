@@ -3150,7 +3150,9 @@ span.wpcf7-not-valid-tip {
   display: block; }
 
 .contact-form-part-6 {
-  text-align: center; }
+  text-align: center;
+  color: white;
+  font-size: 1rem; }
 
 .contact-form-part-7 {
   color: white; }
