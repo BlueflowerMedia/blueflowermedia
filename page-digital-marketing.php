@@ -131,8 +131,8 @@
           </div>
           <div class="text-bottom">
             <p>Sub Services: Google Analytics Integration, Search Console Setup, Keyword Research & Strategy, Competitor Analysis, Content Writing, Backlink Management, Speed Optimization,
-Social Media Management
-</p>
+              Social Media Management
+            </p>
           </div>
 
         </div>
