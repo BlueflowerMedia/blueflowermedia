@@ -164,7 +164,7 @@
     }
     .figure-and-text{
       max-width: 1200px;
-      margin: 0 auto;
+      margin: 15px auto;
       padding: 10px;
       display: flex;
       align-items: flex-start;
@@ -174,8 +174,9 @@
       }
       .figure{
         max-width: 200px;
-        margin: 0 auto;
+        margin: 15px auto;
         flex-direction: column;
+        text-align: -webkit-center;
         @media(min-width: 500px){
               display: flex;
         }
@@ -187,6 +188,9 @@
           padding: 20px;
           display: inline-block;
           position: relative;
+          @include mobile{
+            display: flex;
+          }
           img{
             max-width: 70%;
             max-height: 70%;

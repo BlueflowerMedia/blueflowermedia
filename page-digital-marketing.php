@@ -57,6 +57,7 @@
       </div>
       <div class="text">
         <p><strong>Discovery</strong><br><br></p>
+        <p class="small-text">Help us understand your business as well as possible. Tell us about your industry, your business model, your target audience, your competitor's, lifetime value of a customer, etc. </p>
       </div>
     </div>
       <!-- <div class="arrow1">
@@ -68,6 +69,7 @@
         </div>
         <div class="text">
           <p><strong>Strategy</strong><br><br></p>
+          <p class="small-text">Use information gathered to create a focused marketing plan. We will consider all marketing options with analysis of the pros & cons of each method for your business.</p>
         </div>
       </div>
 
@@ -81,6 +83,7 @@
         </div>
         <div class="text">
           <p><strong>Execute</strong><br><br></p>
+          <p class="small-text">Create a checklist for the marketing plan, with a set of time based deliverables. </p>
         </div>
       </div>
 
@@ -94,6 +97,7 @@
         </div>
         <div class="text">
           <p><strong>Revise</strong><br><br></p>
+          <p class="small-text">Analyze results of campaigns & optimize them to reduce costs and increase conversions.</p>
         </div>
       </div>
   </div>

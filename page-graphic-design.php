@@ -47,9 +47,9 @@
         <p><strong>Discovery</strong><br><br></p>
       </div>
     </div>
-      <div class="arrow1">
+      <!-- <div class="arrow1">
         <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/arrow.svg" alt="" class="image">
-      </div>
+      </div> -->
       <div class="figure">
         <div class="circle">
           <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/gradient/DesignResearch.svg" alt="" class="image">
@@ -59,9 +59,9 @@
         </div>
       </div>
 
-      <div class="arrow1">
+      <!-- <div class="arrow1">
         <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/arrow.svg" alt="" class="image">
-      </div>
+      </div> -->
 
       <div class="figure">
         <div class="circle">
@@ -72,9 +72,9 @@
         </div>
       </div>
 
-      <div class="arrow1">
+      <!-- <div class="arrow1">
         <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/arrow.svg" alt="" class="image">
-      </div>
+      </div> -->
 
       <div class="figure">
         <div class="circle">
