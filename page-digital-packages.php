@@ -167,35 +167,13 @@
               <li class="margin-left">Automated new customer offers</li>
               <li class="margin-left">Newsletter signup</li>
               <li class="margin-left">Live Chat</li>
-
           </ul>
         </div>
       </div>
 
 
-            <!-- service 4 --->
-            <div class="package">
-              <a class="service-anchor" href="<?php echo $digitalmarketing; ?>">
-                <div class="logo">
-                  <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/webdesign/gradient/Server.svg" alt="bfm-digital-marketing-icon">
-                  <h3>Website Maintenance</h3>
-                </div>
-              </a>
-              <div class="package-content">
-                <p>$300.00/Month</p>
-                <ul class="package-list">
-                  <li>Written Content Management: Add, Edit, Remove</li>
-                  <li>Photo Management: Add, Edit, Remove, Photoshop</li>
-                  <li>Video Management: Add, Edit, Remove</li>
-                  <li>Navigation Changes: Add, Edit, Move, Remove</li>
-                  <li>Pages: Add, Edit, Remove</li>
-                  <li>Forms: Creating, Customizing, Testing</li>
-                  <li>Daily Malware Scans & Website Backup</li>
-                  <li>Dedicated 5 hours/Month</li>
-                </ul>
-              </div>
-            </div>
-      <!-- service 5 --->
+
+      <!-- service 4 --->
       <div class="package">
         <a class="service-anchor" href="<?php echo $digitalmarketing; ?>">
           <div class="logo">
@@ -218,7 +196,7 @@
       </div>
 
 
-      <!-- service 6 --->
+      <!-- service 5 --->
       <div class="package">
         <a class="service-anchor" href="<?php echo $digitalmarketing; ?>">
           <div class="logo">
@@ -236,6 +214,29 @@
             <li>All Source Files</li>
           </ul>
         </div>
+      </div>
+
+
+    <!-- service 6 --->
+    <div class="package">
+      <a class="service-anchor" href="<?php echo $digitalmarketing; ?>">
+        <div class="logo">
+          <img class="serv-logo" src="<?php echo get_template_directory_uri(); ?>/images/webdesign/gradient/Maintenance&Opt.svg" alt="bfm-digital-marketing-icon">
+          <h3>Website Maintenance</h3>
+        </div>
+      </a>
+      <div class="package-content">
+        <p>$300.00/Month</p>
+        <ul class="package-list">
+          <li>Written Content Management: Add, Edit, Remove</li>
+          <li>Photo Management: Add, Edit, Remove, Photoshop</li>
+          <li>Video Management: Add, Edit, Remove</li>
+          <li>Navigation Changes: Add, Edit, Move, Remove</li>
+          <li>Pages: Add, Edit, Remove</li>
+          <li>Forms: Creating, Customizing, Testing</li>
+          <li>Daily Malware Scans & Website Backup</li>
+          <li>Dedicated 5 hours/Month</li>
+        </ul>
       </div>
     </div>
     <!-- service names end --->
