@@ -3510,13 +3510,16 @@ span.wpcf7-not-valid-tip {
         #graphic-design-process .process-container .figure-and-text .figure .circle {
           height: 160px;
           width: 160px;
-          border-radius: 50%;
+          background: linear-gradient(to right, #EBC31C 0%, #EB971C 100%);
           padding: 20px;
           display: inline-block;
           position: relative;
           justify-content: center;
           /* align horizontal */
           align-items: center; }
+          #graphic-design-process .process-container .figure-and-text .figure .circle img {
+            max-width: 70%;
+            max-height: 70%; }
           @media (min-width: 500px) {
             #graphic-design-process .process-container .figure-and-text .figure .circle {
               display: flex; } }
@@ -3751,14 +3754,15 @@ span.wpcf7-not-valid-tip {
       #digital-marketing-process .process-container .figure-and-text .figure .circle {
         height: 160px;
         width: 160px;
-        border-radius: 50%;
+        background: linear-gradient(to right, #EBC31C 0%, #EB971C 100%);
         display: inline-block;
         position: relative;
         justify-content: center;
         /* align horizontal */
         align-items: center; }
         #digital-marketing-process .process-container .figure-and-text .figure .circle img {
-          max-width: 70%; }
+          max-width: 70%;
+          max-height: 70%; }
         @media (min-width: 500px) {
           #digital-marketing-process .process-container .figure-and-text .figure .circle {
             display: flex; } }
@@ -4025,7 +4029,7 @@ span.wpcf7-not-valid-tip {
       #web-design-process .process-container .figure-and-text .figure .circle {
         height: 160px;
         width: 160px;
-        border-radius: 50%;
+        background: linear-gradient(to right, #EBC31C 0%, #EB971C 100%);
         padding: 10px;
         display: inline-block;
         position: relative;
@@ -4034,7 +4038,8 @@ span.wpcf7-not-valid-tip {
         /* align horizontal */
         align-items: center; }
         #web-design-process .process-container .figure-and-text .figure .circle img {
-          max-width: 70%; }
+          max-width: 70%;
+          max-height: 70%; }
         @media (min-width: 500px) {
           #web-design-process .process-container .figure-and-text .figure .circle {
             display: flex; } }

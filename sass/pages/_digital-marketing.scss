@@ -177,12 +177,14 @@
         .circle{
           height: 160px;
           width: 160px;
-          border-radius: 50%;
+          // border-radius: 50%;
+          background: linear-gradient(to right, #EBC31C 0%, #EB971C 100%);
           display: inline-block;
           position: relative;
           // background-color: #ECCD1A;
           img{
             max-width: 70%;
+            max-height: 70%;
           }
           @media(min-width: 500px){
                 display: flex;

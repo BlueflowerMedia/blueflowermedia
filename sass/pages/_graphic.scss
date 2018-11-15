@@ -182,10 +182,15 @@
         .circle{
           height: 160px;
           width: 160px;
-          border-radius: 50%;
+          // border-radius: 50%;
+          background: linear-gradient(to right, #EBC31C 0%, #EB971C 100%);
           padding: 20px;
           display: inline-block;
           position: relative;
+          img{
+            max-width: 70%;
+            max-height: 70%;
+          }
           // background-color: #ECCD1A;
           @media(min-width: 500px){
                 display: flex;
