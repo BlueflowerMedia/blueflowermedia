@@ -55,7 +55,7 @@
         <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/gradient/Discovery.svg" alt="" class="image">
       </div>
       <div class="text">
-        <p><strong>Discovery</strong><br><br></p>
+        <p><strong>Discovery</strong></p>
         <p class="small-text">Help us understand your business as well as possible. Tell us about your industry, your business model, your target audience, your competitor's, lifetime value of a customer, etc. </p>
       </div>
     </div>
@@ -67,7 +67,7 @@
           <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/gradient/Strategy.svg" alt="" class="image">
         </div>
         <div class="text">
-          <p><strong>Strategy</strong><br><br></p>
+          <p><strong>Strategy</strong></p>
           <p class="small-text">Use information gathered to create a focused marketing plan. We will consider all marketing options with analysis of the pros & cons of each method for your business.</p>
         </div>
       </div>
@@ -81,7 +81,7 @@
           <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/gradient/Execute.svg" alt="" class="image">
         </div>
         <div class="text">
-          <p><strong>Execute</strong><br><br></p>
+          <p><strong>Execute</strong></p>
           <p class="small-text">Create a checklist for the marketing plan, with a set of time based deliverables. </p>
         </div>
       </div>
@@ -95,7 +95,7 @@
           <img src="<?php echo get_template_directory_uri(); ?>/images/digital-marketing/gradient/Optimize.svg" alt="" class="image">
         </div>
         <div class="text">
-          <p><strong>Revise</strong><br><br></p>
+          <p><strong>Revise</strong></p>
           <p class="small-text">Analyze results of campaigns & optimize them to reduce costs and increase conversions.</p>
         </div>
       </div>

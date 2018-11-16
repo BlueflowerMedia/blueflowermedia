@@ -177,6 +177,9 @@
         @media(min-width: 500px){
               display: flex;
         }
+        @include mobile{
+          max-width: 290px;
+        }
         .circle{
           height: 160px;
           width: 160px;
@@ -195,7 +198,7 @@
           @media(min-width: 500px){
                 display: flex;
           }
-          @media(max-width: 1080px){
+          @media(max-width: 1080px)and (min-width: 450px){
             height: 120px;
             width: 120px;
           }
@@ -207,6 +210,9 @@
           margin-top: 20px;
           .small-text{
             font-size: .8rem;
+            @include mobile{
+              font-size: 1.2rem;
+            }
           }
         }
 
