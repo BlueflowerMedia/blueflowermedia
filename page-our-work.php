@@ -27,15 +27,7 @@
         </div>
       </div>
       <!-- 3rd -->
-      <div class="item">
-        <a href="<?php echo get_permalink(get_page_by_path( 'portfolio-reginos-pizza' )); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/reginos-pizzia-portfolio-photo-1.png" alt="reginos-pizzia-portfolio-photo" class="image"></a>
-        <h4>Reginos Pizza</h4>
-        <div class="project-tags">
-          <button class="tag web" disabled>Flyer Design</button>
-          <button class="tag graphics" disabled>Graphic Design</button>
-          <button class="tag web" disabled>Brand Style Guide</button>
-        </div>
-      </div>
+
 
     </div>
 
@@ -67,18 +59,7 @@
       </div>
 
       <!-- 3rd -->
-      <div class="item">
-        <a href="<?php echo get_permalink(get_page_by_path( 'portfolio-mobilekare' )); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/Portfolio Photos/mobile-kare-portfolio-photo-1.png" alt="" class="image"></a>
-        <h4>Mobicare</h4>
-        <div class="project-tags">
-          <!-- <button class="tag web" disabled>Web Desisergn</button> -->
-          <button class="tag web" disabled>Logo Design</button>
-          <button class="tag graphics" disabled>E-Commerce Design</button>
-          <button class="tag web" disabled>Product/Inventory Management</button>
-          <button class="tag graphics" disabled>Multi Platform Product Upload Automation</button>
-          <button class="tag web" disabled>Web/Print Design</button>
-        </div>
-      </div>
+
     </div>
 
   </div>
