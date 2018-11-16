@@ -3117,7 +3117,9 @@ span.wpcf7-not-valid-tip {
   display: flex;
   flex-flow: row wrap;
   padding: 15px;
-  justify-content: center; }
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto; }
 
 .contact-form-part-1 input {
   flex: 1; }
@@ -3155,7 +3157,9 @@ span.wpcf7-not-valid-tip {
 .contact-form-part-6 {
   text-align: center;
   color: white;
-  font-size: 1rem; }
+  font-size: 1rem;
+  max-width: 900px;
+  margin: 0 auto; }
 
 .capcha {
   text-align: -webkit-center; }
