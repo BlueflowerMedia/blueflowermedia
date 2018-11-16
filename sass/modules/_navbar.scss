@@ -99,7 +99,7 @@ nav#site-navigation {
   position: relative;
 	top: 10px;
 	right: -20px;
-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 	display: none;
@@ -353,17 +353,19 @@ ul#primary-menu > li:hover > ul.sub-menu {
 			text-transform: uppercase;
 			color: black;
 			width: 200px;
+
 			&:after {
 				content: "";
 				height: 85%;
 				width: 0;
 				@include position(absolute, $bottom: 10%, $left: 10px);
-				background: white;
+				background-image: linear-gradient(to right, #1da5c9 0%,#1d85db 100%);
+				color: white;
 				z-index: -1;
 				transition: all 0.2s cubic-bezier(0.11, 0.7, 1, 1);
 			}
 			&:hover {
-				/* color: white; */
+				color: white;
 				&:after {
 					width: 90%;
 				}
