@@ -21,8 +21,7 @@
     </div>
 
     <div class="text-right">
-      <p><strong>Want to make the most of your branding experience?</strong></p>
-      <p>Tell us about your target audience, brand personality, company values, how you want your business to be remembered, previous design inspirations, etc. The more we know about your company, the easier it is for us to design a brand that represents your company accurately.</p>
+      <p><strong>Want to make the most of your branding experience?</strong><br>Tell us about your target audience, brand personality, company values, how you want your business to be remembered, previous design inspirations, etc. The more we know about your company, the easier it is for us to design a brand that represents your company accurately.</p>
       <hr>
     </div>
   </div>
@@ -47,7 +46,7 @@
         <p><strong>Discovery</strong><br></p>
         <p class="small-text">Clarify brand vision, goals & values. Identify Target markets & appropriate business personality. Give us as many details as possible along with the touchpoints that will be required for your brand. </p>
       </div>
-    </div>
+    </div><
       <!-- <div class="arrow1">
         <img src="<?php echo get_template_directory_uri(); ?>/images/graphic-design/arrow.svg" alt="" class="image">
       </div> -->
@@ -100,9 +99,9 @@
     </div>
 
     <div class="text-right">
-      <p>I lost my original logo file, can I recreate it?<br>If you have lost your original logo file and would like to recreate your original logo file and keep the scalable vector file for future use, that is perfectly fine. Send us whatever files you have and we will make it for you!</p>
-      <p>I want to print a flyer or sign but I dont know the dimensions, what can I do?<br>Look for printing companies that print what you are looking for. They will usually have the dimensions on their website. You can also let us know what you are looking for and we can contact your printers for you.</p>
-      <p>How do I make sure our design in the future is consistent with our current design?<br>With a brand style guide, you will have a full booklet of guidelines demonstrating how to exactly to create design for all of your future projects.</p>
+      <p><strong>I lost my original logo file, can I recreate it?</strong><br>If you have lost your original logo file and would like to recreate your original logo file and keep the scalable vector file for future use, that is perfectly fine. Send us whatever files you have and we will make it for you!</p>
+      <p><strong>I want to print a flyer or sign but I dont know the dimensions, what can I do?</strong><br>Look for printing companies that print what you are looking for. They will usually have the dimensions on their website. You can also let us know what you are looking for and we can contact your printers for you.</p>
+      <p><strong>How do I make sure our design in the future is consistent with our current design?</strong><br>With a brand style guide, you will have a full booklet of guidelines demonstrating how to exactly to create design for all of your future projects.</p>
         <hr>
     </div>
   </div>

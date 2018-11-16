@@ -35,8 +35,7 @@
     </div>
     <div class="text-right">
       <p>Small business owners can have a hard time navigating through the clutter of the digital marketing world. With so many seemingly attractive options, it’s important for business owners to have a strategy that is focused with deliberate achievable milestones. </p>
-      <p><strong>Not sure how you want to market your business online?</strong></p>
-      <p>That’s why we’re here! Understanding your industry, your business model, and your current target audience will help us in creating a marketing plan for you. We analyze what your competitors are doing & what your audience is searching online & then create a growth plan accordingly. </p>
+      <p><strong>Not sure how you want to market your business online?</strong><br>That’s why we’re here! Understanding your industry, your business model, and your current target audience will help us in creating a marketing plan for you. We analyze what your competitors are doing & what your audience is searching online & then create a growth plan accordingly. </p>
       <hr>
     </div>
   </div>

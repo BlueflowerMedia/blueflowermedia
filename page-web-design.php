@@ -146,10 +146,8 @@
     </div>
 
     <div class="text-right">
-      <p><strong>Grow Smart.</strong></p>
-      <p>Growth in e-commerce doesn't come easy. It takes significant data on product performance indicators that require regular optimization to build a successful e-commerce business. We integrate Retail Performance Analytics tools that help you make the right decision at every step of growing your business. </p>
-      <p><strong>So  how  do  I market my e-commerce?</strong></p>
-      <p>Every e-commerce niche is different. We first understand your brand, your products, your customers and where they are most likely to be online to create your marketing plan. We analyze the lifetime value of one of your customers and how much you can afford to pay to acquire a new customer. We then gather all the information and brainstorm a marketing plan that is right for you.</p>
+      <p><strong>Grow Smart.</strong><br>Growth in e-commerce doesn't come easy. It takes significant data on product performance indicators that require regular optimization to build a successful e-commerce business. We integrate Retail Performance Analytics tools that help you make the right decision at every step of growing your business.</p>
+      <p><strong>So  how  do  I market my e-commerce?</strong><br>Every e-commerce niche is different. We first understand your brand, your products, your customers and where they are most likely to be online to create your marketing plan. We analyze the lifetime value of one of your customers and how much you can afford to pay to acquire a new customer. We then gather all the information and brainstorm a marketing plan that is right for you.</p>
       <hr>
     </div>
   </div>
