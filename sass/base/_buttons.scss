@@ -12,17 +12,17 @@ button.tag {
 	border: none;
 	border-radius: 5px;
 	box-shadow: none;
-	color: white;
+	color: $blue;
 	padding: 8px 12px;
 	font-weight: 400;
 	font-size: 0.9rem;
 	cursor: default;
 	&.web {
-		background: $blue;
+		background: $light-grey;
 	}
 
 	&.graphics {
-		background: #e43838;
+		background: $light-grey;
 	}
 }
 

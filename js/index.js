@@ -398,71 +398,173 @@ jQuery(document).ready(function($){
 });
 
 
+// javascript code for the home page banner scetion writing /erasing
+
 function write (obj, sentence, i, cb) {
-                    if (i != sentence.length) {
-                      setTimeout(function () {
-                        i++
-                        console.log('in timeout', i)
-                        obj.innerHTML = sentence.substr(0, i+1) +' <em aria-hidden="true"></em>';
-                        write(obj, sentence, i, cb)
-                      }, 50)
-                    } else {
-                      console.log(i)
-                      cb()
-                    }
-                  }
-                   function erase (obj, cb,i) {
-                   var sentence = obj.innerText
-                      if (sentence.length != 0) {
-                       setTimeout(function () {
-                       sentence = sentence.substr(0,sentence.length-1)
-                       console.log('in timeout', i)
-                       obj.innerText = sentence
-                       erase(obj, cb)
-                        }, 18/(i*(i/10000000)))
-                        } else {
-                        obj.innerText = " "
-                        cb()
-                     }
-                    }
-                    var typeline = document.querySelector("#typeline")
+  if (i != sentence.length) {
+    setTimeout(function () {
+      i++
+      console.log('in timeout', i)
+      obj.innerHTML = sentence.substr(0, i+1) +' <em aria-hidden="true"></em>';
+      write(obj, sentence, i, cb)
+    }, 50)
+  } else {
+    console.log(i)
+    cb()
+  }
+}
+ function erase (obj, cb,i) {
+ var sentence = obj.innerText
+    if (sentence.length != 0) {
+     setTimeout(function () {
+     sentence = sentence.substr(0,sentence.length-1)
+     console.log('in timeout', i)
+     obj.innerText = sentence
+     erase(obj, cb)
+      }, 18/(i*(i/10000000)))
+      } else {
+      obj.innerText = " "
+      cb()
+   }
+  }
+  var typeline = document.querySelector("#typeline")
 
-                     function writeerase(obj, sentence, time, cb) {
-                      write(obj, sentence, 0, function () {
-                       setTimeout(function () {
-                       erase(obj, cb) }, time) })
-                       }
+   function writeerase(obj, sentence, time, cb) {
+    write(obj, sentence, 0, function () {
+     setTimeout(function () {
+     erase(obj, cb) }, time) })
+     }
 
-                  var sentences = [
-                    "digital growth ",
-                    "beautiful branding ",
-                    "results-oriented web design ",
-                    "focused digital marketing  "
-                  ]
+var sentences = [
+  "digital growth ",
+  "beautiful branding ",
+  "results-oriented web design ",
+  "focused digital marketing  "
+]
 
-                  var counter = 0
-                  function loop () {
-                    var sentence = sentences[counter % sentences.length]
-                    writeerase(typeline, sentence, 1500, loop)
-                    counter++
-                  }
+var counter = 0
+function loop () {
+  var sentence = sentences[counter % sentences.length]
+  writeerase(typeline, sentence, 1500, loop)
+  counter++
+}
 
-                  loop()
-
-
+loop()
 
 
-									var acc = document.getElementsByClassName("accordion");
-									var i;
+// accordion in the digital packages section
 
-									for (i = 0; i < acc.length; i++) {
-									    acc[i].addEventListener("click", function() {
-									        this.classList.toggle("active");
-									        var panel = this.nextElementSibling;
-									        if (panel.style.display === "block") {
-									            panel.style.display = "none";
-									        } else {
-									            panel.style.display = "block";
-									        }
-									    });
-									}
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+
+
+// slideshow in our -work section india journal
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2100); // Change image every 2 seconds
+}
+
+// slideshow for reginos pizza
+
+var myIndex1 = 0;
+carousel1();
+function carousel1(){
+	var j;
+	var y = document.getElementsByClassName("mySlides1");
+	for (j = 0; j < y.length; j++) {
+		 y[j].style.display = "none";
+	}
+	myIndex1++;
+	if (myIndex1 > y.length) {myIndex1 = 1}
+	y[myIndex1-1].style.display = "block";
+	setTimeout(carousel1, 2000); // Change image every 2 seconds
+}
+
+// slideshow for Luxmark
+var myIndex2 = 0;
+carousel2();
+
+function carousel2() {
+    var k;
+    var z = document.getElementsByClassName("mySlides2");
+    for (k = 0; k < z.length; k++) {
+       z[k].style.display = "none";
+    }
+    myIndex2++;
+    if (myIndex2 > z.length) {myIndex2 = 1}
+    z[myIndex2-1].style.display = "block";
+    setTimeout(carousel2, 2200); // Change image every 2 seconds
+}
+
+
+// slideshow for Tdot canna
+var myIndex3 = 0;
+carousel3();
+
+function carousel3() {
+    var i1;
+    var x1 = document.getElementsByClassName("mySlides3");
+    for (i1 = 0; i1 < x1.length; i1++) {
+       x1[i1].style.display = "none";
+    }
+    myIndex3++;
+    if (myIndex3 > x1.length) {myIndex3 = 1}
+    x1[myIndex3-1].style.display = "block";
+    setTimeout(carousel3, 1900); // Change image every 2 seconds
+}
+
+// slideshow for playcation
+var myIndex4 = 0;
+carousel4();
+
+function carousel4() {
+    var i2;
+    var x2 = document.getElementsByClassName("mySlides4");
+    for (i2 = 0; i2 < x2.length; i2++) {
+       x2[i2].style.display = "none";
+    }
+    myIndex4++;
+    if (myIndex4 > x2.length) {myIndex4 = 1}
+    x2[myIndex4-1].style.display = "block";
+    setTimeout(carousel4, 1900); // Change image every 2 seconds
+}
+
+
+// slideshow for tech beluga
+var myIndex5 = 0;
+carousel5();
+
+function carousel5() {
+    var i3;
+    var x3 = document.getElementsByClassName("mySlides5");
+    for (i3 = 0; i3 < x3.length; i3++) {
+       x3[i3].style.display = "none";
+    }
+    myIndex5++;
+    if (myIndex5 > x3.length) {myIndex5 = 1}
+    x3[myIndex5-1].style.display = "block";
+    setTimeout(carousel5, 1900); // Change image every 2 seconds
+}
