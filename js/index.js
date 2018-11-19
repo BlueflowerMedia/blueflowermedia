@@ -549,7 +549,7 @@ function carousel4() {
     myIndex4++;
     if (myIndex4 > x2.length) {myIndex4 = 1}
     x2[myIndex4-1].style.display = "block";
-    setTimeout(carousel4, 1900); // Change image every 2 seconds
+    setTimeout(carousel4, 1950); // Change image every 2 seconds
 }
 
 
@@ -566,5 +566,5 @@ function carousel5() {
     myIndex5++;
     if (myIndex5 > x3.length) {myIndex5 = 1}
     x3[myIndex5-1].style.display = "block";
-    setTimeout(carousel5, 1900); // Change image every 2 seconds
+    setTimeout(carousel5, 2100); // Change image every 2 seconds
 }
