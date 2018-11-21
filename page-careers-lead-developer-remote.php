@@ -14,7 +14,7 @@
     <br><h4>About Us</h4>
     <p>BlueFlower Media is a Branding, Development, and Marketing Agency based in Toronto. We provide digital services to small business owners, typically small businesses that do annual revenues between $500,000 to $20,000,000. Its our mission the find the perfect digital solutions for clients that are working with relatively smaller budgets. This means we really have to streamline our internal processes to save as much time while maintaining quality. We pride ourselves in our client retention rate as we work with clients at all stages of their business.</p><br>
     <h4>The Position</h4>
-    <p>As a Senior Web Developer, you will be responsible for building & maintaining web design projects. You will collaborate with our team of developers, designers & marketers on a day to day basis.</p><br>
+    <p>As a Senior Web Developer, you will be responsible for building & maintaining web design projects. You will collaborate with our team of developers, designers & marketers on a day to day basis.</p>
     <p>** Important: This position will be full time, 11:00 PM to 7:00 AM Philippines Time Monday to Friday (10:AM to 6:00PM Eastern Time.)</p>
     <p>Please submit links to your previous work in the form. </p>
     <h4>Responsibilities</h4>
