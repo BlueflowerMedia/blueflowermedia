@@ -34,13 +34,6 @@
       </div>
       <!-- 3rd -->
 
-
-    </div>
-
-
-    <!-- second row -->
-    <div class="item-row">
-      <!-- 1st -->
       <div class="item">
        <img class="mySlides2" src="<?php echo get_template_directory_uri(); ?>/images/our-work/bfm-our-work-luxmark-1.png" alt="" class="image">
        <img class="mySlides2" src="<?php echo get_template_directory_uri(); ?>/images/our-work/bfm-our-work-luxmark-2.png" alt="" class="image">
@@ -49,6 +42,22 @@
           <button class="tag web" disabled>Web design</button>
           <button class="tag graphics" disabled>Plugin Development</button>
           <button class="tag web" disabled>Graphic Design</button>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- second row -->
+    <div class="item-row">
+      <!-- 1st -->
+      <div class="item">
+        <img class="mySlides4" src="<?php echo get_template_directory_uri(); ?>/images/our-work/bfm-our-work-playcation-1.png" alt="" class="image">
+        <img class="mySlides4" src="<?php echo get_template_directory_uri(); ?>/images/our-work/bfm-our-work-playcation-2.png" alt="" class="image">
+        <h4>Playcation</h4>
+        <div class="project-tags">
+          <button class="tag web" disabled>Web design</button>
+          <button class="tag graphics" disabled>Graphic Design</button>
         </div>
       </div>
       <!-- 2nd -->
@@ -65,22 +74,7 @@
           <button class="tag web" disabled>Web/Print Design</button>
         </div>
       </div>
-    </div>
-
-
-<!-- third row -->
-    <div class="item-row">
-    <!-- first item -->
-      <div class="item">
-        <img class="mySlides4" src="<?php echo get_template_directory_uri(); ?>/images/our-work/bfm-our-work-playcation-1.png" alt="" class="image">
-        <img class="mySlides4" src="<?php echo get_template_directory_uri(); ?>/images/our-work/bfm-our-work-playcation-2.png" alt="" class="image">
-        <h4>Playcation</h4>
-        <div class="project-tags">
-          <button class="tag web" disabled>Web design</button>
-          <button class="tag graphics" disabled>Graphic Design</button>
-        </div>
-      </div>
-        <!-- second item -->
+      <!-- 3rd item -->
       <div class="item">
         <img class="mySlides5" src="<?php echo get_template_directory_uri(); ?>/images/our-work/bfm-our-work-tech-beluga-1.png" alt="" class="image">
         <img class="mySlides5" src="<?php echo get_template_directory_uri(); ?>/images/our-work/bfm-our-work-tech-beluga-2.png" alt="" class="image">
@@ -91,8 +85,8 @@
           <button class="tag web" disabled>Graphic Design</button>
         </div>
       </div>
+    </div>
 
-</div>
   </div>
 
 </section>
