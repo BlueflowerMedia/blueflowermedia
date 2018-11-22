@@ -201,7 +201,7 @@ section#contact-form {
   }
   input[type='text'] {
     @include mobile {
-      // width: 67vw !important;
+      width: 67vw !important;
     }
   }
   i {
