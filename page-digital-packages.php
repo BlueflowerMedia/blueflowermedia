@@ -242,6 +242,13 @@
     <!-- service names end --->
   </div>
 </section>
+
+
+<!-- new contact form for the packeges section -->
+<div class="container">
+  <?php  ?>
+
+</div>
 <?php get_template_part('template-parts/getintouch'); ?>
 
 
