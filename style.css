@@ -3050,9 +3050,6 @@ section#contact-form {
     outline: none;
     background: white;
     border: 3px solid white; }
-@media (max-width: 760px) {
-  .wpcf7 input[type='text'] {
-    width: 67vw !important; } }
 .wpcf7 i {
   width: 44px;
   height: 44px;
