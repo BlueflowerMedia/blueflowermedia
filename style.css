@@ -2038,6 +2038,30 @@ footer {
       border-radius: 20px;
       background: rgba(236, 206, 30, 0.5); } }
 
+#fbox7 {
+  position: absolute;
+  right: 25%;
+  bottom: 10%;
+  width: 180px;
+  height: 180px;
+  border-radius: 35px;
+  background: #ECCE1E; }
+  @media (max-width: 760px) {
+    #fbox7 {
+      display: none; } }
+
+#fbox8 {
+  position: absolute;
+  right: 10%;
+  bottom: -10%;
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+  background: #dec013; }
+  @media (max-width: 760px) {
+    #fbox8 {
+      display: none; } }
+
 #section-header {
   min-height: 45vh;
   position: relative; }
@@ -3050,6 +3074,9 @@ section#contact-form {
     outline: none;
     background: white;
     border: 3px solid white; }
+@media (max-width: 760px) {
+  .wpcf7 input[type='text'] {
+    width: 67vw !important; } }
 .wpcf7 i {
   width: 44px;
   height: 44px;

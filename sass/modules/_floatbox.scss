@@ -76,3 +76,22 @@
 		background: transparentize($yellow, 0.5);
 	}
 }
+
+#fbox7 {
+	@include position(absolute, $bottom: 10%, $right: 25%);
+	@include box(180px, 180px);
+	border-radius: 35px;
+	background: $yellow;
+	@include mobile {
+		display: none;
+	}
+}
+#fbox8 {
+	@include position(absolute, $bottom: -10%, $right: 10%);
+	@include box(120px, 120px);
+	border-radius: 20px;
+		background: darken($yellow, 5);
+	@include mobile {
+		display: none;
+	}
+}
