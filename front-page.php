@@ -36,12 +36,12 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       <p class="white">We are a <b>Toronto based digital agency</b> specializing in creating, improving, and managing your digital footprints. We work with clients from the ground up - from brainstorming branding concepts to developing and launching projects for mass
         market use. With an emphasis on user experience, we make your website/app intuitive and accessible to all your clients. We do all of our work in house with our team of experts.</p>
     </div>
-    <div class="fbox" id="fbox1" style="transform: rotate(45deg);" data-rellax-speed="4">
+    <!-- <div class="fbox" id="fbox1" style="transform: rotate(45deg);" data-rellax-speed="4"> -->
       <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/about-icons/rocket.svg" alt="" style="transform: rotate(-45deg);"> -->
     </div>
     <!-- <div class="fbox" id="fbox2" style="transform: rotate(45deg);" data-rellax-speed="5">
     </div> -->
-    <div class="fbox" id="fbox3" style="transform: rotate(45deg);" data-rellax-speed="10">
+    <!-- <div class="fbox" id="fbox3" style="transform: rotate(45deg);" data-rellax-speed="10"> -->
       <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/about-icons/target.svg" alt="" style="transform: rotate(-45deg);"> -->
     </div>
   </div>

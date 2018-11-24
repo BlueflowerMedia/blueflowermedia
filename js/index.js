@@ -358,7 +358,7 @@ sr.reveal($('h1'));
 ss.reveal($('.ss'));
 
 // Page specific functions
-if (pageName == "blueflowermedia" || pageName == "") {
+if (pageName == "blueflowermedia" || pageName == "scarborough"|| pageName == "") {
 	progressVerticalLine();
 	testimonialSlider();
 	// runParticles();
