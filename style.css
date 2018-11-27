@@ -4426,6 +4426,9 @@ span.wpcf7-not-valid-tip {
     margin: 0 auto 0 auto;
     padding-bottom: 6vw;
     max-width: 1200px; }
+    @media (max-width: 760px) {
+      .contactus .contactus-container {
+        width: 90%; } }
     .contactus .contactus-container .contactus-middle {
       margin: 0 auto; }
       .contactus .contactus-container .contactus-middle p {

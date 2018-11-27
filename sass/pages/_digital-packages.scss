@@ -236,6 +236,9 @@
     flex-wrap: wrap;
     justify-content: space-between;
     width: 80%;
+    @include mobile{
+      width: 90%;
+    }
     margin: 0 auto 0 auto;
     padding-bottom: 6vw;
     max-width: 1200px;
