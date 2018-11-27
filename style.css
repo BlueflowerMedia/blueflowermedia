@@ -4505,6 +4505,9 @@ span.wpcf7-not-valid-tip {
   align-items: center;
   padding: 10px 1vw 20px 2vw; }
 
+#wpcf7-f142-o1 > form > div.wpcf7-form-control-wrap > div > div {
+  margin: 10px auto; }
+
 #careers .container {
   /* CONTACT FORM */ }
   #careers .container .txtservice {
