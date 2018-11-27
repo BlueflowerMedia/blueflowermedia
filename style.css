@@ -4400,6 +4400,105 @@ span.wpcf7-not-valid-tip {
 .margin-left {
   margin-left: 20px; }
 
+.contactus {
+  background-color: #F3F3F4;
+  position: relative; }
+  .contactus .contactus-top p {
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 700;
+    padding-top: 4vw; }
+    .contactus .contactus-top p img {
+      height: 3.5vw;
+      width: 3.5vw; }
+  @media screen and (max-width: 457px) {
+    .contactus .contactus-top p {
+      font-size: 8vw;
+      padding-top: 7vw; }
+      .contactus .contactus-top p img {
+        height: 8vw;
+        width: 8vw; } }
+  .contactus .contactus-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 6vw;
+    max-width: 1200px; }
+    .contactus .contactus-container .contactus-middle {
+      margin: 0 auto; }
+      .contactus .contactus-container .contactus-middle p {
+        text-align: center;
+        font-size: 1.24vw;
+        margin: 2vw auto 4vw auto; }
+        @media screen and (max-width: 1400px) {
+          .contactus .contactus-container .contactus-middle p {
+            font-size: 1.8vw; } }
+        @media screen and (max-width: 767px) {
+          .contactus .contactus-container .contactus-middle p {
+            font-size: 3vw; } }
+    .contactus .contactus-container .contactus-bottom {
+      margin: 0 auto; }
+      .contactus .contactus-container .contactus-bottom .contactus-bottom-container {
+        margin: 0 auto; }
+        .contactus .contactus-container .contactus-bottom .contactus-bottom-container form {
+          text-align: center; }
+        .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row {
+          display: flex;
+          flex-flow: row wrap; }
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row .one-half {
+            flex: 1; }
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row .first {
+            margin-right: 30px; }
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row input {
+            border-color: #44C5E6;
+            border-radius: 2.5vw;
+            border-width: .15vw;
+            padding: 1vw;
+            margin-bottom: 20px;
+            outline: none; }
+        .contactus .contactus-container .contactus-bottom .contactus-bottom-container textarea {
+          padding: 1vw;
+          border-color: #44C5E6;
+          border-radius: 2.5vw;
+          border-width: .15vw;
+          width: 100%;
+          outline: none; }
+        .contactus .contactus-container .contactus-bottom .contactus-bottom-container .wpcf7-submit {
+          background-color: #44C5E6;
+          color: #000;
+          font-size: 1.5rem;
+          border: none;
+          border-radius: 40px;
+          width: 10vw;
+          font-family: "Source Sans Pro", sans-serif;
+          padding: 1vw;
+          outline: none; }
+          @media screen and (max-width: 600px) {
+            .contactus .contactus-container .contactus-bottom .contactus-bottom-container .wpcf7-submit {
+              width: 27vw;
+              border-radius: 30px; } }
+        @media only screen and (max-width: 1200px) {
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row .one-half {
+            width: 100%;
+            margin-right: 0; }
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row .first {
+            margin-right: none; }
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container textarea {
+            width: 100%;
+            outline: none; }
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row > div:nth-child(1) > span > input {
+            width: 70vw;
+            outline: none; }
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row > div:nth-child(2) > span > input {
+            width: 70vw;
+            outline: none; } }
+
+#wpcf7-f121-o1 > form > div:nth-child(4) {
+  align-items: center;
+  padding: 10px 1vw 20px 2vw; }
+
 #careers .container {
   /* CONTACT FORM */ }
   #careers .container .txtservice {

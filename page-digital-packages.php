@@ -245,10 +245,29 @@
 
 
 <!-- new contact form for the packeges section -->
-<div class="container">
-  <?php  ?>
 
-</div>
+<section class="contactus" id="contact">
+
+  <div class="contactus-top">
+    <p>
+      Enquire About Packages.
+    </p>
+  </div>
+
+  <div class="contactus-container">
+
+
+    <div class="contactus-middle">
+      <p>Want to know more about the packages you are interested in? We would love to help.</p>
+    </div>
+
+    <div class="contactus-bottom">
+      <div class="contactus-bottom-container">
+    <?php echo do_shortcode('[contact-form-7 id="142" title="packages"]' ) ?>
+      </div>
+    </div>
+  </div>
+</section>
 <?php get_template_part('template-parts/getintouch'); ?>
 
 
