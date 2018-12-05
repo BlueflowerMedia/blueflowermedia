@@ -1878,13 +1878,10 @@ img#logo-header {
     display: none; }
   #menu-item-130 a::before:hover {
     display: none; }
-  #menu-item-130 a.after {
+  #menu-item-130 a::after {
     display: none; }
-  #menu-item-130 a.after:hover {
+  #menu-item-130 a::after:hover {
     display: none; }
-
-#menu-item-30 > a::after {
-  display: none; }
 
 img#logo-footer {
   height: 80%;
