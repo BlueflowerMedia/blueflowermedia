@@ -249,9 +249,7 @@
 <section class="contactus" id="contact">
 
   <div class="contactus-top">
-    <p>
-      Enquire About Packages.
-    </p>
+    <h1>Enquire About Packages.</h1>
   </div>
 
   <div class="contactus-container">

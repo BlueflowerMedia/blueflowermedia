@@ -21,18 +21,18 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
         <a href="<?php echo get_permalink(get_page_by_path( 'book-an-appointment' )); ?>"><button type="button" name="button">SCHEDULE NOW</button></a> -->
 
         <p>We help small business across various industries with essential digital services;
-from creating memorable branding for your business that can be used on all platforms
-to creating & executing a marketing plan to help you increase sales. Let us
-know about your specifc situation for us to help you best!</p>
+        from creating memorable branding for your business that can be used on all platforms
+        to creating & executing a marketing plan to help you increase sales. Let us
+        know about your specifc situation for us to help you best!</p>
       </div>
     </div>
     <div class="header-image">
       <!-- <img class="sr" src="<?php echo get_template_directory_uri(); ?>/images/homepage/gradient/BusinessesIllustration.svg" alt=""> -->
       <!-- <img class="sr" src="<?php echo get_template_directory_uri(); ?>/images/animations/lawyer.svg" alt=""> -->
 
-        <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/lawyer.svg" alt="" >
+        <!-- <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/lawyer.svg" alt="" > -->
         <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/barber.svg" alt="" >
-        <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/chef.svg" alt="" >
+        <!-- <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/chef.svg" alt="" > -->
     </div>
   </div>
 </section>

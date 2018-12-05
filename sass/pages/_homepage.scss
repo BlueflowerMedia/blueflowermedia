@@ -214,9 +214,9 @@
     .header-image{
       flex: 4;
       order: 2;
-      img.mySlides6{
-        display: flex;
-      }
+      // img.mySlides6{
+      //   display: flex;
+      // }
     }
   }
 }
@@ -228,7 +228,7 @@
 
 
   .container-calltoaction{
-    padding: 5vh 5vw;
+    padding: 3vh 5vw;
     max-width: 1400px;
     margin: auto;
     .call-to-action{

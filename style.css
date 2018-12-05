@@ -2287,8 +2287,6 @@ footer {
     #section-header .container .header-image {
       flex: 4;
       order: 2; }
-      #section-header .container .header-image img.mySlides6 {
-        display: flex; }
 
 #calltoaction {
   background: -moz-linear-gradient(left, #E9CB1E 0%, #E78E24 100%);
@@ -2298,7 +2296,7 @@ footer {
   background: linear-gradient(to right, #E9CB1E 0%, #E78E24 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
   #calltoaction .container-calltoaction {
-    padding: 5vh 5vw;
+    padding: 3vh 5vw;
     max-width: 1400px;
     margin: auto; }
     #calltoaction .container-calltoaction .call-to-action {
@@ -3168,15 +3166,15 @@ section#contact-form {
 .wpcf7 i {
   width: 44px;
   height: 44px;
-  color: #1B8DCB !important;
+  color: #fff !important;
   border-radius: 8px;
-  background: white;
-  padding: 15px;
+  font-size: 30px;
   text-align: center;
   margin: 0; }
 
 textarea {
   border: 3px solid white;
+  border-radius: 6px;
   box-shadow: 0 5px 12px -1px rgba(0, 0, 0, 0.4);
   padding: 30px 40px;
   height: 170px fixed;
@@ -3224,7 +3222,7 @@ span.wpcf7-not-valid-tip {
   display: flex;
   flex-flow: row;
   justify-content: center;
-  align-items: center; }
+  align-items: flex-end; }
 
 .contact-form-part-1 {
   display: flex;
@@ -4549,12 +4547,11 @@ span.wpcf7-not-valid-tip {
 .contactus {
   background-color: #F3F3F4;
   position: relative; }
-  .contactus .contactus-top p {
+  .contactus .contactus-top h1 {
     text-align: center;
-    font-size: 4vw;
     font-weight: 700;
     padding-top: 4vw; }
-    .contactus .contactus-top p img {
+    .contactus .contactus-top h1 img {
       height: 3.5vw;
       width: 3.5vw; }
   @media screen and (max-width: 457px) {

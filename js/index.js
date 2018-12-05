@@ -12,21 +12,7 @@ function runRellax() {
 	var rellax = new Rellax('.fbox');
 }
 
-//slideshow for homepage banner animations
-var myIndex6 = 0;
-carousel6();
 
-function carousel6() {
-    var i6;
-    var x6 = document.getElementsByClassName("mySlides6");
-    for (i6 = 0; i6 < x6.length; i6++) {
-       x6[i6].style.display = "none";
-    }
-    myIndex6++;
-    if (myIndex6 > x6.length) {myIndex6 = 1}
-    x6[myIndex6-1].style.display = "block";
-    setTimeout(carousel6, 2100); // Change image every 2 seconds
-}
 
 // navbar
 function navbar() {
