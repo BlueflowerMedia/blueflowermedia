@@ -89,11 +89,11 @@ $cloudhosting = get_permalink(get_page_by_path( 'services-cloud-hosting' ));
           ) );
         ?>
 
-        <!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'blueflowermedia' ); ?></button> -->
+        <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'blueflowermedia' ); ?></button>
       </div>
-      <!-- <div class="nav-right flex1 flex-row no-mobile">
-        <a href="tel:647-712-6119"><button class="nav-contact" type="button" name="button">Call 647-712-6119</button></a>
-      </div> -->
+      <div class="nav-right flex1 flex-row no-mobile">
+        <a href="tel:647-712-6119"><button class="nav-contact-desktop" type="button" name="button">(647)-712-6119</button></a>
+      </div>
 			<!-- Navbar mobile -->
 
 			<div id="nav-mobile">

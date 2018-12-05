@@ -78,6 +78,11 @@
       <div class="item">
         <img class="mySlides5" src="<?php echo get_template_directory_uri(); ?>/images/our-work/bfm-our-work-tech-beluga-1.png" alt="" class="image">
         <img class="mySlides5" src="<?php echo get_template_directory_uri(); ?>/images/our-work/bfm-our-work-tech-beluga-2.png" alt="" class="image">
+        <!-- <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/lawyer.svg" alt="" class="image" >
+        <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/barber.svg" alt="" class="image" >
+        <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/chef.svg" alt="" class="image" > -->
+
+
         <h4>Tech Beluga</h4>
         <div class="project-tags">
           <button class="tag web" disabled>Web design</button>
@@ -88,7 +93,6 @@
     </div>
 
   </div>
-
 </section>
 
 <!-- section-getintouch-->

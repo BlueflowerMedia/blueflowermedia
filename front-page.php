@@ -17,16 +17,35 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       <!-- <h4><hr class="line-left">Branding | Web Design | Digital Marketing<hr class="line-right"></h4> -->
       <hr class="line1">
       <div class="schedule-now sr">
-        <p>Want to discuss your business goals?<br>Schedule your free consultation now!</p>
-        <a href="<?php echo get_permalink(get_page_by_path( 'book-an-appointment' )); ?>"><button type="button" name="button">SCHEDULE NOW</button></a>
+        <!-- <p>Want to discuss your business goals?<br>Schedule your free consultation now!</p>
+        <a href="<?php echo get_permalink(get_page_by_path( 'book-an-appointment' )); ?>"><button type="button" name="button">SCHEDULE NOW</button></a> -->
+
+        <p>We help small business across various industries with essential digital services;
+from creating memorable branding for your business that can be used on all platforms
+to creating & executing a marketing plan to help you increase sales. Let us
+know about your specifc situation for us to help you best!</p>
       </div>
     </div>
     <div class="header-image">
-      <img class="sr" src="<?php echo get_template_directory_uri(); ?>/images/homepage/gradient/BusinessesIllustration.svg" alt="">
+      <!-- <img class="sr" src="<?php echo get_template_directory_uri(); ?>/images/homepage/gradient/BusinessesIllustration.svg" alt=""> -->
+      <!-- <img class="sr" src="<?php echo get_template_directory_uri(); ?>/images/animations/lawyer.svg" alt=""> -->
+
+        <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/lawyer.svg" alt="" >
+        <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/barber.svg" alt="" >
+        <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/chef.svg" alt="" >
     </div>
   </div>
 </section>
 
+<!-- new call to action -->
+<section id="calltoaction">
+  <div class="container-calltoaction">
+    <div class="call-to-action">
+      <h4>Want to start discussing your business goals? Schedule your free consultation now!</h4>
+      <a href="<?php echo get_permalink(get_page_by_path( 'book-an-appointment' )); ?>"><button type="button" name="button">SCHEDULE NOW</button></a>
+    </div>
+  </div>
+</section>
 
 <!-- section-aboutus ---------------------------------------------------->
 <section id="section-aboutus">
@@ -278,13 +297,13 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
     </div>
     <div class="owl-carousel client-logo-slider">
       <div>
-        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-india-journal-logo.png" alt="India journal logo">
+        <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/animations/barber.svg" alt="India journal logo">
       </div>
       <div>
-        <img id="pic2" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-master-pizzeria-logo.png" alt="Master Pizzeria logo">
+        <img id="pic2" src="<?php echo get_template_directory_uri(); ?>/images/animations/chef.svg" alt="Master Pizzeria logo">
       </div>
       <div>
-        <img id="pic3" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-mobile-kare-logo.png" alt="Mobile Kare logo">
+        <img id="pic3" src="<?php echo get_template_directory_uri(); ?>/images/animations/lawyer.svg" alt="Mobile Kare logo">
       </div>
       <div>
         <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/client-logos/bfm-mobilinq-logo.png" alt="Mobilinq logo">
