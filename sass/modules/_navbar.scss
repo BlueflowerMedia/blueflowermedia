@@ -530,14 +530,10 @@ img#logo-header {
 	a::before:hover{
 		display: none;
 	}
-  a.after{
+  a::after{
     display: none;
   }
-	a.after:hover{
+	a::after:hover{
 		display: none;
 	}
-}
-
-#menu-item-102 > a::after{
-	display: none;
 }
