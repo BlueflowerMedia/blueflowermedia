@@ -1860,7 +1860,7 @@ img#logo-header {
   display: none;
   margin: 0 !important; }
 
-#menu-item-102 {
+#menu-item-130 {
   background-size: 200% auto;
   background-image: linear-gradient(to right, #1da5c9 0%, #1d85db 100%);
   text-transform: uppercase;
@@ -1872,15 +1872,15 @@ img#logo-header {
   white-space: nowrap;
   box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
   margin: 5vh auto; }
-  #menu-item-102 a {
+  #menu-item-130 a {
     color: white !important; }
-  #menu-item-102 a::before {
+  #menu-item-130 a::before {
     display: none; }
-  #menu-item-102 a::before:hover {
+  #menu-item-130 a::before:hover {
     display: none; }
-  #menu-item-102 a.after {
+  #menu-item-130 a.after {
     display: none; }
-  #menu-item-102 a.after:hover {
+  #menu-item-130 a.after:hover {
     display: none; }
 
 #menu-item-102 > a::after {
