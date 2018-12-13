@@ -584,7 +584,7 @@ function carousel6() {
     myIndex6++;
     if (myIndex6 > x6.length) {myIndex6 = 1}
     x6[myIndex6-1].style.display = "block";
-    setTimeout(carousel6, 1700); // Change image every 2 seconds
+    setTimeout(carousel6, 1350); // Change image every 2 seconds
 }
 
 
@@ -601,7 +601,7 @@ function carousel7() {
     myIndex7++;
     if (myIndex7 > x7.length) {myIndex7 = 1}
     x7[myIndex7-1].style.display = "block";
-    setTimeout(carousel7, 1650); // Change image every 2 seconds
+    setTimeout(carousel7, 1500); // Change image every 2 seconds
 }
 // slideshow for supercleaners
 var myIndex8 = 0;
@@ -616,7 +616,7 @@ function carousel8() {
     myIndex8++;
     if (myIndex8 > x8.length) {myIndex8 = 1}
     x8[myIndex8-1].style.display = "block";
-    setTimeout(carousel8, 1800); // Change image every 2 seconds
+    setTimeout(carousel8, 1400); // Change image every 2 seconds
 }
 
 // faq page accordion
