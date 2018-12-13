@@ -571,7 +571,7 @@ function carousel5() {
     setTimeout(carousel5, 2000); // Change image every 2 seconds
 }
 
-//slideshow for homepage banner animations
+//slideshow for oak park deli
 var myIndex6 = 0;
 carousel6();
 
@@ -584,9 +584,40 @@ function carousel6() {
     myIndex6++;
     if (myIndex6 > x6.length) {myIndex6 = 1}
     x6[myIndex6-1].style.display = "block";
-    setTimeout(carousel6, 2100); // Change image every 2 seconds
+    setTimeout(carousel6, 1700); // Change image every 2 seconds
 }
 
+
+// slideshow for florishing Sprouts
+var myIndex7 = 0;
+carousel7();
+
+function carousel7() {
+    var i7;
+    var x7 = document.getElementsByClassName("mySlides7");
+    for (i7 = 0; i7 < x7.length; i7++) {
+       x7[i7].style.display = "none";
+    }
+    myIndex7++;
+    if (myIndex7 > x7.length) {myIndex7 = 1}
+    x7[myIndex7-1].style.display = "block";
+    setTimeout(carousel7, 1650); // Change image every 2 seconds
+}
+// slideshow for supercleaners
+var myIndex8 = 0;
+carousel8();
+
+function carousel8() {
+    var i8;
+    var x8 = document.getElementsByClassName("mySlides8");
+    for (i8 = 0; i8 < x8.length; i8++) {
+       x8[i8].style.display = "none";
+    }
+    myIndex8++;
+    if (myIndex8 > x8.length) {myIndex8 = 1}
+    x8[myIndex8-1].style.display = "block";
+    setTimeout(carousel8, 1800); // Change image every 2 seconds
+}
 
 // faq page accordion
 document.addEventListener("DOMContentLoaded", function(event) {

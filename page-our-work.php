@@ -92,6 +92,44 @@
       </div>
     </div>
 
+    <!-- third row -->
+    <div class="item-row">
+      <!-- 1st -->
+      <div class="item">
+        <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/our-work/bfm-our-work-oak-park-1.png" alt="" class="image">
+        <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/our-work/bfm-our-work-oak-park-2.png" alt="" class="image">
+        <h4>Oak Park Deli</h4>
+        <div class="project-tags">
+          <button class="tag web" disabled>Website design</button>
+          <button class="tag graphics" disabled>Social Media Marketing</button>
+        </div>
+      </div>
+      <!-- 2nd -->
+      <div class="item">
+        <img class="mySlides7" src="<?php echo get_template_directory_uri(); ?>/images/our-work/bfm-our-work-flourishing-sprouts-1.png" alt="" class="image">
+        <img class="mySlides7" src="<?php echo get_template_directory_uri(); ?>/images/our-work/bfm-our-work-flourishing-sprouts-2.png" alt="" class="image">
+
+
+        <h4>Flourishing Sprouts</h4>
+        <div class="project-tags">
+          <!-- <button class="tag web" disabled>Web Desisergn</button> -->
+          <button class="tag graphics" disabled>Website Design</button>
+          <button class="tag web" disabled>Plugin Development</button>
+        </div>
+      </div>
+      <!-- 3rd item -->
+      <div class="item">
+        <img class="mySlides8" src="<?php echo get_template_directory_uri(); ?>/images/our-work/bfm-our-work-supercleaners-1.png" alt="" class="image">
+        <img class="mySlides8" src="<?php echo get_template_directory_uri(); ?>/images/our-work/bfm-our-work-supercleaners-2.png" alt="" class="image">
+        <h4>SuperCleaners</h4>
+        <div class="project-tags">
+          <button class="tag web" disabled>Branding</button>
+          <button class="tag graphics" disabled>Website Design</button>
+          <button class="tag web" disabled>Services Booking Integration</button>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
