@@ -13,9 +13,9 @@
         <img class = "mySlides" src="<?php echo get_template_directory_uri(); ?>/images/our-work/bfm-our-work-india-journal-3.png" alt="" class="image">
         <h4>India Journal</h4>
         <div class="project-tags">
-          <button class="tag web" disabled>Web design</button>
+          <button class="tag web" disabled>Website design</button>
           <button class="tag graphics" disabled>Plugin Development</button>
-          <button class="tag web" disabled>Graphic Design</button>
+          <button class="tag web" disabled>E-Paper Setup</button>
         </div>
       </div>
       <!-- 2nd -->
@@ -27,9 +27,10 @@
        <img class="mySlides1" src="<?php echo get_template_directory_uri(); ?>/images/our-work/bfm-our-work-reginos-2.png" alt="" class="image">
         <h4>Reginos Pizza</h4>
         <div class="project-tags">
+          <button class="tag web" disabled>Branding</button>
           <button class="tag web" disabled>Flyer Design</button>
-          <button class="tag graphics" disabled>Graphic Design</button>
-          <button class="tag web" disabled>Brand Style Guide</button>
+          <button class="tag graphics" disabled>Pizza Box Design</button>
+          <button class="tag web" disabled>Interior Sign Design</button>
         </div>
       </div>
       <!-- 3rd -->
@@ -37,11 +38,10 @@
       <div class="item">
        <img class="mySlides2" src="<?php echo get_template_directory_uri(); ?>/images/our-work/bfm-our-work-luxmark-1.png" alt="" class="image">
        <img class="mySlides2" src="<?php echo get_template_directory_uri(); ?>/images/our-work/bfm-our-work-luxmark-2.png" alt="" class="image">
-        <h4>Luxmark</h4>
+        <h4>Luxmark Development</h4>
         <div class="project-tags">
-          <button class="tag web" disabled>Web design</button>
-          <button class="tag graphics" disabled>Plugin Development</button>
-          <button class="tag web" disabled>Graphic Design</button>
+          <button class="tag web" disabled>website design</button>
+          <button class="tag graphics" disabled>Branding</button>
         </div>
       </div>
 
@@ -56,8 +56,8 @@
         <img class="mySlides4" src="<?php echo get_template_directory_uri(); ?>/images/our-work/bfm-our-work-playcation-2.png" alt="" class="image">
         <h4>Playcation</h4>
         <div class="project-tags">
-          <button class="tag web" disabled>Web design</button>
-          <button class="tag graphics" disabled>Graphic Design</button>
+          <button class="tag web" disabled>Website design</button>
+          <button class="tag graphics" disabled>Plugin Development</button>
         </div>
       </div>
       <!-- 2nd -->
@@ -70,8 +70,8 @@
         <div class="project-tags">
           <!-- <button class="tag web" disabled>Web Desisergn</button> -->
           <button class="tag web" disabled>Logo Design</button>
-          <button class="tag graphics" disabled>E-Commerce Design</button>
-          <button class="tag web" disabled>Web/Print Design</button>
+          <button class="tag graphics" disabled>Website Design</button>
+          <button class="tag web" disabled>Merch Design</button>
         </div>
       </div>
       <!-- 3rd item -->
@@ -85,9 +85,9 @@
 
         <h4>Tech Beluga</h4>
         <div class="project-tags">
-          <button class="tag web" disabled>Web design</button>
-          <button class="tag graphics" disabled>E-Commerce Design</button>
-          <button class="tag web" disabled>Graphic Design</button>
+          <button class="tag web" disabled>Branding</button>
+          <button class="tag graphics" disabled>Shopify Website Design</button>
+          <button class="tag web" disabled>Dropshipping Integration</button>
         </div>
       </div>
     </div>
