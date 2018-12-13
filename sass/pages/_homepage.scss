@@ -214,6 +214,8 @@
     .header-image{
       flex: 4;
       order: 2;
+      display: flex;
+      justify-content: center;
       // img.mySlides6{
       //   display: flex;
       // }

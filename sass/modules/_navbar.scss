@@ -341,7 +341,7 @@ ul#primary-menu > li:hover > ul.sub-menu {
 		@include position(absolute, $top: 0, $left: 0);
 		height: 17px;
 		width: 100%;
-		background: white;
+		background: #F2F2F2;
 	}
 	li {
 		/* background: $blue; */

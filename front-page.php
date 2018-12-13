@@ -30,9 +30,10 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       <!-- <img class="sr" src="<?php echo get_template_directory_uri(); ?>/images/homepage/gradient/BusinessesIllustration.svg" alt=""> -->
       <!-- <img class="sr" src="<?php echo get_template_directory_uri(); ?>/images/animations/lawyer.svg" alt=""> -->
 
-        <!-- <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/lawyer.svg" alt="" > -->
-        <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/barber.svg" alt="" >
+        <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/bfm-animation-homepage.gif" alt="" >
+        <!-- <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/barber.svg" alt="" > -->
         <!-- <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/chef.svg" alt="" > -->
+        <!-- <iframe width="500px" height="500px" src="https://lottiefiles.com/i/fLCx9Y" frameborder="none" allowfullscreen></iframe> -->
     </div>
   </div>
 </section>
