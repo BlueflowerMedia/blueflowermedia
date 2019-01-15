@@ -8,17 +8,17 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
 ?>
 
 <!-- section header -->
-<section id="section-header">
-  <!-- <div id="particles"></div> -->
+<!-- <section id="section-header">
+  <div id="particles"></div>
   <div class="container">
     <div class="header-text">
       <h2>We provide small businesses:</h2><br>
       <span id="staticText"><span id="typeline" ></span></span>
-      <!-- <h4><hr class="line-left">Branding | Web Design | Digital Marketing<hr class="line-right"></h4> -->
+      <h4><hr class="line-left">Branding | Web Design | Digital Marketing<hr class="line-right"></h4>
       <hr class="line1">
       <div class="schedule-now sr">
-        <!-- <p>Want to discuss your business goals?<br>Schedule your free consultation now!</p>
-        <a href="<?php echo get_permalink(get_page_by_path( 'book-an-appointment' )); ?>"><button type="button" name="button">SCHEDULE NOW</button></a> -->
+        <p>Want to discuss your business goals?<br>Schedule your free consultation now!</p>
+        <a href="<?php echo get_permalink(get_page_by_path( 'book-an-appointment' )); ?>"><button type="button" name="button">SCHEDULE NOW</button></a>
 
         <p>We help small business across various industries with essential digital services;
         from creating memorable branding for your business that can be used on all platforms
@@ -27,43 +27,62 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       </div>
     </div>
     <div class="header-image">
-      <!-- <img class="sr" src="<?php echo get_template_directory_uri(); ?>/images/homepage/gradient/BusinessesIllustration.svg" alt=""> -->
-      <!-- <img class="sr" src="<?php echo get_template_directory_uri(); ?>/images/animations/lawyer.svg" alt=""> -->
+      <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/bfm-animation-homepage.gif" alt="" >
+    </div>
+  </div>
+</section> -->
 
-        <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/bfm-animation-homepage.gif" alt="" >
-        <!-- <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/barber.svg" alt="" > -->
-        <!-- <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/chef.svg" alt="" > -->
-        <!-- <iframe width="500px" height="500px" src="https://lottiefiles.com/i/fLCx9Y" frameborder="none" allowfullscreen></iframe> -->
+
+<!--new section header -->
+<section id="section-header-new">
+  <div class="container-fullwidth flex-row">
+    <div class="container-left">
+      <h3>We provide small businesses:</h3><br>
+      <span id="staticText"><span id="typeline" ></span></span>
+      <!-- <h4><hr class="line-left">Branding | Web Design | Digital Marketing<hr class="line-right"></h4> -->
+      <!-- <hr class="line1"> -->
+      <div class="schedule-now">
+         <p class="sr">Want a free consultation?    <a href="<?php echo get_permalink(get_page_by_path( 'book-an-appointment' )); ?>"><button type="button" name="button">SCHEDULE NOW</button></a></p>
+
+      </div>
+    </div>
+    <div class="container-right">
+      <video autoplay loop muted plays-inline>
+        <source src="<?php echo get_template_directory_uri(); ?>/images/homepage/bfm-homepage-video.mp4" type="video/mp4">
+      </video>
     </div>
   </div>
 </section>
-
 <!-- new call to action -->
-<section id="calltoaction">
+<!-- <section id="calltoaction">
   <div class="container-calltoaction">
     <div class="call-to-action">
       <h4>Want to start discussing your business goals? Schedule your free consultation now!</h4>
       <a href="<?php echo get_permalink(get_page_by_path( 'book-an-appointment' )); ?>"><button type="button" name="button">SCHEDULE NOW</button></a>
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- section-aboutus ---------------------------------------------------->
 <section id="section-aboutus">
-  <div class="container flex-row">
-    <div class="left">
-      <h1 class="white">About Us<span class="big-dot yellow">.</span></h1>
-      <p class="white">We are a <b>Toronto based digital agency</b> specializing in creating, improving, and managing your digital footprints. We work with clients from the ground up - from brainstorming branding concepts to developing and launching projects for mass
+  <div class="container2 flex-row">
+    <div class="container-left">
+      <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/bfm-animation.gif" alt="" >
+    </div>
+    <div class="container-right">
+      <h1 class="black">About Us<span class="big-dot black">.</span></h1>
+      <p class="black">We are a <b>Toronto based digital agency</b> specializing in creating, improving, and managing your digital footprints. We work with clients from the ground up - from brainstorming branding concepts to developing and launching projects for mass
         market use. With an emphasis on user experience, we make your website/app intuitive and accessible to all your clients. We do all of our work in house with our team of experts.</p>
+
     </div>
-    <div class="fbox" id="fbox1" style="transform: rotate(45deg);" data-rellax-speed="4">
-      <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/about-icons/rocket.svg" alt="" style="transform: rotate(-45deg);"> -->
+    <!-- <div class="fbox" id="fbox1" style="transform: rotate(45deg);" data-rellax-speed="4">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/about-icons/rocket.svg" alt="" style="transform: rotate(-45deg);">
     </div>
-    <!-- <div class="fbox" id="fbox2" style="transform: rotate(45deg);" data-rellax-speed="5">
-    </div> -->
+    <div class="fbox" id="fbox2" style="transform: rotate(45deg);" data-rellax-speed="5">
+    </div>
     <div class="fbox" id="fbox3" style="transform: rotate(45deg);" data-rellax-speed="10">
-      <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/about-icons/target.svg" alt="" style="transform: rotate(-45deg);"> -->
-    </div>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/about-icons/target.svg" alt="" style="transform: rotate(-45deg);">
+    </div> -->
   </div>
 </section>
 
