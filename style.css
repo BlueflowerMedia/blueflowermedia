@@ -2378,7 +2378,9 @@ footer {
   #section-aboutus .container2 {
     position: relative;
     justify-content: space-around;
-    padding: 10px 10%; }
+    padding: 10px 10%;
+    max-width: 1600px;
+    margin: 0 auto; }
     #section-aboutus .container2 .container-left {
       max-width: 500px; }
     #section-aboutus .container2 .container-right {
