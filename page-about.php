@@ -1,104 +1,115 @@
 <?php get_header(); ?>
 
-<section id="team-about">
+<section id="section-aboutus-page">
   <div class="container flex-row">
-    <div class="head">
-      <h1>About Us<span class="big-dot blue">.</span></h1>
-      <p>Doing What we love to do!</p>
-      <p>We are a Toronto Development & Marketing Agency helping small businesses from all industries.
-        With a combined 50+ years of experience solving digital problems for clients, we are confident in our ability to improve performance and increase results.<br><br>
-      Our Toronto base is convenient for our local clients to have in person meetings to discuss projects and get to know us better.</p>
+    <div class="container-left">
+      <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/bfm-animation.gif" alt="" >
     </div>
-    <div class="slide">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts1.jpg" alt="" class="image active">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts2.jpg" alt="" class="image">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts3.jpg" alt="" class="image">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts4.jpg" alt="" class="image">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts5.jpg" alt="" class="image">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts6.jpg" alt="" class="image">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts7.jpg" alt="" class="image">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts8.jpg" alt="" class="image">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/team/slider/ts9.jpg" alt="" class="image">
+
+    <div class="container-right">
+      <h1 class="black">About Us<span class="big-dot black">.</span></h1>
+      <p class="black">We are a <b>Toronto based digital agency</b> specializing in creating, improving, and managing your digital footprints. We work with clients from the ground up - from brainstorming branding concepts to developing and launching projects for mass
+        market use. With an emphasis on user experience, we make your website/app intuitive and accessible to all your clients. We do all of our work in house with our team of experts.</p>
+
     </div>
   </div>
 </section>
 
-<section id="our-team">
-
+<!-- section header -->
+<section id="section-header-new1">
   <div class="container">
+    <div class="header-text">
+      <h1>Why Small Businesses?</h1><br>
 
-    <div class="row center">
-      <h2>Meet The Team<span class="big-dot blue">.</span></h2>
+      <div class="schedule-now sr">
+
+        <p>Small business owners account for roughly 98% of businesses. With the rise of technology,
+            the big companies have generally gotten bigger as dominating search page rankings and
+            paid traffic are logistically much easier than expanding retail locations. Small businesses
+            are understanding more and more the consequences of not having a great online presence,
+            the importance of quality traffic to their website and great website structure/design that
+            helps convert that traffic into sales.<br><br>We make digital growth simple for small businesses. We consult with you to understand
+            what stage your business is at, what digital problems you are currently facing and how we
+            can structure the scaling of your business into steps with realistic timelines.<br><br>
+            With our experience in the field, we have analyzed the common problems small businesses
+            face when working with freelancers & agencies; lack of quality work, hosting issues, lack of
+            documentation, branding not having guidelines for future use, checklist based marketing
+            not driving results, etc.</p>
+      </div>
     </div>
-
-    <div class="row">
-
-      <div id="member-row-1" class="flex-row member-row">
-        <div class="member sr">
-          <img id="pic1" src="<?php echo get_template_directory_uri(); ?>/images/team/team-noman.jpg" alt="Noman Hossain">
-          <h3>Noman Hossain</h3>
-          <p>[ Account Manager ]<br>[ Graphic Designer ]</p>
-          <p>I help clients communicate their business problems well, and work with them closely throughout projects. </p>
-        </div>
-        <div class="member sr">
-          <img id="pic2" src="<?php echo get_template_directory_uri(); ?>/images/team/team-fahim.jpg" alt="Fahim Shahreer">
-          <h3>Fahim Shahreer</h3>
-          <p>[ Lead Developer ]<br>[ Project Manager ]</p>
-          <p>The office never has enough coffee for me.</p>
-        </div>
-      </div>
-
-      <div id="member-row-2" class="flex-row member-row">
-        <div class="member sr">
-          <img id="pic3" src="<?php echo get_template_directory_uri(); ?>/images/team/team-altab.jpg" alt="Altab Hossain">
-          <h3>Altab Hossain</h3>
-          <p>[ Full-Stack Developer ]</p>
-          <p>I have my PHD in Computer Science. I like using my technical knowledge to practically solve real world client problems.</p>
-        </div>
-        <div class="member sr">
-          <img id="pic4" src="<?php echo get_template_directory_uri(); ?>/images/team/team-darren.jpg" alt="Darren Kelly">
-          <h3>Darren Kelly</h3>
-          <p>[ Full-Stack Developer ]</p>
-          <p>I'm definately funnier than Zulfiqur. I also love making Music.</p>
-        </div>
-        <div class="member sr">
-          <img id="pic5" src="<?php echo get_template_directory_uri(); ?>/images/team/team-zulfiqur.jpg" alt="Zulfiqur Rahman">
-          <h3>Zulfiqur Rahman</h3>
-          <p>[ Front-End Developer ]</p>
-          <p>People say I am the funniest person in the office and I agree.</p>
-        </div>
-      </div>
-
-
-        <div id="member-row-3" class="flex-row member-row">
-        <div class="member sr">
-          <img id="pic6" src="<?php echo get_template_directory_uri(); ?>/images/team/team-binod.jpg" alt="Zulfiqur Rahman">
-          <h3>Binod Thapa</h3>
-          <p>[ Front-End Developer ]</p>
-          <p>I love visiting new places to get inspiration for our design work.</p>
-        </div>
-        <div class="member sr">
-          <img id="pic8" src="<?php echo get_template_directory_uri(); ?>/images/team/team-chandra.jpg" alt="Zulfiqur Rahman">
-          <h3>Chandra Shrestha</h3>
-          <p>[ Front-End Developer ]</p>
-          <p>There’s nothing I love more than travelling, web design and my family - maybe not in that order.</p>
-        </div>
-      </div>
-
-
-      </div>
+    <div class="header-image">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/homepage/gradient/BusinessesIllustration.svg" alt="" >
     </div>
   </div>
 </section>
 
 
-
-<!-- section-getintouch-->
-<!-- <section id="section-getintouch">
-  <div class="container">
-    <a href="<?php echo get_permalink(get_page_by_path( 'contact' )); ?>"><button type="button" name="button">Let's Get Started!</button></a>
+<section id="our-values">
+<div class="process-container">
+  <div class="digital-marketing">
+    <h1>Our Values<span class="big-dot blue">.</span></h1>
   </div>
-</section> -->
+  <div class="figure-and-text">
+    <div class="figure">
+      <div class="circle">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/about-icons/passion-icon-about.svg" alt="" class="image">
+      </div>
+      <div class="text">
+        <p><strong>Passion</strong><br></p>
+        <p class="small-text">From perfecting our crafts to the
+          collaboration it takes to succeed,
+          we are passionate about what we
+          do and the results we bring to our
+          clients.</p>
+      </div>
+    </div>
+
+      <div class="figure">
+        <div class="circle">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/about-icons/partnership-icon-about.svg" alt="" class="image">
+        </div>
+        <div class="text">
+          <p><strong>Partnership</strong></p>
+          <p class="small-text">We go the extra mile for our
+            clients. Regardless of your project
+            budget, we put your best interests
+            first so that we can become
+            long-term partners.</p>
+        </div>
+      </div>
+
+      <div class="figure">
+        <div class="circle">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/about-icons/excellence-icon-about.svg" alt="" class="image">
+        </div>
+        <div class="text">
+          <p><strong>Excellence</strong></p>
+          <p class="small-text">Mastering a craft in technology is a
+            lifelong process as technology is
+            constantly changing. We are
+            committed to bettering
+            ourselves on a daily basis.</p>
+        </div>
+      </div>
+
+
+      <div class="figure">
+        <div class="circle">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/about-icons/transparency-icon-about.svg" alt="" class="image">
+        </div>
+        <div class="text">
+          <p><strong>Transparency</strong><br></p>
+          <p class="small-text">We tell it like it is. We want you to
+            understand the different options you
+            have and the pros and cons of each.
+            Having realistic expectations will help
+            you organize your business goals.</p>
+        </div>
+      </div>
+
+  </div>
+</div>
+</section>
 <?php get_template_part('template-parts/getintouch'); ?>
 
 

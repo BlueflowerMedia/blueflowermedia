@@ -364,7 +364,7 @@ if (pageName == "blueflowermedia" || pageName == "scarborough"|| pageName == "")
 	testimonialSlider();
 	// runParticles();
 	// runCarouselClientLogo();
-	runRellax();
+	// runRellax();
 
 } else if (pageName == "team") {
 	teamImagePlayer();
