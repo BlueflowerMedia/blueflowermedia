@@ -14,7 +14,11 @@
       @media(min-width: 1300px){
         padding-top: 8%;
       }
-
+      @media (max-width: 450px){
+        h1{
+          text-align: center;
+        }
+      }
     }
   }
 }

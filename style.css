@@ -2397,6 +2397,9 @@ footer {
     #section-aboutus .container2 .container-right {
       max-width: 550px;
       padding-top: 80px; }
+      @media (max-width: 450px) {
+        #section-aboutus .container2 .container-right h1 {
+          text-align: center; } }
   @media (max-width: 1000px) {
     #section-aboutus .container2 {
       padding: 10px 10% 80px 10%; }
@@ -2899,6 +2902,9 @@ div.entry-content p:first-child:first-letter {
       @media (min-width: 1300px) {
         #section-aboutus-page .container .container-right {
           padding-top: 8%; } }
+      @media (max-width: 450px) {
+        #section-aboutus-page .container .container-right h1 {
+          text-align: center; } }
 
 #section-header-new1 {
   min-height: 45vh;
