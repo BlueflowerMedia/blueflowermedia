@@ -2302,9 +2302,7 @@ footer {
           order: 2; }
         #section-header-new .container-fullwidth .container-right {
           width: 100vw !important;
-          height: 210px !important; }
-          #section-header-new .container-fullwidth .container-right video {
-            transform: none !important; } }
+          height: 300px !important; } }
   #section-header-new .container-fullwidth {
     display: flex;
     max-height: 60vh; }
