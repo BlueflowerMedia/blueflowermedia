@@ -406,6 +406,14 @@
       padding-top: 80px;
     }
   }
+  @media(max-width: 1000px){
+    .container2{
+      padding: 10px 10% 80px 10%;
+      .container-right{
+        padding-top: 0 !important;
+      }
+    }
+  }
 }
 
 // section-ourprocess

@@ -2397,6 +2397,11 @@ footer {
     #section-aboutus .container2 .container-right {
       max-width: 550px;
       padding-top: 80px; }
+  @media (max-width: 1000px) {
+    #section-aboutus .container2 {
+      padding: 10px 10% 80px 10%; }
+      #section-aboutus .container2 .container-right {
+        padding-top: 0 !important; } }
 
 #section-ourprocess #particles {
   top: 0;
