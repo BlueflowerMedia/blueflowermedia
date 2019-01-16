@@ -2971,7 +2971,7 @@ div.entry-content p:first-child:first-letter {
           font-weight: 400; }
           @media (max-width: 760px) {
             #section-header-new1 .container .header-text .schedule-now p {
-              font-size: 13px; } }
+              font-size: 1.5rem; } }
     #section-header-new1 .container .header-image {
       flex: 1;
       order: 2;
@@ -3034,7 +3034,7 @@ div.entry-content p:first-child:first-letter {
         font-size: .8rem; }
         @media (max-width: 760px) {
           #our-values .process-container .figure-and-text .figure .text .small-text {
-            font-size: 1.2rem; } }
+            font-size: 1.5rem; } }
 
 @media (min-width: 767px) {
   .item-row {
