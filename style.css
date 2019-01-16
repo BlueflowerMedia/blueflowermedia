@@ -2292,9 +2292,22 @@ footer {
 
 #section-header-new {
   margin-top: 70px; }
+  @media (max-width: 450px) {
+    #section-header-new {
+      margin-top: 40px; }
+      #section-header-new .container-fullwidth {
+        max-height: none !important; }
+        #section-header-new .container-fullwidth .container-left {
+          padding: 50px 10% !important;
+          order: 2; }
+        #section-header-new .container-fullwidth .container-right {
+          width: 100vw !important;
+          height: 350px !important; }
+          #section-header-new .container-fullwidth .container-right video {
+            transform: none !important; } }
   #section-header-new .container-fullwidth {
     display: flex;
-    max-height: 50vh; }
+    max-height: 60vh; }
     #section-header-new .container-fullwidth .container-left {
       flex: 1;
       background-color: #1B8DCB;
@@ -2384,7 +2397,7 @@ footer {
     #section-aboutus .container2 .container-left {
       max-width: 500px; }
     #section-aboutus .container2 .container-right {
-      max-width: 500px;
+      max-width: 550px;
       padding-top: 80px; }
 
 #section-ourprocess #particles {
