@@ -47,7 +47,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
       </div>
     </div>
     <div class="container-right">
-      <video autoplay loop muted plays-inline>
+      <video autoplay loop muted plays-inline playsinline>
         <source src="<?php echo get_template_directory_uri(); ?>/images/homepage/bfm-homepage-video.mp4" type="video/mp4">
       </video>
     </div>
