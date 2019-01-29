@@ -6,7 +6,7 @@
 </div>
 
 
-<section id="section-contact">
+<!-- <section id="section-contact">
   <div class="contact-container flex-row">
     <div class="contact-details-container">
         <div class="contact-items flex1">
@@ -50,16 +50,15 @@
 
     <div class="contact-form-container">
       <div class="contact-form flex1" >
-        <!-- <h2>Get in touch!</h2> -->
-        <?php echo do_shortcode( '[contact-form-7 id="42" title="Contact Form"]' ) ?>
+        <?php echo do_shortcode( '[contact-form-7 id="54" title="Contact form 1"]' ) ?>
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <section class="contact-map">
   <div class="contact-map ">
-    <iframe src="https://snazzymaps.com/embed/76304" width="100%" height="500px" style="border:none;"></iframe>
+    <iframe src="https://snazzymaps.com/embed/129550" width="100%" height="600px" style="border:none;"></iframe>
   </div>
 </section>
 
