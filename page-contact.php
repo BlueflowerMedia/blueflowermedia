@@ -56,9 +56,34 @@
   </div>
 </section> -->
 
+<section id ="section-contact">
+  <div class="container-contact">
+    <h2>Get in Touch.</h2>
+    <p>Contact us to know how we can help you. Or just say Hi.</p>
+    <div class="contact-form flex-row">
+      <?php echo do_shortcode( '[contact-form-7 id="54" title="Contact form 1"]' ) ?>
+    </div>
+    <div class="contact-info">
+      <div class="info-left">
+          <i class="fas fa-mobile-alt"></i>
+          <p>(647) 712 6119</p>
+      </div>
+      <div class="info-center">
+          <i class="far fa-envelope"></i>
+          <p>contact@blueflowermedia.com</p>
+
+      </div>
+      <div class="info-right">
+          <i class="far fa-clock"></i>
+          <p>MON - FRI: 10:00 AM to 6:00 PM EST</p>
+      </div>
+
+    </div>
+  </div>
+</section>
 <section class="contact-map">
   <div class="contact-map ">
-    <iframe src="https://snazzymaps.com/embed/129550" width="100%" height="600px" style="border:none;"></iframe>
+    <iframe src="https://snazzymaps.com/embed/129550" width="100%" height="500px" style="border:none;"></iframe>
   </div>
 </section>
 

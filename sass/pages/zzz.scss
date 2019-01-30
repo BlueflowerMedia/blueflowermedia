@@ -1,0 +1,169 @@
+
+.wpcf7 {
+  margin: 0 auto !important;
+  input {
+    border: 1px solid white;
+    background: transparent;
+    margin: 7px;
+    color:white;
+    padding: 10px 30px;
+    // box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4);
+    @media(min-width: 450px){
+      max-width: 20vw;
+    }
+    // @include mobile{
+    //   max-width: 80vw !important;
+    // }
+
+    &:focus {
+      outline: none;
+      background: white;
+      border: 3px solid white;
+    }
+  }
+  input[type='text'] {
+    @include mobile {
+      width: 67vw !important;
+    }
+  }
+}
+
+
+textarea {
+  border: 1px solid white;
+  background: transparent;
+  padding: 30px 40px;
+  color: white;
+  max-width: 48vw;
+  @include mobile {
+    max-width: 80vw;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+input[type="submit"] {
+  background: none;
+  border: 3px solid white;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 12px 40px;
+  margin: 10px auto;
+  text-align: center;
+  // box-shadow: 0 5px 12px -1px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s linear;
+  cursor: pointer;
+  &:hover, &:active {
+    color: $blue;
+    background: white;
+    border-color: white;
+  }
+}
+
+select {
+  border: 3px solid white;
+  background: white;
+  margin: 7px;
+  color: black;
+  padding: 10px 30px;
+  // box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4);
+  &:focus {
+    outline: none;
+  }
+}
+
+span.wpcf7-not-valid-tip {
+  color: white;
+}
+
+.form-text {
+  margin: 10px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.contact-form-part-1 {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 15px;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-form-part-1 input {
+  flex: 1;
+}
+
+.contact-form-part-2 {
+  justify-content: center;
+  display: flex;
+}
+
+.contact-form-part-3 {
+  text-align: center;
+  label {
+    color: white;
+    margin: 10px 0;
+  }
+}
+
+.contact-form-part-4-5 {
+  margin-left: 15%;
+  display: flex;
+  @include mobile {
+    flex-flow: column;
+  }
+}
+.contact-form-part-4 {
+  p,span {
+    color: white !important;
+  }
+  flex: 1;
+}
+.contact-form-part-5 {
+  label {
+    color: white;
+  }
+  flex: 1;
+}
+
+.contact-form-part-4 {
+  .wpcf7-list-item {
+    display: block;
+  }
+}
+
+
+.contact-form-part-6 {
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.capcha{
+  text-align: -webkit-center;
+}
+
+
+.contact-form-part-7 {
+  color: white;
+}
+
+#advanced-options {
+  padding: 40px 0;
+  margin: 20px 0 30px 0;
+  opacity: 1;
+  transition: all 0.2s linear;
+  border: 2px solid white;
+  // box-shadow: 0 5px 40px -5px rgba(0, 0, 0, 0.4);
+  &.wpcf7cf-hidden {
+    opacity: 0;
+  }
+}
