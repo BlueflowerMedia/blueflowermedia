@@ -3227,6 +3227,8 @@ hr {
       #section-contact .container-contact .contact-form div.contact-form-part-6 {
         text-align: center;
         margin-top: 1em; }
+        #section-contact .container-contact .contact-form div.contact-form-part-6 textarea {
+          width: 100%; }
       #section-contact .container-contact .contact-form input[type="submit"] {
         color: white;
         padding: 15px 25px;
@@ -3272,6 +3274,8 @@ hr {
             margin-top: 1em; }
           #section-contact .container-contact .contact-form div.contact-form-part-1 .contact-form-part-3 p {
             margin: 0 !important; }
+        #section-contact .container-contact .contact-form div.contact-form-part-6 textarea {
+          width: 98%; }
         #section-contact .container-contact .contact-info {
           flex-direction: column; }
           #section-contact .container-contact .contact-info .info-left, #section-contact .container-contact .contact-info .info-right, #section-contact .container-contact .contact-info .info-center {

@@ -40,6 +40,9 @@
       div.contact-form-part-6{
         text-align: center;
         margin-top: 1em;
+        textarea{
+          width: 100%;
+        }
       }
       input[type="submit"]{
         color: white;
@@ -98,6 +101,11 @@
             p{
               margin:0 !important;
             }
+          }
+        }
+        div.contact-form-part-6{
+          textarea{
+            width: 98%;
           }
         }
       }
