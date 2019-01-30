@@ -61,7 +61,7 @@
     <h2>Get in Touch.</h2>
     <p>Contact us to know how we can help you. Or just say Hi.</p>
     <div class="contact-form flex-row">
-      <?php echo do_shortcode( '[contact-form-7 id="54" title="Contact form 1"]' ) ?>
+      <?php echo do_shortcode( '[contact-form-7 id="42" title="Contact Form"]' ) ?>
     </div>
     <div class="contact-info">
       <div class="info-left">
