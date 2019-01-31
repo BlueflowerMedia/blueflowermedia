@@ -3229,6 +3229,9 @@ hr {
         margin-top: 1em; }
         #section-contact .container-contact .contact-form div.contact-form-part-6 textarea {
           width: 100%; }
+      #section-contact .container-contact .contact-form div.capcha {
+        text-align: center;
+        text-align: -webkit-center; }
       #section-contact .container-contact .contact-form input[type="submit"] {
         color: white;
         padding: 15px 25px;
