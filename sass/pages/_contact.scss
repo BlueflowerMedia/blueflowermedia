@@ -73,6 +73,9 @@
       .info-left,.info-right,.info-center{
         display: flex;
         align-items: center;
+        p{
+          font-weight: 600;
+        }
         i::before{
           padding: 10px;
         }
@@ -111,6 +114,7 @@
       }
       .contact-info{
         flex-direction: column;
+
         .info-left,.info-right,.info-center{
           display: flex;
           align-items: baseline;

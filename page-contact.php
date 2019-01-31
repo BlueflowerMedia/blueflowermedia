@@ -2,7 +2,7 @@
 
 
 <div class="container no-bottom-padding">
-  <h1>Contact Us<span class="big-dot blue">.</span></h1>
+  <h1>Get in Touch<span class="big-dot blue">.</span></h1>
 </div>
 
 
@@ -58,7 +58,7 @@
 
 <section id ="section-contact">
   <div class="container-contact">
-    <h2>Get in Touch.</h2>
+    <!-- <h2>Get in Touch.</h2> -->
     <p>Contact us to know how we can help you. Or just say Hi.</p>
     <div class="contact-form flex-row">
       <?php echo do_shortcode( '[contact-form-7 id="42" title="Contact Form"]' ) ?>

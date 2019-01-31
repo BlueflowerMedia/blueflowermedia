@@ -3255,6 +3255,8 @@ hr {
       #section-contact .container-contact .contact-info .info-left, #section-contact .container-contact .contact-info .info-right, #section-contact .container-contact .contact-info .info-center {
         display: flex;
         align-items: center; }
+        #section-contact .container-contact .contact-info .info-left p, #section-contact .container-contact .contact-info .info-right p, #section-contact .container-contact .contact-info .info-center p {
+          font-weight: 600; }
         #section-contact .container-contact .contact-info .info-left i::before, #section-contact .container-contact .contact-info .info-right i::before, #section-contact .container-contact .contact-info .info-center i::before {
           padding: 10px; }
     @media (max-width: 760px) {
