@@ -2391,7 +2391,9 @@ footer {
     max-width: 1600px;
     margin: 0 auto; }
     #section-aboutus .container2 .container-left {
-      max-width: 500px; }
+      max-width: 550px; }
+      #section-aboutus .container2 .container-left #lottie-id {
+        max-width: 500px; }
     #section-aboutus .container2 .container-right {
       max-width: 550px;
       padding-top: 80px; }

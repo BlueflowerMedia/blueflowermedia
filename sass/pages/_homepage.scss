@@ -399,7 +399,10 @@
     max-width: 1600px;
     margin: 0 auto;
     .container-left {
-      max-width: 500px;
+      max-width: 550px;
+      #lottie-id{
+        max-width: 500px;
+      }
     }
     .container-right{
       max-width: 550px;
