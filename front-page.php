@@ -67,9 +67,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
 <section id="section-aboutus">
   <div class="container2 flex-row">
     <div class="container-left">
-      <div id="lottie-id">
-        <p>hello</p>
-      </div>
+      <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/bfm-animation.gif" alt="" >
     </div>
     <div class="container-right">
       <h1 class="black">About Us<span class="big-dot black">.</span></h1>
