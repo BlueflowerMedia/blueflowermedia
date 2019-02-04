@@ -97,7 +97,7 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
     <!-- 1nd -->
     <div class="process flex-row">
       <div id="process-pic-1" class="process-pic flex1">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/homepage/gradient/Conceptualize.svg" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/homepage/gradient/conceptualization-icon-home.svg" alt="" class="image">
       </div>
       <div class="circle1" id="circle1">
         <div class="middle">
@@ -125,13 +125,13 @@ $cloudhosting = get_permalink(get_page_by_path( 'cloud-hosting' ));
 
       </div>
       <div id="process-pic-2" class="process-pic flex1">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/homepage/gradient/Design&Develop.svg" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/homepage/gradient/design-icon-home.svg" alt="" class="image">
       </div>
     </div>
     <!-- 3th -->
     <div class="process flex-row">
       <div id="process-pic-3" class="process-pic flex1">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/homepage/gradient/MarketYourBusiness.svg" alt="" class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/homepage/gradient/market-icon-home.svg" alt="" class="image">
       </div>
       <div class="circle1" id="circle3">
 
