@@ -646,3 +646,7 @@ function setClass(els, className, fnName) {
 }
 
 });
+
+
+// lottie animations
+var Lottie_local = {"js_direction":"./bfm-animation.json"};

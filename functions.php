@@ -147,6 +147,12 @@ function blueflowermedia_scripts() {
 
 	wp_enqueue_script( 'blueflowermedia-index', get_template_directory_uri() . '/js/index.js', array(), '20151215', true );
 
+
+	wp_enqueue_script( 'lottie', js_directory . '/lottie.js', array(), false );
+	wp_enqueue_script( 'lottie-custom', js_directory . '/lottie-custom.js', array('dump-lottie'), false );
+	wp_localize_script( ' lottie-custom  ', 'Lottie_local', array( 'js_direction' => js_directory . '/bfm-animation.json') );
+
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}

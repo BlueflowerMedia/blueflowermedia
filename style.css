@@ -2787,7 +2787,8 @@ section#blog .container {
         display: none; }
       @media (max-width: 760px) {
         .container5 .posts .post {
-          width: 100%; } }
+          width: 100%;
+          flex-direction: column; } }
       .container5 .posts .post .post-image {
         flex: 1; }
         .container5 .posts .post .post-image img {
@@ -2812,7 +2813,8 @@ section#blog .container {
           .container5 .posts .post .post-info {
             top: 100%;
             width: 100%;
-            left: 0; } }
+            left: 0;
+            padding: 0px; } }
   .container5 .post-info a {
     text-decoration: none; }
     .container5 .post-info a .arrow {
