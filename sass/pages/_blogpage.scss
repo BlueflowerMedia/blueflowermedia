@@ -111,83 +111,85 @@ section#blog .container {
     }
   }
   */
+}
 
-  //CSS for single.php
-  .post-thumbnail {
-    img {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-      max-height: 450px;
-    }
+//CSS for single.php
+
+
+.post-thumbnail {
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 450px;
   }
+}
 
-  .container-blog {
-    padding: 10px;
-    max-width: 950px;
-    margin: 0 auto;
-  }
+.container-blog {
+  padding: 10px;
+  max-width: 950px;
+  margin: 0 auto;
+}
 
-  #related-posts .container-blog {
-    .related-posts {
-      justify-content: flex-start;
+#related-posts .container-blog {
+  .related-posts {
+    justify-content: flex-start;
 
-      .related-post {
-        flex: 1 210px;
-        margin: 10px;
-        .related-post-thumb > a {
-          img {
-            height: 250px;
-            width: 100%;
-            object-fit: cover;
-          }
+    .related-post {
+      flex: 1 210px;
+      margin: 10px;
+      .related-post-thumb > a {
+        img {
+          height: 250px;
+          width: 100%;
+          object-fit: cover;
         }
       }
     }
   }
+}
 
-  h1.entry-title {
-    margin: 100px auto 10px auto;
+h1.entry-title {
+  margin: 100px auto 10px auto;
+  width: 75%;
+  font-size: 3.2rem;
+  @include mobile {
+    margin: 50px auto 0 auto;
+    width: 90%;
+    font-size: 2.5rem;
+  }
+}
+.entry-meta {
+  width: 75%;
+  margin: 0 auto 20px auto;
+  @include mobile {
+    margin: 10px auto;
+    width: 90%;
+  }
+}
+
+//Content page
+  .entry-content {
     width: 75%;
-    font-size: 3.2rem;
+    margin: 10px auto;
     @include mobile {
-      margin: 50px auto 0 auto;
-      width: 90%;
-      font-size: 2.5rem;
-    }
-  }
-  .entry-meta {
-    width: 75%;
-    margin: 0 auto 20px auto;
-    @include mobile {
-      margin: 10px auto;
       width: 90%;
     }
-  }
-
-  //Content page
-    .entry-content {
-      width: 75%;
-      margin: 10px auto;
-      @include mobile {
-        width: 90%;
-      }
-      p {
-        font-size: 1.05rem;
-      }
+    p {
+      font-size: 1.05rem;
     }
-
-  //Footer page-links
-  .footer-right {
-    text-align: right;
   }
 
-  div.entry-content p:first-child:first-letter {
-  float:left;
-  font-size:5em;
-  color: $black;
-  margin-right:0.10em;
-  line-height:90%;
-  //text-shadow: 0.05em 0.05em #C0C0C0;
-  }
+//Footer page-links
+.footer-right {
+  text-align: right;
+}
+
+div.entry-content p:first-child:first-letter {
+float:left;
+font-size:5em;
+color: $black;
+margin-right:0.10em;
+line-height:90%;
+//text-shadow: 0.05em 0.05em #C0C0C0;
 }
