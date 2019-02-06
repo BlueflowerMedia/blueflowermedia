@@ -170,7 +170,7 @@
       font-size: 16px;
       text-align: left;
       font-weight: 600;
-      color: $black;
+      color: $black !important;
       @include mobile {
         // text-align: center;
       }
@@ -207,7 +207,8 @@
 
 
 .contactus{
-  background-color:#F3F3F4 ;
+    background-image:url("./images/homepage/bfm-2.0-new-home-page-image-1.jpg");
+  // background-color:#F3F3F4 ;
   position: relative;
   .contactus-top{
     h1{
@@ -215,6 +216,7 @@
       // font-size: 4vw;
       font-weight: 700;
       padding-top: 4vw;
+      color: white;
       img{
         height: 3.5vw;
         width: 3.5vw;
@@ -252,6 +254,7 @@
         text-align: center;
         font-size: 1.24vw;
         margin: 2vw auto 4vw auto;
+        color: white;
         @media screen and (max-width:1400px){
           font-size: 1.8vw;
         }
@@ -265,79 +268,103 @@
     .contactus-bottom{
         margin:0 auto;
       .contactus-bottom-container{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        @include mobile{
+          margin-top: 0;
+        }
+        input,textarea{
+          background: transparent;
+          border: 1px solid white;
+          padding: 5px 10px;
+          font-family: "Source Sans Pro", sans-serif;
+        }
 
-        margin: 0 auto;
-        form {
+        div.contact-form-part-1{
+          .contact-form-part-2{
+            display: flex;
+            div:nth-child(2) > span > input{
+              margin-left: 1em;
+            }
+          }
+          .contact-form-part-3{
+            display: flex;
+            margin-top: 1em;
+            div:nth-child(2) > span > input{
+              margin-left: 1em;
+            }
+          }
+        }
+        div.contact-form-part-6{
           text-align: center;
-        }
-
-        .one-row {
-          display: flex;
-          flex-flow: row wrap;
-
-          .one-half {
-            flex: 1;
-          }
-          .first{
-            margin-right: 30px;
-          }
-
-          input{
-          border-color: #44C5E6;
-          border-radius: 2.5vw;
-          border-width: .15vw;
-          padding: 1vw;
-          margin-bottom: 20px;
-          outline: none;
-          }
-        }
-        textarea{
-          padding: 1vw;
-          border-color: #44C5E6;
-          border-radius: 2.5vw;
-          border-width: .15vw;
-          width: 100%;
-          outline: none;
-        }
-        .wpcf7-submit {
-          background-color: #44C5E6;
-          color: #000;
-          font-size: 1.5rem;
-          border: none;
-          border-radius: 40px;
-          width: 10vw;
-          font-family: $font-primary;
-          padding: 1vw;
-          outline: none;
-          @media screen and (max-width: 600px){
-            width: 27vw;
-            border-radius: 30px;
-          }
-        }
-
-        @media only screen and (max-width: 1200px) {
-          .one-row{
-            .one-half {
-                width: 100%;
-                margin-right: 0;
-            }
-            .first{
-              margin-right: none;
-            }
-          }
-
+          margin-top: 1em;
           textarea{
             width: 100%;
-            outline: none;
           }
-          .one-row > div:nth-child(1) > span > input{
-            width: 70vw;
-            outline: none;
+        }
+        div.contact-form-part-7{
+          padding: 10px 0;
+
+        span > select{
+          background: transparent;
+        }
+        }
+        div.captcha{
+          text-align: center;
+          text-align: -webkit-center;
+        }
+        input[type="submit"]{
+          color: white;
+          padding: 15px 25px;
+          background: -moz-linear-gradient(left, #FFB64C 0%, #FF8E02 100%);
+          /* FF3.6-15 */
+          background: -webkit-linear-gradient(left, #FFB64C 0%, #FF8E02 100%);
+          /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to right, #FFB64C 0%, #FF8E02 100%);
+          /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+          font-size: 1.5em;
+          border-radius: 12px;
+          font-family: "Source Sans Pro", sans-serif;
+          font-weight: 700;
+          &:hover, &:active {
+            color: $blue;
+            background: white;
+            border-color: white;
           }
-          .one-row > div:nth-child(2) > span > input{
-            width: 70vw;
-            outline: none;
-          }
+        }
+        @include mobile{
+          padding: 60px 3%;
+            div.contact-form-part-1{
+              .contact-form-part-2{
+                flex-direction: column;
+                div:nth-child(2) > span > input{
+                  margin-left: 0;
+                  margin-top: 1em;
+                }
+                p{
+                  margin:0 !important;
+                }
+              }
+              .contact-form-part-3{
+                flex-direction: column;
+                div:nth-child(2) > span > input{
+                  margin-left: 0;
+                  margin-top: 1em;
+                }
+                p{
+                  margin:0 !important;
+                }
+              }
+            }
+            div.contact-form-part-6{
+              textarea{
+                width: 98%;
+              }
+            }
+        }
+        @include tablet{
+          padding: 100px 3%;
         }
       }
     }

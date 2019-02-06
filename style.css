@@ -2393,8 +2393,8 @@ footer {
     #section-aboutus .container2 .container-left {
       max-width: 550px; }
       #section-aboutus .container2 .container-left #lottie-id {
-        width: 550px;
-        height: 550px; }
+        width: 500px;
+        height: 500px; }
         @media (max-width: 760px) {
           #section-aboutus .container2 .container-left #lottie-id {
             width: 320px;
@@ -2902,8 +2902,8 @@ section#blog .container {
     #section-aboutus-page .container .container-left {
       max-width: 500px; }
       #section-aboutus-page .container .container-left #lottie-id {
-        width: 550px;
-        height: 550px; }
+        width: 500px;
+        height: 500px; }
         @media (max-width: 760px) {
           #section-aboutus-page .container .container-left #lottie-id {
             width: 320px;
@@ -3242,7 +3242,7 @@ hr {
         margin-top: 1em; }
         #section-contact .container-contact .contact-form div.contact-form-part-6 textarea {
           width: 100%; }
-      #section-contact .container-contact .contact-form div.capcha {
+      #section-contact .container-contact .contact-form div.captcha {
         text-align: center;
         text-align: -webkit-center; }
       #section-contact .container-contact .contact-form input[type="submit"] {
@@ -4539,7 +4539,7 @@ hr {
     font-size: 16px;
     text-align: left;
     font-weight: 600;
-    color: #00193c; }
+    color: #00193c !important; }
 
 .package-list {
   color: #6b6b6b;
@@ -4561,12 +4561,13 @@ hr {
   margin-left: 20px; }
 
 .contactus {
-  background-color: #F3F3F4;
+  background-image: url("./images/homepage/bfm-2.0-new-home-page-image-1.jpg");
   position: relative; }
   .contactus .contactus-top h1 {
     text-align: center;
     font-weight: 700;
-    padding-top: 4vw; }
+    padding-top: 4vw;
+    color: white; }
     .contactus .contactus-top h1 img {
       height: 3.5vw;
       width: 3.5vw; }
@@ -4596,7 +4597,8 @@ hr {
       .contactus .contactus-container .contactus-middle p {
         text-align: center;
         font-size: 1.24vw;
-        margin: 2vw auto 4vw auto; }
+        margin: 2vw auto 4vw auto;
+        color: white; }
         @media screen and (max-width: 1400px) {
           .contactus .contactus-container .contactus-middle p {
             font-size: 1.8vw; } }
@@ -4606,59 +4608,77 @@ hr {
     .contactus .contactus-container .contactus-bottom {
       margin: 0 auto; }
       .contactus .contactus-container .contactus-bottom .contactus-bottom-container {
-        margin: 0 auto; }
-        .contactus .contactus-container .contactus-bottom .contactus-bottom-container form {
-          text-align: center; }
-        .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px; }
+        @media (max-width: 760px) {
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container {
+            margin-top: 0; } }
+        .contactus .contactus-container .contactus-bottom .contactus-bottom-container input, .contactus .contactus-container .contactus-bottom .contactus-bottom-container textarea {
+          background: transparent;
+          border: 1px solid white;
+          padding: 5px 10px;
+          font-family: "Source Sans Pro", sans-serif; }
+        .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-1 .contact-form-part-2 {
+          display: flex; }
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-1 .contact-form-part-2 div:nth-child(2) > span > input {
+            margin-left: 1em; }
+        .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-1 .contact-form-part-3 {
           display: flex;
-          flex-flow: row wrap; }
-          .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row .one-half {
-            flex: 1; }
-          .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row .first {
-            margin-right: 30px; }
-          .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row input {
-            border-color: #44C5E6;
-            border-radius: 2.5vw;
-            border-width: .15vw;
-            padding: 1vw;
-            margin-bottom: 20px;
-            outline: none; }
-        .contactus .contactus-container .contactus-bottom .contactus-bottom-container textarea {
-          padding: 1vw;
-          border-color: #44C5E6;
-          border-radius: 2.5vw;
-          border-width: .15vw;
-          width: 100%;
-          outline: none; }
-        .contactus .contactus-container .contactus-bottom .contactus-bottom-container .wpcf7-submit {
-          background-color: #44C5E6;
-          color: #000;
-          font-size: 1.5rem;
-          border: none;
-          border-radius: 40px;
-          width: 10vw;
+          margin-top: 1em; }
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-1 .contact-form-part-3 div:nth-child(2) > span > input {
+            margin-left: 1em; }
+        .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-6 {
+          text-align: center;
+          margin-top: 1em; }
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-6 textarea {
+            width: 100%; }
+        .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-7 {
+          padding: 10px 0; }
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-7 span > select {
+            background: transparent; }
+        .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.captcha {
+          text-align: center;
+          text-align: -webkit-center; }
+        .contactus .contactus-container .contactus-bottom .contactus-bottom-container input[type="submit"] {
+          color: white;
+          padding: 15px 25px;
+          background: -moz-linear-gradient(left, #FFB64C 0%, #FF8E02 100%);
+          /* FF3.6-15 */
+          background: -webkit-linear-gradient(left, #FFB64C 0%, #FF8E02 100%);
+          /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to right, #FFB64C 0%, #FF8E02 100%);
+          /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+          font-size: 1.5em;
+          border-radius: 12px;
           font-family: "Source Sans Pro", sans-serif;
-          padding: 1vw;
-          outline: none; }
-          @media screen and (max-width: 600px) {
-            .contactus .contactus-container .contactus-bottom .contactus-bottom-container .wpcf7-submit {
-              width: 27vw;
-              border-radius: 30px; } }
-        @media only screen and (max-width: 1200px) {
-          .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row .one-half {
-            width: 100%;
-            margin-right: 0; }
-          .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row .first {
-            margin-right: none; }
-          .contactus .contactus-container .contactus-bottom .contactus-bottom-container textarea {
-            width: 100%;
-            outline: none; }
-          .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row > div:nth-child(1) > span > input {
-            width: 70vw;
-            outline: none; }
-          .contactus .contactus-container .contactus-bottom .contactus-bottom-container .one-row > div:nth-child(2) > span > input {
-            width: 70vw;
-            outline: none; } }
+          font-weight: 700; }
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container input[type="submit"]:hover, .contactus .contactus-container .contactus-bottom .contactus-bottom-container input[type="submit"]:active {
+            color: #1B8DCB;
+            background: white;
+            border-color: white; }
+        @media (max-width: 760px) {
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container {
+            padding: 60px 3%; }
+            .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-1 .contact-form-part-2 {
+              flex-direction: column; }
+              .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-1 .contact-form-part-2 div:nth-child(2) > span > input {
+                margin-left: 0;
+                margin-top: 1em; }
+              .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-1 .contact-form-part-2 p {
+                margin: 0 !important; }
+            .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-1 .contact-form-part-3 {
+              flex-direction: column; }
+              .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-1 .contact-form-part-3 div:nth-child(2) > span > input {
+                margin-left: 0;
+                margin-top: 1em; }
+              .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-1 .contact-form-part-3 p {
+                margin: 0 !important; }
+            .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-6 textarea {
+              width: 98%; } }
+        @media (min-width: 760px) and (max-width: 1023px) {
+          .contactus .contactus-container .contactus-bottom .contactus-bottom-container {
+            padding: 100px 3%; } }
 
 #wpcf7-f142-o1 > form > div:nth-child(4) {
   align-items: center;
