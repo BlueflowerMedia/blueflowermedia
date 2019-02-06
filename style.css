@@ -4662,16 +4662,22 @@ hr {
             padding: 60px 3%; }
             .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-1 .contact-form-part-2 {
               flex-direction: column; }
+              .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-1 .contact-form-part-2 div:nth-child(1) > span > input {
+                width: 100%; }
               .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-1 .contact-form-part-2 div:nth-child(2) > span > input {
                 margin-left: 0;
-                margin-top: 1em; }
+                margin-top: 1em;
+                width: 100%; }
               .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-1 .contact-form-part-2 p {
                 margin: 0 !important; }
             .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-1 .contact-form-part-3 {
               flex-direction: column; }
+              .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-1 .contact-form-part-3 div:nth-child(1) > span > input {
+                width: 100%; }
               .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-1 .contact-form-part-3 div:nth-child(2) > span > input {
                 margin-left: 0;
-                margin-top: 1em; }
+                margin-top: 1em;
+                width: 100%; }
               .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-1 .contact-form-part-3 p {
                 margin: 0 !important; }
             .contactus .contactus-container .contactus-bottom .contactus-bottom-container div.contact-form-part-6 textarea {
