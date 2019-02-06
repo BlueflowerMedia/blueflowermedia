@@ -8,6 +8,14 @@
     justify-content: space-around;
     .container-left {
       max-width: 500px;
+      #lottie-id{
+        width: 550px;
+        height: 550px;
+        @include mobile{
+          width: 320px;
+          height: 320px;
+        }
+      }
     }
     .container-right{
       max-width: 500px;

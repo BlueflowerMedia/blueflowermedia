@@ -3,7 +3,10 @@
 <section id="section-aboutus-page">
   <div class="container flex-row">
     <div class="container-left">
-      <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/bfm-animation.gif" alt="" >
+      <div id="lottie-id">
+
+      </div>
+      <!-- <img class="mySlides6" src="<?php echo get_template_directory_uri(); ?>/images/animations/bfm-animation.gif" alt="" > -->
     </div>
 
     <div class="container-right">

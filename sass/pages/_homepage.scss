@@ -401,7 +401,12 @@
     .container-left {
       max-width: 550px;
       #lottie-id{
-        max-width: 500px;
+        width: 550px;
+        height: 550px;
+        @include mobile{
+          width: 320px;
+          height: 320px;
+        }
       }
     }
     .container-right{

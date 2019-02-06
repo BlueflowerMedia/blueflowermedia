@@ -2393,7 +2393,12 @@ footer {
     #section-aboutus .container2 .container-left {
       max-width: 550px; }
       #section-aboutus .container2 .container-left #lottie-id {
-        max-width: 500px; }
+        width: 550px;
+        height: 550px; }
+        @media (max-width: 760px) {
+          #section-aboutus .container2 .container-left #lottie-id {
+            width: 320px;
+            height: 320px; } }
     #section-aboutus .container2 .container-right {
       max-width: 550px;
       padding-top: 80px; }
@@ -2896,6 +2901,13 @@ section#blog .container {
     justify-content: space-around; }
     #section-aboutus-page .container .container-left {
       max-width: 500px; }
+      #section-aboutus-page .container .container-left #lottie-id {
+        width: 550px;
+        height: 550px; }
+        @media (max-width: 760px) {
+          #section-aboutus-page .container .container-left #lottie-id {
+            width: 320px;
+            height: 320px; } }
     #section-aboutus-page .container .container-right {
       max-width: 500px; }
       @media (min-width: 1300px) {
