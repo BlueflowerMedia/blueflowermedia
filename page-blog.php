@@ -4,8 +4,14 @@
 <section id="blog">
   <div class="container flex-column">
     <h1>Blog<span class="big-dot blue">.</span></h1>
+
   </div>
+
+
 </section>
+
+<hr style="width:100vw;">
+<?php get_search_form();?>
 
 <section>
   <div class="container5">

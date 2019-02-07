@@ -26,7 +26,6 @@
       <div class="accordion1">
         <button class="accordion">LOGO DESIGN</button>
       <div class="panel">
-        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
         <ul>
           <li>1 hour discovery/brainstorming session</li>
           <li>3 Logo Variations</li>
@@ -39,7 +38,6 @@
 
       <button class="accordion">LANDING PAGE WEBSITE</button>
       <div class="panel">
-        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
         <ul>
           <li>1 hour consultation and strategizing (in-person/Video Conference)</li>
           <li>Domain Setup / 1 Year Domain</li>
@@ -57,7 +55,6 @@
 
       <button class="accordion">BUSINESS CARD DESIGN</button>
       <div class="panel">
-        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
         <ul>
           <li>Business Card Design based on chosen logo</li>
           <li>2500 Glossy 100DPI Full Color - Double Sided</li>
@@ -266,7 +263,7 @@
     </div>
   </div>
 </section>
-<?php get_template_part('template-parts/getintouch'); ?>
+<!-- <?php get_template_part('template-parts/getintouch'); ?> -->
 
 
 <?php get_footer(); ?>

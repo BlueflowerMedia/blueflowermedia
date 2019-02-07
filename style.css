@@ -2311,6 +2311,8 @@ footer {
       display: flex;
       flex-direction: column;
       justify-content: center; }
+      #section-header-new .container-fullwidth .container-left h3, #section-header-new .container-fullwidth .container-left p {
+        color: white !important; }
       #section-header-new .container-fullwidth .container-left .schedule-now .sr {
         display: flex;
         justify-content: space-between;
@@ -2899,6 +2901,16 @@ div.entry-content p:first-child:first-letter {
   color: #00193c;
   margin-right: 0.10em;
   line-height: 90%; }
+
+#main {
+  padding: 100px 10%; }
+
+#secondary {
+  display: none; }
+
+#content > form {
+  text-align: -webkit-center;
+  margin-top: 20px; }
 
 #section-aboutus-page {
   background-color: #F2F3F4;
