@@ -11,6 +11,7 @@
 </section>
 
 <hr style="width:100vw;">
+
 <?php get_search_form();?>
 
 <section>

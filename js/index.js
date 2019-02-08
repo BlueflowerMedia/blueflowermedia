@@ -618,31 +618,3 @@ function carousel8() {
     x8[myIndex8-1].style.display = "block";
     setTimeout(carousel8, 1400); // Change image every 2 seconds
 }
-
-// faq page accordion
-document.addEventListener("DOMContentLoaded", function(event) {
-
-
-var acc = document.getElementsByClassName("accordion");
-var panel = document.getElementsByClassName('panel');
-
-for (var i = 0; i < acc.length; i++) {
-    acc[i].onclick = function() {
-        var setClasses = !this.classList.contains('active');
-        setClass(acc, 'active', 'remove');
-        setClass(panel, 'show', 'remove');
-
-        if (setClasses) {
-            this.classList.toggle("active");
-            this.nextElementSibling.classList.toggle("show");
-        }
-    }
-}
-
-function setClass(els, className, fnName) {
-    for (var i = 0; i < els.length; i++) {
-        els[i].classList[fnName](className);
-    }
-}
-
-});

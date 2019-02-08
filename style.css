@@ -2910,6 +2910,7 @@ div.entry-content p:first-child:first-letter {
 
 #content > form {
   text-align: -webkit-center;
+  text-align: center;
   margin-top: 20px; }
 
 #section-aboutus-page {
@@ -4468,14 +4469,14 @@ hr {
     display: none;
     background-color: white;
     overflow: hidden;
-    border: 1px solid #1D88D9; }
+    border: 1px solid #1D88D9;
+    color: black !important; }
     #popular-package .container .package-left .accordion1 .panel ul {
       padding-left: 1vw; }
       #popular-package .container .package-left .accordion1 .panel ul li {
         list-style-image: url("images/bfm-arrow-icon.svg"); }
   #popular-package .container .package-left .accordion1 .accordion:after {
     content: '\276c';
-    color: #fff;
     font-weight: bold;
     float: right;
     margin-right: 35px;
@@ -4792,48 +4793,3 @@ hr {
 #form-employee > div.submit {
   text-align: left !important;
   padding-left: 10px; }
-
-p.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-  margin-bottom: 10px; }
-
-/* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-p.accordion.active, p.accordion:hover {
-  background-color: #ddd; }
-
-/* Unicode character for "plus" sign (+) */
-p.accordion:after {
-  content: '\2795';
-  font-size: 13px;
-  color: #777;
-  float: right;
-  margin-left: 5px; }
-
-/* Unicode character for "minus" sign (-) */
-p.accordion.active:after {
-  content: "\2796"; }
-
-/* Style the element that is used for the panel class */
-div.panel {
-  padding: 0 18px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: 0.4s ease-in-out;
-  opacity: 0;
-  margin-bottom: 10px; }
-
-div.panel.show {
-  opacity: 1 !important;
-  max-height: 500px !important;
-  /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
-  color: black;
-  font-size: 15px; }

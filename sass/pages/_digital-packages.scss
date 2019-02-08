@@ -34,11 +34,11 @@
             background-color: white;
             overflow: hidden;
             border: 1px solid #1D88D9;
+            color: black !important;
             ul{
-                              padding-left: 1vw;
+              padding-left: 1vw;
               li{
                 list-style-image: url("images/bfm-arrow-icon.svg");
-
               }
             }
 
@@ -46,9 +46,7 @@
 
         .accordion:after {
             content: '\276c';
-            // image: url("./images/bfm-arrow-icon-white.svg");
-            // content: url("./images/bfm-arrow-icon-white.svg");
-            color: #fff;
+            // color: #fff;
             font-weight: bold;
             float: right;
             margin-right: 35px;
