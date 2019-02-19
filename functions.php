@@ -42,6 +42,15 @@ if ( ! function_exists( 'blueflowermedia_setup' ) ) :
 		 */
 		add_theme_support( 'post-thumbnails' );
 
+		/**
+		 * Implement the Custom menu feature.
+		 */
+		if (is_admin()) {
+			require get_template_directory() . '/inc/mega-menu.php';
+		} else {
+			require get_template_directory() . '/inc/display-menu.php';
+		}
+		
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'blueflowermedia' ),
@@ -131,25 +140,25 @@ function blueflowermedia_scripts() {
 
 	wp_enqueue_style( 'blueflowermedia-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'blueflowermedia-jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js', array(), '20151215', true );
+	//wp_enqueue_script( 'blueflowermedia-jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js', array(), '20151215', true );
 
-	wp_enqueue_script( 'blueflowermedia-scrollreveal', 'https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/3.4.0/scrollreveal.min.js', array(), '20151215', true );
+	wp_enqueue_script( 'blueflowermedia-scrollreveal', 'https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/3.4.0/scrollreveal.min.js', array('jquery'), '20151215', true );
 
-	wp_enqueue_script( 'blueflowermedia-owlcarousel', 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js', array(), '20151215', true );
+	wp_enqueue_script( 'blueflowermedia-owlcarousel', 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js', array('jquery'), '20151215', true );
 
-	wp_enqueue_script( 'blueflowermedia-particlesjs', 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js', array(), '20151215', true );
+	wp_enqueue_script( 'blueflowermedia-particlesjs', 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js', array('jquery'), '20151215', true );
 
-	wp_enqueue_script( 'blueflowermedia-rellaxjs', 'https://cdnjs.cloudflare.com/ajax/libs/rellax/1.6.2/rellax.min.js', array(), '20151215', true );
+	wp_enqueue_script( 'blueflowermedia-rellaxjs', 'https://cdnjs.cloudflare.com/ajax/libs/rellax/1.6.2/rellax.min.js', array('jquery'), '20151215', true );
 
-	wp_enqueue_script( 'blueflowermedia-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	wp_enqueue_script( 'blueflowermedia-navigation', get_template_directory_uri() . '/js/navigation.js', array('jquery','blueflowermedia-meanmenu'), '20151215', true );
 
-	wp_enqueue_script( 'blueflowermedia-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	wp_enqueue_script( 'blueflowermedia-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array('jquery'), '20151215', true );
 
-	wp_enqueue_script( 'blueflowermedia-index', get_template_directory_uri() . '/js/index.js', array(), '20151215', true );
+	wp_enqueue_script( 'blueflowermedia-index', get_template_directory_uri() . '/js/index.js', array('jquery'), '20151215', true );
 
 
 	wp_enqueue_script( 'lottie',get_template_directory_uri() . '/js/lottie.js', array(), false );
-	wp_enqueue_script( 'lottie-custom', get_template_directory_uri()  . '/js/lottie-custom.js', array('lottie'), false );
+	wp_enqueue_script( 'lottie-custom', get_template_directory_uri()  . '/js/lottie-custom.js', array('jquery', 'lottie'), false );
 	wp_localize_script( 'lottie-custom', 'Lottie_local', array( 'js_direction' => get_template_directory_uri() . '/js/bfm-animation.json') );
 
 

@@ -86,7 +86,7 @@
 					<a href="https://www.linkedin.com/blueflowermedia/" target="_blank"><i class="fab fa-linkedin" style="color:#0077B5"></i></a>
 				</div>
 			</div>
-      </div> -->
+      </div>
     </div>
 </footer>
 
