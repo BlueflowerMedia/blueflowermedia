@@ -1,3 +1,11 @@
+jQuery(function($){
+
+
+
+
+
+
+
 var path = window.location.pathname;
 var page = path.split("/")
 var pageName = page[page.length - 2];
@@ -618,3 +626,6 @@ function carousel8() {
     x8[myIndex8-1].style.display = "block";
     setTimeout(carousel8, 1400); // Change image every 2 seconds
 }
+
+
+})(jQuery);
