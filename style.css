@@ -1913,7 +1913,7 @@ ul#primary-menu > li.mega-menu:hover > ul.sub-menu {
 
 ul#primary-menu > li.mega-menu:hover > ul.sub-menu > li {
   text-align: left;
-  padding: 40px 60px;
+  padding: 20px 60px 40px 60px;
   border-right: 1px solid #f2f2f2;
   border-radius: 0; }
 
@@ -2441,9 +2441,9 @@ footer {
           width: 100vw !important;
           height: 300px !important; } }
   #section-header-new .container-fullwidth {
-    display: flex;
-    max-height: 60vh; }
+    display: flex; }
     #section-header-new .container-fullwidth .container-left {
+      max-height: 70vh;
       flex: 1;
       background-color: #1B8DCB;
       padding: 0 10%;
@@ -2512,6 +2512,7 @@ footer {
             font-size: 1.2vw; } }
     #section-header-new .container-fullwidth .container-right {
       width: 50vw;
+      max-height: 70vh;
       display: flex;
       overflow: hidden; }
       #section-header-new .container-fullwidth .container-right video {
