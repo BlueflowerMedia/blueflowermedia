@@ -1999,21 +1999,21 @@ ul#primary-menu > li.mega-menu:hover > ul.sub-menu li ul.sub-menu li a:hover:aft
 nav#site-navigation .nav-start {
   background-color: #fff; }
 
-#menu-item-64 > a {
+#menu-item-64 > a, #menu-item-37 > a {
   background-image: url("images/graphic-design/gradient/bfm-2.0-graphic-design-page-main-icon.svg");
   padding: 20px 0 10px 95px !important;
   background-repeat: no-repeat;
   background-size: 80px 80px;
   background-position: left; }
 
-#menu-item-65 > a {
+#menu-item-65 > a, #menu-item-39 > a {
   background-image: url("images/webdesign/gradient/bfm-2.0-web-design-page-main-icon.svg");
   padding: 20px 0 10px 95px !important;
   background-repeat: no-repeat;
   background-size: 80px 80px;
   background-position: left; }
 
-#menu-item-63 > a {
+#menu-item-63 > a, #menu-item-36 > a {
   background-image: url("images/digital-marketing/gradient/bfm-2.0-digital-marketing-page-main-icon.svg");
   padding: 20px 0 10px 95px !important;
   background-repeat: no-repeat;
