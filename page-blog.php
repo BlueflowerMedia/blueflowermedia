@@ -35,7 +35,15 @@
             </a>
           </div>
         </div>
-      <?php endwhile; else: ?>
+      <?php endwhile;?>
+      <div style="text-align:center;">
+      <?php posts_nav_link( ' &#183; ', 'previous page', 'next page' ); ?>
+      </div>
+      <div class="navigation">
+        <div class="alignleft"><?php previous_posts_link( '&laquo; Previous Entries' ); ?></div>
+        <div class="alignright"><?php next_posts_link( 'Next Entries &raquo;', '' ); ?></div>
+      </div>
+    <?php else: ?>
         <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
       <?php endif; ?>
     </div>

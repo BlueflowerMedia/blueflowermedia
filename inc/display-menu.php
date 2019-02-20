@@ -153,13 +153,11 @@ Class flue_flower_Walker extends Walker_Nav_Menu {
         foreach( $atts as $attr => $value ) {
             if( !empty( $value ) ) {
                 $value = ( 'href' === $attr ) ? esc_url( $value ) : esc_attr( $value );
-                if( $flue_flower_depth == 1 ) {
+                if( $flue_flower_depth == 1 ) {//var_dump($attr);
                     if( 'href' === $attr ) {
                         $flue_flower_parent = $flue_flower_item->menu_item_parent;
                         $flue_flower_isParentMegaMenu = esc_attr( get_post_meta( $flue_flower_parent , 'w-mega-menu' , true ) );
-                        if( !$flue_flower_isParentMegaMenu ) {
-                            $attributes .= ' ' . $attr . '="' . $value . '"';
-                        }
+                        $attributes .= ' ' . $attr . '="' . $value . '"';
                     }
                 } else {
                     $attributes .= ' ' . $attr . '="' . $value . '"';
@@ -191,9 +189,9 @@ Class flue_flower_Walker extends Walker_Nav_Menu {
                 $flue_flower_navImage = esc_attr( get_post_meta( $flue_flower_item->ID , 'w-mega-menu-img' , true ) );
                 $flue_flower_item_output = $flue_flower_args->before;
                 if( $flue_flower_navImage != '' ) {
-                    $flue_flower_item_output .= '<a ' . $attributes . ' class="mega-title"' . $attributes . '>'.'<img src="' . $flue_flower_navImage . '" alt="'.esc_html__( 'Mega Menu' , 'blueflowermedia' ).'" />';
+                    $flue_flower_item_output .= '<a ' . $attributes . ' class="mega-title"><img src="' . $flue_flower_navImage . '" alt="'.esc_html__( 'Mega Menu' , 'blueflowermedia' ).'" />';
                 } else {
-                    $flue_flower_item_output .= '<a ' . $attributes . ' class="mega-title"' . $attributes . '>';
+                    $flue_flower_item_output .= '<a ' . $attributes . ' class="mega-title">';
                 }
 
                 $flue_flower_item_output .= $flue_flower_args->link_before . $flue_flower_title . $flue_flower_args->link_after.'</a>';

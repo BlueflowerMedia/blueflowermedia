@@ -2020,6 +2020,9 @@ nav#site-navigation .nav-start {
   background-size: 80px 80px;
   background-position: left; }
 
+body > div:nth-child(26) > div {
+  bottom: -80px !important; }
+
 img#logo-footer {
   height: 80%;
   margin: 0 35px 0 0; }
