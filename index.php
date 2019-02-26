@@ -42,7 +42,11 @@ get_header();
 
 			endwhile;
 
-			the_posts_navigation();
+			the_posts_pagination( array(
+                'prev_text'          => esc_html__( 'Pre', 'blueflowermedia' ),
+                'next_text'          => esc_html__( 'Next', 'blueflowermedia' ) ,
+                'before_page_number' => '<span class="meta-nav screen-reader-text">' . esc_html__( '', 'blueflowermedia' ) . ' </span>',
+            ) );
 
 		else :
 
