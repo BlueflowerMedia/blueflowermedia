@@ -222,7 +222,6 @@ line-height:90%;
   padding: 10px;
 }
 
-// recaptcha hidden
-body > div:nth-child(27) > div{
-  display: none;
+.grecaptcha-badge {
+    visibility: hidden;
 }

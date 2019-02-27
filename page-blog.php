@@ -73,4 +73,4 @@ $paged = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1; // setup pagin
   wp_reset_postdata(); // Rest Data
  ?>
 
-<!-- <?php get_footer(); ?> -->
+<?php get_footer(); ?>

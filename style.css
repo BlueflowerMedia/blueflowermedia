@@ -3066,8 +3066,8 @@ div.entry-content p:first-child:first-letter {
   font-size: 1.5rem;
   padding: 10px; }
 
-body > div:nth-child(27) > div {
-  display: none; }
+.grecaptcha-badge {
+  visibility: hidden; }
 
 #section-aboutus-page {
   background-color: #F2F3F4;
