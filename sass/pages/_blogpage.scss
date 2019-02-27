@@ -221,3 +221,8 @@ line-height:90%;
   font-size: 1.5rem;
   padding: 10px;
 }
+
+// recaptcha hidden
+body > div:nth-child(27) > div{
+  display: none;
+}
