@@ -27,7 +27,6 @@ $paged = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1; // setup pagin
         <div class="post">
           <div class="post-image">
             <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
-
           </div>
           <div class="post-info">
             <a href="<?php the_permalink(); ?>" title="Read"><h2><?php the_title(); ?></h2></a>
@@ -40,22 +39,27 @@ $paged = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1; // setup pagin
             </a>
           </div>
         </div>
-      <?php endwhile;
+      <?php endwhile;?>
+      <div id="emptybox">
+
+      </div>
+      <?php
+
       $total_pages = $query->max_num_pages;
 
-if ($total_pages > 1){
+      if ($total_pages > 1){
 
-    $current_page = max(1, get_query_var('paged'));
+        $current_page = max(1, get_query_var('paged'));
 
-    echo paginate_links(array(
-        'base' => get_pagenum_link(1) . '%_%',
-        'format' => '/page/%#%',
-        'current' => $current_page,
-        'total' => $total_pages,
-        'prev_text'    => __('« prev'),
-        'next_text'    => __('next »'),
-    ));
-}?>
+        echo paginate_links(array(
+            'base' => get_pagenum_link(1) . '%_%',
+            'format' => '/page/%#%',
+            'current' => $current_page,
+            'total' => $total_pages,
+            'prev_text'    => __('« PREV'),
+            'next_text'    => __('NEXT »'),
+        ));
+      }?>
 
       <?php else: ?>
         <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
